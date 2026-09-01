@@ -1,0 +1,162 @@
+# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zinn® Media Offload 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-offload\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-01T11:27:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: zinn-offload\n"
+
+#. Plugin Name of the plugin
+#: zinn-offload.php
+#: includes/class-zinn-offload-settings.php:63
+#: includes/class-zinn-offload-settings.php:64
+#: includes/class-zinn-offload-settings.php:86
+msgid "Zinn® Media Offload"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: zinn-offload.php
+msgid "https://zinndigital.com"
+msgstr ""
+
+#. Description of the plugin
+#: zinn-offload.php
+msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
+msgstr ""
+
+#. Author of the plugin
+#: zinn-offload.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr ""
+
+#: includes/class-zinn-offload-client.php:97
+msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
+msgstr ""
+
+#: includes/class-zinn-offload-client.php:157
+#: includes/class-zinn-offload-client.php:165
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr ""
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-client.php:191
+#, php-format
+msgid "Storage refused the upload (HTTP %d). The file is still on this server."
+msgstr ""
+
+#: includes/class-zinn-offload-client.php:272
+msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
+msgstr ""
+
+#. translators: %d: HTTP status code returned by the Zinn Digital API.
+#: includes/class-zinn-offload-client.php:280
+#, php-format
+msgid "Zinn Digital® answered with HTTP %d."
+msgstr ""
+
+#: includes/class-zinn-offload-client.php:298
+msgid "Disconnected by Zinn Digital®."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:78
+#: includes/class-zinn-offload-settings.php:216
+#: includes/class-zinn-offload-settings.php:249
+msgid "You do not have permission to manage this site."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:93
+msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:103
+msgid "Pairing code"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:114
+msgid "Connect this site"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:120
+msgid "Status"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:121
+msgid "Connected to Zinn Digital®"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:124
+msgid "Media served from"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:129
+msgid "This server (offloaded copies are being kept, but not served yet)"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:134
+msgid "Local copies"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:138
+msgid "Removed once every size has uploaded"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:139
+msgid "Kept on this server"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:144
+msgid "Offloaded so far"
+msgstr ""
+
+#. translators: 1: number of files, 2: human-readable size.
+#: includes/class-zinn-offload-settings.php:149
+#, php-format
+msgid "%1$s files, %2$s"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:157
+msgid "Still on this server"
+msgstr ""
+
+#. translators: 1: attachments not yet offloaded, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:167
+#, php-format
+msgid "%1$s of %2$s attachments"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:174
+msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:184
+msgid "Last problem"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:194
+msgid "Disconnect this site"
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:197
+msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:224
+msgid "Paste the pairing code from your Zinn Digital® dashboard."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
+msgstr ""
+
+#: includes/class-zinn-offload-settings.php:261
+msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
+msgstr ""
