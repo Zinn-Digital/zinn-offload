@@ -1,18 +1,13 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Media Offload 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-offload\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-offload\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: zinn-offload\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
@@ -20,192 +15,192 @@ msgstr ""
 #: includes/class-zinn-offload-settings.php:64
 #: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
-msgstr ""
+msgstr "Zinn® Media Offload"
 
 #. Plugin URI of the plugin
 #: zinn-offload.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-offload"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-offload"
 
 #. Description of the plugin
 #: zinn-offload.php
 msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
-msgstr ""
+msgstr "将此站点的媒体库移动到 Zinn® 对象存储并通过 CDN 进行提供。通过您的 Zinn® 控制面板进行配置 — 无需在 WordPress 中输入任何访问密钥。"
 
 #. Author of the plugin
 #: zinn-offload.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-offload.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
-msgstr ""
+msgstr "Zinn Digital® 未返回令牌。此网站未作任何更改。"
 
 #: includes/class-zinn-offload-client.php:157
 #: includes/class-zinn-offload-client.php:165
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr ""
+msgstr "无法从此服务器读取该文件，因此未上传任何内容。"
 
 #. translators: %d: HTTP status code returned by the storage service.
 #: includes/class-zinn-offload-client.php:191
 #, php-format
 msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr ""
+msgstr "存储空间拒绝了上传（HTTP %d）。该文件仍在此服务器上。"
 
 #: includes/class-zinn-offload-client.php:272
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
-msgstr ""
+msgstr "此网站已不再连接至 Zinn® 媒体卸载。新上传的文件将保留在此服务器上。请从您的 Zinn Digital® 控制面板中重新配对。"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
 #: includes/class-zinn-offload-client.php:280
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
-msgstr ""
+msgstr "Zinn Digital® 的响应返回了 HTTP %d。"
 
 #: includes/class-zinn-offload-client.php:298
 msgid "Disconnected by Zinn Digital®."
-msgstr ""
+msgstr "已被 Zinn Digital® 断开连接。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
 #: includes/class-zinn-offload-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — 指南与服务"
 
 #: includes/class-zinn-offload-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "用户指南"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-offload-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "阅读 %s 用户指南"
 
 #: includes/class-zinn-offload-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "隐藏此项"
 
 #: includes/class-zinn-offload-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Zinn® WordPress 托管"
 
 #: includes/class-zinn-offload-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed、每日备份、免费迁移以及为管理多个网站的人群打造的控制面板。"
 
 #: includes/class-zinn-offload-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "Zinn® 市场"
 
 #: includes/class-zinn-offload-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "买卖成熟的网站、域名和链接投放，资金安全托管，直到双方满意为止。"
 
 #: includes/class-zinn-offload-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® — 聘请以此为生的人"
 
 #: includes/class-zinn-offload-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "我们的全球自由职业者市场：浏览来自作家、设计师、开发人员和 SEO 专家的 10,000 多项现成服务，或者发布项目并让他们竞标。"
 
 #: includes/class-zinn-offload-settings.php:78
 #: includes/class-zinn-offload-settings.php:223
 #: includes/class-zinn-offload-settings.php:256
 msgid "You do not have permission to manage this site."
-msgstr ""
+msgstr "您没有权限管理此网站。"
 
 #: includes/class-zinn-offload-settings.php:93
 msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr ""
+msgstr "打开您的 Zinn Digital® 控制面板，为该站点开启媒体卸载功能，并粘贴其中显示的配对码。无需访问密钥——此站点绝不保存密钥。"
 
 #: includes/class-zinn-offload-settings.php:103
 msgid "Pairing code"
-msgstr ""
+msgstr "配对码"
 
 #: includes/class-zinn-offload-settings.php:114
 msgid "Connect this site"
-msgstr ""
+msgstr "连接此网站"
 
 #: includes/class-zinn-offload-settings.php:120
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: includes/class-zinn-offload-settings.php:121
 msgid "Connected to your Zinn Digital® account"
-msgstr ""
+msgstr "已连接至您的 Zinn Digital® 账户"
 
 #: includes/class-zinn-offload-settings.php:124
 msgid "Media served from"
-msgstr ""
+msgstr "媒体传输自"
 
 #: includes/class-zinn-offload-settings.php:129
 msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr ""
+msgstr "此服务器（已保留离线副本，但尚未提供服务）"
 
 #: includes/class-zinn-offload-settings.php:134
 msgid "Local copies"
-msgstr ""
+msgstr "本地副本"
 
 #: includes/class-zinn-offload-settings.php:138
 msgid "Removed once every size has uploaded"
-msgstr ""
+msgstr "所有尺寸上传后移除"
 
 #: includes/class-zinn-offload-settings.php:139
 msgid "Kept on this server"
-msgstr ""
+msgstr "保留在此服务器上"
 
 #: includes/class-zinn-offload-settings.php:144
 msgid "Offloaded so far"
-msgstr ""
+msgstr "已卸载总量"
 
 #. translators: 1: number of files, 2: human-readable size.
 #: includes/class-zinn-offload-settings.php:149
 #, php-format
 msgid "%1$s files, %2$s"
-msgstr ""
+msgstr "%1$s 个文件，%2$s"
 
 #: includes/class-zinn-offload-settings.php:157
 msgid "Still on this server"
-msgstr ""
+msgstr "依然在此服务器上"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:167
 #, php-format
 msgid "%1$s of %2$s attachments"
-msgstr ""
+msgstr "%2$s 个附件中的 %1$s 个"
 
 #: includes/class-zinn-offload-settings.php:174
 msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr ""
+msgstr "较旧的媒体文件在后台传输，每小时传输几个文件，并从中断处继续。除非您的控制面板另有指示，否则此服务器上的任何内容都不会被删除。"
 
 #: includes/class-zinn-offload-settings.php:184
 msgid "Last problem"
-msgstr ""
+msgstr "最后一个问题"
 
 #: includes/class-zinn-offload-settings.php:194
 msgid "Disconnect this site"
-msgstr ""
+msgstr "断开此站点连接"
 
 #: includes/class-zinn-offload-settings.php:197
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
-msgstr ""
+msgstr "新上传的文件将保留在此服务器上。已移动的媒体文件将继续正常工作——其地址不会改变。"
 
 #: includes/class-zinn-offload-settings.php:231
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
-msgstr ""
+msgstr "从您的 Zinn Digital® 控制面板粘贴配对码。"
 
 #: includes/class-zinn-offload-settings.php:240
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
-msgstr ""
+msgstr "已连接。从现在起，新的上传内容将存储在 Zinn Digital® 中，您现有的媒体文件将在后台迁移。"
 
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
-msgstr ""
+msgstr "已断开连接。已移动的媒体仍可正常使用；新上传的内容将保留在此服务器上。"

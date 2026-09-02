@@ -1,18 +1,13 @@
-# Copyright (C) 2026 Neil Lock — CEO, Zinn Digital® Ltd
-# This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Media Offload 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-offload\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: zinn-offload\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-02T07:25:53+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: zinn-offload\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
@@ -20,192 +15,192 @@ msgstr ""
 #: includes/class-zinn-offload-settings.php:64
 #: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
-msgstr ""
+msgstr "Zinn® Media Offload"
 
 #. Plugin URI of the plugin
 #: zinn-offload.php
 msgid "https://zinndigital.com/wordpress-plugins/zinn-offload"
-msgstr ""
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-offload"
 
 #. Description of the plugin
 #: zinn-offload.php
 msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
-msgstr ""
+msgstr "Verplaatst de mediabibliotheek van deze site naar Zinn®-objectopslag en levert deze vanuit een CDN. Geconfigureerd vanuit uw Zinn®-dashboard — er hoeft nooit een toegangssleutel in WordPress te worden ingevoerd."
 
 #. Author of the plugin
 #: zinn-offload.php
 msgid "Neil Lock — CEO, Zinn Digital® Ltd"
-msgstr ""
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 
 #. Author URI of the plugin
 #: zinn-offload.php
 msgid "https://zinndigital.com"
-msgstr ""
+msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
-msgstr ""
+msgstr "Zinn Digital® heeft geen token geretourneerd. Er is niets gewijzigd op deze site."
 
 #: includes/class-zinn-offload-client.php:157
 #: includes/class-zinn-offload-client.php:165
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr ""
+msgstr "Dat bestand kon niet vanaf deze server worden gelezen, dus er is niets geüpload."
 
 #. translators: %d: HTTP status code returned by the storage service.
 #: includes/class-zinn-offload-client.php:191
 #, php-format
 msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr ""
+msgstr "Opslag weigerde de upload (HTTP %d). Het bestand staat nog steeds op deze server."
 
 #: includes/class-zinn-offload-client.php:272
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
-msgstr ""
+msgstr "Deze site is niet langer verbonden met Zinn® media offload. Nieuwe uploads blijven op deze server staan. Koppel de site opnieuw vanuit uw Zinn Digital® dashboard."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
 #: includes/class-zinn-offload-client.php:280
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
-msgstr ""
+msgstr "Zinn Digital® antwoordde met HTTP %d."
 
 #: includes/class-zinn-offload-client.php:298
 msgid "Disconnected by Zinn Digital®."
-msgstr ""
+msgstr "Verbinding verbroken door Zinn Digital®."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
 #: includes/class-zinn-offload-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr ""
+msgstr "%s — handleidingen en diensten"
 
 #: includes/class-zinn-offload-promo.php:256
 msgid "User guides"
-msgstr ""
+msgstr "Gebruikershandleidingen"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-offload-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr ""
+msgstr "Lees de %s gebruikershandleiding"
 
 #: includes/class-zinn-offload-promo.php:314
 msgid "Hide this"
-msgstr ""
+msgstr "Verbergen"
 
 #: includes/class-zinn-offload-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "Zinn®-hosting voor WordPress"
 
 #: includes/class-zinn-offload-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr ""
+msgstr "LiteSpeed, dagelijkse back-ups, gratis migratie en een bedieningspaneel ontworpen voor mensen die meer dan één website beheren."
 
 #: includes/class-zinn-offload-promo.php:381
 msgid "The Zinn® marketplace"
-msgstr ""
+msgstr "De Zinn® marktplaats"
 
 #: includes/class-zinn-offload-promo.php:382
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr ""
+msgstr "Koop en verkoop bestaande sites, domeinen en linkplaatsingen, waarbij het geld veilig wordt vastgehouden totdat beide partijen tevreden zijn."
 
 #: includes/class-zinn-offload-promo.php:429
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr ""
+msgstr "Zinn Hub® — huur mensen in die dit voor hun broodwinning doen"
 
 #: includes/class-zinn-offload-promo.php:430
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr ""
+msgstr "Ons wereldwijde freelance marktplaats: blader door meer dan 10.000 kant-en-klare diensten van schrijvers, ontwerpers, ontwikkelaars en SEO-specialisten, of plaats een project en laat hen bieden."
 
 #: includes/class-zinn-offload-settings.php:78
 #: includes/class-zinn-offload-settings.php:223
 #: includes/class-zinn-offload-settings.php:256
 msgid "You do not have permission to manage this site."
-msgstr ""
+msgstr "U heeft geen toestemming om deze website te beheren."
 
 #: includes/class-zinn-offload-settings.php:93
 msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr ""
+msgstr "Open uw Zinn Digital®-dashboard, schakel media-offload voor deze site in en plak de koppelingscode die daar wordt weergegeven. Er is geen toegangssleutel nodig — deze site slaat er nooit een op."
 
 #: includes/class-zinn-offload-settings.php:103
 msgid "Pairing code"
-msgstr ""
+msgstr "Koppelingscode"
 
 #: includes/class-zinn-offload-settings.php:114
 msgid "Connect this site"
-msgstr ""
+msgstr "Verbind deze site"
 
 #: includes/class-zinn-offload-settings.php:120
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: includes/class-zinn-offload-settings.php:121
 msgid "Connected to your Zinn Digital® account"
-msgstr ""
+msgstr "Verbonden met uw Zinn Digital®-account"
 
 #: includes/class-zinn-offload-settings.php:124
 msgid "Media served from"
-msgstr ""
+msgstr "Media geserveerd vanaf"
 
 #: includes/class-zinn-offload-settings.php:129
 msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr ""
+msgstr "Deze server (er worden gekopieerde bestanden opgeslagen, maar deze worden nog niet geserveerd)"
 
 #: includes/class-zinn-offload-settings.php:134
 msgid "Local copies"
-msgstr ""
+msgstr "Lokale kopieën"
 
 #: includes/class-zinn-offload-settings.php:138
 msgid "Removed once every size has uploaded"
-msgstr ""
+msgstr "Wordt verwijderd zodra elke grootte is geüpload"
 
 #: includes/class-zinn-offload-settings.php:139
 msgid "Kept on this server"
-msgstr ""
+msgstr "Op deze server bewaard"
 
 #: includes/class-zinn-offload-settings.php:144
 msgid "Offloaded so far"
-msgstr ""
+msgstr "Tot nu toe overgeheveld"
 
 #. translators: 1: number of files, 2: human-readable size.
 #: includes/class-zinn-offload-settings.php:149
 #, php-format
 msgid "%1$s files, %2$s"
-msgstr ""
+msgstr "%1$s bestanden, %2$s"
 
 #: includes/class-zinn-offload-settings.php:157
 msgid "Still on this server"
-msgstr ""
+msgstr "Nog op deze server"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:167
 #, php-format
 msgid "%1$s of %2$s attachments"
-msgstr ""
+msgstr "%1$s van %2$s bijlagen"
 
 #: includes/class-zinn-offload-settings.php:174
 msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr ""
+msgstr "Oudere media worden op de achtergrond verplaatst, een paar bestanden per uur, en gaan verder waar ze gebleven waren. Er wordt niets van deze server verwijderd tenzij uw dashboard dat aangeeft."
 
 #: includes/class-zinn-offload-settings.php:184
 msgid "Last problem"
-msgstr ""
+msgstr "Laatste probleem"
 
 #: includes/class-zinn-offload-settings.php:194
 msgid "Disconnect this site"
-msgstr ""
+msgstr "Koppel deze site los"
 
 #: includes/class-zinn-offload-settings.php:197
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
-msgstr ""
+msgstr "Nieuwe uploads blijven op deze server staan. Reeds verplaatste media blijft werken — het adres verandert niet."
 
 #: includes/class-zinn-offload-settings.php:231
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
-msgstr ""
+msgstr "Plak de koppelingscode uit uw Zinn Digital®-dashboard."
 
 #: includes/class-zinn-offload-settings.php:240
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
-msgstr ""
+msgstr "Verbonden. Nieuwe uploads worden vanaf nu opgeslagen bij Zinn Digital®, en uw bestaande media worden op de achtergrond verplaatst."
 
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
-msgstr ""
+msgstr "Verbinding verbroken. Media die al is verplaatst blijft werken; nieuwe uploads blijven op deze server staan."

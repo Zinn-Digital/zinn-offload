@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Zinn® Media Offload
- * Plugin URI:        https://zinndigital.com
+ * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-offload
  * Description:       Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress.
  * Version:           1.0.0
  * Requires at least: 6.6
@@ -159,3 +159,18 @@ register_deactivation_hook(
  * impossible to activate on every WordPress version. `uninstall.php` already takes precedence
  * over such a hook, so a second mechanism would be dead code that looks load-bearing.
  */
+
+// ── The Zinn® panel ──────────────────────────────────────────────────────────────────────
+//
+// ⚖️ Owner, 2026-09-01: *"each plugin should promote our hosting and marketplace as well as
+// Zinn Hub global marketplace inside people's site in the admin dashboard"*, and *"user
+// guides for them … linked to in the plugins dashboard"*.
+//
+// ⛔ `require_once` rather than the autoloader, and a STRING callable rather than
+// `array( Zinn_Offload_Promo::class, … )`. The class is deliberately global — it is shipped
+// identically into seven plugins with different namespacing conventions, and three of them
+// bootstrap inside a namespace where `Zinn_Offload_Promo::class` would resolve to a class that does
+// not exist. A string callable is resolved in the global namespace at call time, which is
+// correct from every one of the seven. `php -l` cannot see that mistake; only running it can.
+require_once __DIR__ . '/includes/class-zinn-offload-promo.php';
+add_action( 'plugins_loaded', array( 'Zinn_Offload_Promo', 'register' ) );

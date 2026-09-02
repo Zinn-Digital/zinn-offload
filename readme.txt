@@ -1,6 +1,6 @@
 === Zinn® Media Offload ===
 Contributors: zinndigital
-Plugin URI: https://zinndigital.com
+Plugin URI: https://zinndigital.com/wordpress-plugins/zinn-offload
 Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: media, cdn, offload, storage, images
@@ -49,6 +49,62 @@ Instead, you turn media offload on in your Zinn Digital® dashboard, paste a sho
 3. In WordPress go to **Settings → Zinn® Media Offload**, paste the code, and press **Connect this site**.
 
 New uploads move immediately. Your existing library moves in the background over the following hours.
+
+== External services ==
+
+This plugin moves your media library to Zinn® object storage and serves it from a CDN. It
+requires a Zinn Digital® account and does nothing without one.
+
+**What is sent, and when**
+
+* **Pairing (once, from your Zinn® dashboard).** The plugin calls
+  `https://api.zinndigital.com/v1/media-offload/claim` to obtain its own scoped credential. **No
+  access key is ever typed into WordPress or stored in your database in plain form.**
+* **Uploads (when you add media).** Files you upload to the media library are transmitted to
+  Zinn® object storage via `/v1/media-offload/uploads`, and their public URLs are rewritten to the
+  CDN. This is the plugin's purpose; the files are your own media.
+* **Reporting.** `/v1/media-offload/report` returns offload status and storage usage for the
+  dashboard.
+
+**No post content, user accounts or visitor data are transmitted.** Until the site is paired the
+plugin makes no outbound requests.
+
+Service terms: https://zinndigital.com/legal/terms
+Privacy policy: https://zinndigital.com/legal/privacy
+
+== Translations ==
+
+**Every string this plugin adds to your admin is translated into 57 languages** — labels, notices,
+errors and settings, not a subset. The catalogues are bundled in the plugin, so they work as soon
+as you set your site language; there is no separate language pack to install.
+
+All 41 user-visible strings are complete in every one of the 53 languages WordPress can serve
+today:
+
+Amharic (am), Arabic (ar), Azerbaijani (az), Bulgarian (bg_BG), Bengali (Bangladesh)
+(bn_BD), Czech (cs_CZ), German (de_DE), Greek (el), Spanish (Spain) (es_ES), Persian
+(fa_IR), French (France) (fr_FR), Gujarati (gu), Hebrew (he_IL), Hindi (hi_IN), Croatian
+(hr), Hungarian (hu_HU), Armenian (hy), Indonesian (id_ID), Italian (it_IT), Japanese
+(ja), Georgian (ka_GE), Kazakh (kk), Khmer (km), Kannada (kn), Korean (ko_KR), Lao (lo),
+Malayalam (ml_IN), Mongolian (mn), Marathi (mr), Malay (ms_MY), Myanmar (Burmese)
+(my_MM), Nepali (ne_NP), Dutch (nl_NL), Panjabi (India) (pa_IN), Polish (pl_PL), Pashto
+(ps), Portuguese (Brazil) (pt_BR), Romanian (ro_RO), Russian (ru_RU), Sinhala (si_LK),
+Albanian (sq), Serbian (sr_RS), Swahili (sw), Tamil (ta_IN), Telugu (te), Thai (th),
+Tagalog (tl), Turkish (tr_TR), Ukrainian (uk), Urdu (ur), Uzbek (uz_UZ), Vietnamese
+(vi), Chinese (China) (zh_CN)
+
+A further 4 ship complete in the plugin — Hausa (ha), Somali (so_SO), Tajik (tg), Yoruba (yo) — but
+WordPress core does not currently provide a locale for them, so WordPress cannot load them.
+
+= Right-to-left =
+
+Arabic, Persian, Hebrew, Pashto and Urdu are right-to-left. Every screen this plugin adds was
+rendered in a real WordPress install in each of those languages and checked, not assumed.
+
+= For translators =
+
+`languages/` holds the `.pot` template plus a `.po`, `.mo` and `.l10n.php` for every language, so
+corrections and new languages can be contributed directly.
 
 == Frequently Asked Questions ==
 

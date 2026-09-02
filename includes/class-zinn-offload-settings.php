@@ -118,7 +118,7 @@ class Zinn_Offload_Settings {
 					<tbody>
 						<tr>
 							<th scope="row"><?php echo esc_html__( 'Status', 'zinn-offload' ); ?></th>
-							<td><?php echo esc_html__( 'Connected to Zinn Digital®', 'zinn-offload' ); ?></td>
+							<td><?php echo esc_html__( 'Connected to your Zinn Digital® account', 'zinn-offload' ); ?></td>
 						</tr>
 						<tr>
 							<th scope="row"><?php echo esc_html__( 'Media served from', 'zinn-offload' ); ?></th>
@@ -202,6 +202,13 @@ class Zinn_Offload_Settings {
 					</p>
 				</form>
 			<?php endif; ?>
+			<?php
+			// ⛔⛔ AT THE BOTTOM OF THE SCREEN, INSIDE `.wrap`, BELOW THE CONTROLS — NEVER ABOVE
+			// THEM. Somebody who opened a settings screen came to change a setting. A promotion
+			// that pushes the thing they came for below the fold is the "disruptive upselling"
+			// a WordPress.org reviewer rejects, and it would deserve it.
+			Zinn_Offload_Promo::render_panel();
+			?>
 		</div>
 		<?php
 	}

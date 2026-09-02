@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-offload\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my_MM\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-offload\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-offload.php
+#: includes/class-zinn-offload-settings.php:63
+#: includes/class-zinn-offload-settings.php:64
+#: includes/class-zinn-offload-settings.php:86
+msgid "Zinn® Media Offload"
+msgstr "Zinn® Media Offload"
+
+#. Plugin URI of the plugin
+#: zinn-offload.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-offload"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-offload"
+
+#. Description of the plugin
+#: zinn-offload.php
+msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
+msgstr "ဤဆိုက်၏ မီဒီယာစာကြည့်တိုက်ကို Zinn® အော့ဘ်ဂျက် သိုလှောင်မှုသို့ ရွှေ့ပေးပြီး CDN မှတစ်ဆင့် ဝန်ဆောင်မှုပေးသည်။ သင်၏ Zinn® ဒက်ရှ်ဘုတ်မှ စီစဉ််သတ်မှတ်သည် — WordPress တွင် မည်သည့် အက်ဆက်စ်သော့ချက်ကိုမျှ ရိုက်ထည့်ရန် မလိုပါ။"
+
+#. Author of the plugin
+#: zinn-offload.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-offload.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-offload-client.php:97
+msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
+msgstr "Zinn Digital® သည် တိုကင်တစ်ခုကို မပြန်ခဲ့ပါ။ ဤဆိုက်တွင် မည်သည့်အရာကိုမျှ မပြောင်းလဲသေးပါ။"
+
+#: includes/class-zinn-offload-client.php:157
+#: includes/class-zinn-offload-client.php:165
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "ဤဖိုင်ကို ဤဆာဗာမှ ဖတ်၍မရပါ၊ ထို့ကြောင့် မည်သည့်အရာမျှ အပ်လုဒ်မလုပ်ခဲ့ပါ။"
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-client.php:191
+#, php-format
+msgid "Storage refused the upload (HTTP %d). The file is still on this server."
+msgstr "သိုလှောင်မှုစနစ်မှ အပ်လုဒ်လုပ်ခြင်းကို ငြင်းပယ်ခဲ့သည် (HTTP %d)။ ဖိုင်သည် ဤဆာဗာပေါ်တွင် ရှိနေဆဲဖြစ်သည်။"
+
+#: includes/class-zinn-offload-client.php:272
+msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
+msgstr "ဤဆိုဒ်ကို Zinn® မီဒီယာ အော့ဖ်လုဒ်နှင့် ချိတ်ဆက်ထားခြင်း မရှိတော့ပါ။ အတင်အသစ်များသည် ဤဆာဗာတွင်သာ ရှိနေပါမည်။ သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်မှတစ်ဆင့် ၎င်းကို ထပ်မံချိတ်ဆက်ပါ။"
+
+#. translators: %d: HTTP status code returned by the Zinn Digital API.
+#: includes/class-zinn-offload-client.php:280
+#, php-format
+msgid "Zinn Digital® answered with HTTP %d."
+msgstr "Zinn Digital® သည် HTTP %d ဖြင့် တုံ့ပြန်ခဲ့သည်။"
+
+#: includes/class-zinn-offload-client.php:298
+msgid "Disconnected by Zinn Digital®."
+msgstr "Zinn Digital® မှ ချိတ်ဆက်မှုဖြတ်တောက်လိုက်ပါပြီ။"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-offload-promo.php:241
+#: includes/class-zinn-offload-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — လမ်းညွှန်များနှင့် ဝန်ဆောင်မှုများ"
+
+#: includes/class-zinn-offload-promo.php:256
+msgid "User guides"
+msgstr "အသုံးပြုသူ လမ်းညွှန်များ"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-offload-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို ဖတ်ပါ"
+
+#: includes/class-zinn-offload-promo.php:314
+msgid "Hide this"
+msgstr "ይህን ဝှက်ရန်"
+
+#: includes/class-zinn-offload-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress အတွက် Zinn® ဟိုစတင်င််"
+
+#: includes/class-zinn-offload-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်ခြင်းများ၊ အခမဲ့ပြောင်းရွှေ့ပေးခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ကိုင်သူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်ဝင်းဒိုး။"
+
+#: includes/class-zinn-offload-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® စျေးကွက်"
+
+#: includes/class-zinn-offload-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "တည်ထောင်ပြီးသား ဝက်ဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်ချိတ်ဆွဲမှုများကို နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားကာ ဝယ်ယူရောင်းချပါ။"
+
+#: includes/class-zinn-offload-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ လုပ်ကိုင်သူများကို ငှားရမ်းပါ"
+
+#: includes/class-zinn-offload-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ ဖရီးလန်း စျေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒက်ဗလော့ပါများနှင့် SEO ကျွမ်းကျင်သူများထံမှ အသင့်ပြင်ဆင်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ရှာဖွေကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်ပြပြီး ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
+
+#: includes/class-zinn-offload-settings.php:78
+#: includes/class-zinn-offload-settings.php:223
+#: includes/class-zinn-offload-settings.php:256
+msgid "You do not have permission to manage this site."
+msgstr "ဤဆိုဒ်ကို စီမံခန့်ခွဲရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
+
+#: includes/class-zinn-offload-settings.php:93
+msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
+msgstr "သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်ကို ဖွင့်ပါ၊ ဤဆိုက်အတွက် မီဒီယာ အော့ဖ်လုဒ်လုပ်ခြင်းကို ဖွင့်ပါ၊ ထို့နောက် ၎င်းပြသသည့် တွဲချိတ်ရေးကုဒ်ကို ကူးထည့်ပါ။ ဝင်ရောက်ခွင့် သော့ချက် (access key) မလိုအပ်ပါ — ဤဆိုက်တွင် မည်သည့်အခါမျှ သော့ချက်ကို သိမ်းဆည်းထားမည် မဟုတ်ပါ။"
+
+#: includes/class-zinn-offload-settings.php:103
+msgid "Pairing code"
+msgstr "တွဲချိတ်ခြင်း ကုဒ်"
+
+#: includes/class-zinn-offload-settings.php:114
+msgid "Connect this site"
+msgstr "ဤဆိုဒ်ကို ချိတ်ဆက်ပါ"
+
+#: includes/class-zinn-offload-settings.php:120
+msgid "Status"
+msgstr "အခြေအနေ"
+
+#: includes/class-zinn-offload-settings.php:121
+msgid "Connected to your Zinn Digital® account"
+msgstr "သင့် Zinn Digital® အကောင့်သို့ ချိတ်ဆက်ထားသည်"
+
+#: includes/class-zinn-offload-settings.php:124
+msgid "Media served from"
+msgstr "မှ တင်ဆက်သော မီဒီယာ"
+
+#: includes/class-zinn-offload-settings.php:129
+msgid "This server (offloaded copies are being kept, but not served yet)"
+msgstr "ဤဆာဗာ (အော့ဖ်လုဒ်လုပ်ထားသော မိတ္တူများကို သိမ်းဆည်းထားသော်လည်း မဆောင်ရွက်ရသေးပါ)"
+
+#: includes/class-zinn-offload-settings.php:134
+msgid "Local copies"
+msgstr "ဒေသတွင်း မိတ္တူများ"
+
+#: includes/class-zinn-offload-settings.php:138
+msgid "Removed once every size has uploaded"
+msgstr "အရွယ်အစားတစ်ခုချင်းစီ အပ်လုဒ်လုပ်ပြီးသွားသောအခါ ဖယ်ရှားခဲ့သည်"
+
+#: includes/class-zinn-offload-settings.php:139
+msgid "Kept on this server"
+msgstr "ဤဆာဗာတွင် ထိန်းသိမ်းထားသည်"
+
+#: includes/class-zinn-offload-settings.php:144
+msgid "Offloaded so far"
+msgstr "ယခုအထိ ပယ်ချထားသည်"
+
+#. translators: 1: number of files, 2: human-readable size.
+#: includes/class-zinn-offload-settings.php:149
+#, php-format
+msgid "%1$s files, %2$s"
+msgstr "ဖိုင်ပေါင်း %1$s ခု၊ %2$s"
+
+#: includes/class-zinn-offload-settings.php:157
+msgid "Still on this server"
+msgstr "ဤဆာဗာတွင်ပင် ကျန်ရှိနေသေးသည်"
+
+#. translators: 1: attachments not yet offloaded, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:167
+#, php-format
+msgid "%1$s of %2$s attachments"
+msgstr "%2$s တွင် %1$s ခုသော ပူးတွဲပါဖိုင်များ"
+
+#: includes/class-zinn-offload-settings.php:174
+msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
+msgstr "ចាស់ မီဒီယာ ရွေ့လျားမှု များသည် နောက်ခံတွင် ရှိနေပြီး တစ်နာရီလျှင် ဖိုင်အနည်းငယ်မျှသာ ရှိကာ ရပ်တန့်သွားသည့် နေရာမှ ပြန်လည်စတင်မည် ဖြစ်သည်။ သင့်ဒက်ရှ်ဘုတ်တွင် အခြားနည်းဖြင့် ညွှန်ကြားထားခြင်း မရှိပါက ဤဆာဗာမှ မည်သည့်အရာမျှ ဖျက်ဆီးမည် မဟုတ်ပါ။"
+
+#: includes/class-zinn-offload-settings.php:184
+msgid "Last problem"
+msgstr "နောက်ဆုံးပြဿနာ"
+
+#: includes/class-zinn-offload-settings.php:194
+msgid "Disconnect this site"
+msgstr "ဤဆိုဒ်ကို ချိတ်ဆက်မှုဖြုတ်ပါ"
+
+#: includes/class-zinn-offload-settings.php:197
+msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
+msgstr "ဖိုင်အသစ်တင်မှုများသည် ဤဆာဗာတွင်သာ ရှိနေမည်ဖြစ်သည်။ ရွှေ့ပြောင်းပြီးသား မီဒီယာများ ဆက်လက်အလုပ်လုပ်နေမည်ဖြစ်ပြီး ၎င်းတို့၏ လိပ်စာများ ပြောင်းလဲသွားမည် မဟုတ်ပါ။"
+
+#: includes/class-zinn-offload-settings.php:231
+msgid "Paste the pairing code from your Zinn Digital® dashboard."
+msgstr "သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်မှ တွဲချိတ်မှုကုဒ်ကို ကူးယူထည့်သွင်းပါ။"
+
+#: includes/class-zinn-offload-settings.php:240
+msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
+msgstr "ချိတ်ဆက်ပြီးပါပြီ။ ယခုမှစ၍ အသစ်တင်သည့်ဖိုင်များကို Zinn Digital® တွင် သိမ်းဆည်းမည်ဖြစ်ပြီး သင်၏ လက်ရှိမီဒီယာများကို နောက်ခံတွင် ရွှေ့ပြောင်းပေးပါမည်။"
+
+#: includes/class-zinn-offload-settings.php:268
+msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
+msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။ ယခင်က ရွှေ့ပြီးသား မီဒီယာများ ဆက်လက် အလုပ်လုပ်မည်ဖြစ်ပြီး၊ တင်သွင်းမှုအသစ်များက ဤဆာဗာတွင်သာ ရှိနေပါမည်။"
