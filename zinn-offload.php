@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Media Offload
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-offload
  * Description:       Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_OFFLOAD_VERSION', '1.0.0' );
+define( 'ZINN_OFFLOAD_VERSION', '1.1.0' );
 define( 'ZINN_OFFLOAD_FILE', __FILE__ );
 
 /**
