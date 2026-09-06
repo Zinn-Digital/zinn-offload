@@ -204,3 +204,11 @@ msgstr "وصل شو. نوي پورتونه به له دې وروسته په Zinn
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "تړون پرې شو. مخکې انتقال شوي میډیا به کار ته دوام ورکړي؛ نوي اپلوډونه په دې سرور کې پاتې کیږي."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "د Zinn Digital® د خپرولو یادښتونه وګورئ."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا معاینه ناکامه شوه او ونه لګول شول."

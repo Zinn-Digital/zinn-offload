@@ -204,3 +204,11 @@ msgstr "Asopọ ti ni ilọsiwaju. Awọn igo tuntun yoo wa ni ipamọ pẹlu Zi
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Kò sopọ̀. Àwọn agbègbè rédíò tí a ti kó lọ tẹ́lẹ̀ máa ń ṣiṣẹ́ lọ́wọ́; àwọn ìgbélékè tuntun wà lórí sẹ́fà yìí."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Wo awọn akọsilẹ ifilọlẹ Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Ìgbàlàwé tí a ṣe àgbéjọ rẹ̀ kùnà àyẹ̀wò òtítọ́ rẹ̀, a kò sì fi sílẹ̀."

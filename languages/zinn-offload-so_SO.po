@@ -204,3 +204,11 @@ msgstr "Xiran. Soo-gelinta cusub waxa hadda wixii ka dambeeya lagu keydin doonaa
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Waa la gooyay. Warbaahinta horay loo raray way shaqeyneysaa; soo-gelinta cusub waxay ku sii sugnaan doontaa server-kan."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Fiiri qoraallada sii-daynta ee Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Cusboonaysiintii la soo dejiyey ayaa ku guuldareysatay baaritaanka hufnaanta waxaana la rakibay."

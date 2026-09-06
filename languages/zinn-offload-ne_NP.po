@@ -204,3 +204,11 @@ msgstr "सम्बद्ध भयो। अब उप्रान्त न�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "सम्पर्कविच्छेद भयो। पहिले सारिसकेका मिडियाहरूले काम गरिरहन्छन्; नयाँ अपलोडहरू यसै सर्भरमा रहन्छन्।"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® को रिलिज नोटहरू हेर्नुहोस्।"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "डाउनलोड गरिएको अपडेटले यसको इन्टिग्रिटी चेक (सत्यता परीक्षण) पास गर्न सकेन र इन्स्टल गरिएको छैन।"

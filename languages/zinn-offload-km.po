@@ -204,3 +204,11 @@ msgstr "បានតភ្ជាប់។ ការអាប់ឡូតថ្�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "បានផ្តាច់ការតស៊ូ។ មេឌៀដែលបានផ្លាស់ទីរួចហើយនៅតែបន្តដំណើរការ; ការផ្ទុកឡើងថ្មីនៅតែស្ថិតនៅលើម៉ាស៊ីនបម្រើនេះ។"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "សូមមើលកំណត់ចំណាំនៃការចេញផ្សាយរបស់ Zinn Digital®។"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"

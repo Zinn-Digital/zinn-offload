@@ -204,3 +204,11 @@ msgstr "ချိတ်ဆက်ပြီးပါပြီ။ ယခုမှ�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ချိတ်ဆက်မှု ပြတ်တောက်သွားပါပြီ။ ယခင်က ရွှေ့ပြီးသား မီဒီယာများ ဆက်လက် အလုပ်လုပ်မည်ဖြစ်ပြီး၊ တင်သွင်းမှုအသစ်များက ဤဆာဗာတွင်သာ ရှိနေပါမည်။"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® ၏ ထုတ်ဝေမှု မှတ်စုများကို ကြည့်ပါ။"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၎င်း၏ ခိုင်မာမှုစစ်ဆေးမှုကို မအောင်မြင်ခဲ့ပါ၊ ထို့ကြောင့် ထည့်သွင်းခြင်း မပြုလုပ်ခဲ့ပါ။"

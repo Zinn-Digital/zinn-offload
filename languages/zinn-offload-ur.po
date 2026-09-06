@@ -204,3 +204,11 @@ msgstr "منسلک ہے۔ اب سے نئی اپ لوڈز Zinn Digital® پر م�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "منقطع ہو گیا۔ پہلے سے منتقل شدہ میڈیا کام کرتا رہے گا؛ نئی اپ لوڈز اسی سرور پر رہیں گی۔"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® کے ریلیز نوٹس دیکھیں۔"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ڈاؤن لوڈ کردہ اپ ڈیٹ کی سالمیت کی جانچ میں ناکام رہی اور اسے انسٹال نہیں کیا گیا۔"

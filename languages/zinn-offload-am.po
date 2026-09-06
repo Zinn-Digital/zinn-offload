@@ -204,3 +204,11 @@ msgstr "ተገናኝቷል። ከእንግዲህ አዳዲስ ሰቀላዎች �
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ግንኙነቱ ተቋርጧል። ቀደም ሲል የተዘዋወሩ ሚዲያዎች መስራታቸውን ይቀጥላሉ፤ አዳዲስ ሰቀላዎች በዚህ ሰቨር ላይ ይቆያሉ።"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "የZinn Digital® መልቀቂያ ማስታወሻዎችን ይመልከቱ።"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "የወረደው ማሻሻያ የታማኝነት ማረጋገጫውን ማለፍ አልቻለም እና አልተጫነም።"

@@ -204,3 +204,11 @@ msgstr "Povezano. Novi prijenosi od sada će se pohranjivati na Zinn Digital®, 
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Prekinuta veza. Mediji koji su već premješteni nastavljaju raditi; novi prijenosi ostaju na ovom poslužitelju."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Pogledajte bilješke o izdanju Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Preuzeto ažuriranje nije prošlo provjeru integriteta i nije instalirano."

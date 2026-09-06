@@ -204,3 +204,11 @@ msgstr "متصل شد. از این پس بارگذاری‌های جدید در 
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "قطع ارتباط شد. رسانه‌های از پیش منتقل‌شده همچنان کار می‌کنند؛ بارگذاری‌های جدید روی این سرور باقی می‌مانند."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "یادداشت‌های انتشار Zinn Digital® را مشاهده کنید."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "بررسی صحت به‌روزرسانی بارگیری‌شده با شکست مواجه شد و نصب نگردید."

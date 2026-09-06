@@ -204,3 +204,11 @@ msgstr "Συνδέθηκε. Οι νέες μεταφορτώσεις θα απο
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Αποσυνδέθηκε. Τα αρχεία πολυμέσων που έχουν ήδη μετακινηθεί εξακολουθούν να λειτουργούν· οι νέες μεταφορτεύσεις παραμένουν σε αυτόν τον διακομιστή."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Δείτε τις σημειώσεις έκδοσης του Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Η λaβoύσα ενημέρωση απέτυχε στον έλεγχο ακεραιότητας και δεν εγκαταστάθηκε."

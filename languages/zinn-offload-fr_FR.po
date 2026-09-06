@@ -204,3 +204,11 @@ msgstr "Connecté. Les nouveaux transferts seront stockés chez Zinn Digital® �
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Déconnecté. Les médias déjà déplacés continuent de fonctionner ; les nouveaux chargements restent sur ce serveur."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Consultez les notes de version de Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "La mise à jour téléchargée a échoué au contrôle d'intégrité et n'a pas été installée."

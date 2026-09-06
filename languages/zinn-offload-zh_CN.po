@@ -204,3 +204,11 @@ msgstr "已连接。从现在起，新的上传内容将存储在 Zinn Digital®
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "已断开连接。已移动的媒体仍可正常使用；新上传的内容将保留在此服务器上。"
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "请参阅 Zinn Digital® 发行说明。"
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "已下载的更新未能通过完整性检查，因此未进行安装。"

@@ -204,3 +204,11 @@ msgstr "Đã kết nối. Các tệp tải lên mới sẽ được lưu trữ v
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Đã ngắt kết nối. Phương tiện đã chuyển tiếp tục hoạt động; các tệp tải lên mới vẫn ở trên máy chủ này."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Xem ghi chú phát hành Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."

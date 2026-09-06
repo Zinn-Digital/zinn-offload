@@ -204,3 +204,11 @@ msgstr "Csatlakoztatva. Az új feltöltések mostantól a Zinn Digital® rendsze
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Kapcsolat megszakítva. A már áthelyezett média továbbra is működik; az új feltöltések ezen a szerveren maradnak."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Tekintse meg a Zinn Digital® kiadási megjegyzéseit."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "A letöltött frissítés integritási ellenőrzése sikertelen volt, így nem lett a rendszerre telepítve."

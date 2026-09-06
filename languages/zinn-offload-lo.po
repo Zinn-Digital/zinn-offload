@@ -204,3 +204,11 @@ msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ການອັບໂຫລດ�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ຕັດການເຊື່ອມຕໍ່ແລ້ວ. ສື່ທີ່ຍ້າຍໄປແລ້ວແມ່ນຍັງສືບຕໍ່ເຮັດວຽກຢູ່; ການອັບໂຫຼດໃໝ່ຍັງຄົງຢູ່ໃນເຊີບເວີນີ້."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."

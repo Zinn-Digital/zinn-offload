@@ -204,3 +204,11 @@ msgstr "Свързано. Новите качвания вече ще се съ�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Прекъсната връзка. Вече преместените медийни файлове продължават да работят; новите качвания остават на този сървър."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Вижте бележките за изданието на Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Изтегленото обновление не премина проверка за цялостност и не беше инсталирано."

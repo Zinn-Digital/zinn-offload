@@ -204,3 +204,11 @@ msgstr "Қосылды. Енді жаңа жүктеп салулар Zinn Digit
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Ажыратылды. Бұрын жылжытылған медиа жұмысын жалғастырады; жаңа жүктеулер осы серверде қалады."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® нұсқарының жазбаларын қараңыз."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Жүктеп алынған жаңарту тұтастықты тексеруден өтпеді және орнатылмады."

@@ -204,3 +204,11 @@ msgstr "تم الاتصال. سيتم تخزين عمليات التحميل ا�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "مفصول. الوسائط التي تم نقلها مسبقاً تستمر في العمل؛ بينما تبقى عمليات الرفع الجديدة على هذا الخادم."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "راجع ملاحظات إصدار Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "فشل التحقق من سلامة التحديث الذي تم تنزيله ولم يتم تثبيته."

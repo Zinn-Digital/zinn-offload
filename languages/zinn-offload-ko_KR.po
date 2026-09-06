@@ -204,3 +204,11 @@ msgstr "연결되었습니다. 이제부터 새로운 업로드는 Zinn Digital�
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "연결이 해제되었습니다. 이미 이동한 미디어는 계속 작동하며, 새로 업로드된 파일은 이 서버에 유지됩니다."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® 릴리스 노트를 확인하세요."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "다운로드된 업데이트의 무결성 검사에 실패하여 설치되지 않았습니다."

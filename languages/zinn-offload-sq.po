@@ -204,3 +204,11 @@ msgstr "E lidhur. Ngarkimet e reja do të ruhen me Zinn Digital® duke filluar n
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "I lidhur. Media e zhvendosur tashmë vazhdon të punojë; ngarkimet e reja mbeten në këtë server."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Shihni shënimet e lëshimit për Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."

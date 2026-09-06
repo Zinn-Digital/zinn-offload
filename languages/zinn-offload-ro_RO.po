@@ -204,3 +204,11 @@ msgstr "Conectat. Noile încărcări vor fi stocate începând de acum cu Zinn D
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Deconectat. Conținutul media mutat deja funcționează în continuare; încărcările noi rămân pe acest server."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Consultați notele de lansare Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Actualizarea descărcată a eșuat la verificarea integrității și nu a fost instalată."

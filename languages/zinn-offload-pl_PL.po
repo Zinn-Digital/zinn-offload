@@ -204,3 +204,11 @@ msgstr "Połączono. Nowe przesyłane pliki będą od teraz przechowywane w Zinn
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Rozłączono. Przeniesione wcześniej media nadal działają; nowe pliki pozostają na tym serwerze."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zobacz informacje o wydaniu Zinn Digital®."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Pobrana aktualizacja nie przeszła pomyślnie testu spójności i nie została zainstalowana."

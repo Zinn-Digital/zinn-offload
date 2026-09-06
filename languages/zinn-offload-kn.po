@@ -204,3 +204,11 @@ msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ. ಇನ್ಮುಂದೆ ಹೊ
 #: includes/class-zinn-offload-settings.php:268
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ. ಈಗಾಗಲೇ ಸರಿಸಲಾದ ಮಾಧ್ಯಮಗಳು ಕೆಲಸ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತವೆ; ಹೊಸ ಅಪ್‌ಲೋಡ್‌ಗಳು ಈ ಸರ್ವರ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತವೆ."
+
+#: includes/class-zinn-offload-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® ಬಿಡುಗಡೆ ಟಿಪ್ಪಣಿಗಳನ್ನು ವೀಕ್ಷಿಸಿ."
+
+#: includes/class-zinn-offload-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾದ ಅಪ್‌ಡೇಟ್‌ನ ಸಮಗ್ರತೆಯ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಅದನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
