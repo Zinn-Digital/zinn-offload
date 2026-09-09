@@ -138,62 +138,26 @@ class Zinn_Offload_Client {
 	/**
 	 * PUT one local file to a presigned URL.
 	 *
+	 * ⛔⛔ **STREAMED, BECAUSE THE SIZE HERE IS CHOSEN BY THE CUSTOMER.** This used to read the
+	 * whole file with `$wp_filesystem->get_contents()` — correct by the `AlternativeFunctions`
+	 * sniff, and a memory exhaustion on the first site that offloads a video. A WordPress.org
+	 * reviewer found the same shape in `zinn-connector`'s backup upload on 2026-09-05; this one
+	 * had never been submitted, so nobody had looked at it. Both now go through one generated
+	 * implementation (`wp/upload/class-zinn-streaming-upload.php.tpl`), so the rule cannot be
+	 * remembered in one plugin and forgotten in the other (§2.52).
+	 *
 	 * @param string $url       The presigned URL.
 	 * @param string $file_path Absolute path to the local file.
 	 * @return true|WP_Error True when the bucket accepted it.
 	 */
 	public function put_file( string $url, string $file_path ) {
-		// ⛔ `WP_Filesystem` rather than `file_get_contents`: `WordPress.WP.AlternativeFunctions`
-		// requires it, and it is the right call anyway — a site on FTP transport has no direct
-		// filesystem access and would fail silently.
-		global $wp_filesystem;
-		if ( ! $wp_filesystem ) {
-			require_once ABSPATH . 'wp-admin/includes/file.php';
-			WP_Filesystem();
-		}
-		if ( ! $wp_filesystem || ! $wp_filesystem->exists( $file_path ) ) {
-			return new WP_Error(
-				'zinn_offload_unreadable',
-				__( 'That file could not be read from this server, so nothing was uploaded.', 'zinn-offload' )
-			);
-		}
+		$type = wp_check_filetype( $file_path );
 
-		$contents = $wp_filesystem->get_contents( $file_path );
-		if ( false === $contents ) {
-			return new WP_Error(
-				'zinn_offload_unreadable',
-				__( 'That file could not be read from this server, so nothing was uploaded.', 'zinn-offload' )
-			);
-		}
-
-		$type     = wp_check_filetype( $file_path );
-		$response = wp_remote_request(
+		return Zinn_Offload_Streaming_Upload::put_file(
 			$url,
-			array(
-				'method'  => 'PUT',
-				'timeout' => self::UPLOAD_TIMEOUT,
-				'headers' => array(
-					'Content-Type' => $type['type'] ? $type['type'] : 'application/octet-stream',
-				),
-				'body'    => $contents,
-			)
+			$file_path,
+			$type['type'] ? $type['type'] : 'application/octet-stream'
 		);
-
-		if ( is_wp_error( $response ) ) {
-			return $response;
-		}
-		$code = (int) wp_remote_retrieve_response_code( $response );
-		if ( $code < 200 || $code > 299 ) {
-			return new WP_Error(
-				'zinn_offload_upload_failed',
-				sprintf(
-					/* translators: %d: HTTP status code returned by the storage service. */
-					__( 'Storage refused the upload (HTTP %d). The file is still on this server.', 'zinn-offload' ),
-					$code
-				)
-			);
-		}
-		return true;
 	}
 
 	/**

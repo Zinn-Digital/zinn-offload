@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,267 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Захира шуд. Барои иваз кардани он қимати навро ворид кунед."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Филтри ин рӯйхат…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Филтри ин рӯйхат"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Бо ин филтр ҳеҷ чиз мувофиқат намекунад."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Илова кардани сатр"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ин сатрро нест кунед"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Нustaroid"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — шарҳи умумӣ"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Шарҳ"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Ҳар як плагини Zinn® дар ин сайт ва вазъи кори он."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Барои ин плагин ҳеҷ гуна пайвастшавӣ лозим нест."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Танзимотро кушоед"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Шумо барои тағйири ин танзимот иҷозат надоред."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Бахшҳои танзимот"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Дастгирӣ"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Захираи тағйирот"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Афзорҳо"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Содироти танзимот"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Бозёбӣ ба ҳолати пешфарз"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Ин ҳамаи танзимоти ин плагинро ба ҳолати пешфарз бармегардонад. Идома медиҳед?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Ташхис барои дастгирӣ"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Ворид кардани файли танзимот"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Ворид кардан"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Файлҳои содиршуда ҳеҷ гоҳ паролҳо, токенҳо ё калитҳои API-ро дар бар намегиранд — шумо бояд онҳоро дар сайти нав аз нав ворид кунед."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Танзимот захира шуд."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Ҳамаи танзимоти ин плагин ба ҳолати пешфарз баргаштанд."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Иҷро шуд."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Ин амалиёт дастрас нест."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Он файлро хонда нашуд. Файли танзимоти содиршуда аз плагини Zinn®-ро интихоб кунед."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Он файл барои содироти танзимот хеле калон аст."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Он файл содироти танзимоти Zinn® нест."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Он файл аз плагини дигар (%s) содир карда шудааст, аз ин рӯ ворид кардани он дар ин ҷо танзимотеро захира мекунад, ки ин плагин онҳоро намефаҳмад."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d танзимот ворид карда шуд. Рамзҳо ва калитҳои API ҳеҷ гоҳ дар содирот нестанд, бинобар ин онҳоро дубора ворид кунед."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® токенро барнагардонид. Дар ин сайт ҳеҷ чиз тағйир наёфтааст."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Ин файлни аз ин сервер хонда нашуд, бинобар ин ягон чизи боргузорӣ нашуд."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Ҷойгоҳ боргузориро рад кард (HTTP %d). Файл ҳанӯз дар ин сервер ҷойгир аст."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ин сайт дигар ба интиқоли медиаи Zinn® пайваст нест. Боргузориҳои нав дар ҳамин сервер мемонанд. Онро аз панели идоракунии Zinn Digital®-и худ дубора пайваст кунед."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® бо HTTP %d ҷавоб дод."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Аз ҷониби Zinn Digital® ҷудо шудааст."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Пайвастшуда"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Пайвастшавӣ…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Пайваст аст, аммо чизе таваҷҷӯҳ мехоҳад"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Пайваст нашудааст"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Дар ҳисоби шахсии худ иҷро шуда истодааст"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Мо инро тафтиш карда натавонистем"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Ин плагин сабабашро нагуфт. Ҳисоботи ташхисиро фиристед ва мо онро баррасӣ хоҳем кард."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Ҳолати пайвастшавӣ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Қисми охирин санҷидашуда %s пеш."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(дар варақаи нав кушода мешавад)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Инро ба дастгирии Zinn® фиристед"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Маҳз ҳамин чиз фиристода мешавад — дигар ҳеҷ чизи дигар ва ҳеҷ чизи пинҳонӣ нест. Рамзҳо, токенҳо ва калитҳои API-и шумо дар он нестанд."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Гузориши ташхисе, ки фиристода мешавад"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Нусха бардоштан ба буфер"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Ин ҳисоботро ба дастгирии Zinn® фиристед"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Мо барои шумо дархости дастгирӣ мекушоем ва тавассути почтаи электронӣ ҷавоб медиҳем. Агар шумо нахоҳед онро фиристед, онро аз боло нусхабардорӣ кунед ва худатон ба дархост часпенед."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Нусхабардорӣ шуд"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Мо аз ин сервер (%s) ба Zinn Digital® дастрасӣ پیدا карда натавонистиим. Ҳисоботи болоро нусхабардорӣ кунед ва ба ҷои он тикет кушоед — ҳеҷ чиз дар танзимоти шумо нодуруст нест."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Дастгирии Zinn® гузориши шуморо қабул кард ва тавассути почтаи электронӣ ҷвоб медиҳад."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Дасткарии Zinn® гузориши шуморо қабул кард — рақами маълумотнома %s — ва тавассути почтаи электронӣ ҷвоб медиҳад."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Шмо дар муддати кӯтоҳ гузоришҳои зиёде фиристодед. Чанд дақиқа интизор шавед ва дубора кӯшиш кунед — гузоришҳои пешина расидаанд."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® дар айни замон гузоришро қабул карда натавонист — ин мушкили аз ҷониби мост, на аз шумо. Пас аз лаҳзае бори дигар кӯшиш кунед ё гузориши болоро ба чипта (тикет) нусхабардорӣ кунед."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Hisobot rad карда шуд (HTTP %d). Онро дар боло нусхабардорӣ кунед ва бо зикри ҳамин рақам муроҷиат кушоед."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +341,255 @@ msgstr "Zinn Hub® — мутахассисонеро киро кунед, ки 
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори глобалии фрилансерони мо: аз зиёда аз 10,000 хизматрасонии омода аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO гузаред ё лоиҳаеро ҷойгир кунед ва бидиҳед, ки онҳо пешниҳоди нарх кунанд."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Шумо ҳуқуқи идора кардани ин сомонаро надоред."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Берунсозии расонаҳо"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Интерфейси кории Zinn Digital®-и худро кушоед, интиқоли медиаро барои ин сайт фаъол созед ва коди ҷуфткуниеро, ки ба шумо нишон дода мешавад, гузоред. Калиди дастрасӣ лозим нест — ин сайт ҳеҷ гоҳ онро нигоҳ намедорад."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Пайвастшавӣ"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Рамзи ҷуфткунӣ"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Чӣ кӯчонида мешавад"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Ин сайт пайваст карда шавад"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Чӣ гуна пешниҳод шудани медиа"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Ҳолат"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Як гурӯҳро ҳоло кӯчонед"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Ба ҳисоби Zinn Digital®-и шумо пайваст шудааст"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Расонаҳои аллакай кӯчонидашуда ба тағйироти ин ҷо таъсир намерасонанд — суроғаи онҳо тағйир намеёбад."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Расонаҳои пешниҳодшуда аз"
+msgid "New uploads"
+msgstr "Боргузориҳои нав"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Ин сервер (нусхаҳои хориҷшуда нигоҳ дошта мешаванд, аммо ҳанӯз пешниҳод намешаванд)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Боргузориҳои навро ҳангоми ворид шудан ба нигоҳдории Zinn® интиқол диҳед"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Нусхаҳои маҳаллӣ"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Расонаҳои мавҷуда"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "Баъд аз боргузории ҳар як андоза хориҷ карда мешавад"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Китобхонаи медиаро, ки аллакай дар ин ҷо аст, ҳаракат доданро давом диҳед"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Чанд файл дар як соат, дар замина, аз ҳамон ҷое ки қатъ шуда буд, идома медиҳад. Хомӯш кардани ин онро таваққуф медиҳад; ҳеҷ чизе ки аллакай кӯчонида шудааст, бармегардад."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Дар ин сервер нигоҳ дошта шудааст"
+msgid "Files per hourly pass"
+msgstr "Файлҳо дар як соат"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "То инҷо бор карда шудааст"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Ҳар як замима чанд файл аст ва ҳар яки он як боркунии пурра мебошад. Инро дар мизбони тез бо ҳадди иҷрои саховатмандона баланд бардоред; агар гузаришҳо кӯтоҳ карда шаванд, онро паст кунед."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Файлҳои хурдтар азро гузоред"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Килобайтҳо. Нишони хурд дар пайвасти иловагӣ нисбат ба сарфаи диски он арзиши бештар дорад, аз ин рӯ кам сабабе вуҷуд дорад, ки онро кӯчонд. Барои кӯчонидани ҳама чиз ба 0 танзим кунед."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Ин намудҳоро ҳеҷ гоҳ нагузаронед"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Ҳангоме муфид аст, ки плагин файлро мустақиман аз диск мехонад — шрифт, PDF-е, ки созандаи форма мемонад, ё файли аудиоӣ, ки плеер дар он ҷустуҷӯ мекунад."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Ин ду нафаранд, ки бо онҳо бояд эҳтиёткор буд — пеш аз тағир додани ҳар яке, тавсифи онро хонед."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Хизмат расонидан аз нигаҳдории Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Суроғаҳои акс ва файлҳоро ба нигоҳдории Zinn® равона кунед"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Хомӯш, файлҳо боргузорӣ шудаанд, аммо то ҳол аз ин сервер пешниҳод мешаванд — ки ин ҳолати бехатар ҳангоми тафтиши расидани ҳама чиз аст. Фаъол, боздидкунандагон аз захирасозӣ хизмат расонида мешаванд ва ин сервер қабули трафикро қатъ мекунад."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Озод кардани фазои диск"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Пас аз он ки ҳама андозаҳо боргузорӣ шуданд, нусхаи маҳаллиро нест кунед"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Ин нуқтаи бо боркунии берунӣ аст ва он инчунин нимаи баргаштанашаванда мебошад. Онро то он даме, ки \"Serve from Zinn® storage\" фаъол нашавад ва шумо сайти худро тафтиш накунед, хомӯш нигоҳ доред — агар ягон чиз аз назар дур монда бошад, нусхаи маҳаллӣ ягона чизест, ки шуморо наҷот медиҳад."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Нustisoidani nusxaxoi mahalli az in ekran bargardonanda nest. Avval nusxai ehtiyoti giried — plagini Zinn® Connector metavonad onro baroi shumo anjom dihad."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Ин сайт то ҳол ба мағозаи Zinn® пайваст нашудааст, аз ин рӯ ҷойе барои гузаронидани медиа вуҷуд надорад."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "%d замима интиқол дода шуд."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Ин сайт ба нигоҳдории Zinn® пайваст нест."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Ҳеҷ мушкиле вуҷуд надорад — он ҳанӯз ҳамроҳ карда нашудааст. Расонаҳо то он замон дар ин сервер боқӣ мемонанд."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Пайваст аст, аммо боргузории охирин қатъ шуд."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Як бастаро ҳозир санҷед"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Пайваст шуд. Ҳамаи замимаҳо кӯчонида шуданд."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "Пайваст шуд. %1$s аз %2$s замимаҳо ҳанӯз дар ин сервер ҳастанд."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "То ба ин ҷо кӯчонида шуд"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s файл, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Ҳанӯз дар ин сервер"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s аз %2$s замимаҳо"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Медиаи кӯҳна дар замина ҳаракат мекунад, чанд файл дар як соат, ва аз ҳамон ҷое ки қатъ шуда буд, идома медиҳад. Ҳеҷ чиз аз ин сервер нест карда намешавад, магар ин ки панели идоракунии шумо чунин гӯяд."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Хизмат расонида мешавад аз"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Мушкили охирин"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "ин сервер"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Ин сайт пайваст карда шавад"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Панели идоракунии Zinn Digital®-и худро кушоед, ба Storage → Media offload гузаред ва тугмаи “Pair a site”-ро пахш кунед. Рамзи зеринро часбонед."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Рамзи ҷуфткунӣ"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Қатъ кардани пайсти ин сомона"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Боргузориҳои нав дар ин сервер мемонанд. ВАО-и аллакай интиқолёфта кор мекунанд — суроғаи онҳо тағйир намеёбад."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Шумо ҳуқуқи идора кардани ин сомонаро надоред."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Рамзи пайвастшавиро аз панели идоракунии Zinn Digital®-и худ часпонед."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Пайваст шуд. Боргузориҳои нав аз ин ба баъд дар Zinn Digital® захира мешаванд ва медиаи мавҷудаи шумо дар замина кӯчонида мешавад."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Қатъ шуд. Эҷодҳои аллакай кӯчонидашуда кор мекунанд; боргузориҳои нав дар ин сервер боқӣ мемонанд."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Ин файлни аз ин сервер хонда нашуд, бинобар ин ягон чизи боргузорӣ нашуд."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Ин сайт натавонист боркуниро ҷорӣ кунад, аз ин рӯ ҳеҷ чиз фиристода нашуд."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Ин файл %1$s аст ва PHP-и ин сайт cURL надорад, аз ин рӯ калонтарин андозае, ки он боргузорӣ карда метавонад, %2$s аст."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Боргузорӣ иҷро нашуд."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Захира боркуниро рад кард (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Пешфарқи услуб"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Нуқтаи оғоз. Ҳама чизе ки дар зери он аст, онро рад мекунад."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Рангҳо ва андозаҳои шахсии худро истифода баред"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Инро хомӯш гузоред ва пешфарз дақиқан ҳамон тавре ки ҳаст, истифода мешавад."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

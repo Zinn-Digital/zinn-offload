@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,267 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "A ti fi pamọ́. Tẹ iye tuntun rẹ̀ láti rọ́pò rẹ̀."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Ṣe àlẹmọ àkójọ yìí…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Ṣe àlẹmọ àkójọ yìí"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Ko si ohun ti o ba àlẹmọ yẹn mu."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Fi rọ́wọ̀ kún un"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Yọ ila yii kuro"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Yọ kuro"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — àkópọ̀"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Àkótán"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Gbogbo plug-in Zinn® lori aaye yii, ati boya o n ṣiṣẹ."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Ko si asopọ ti o nilo fun plugin yii."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Ṣí ètò"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "O ko ni aṣẹ lati yi awọn eto wọnyi pada."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Àwọn apá ìṣètò"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Atilẹyin"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Fipamọ awọn ayipada"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Àwọn irinṣẹ"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Awọn eto igbasilẹ wọle"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Tún sí àwọn àbájáde ìbẹ̀rẹ̀ pàápàá"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Èyí yóò mú gbogbo ìtò ní etò yìí padà sí ipò àkọ́kọ́ wọn. Ṣé o fẹ́ tẹ̀ síwájú?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Àwọn ohun àyẹ̀wò fún ìtìlẹ́yìn"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Gbe faili àwọn êtò wọlé"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Wọlé"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Àwọn fáìlì tí wọ́n kó jáde kò ní àwọn ọ̀rọ̀ aṣínà (passwords), àwọn àmì ìdámọ̀ (tokens) tàbí àwọn bọ́tìnnì API — wọ́n máa nílò kí o tún tẹ́ wọ́n sínú lórí ojú òpó tuntun náà."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "A ti fi àwọn ẹ̀rọ ìṣètò pamọ́."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Gbogbo ètò lori plugin yii ti padà sí ipo rẹ̀ akọkọ."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Ó ti tán."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Iṣẹ yẹn ko si."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "A ko le ka faili yẹn. Yan faili awọn eto ti a gbe wọ jade lati inu plọọgi-in Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Fáìlì náà tóbi jù láti jẹ́ ìfiránṣẹ́ ètò."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Fáìlì yẹn kò ṣe ojúlówó ìṣètò ìj✕t Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "A fi fáìlì yẹn sọ kalẹ̀ láti inú plọ́gìn mìíràn (%s), nítorí náà rírù ú wọlé síbí yóò tọ́jú àwọn ètò tí plọ́gìn yìí kò mọ̀."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Ìtòjọ %d ni a gbé wọlé. Àwọn ọ̀rọ̀ ìkọ̀wé àti àwọn bọ́tìnnì API kì í wà nínú ìbéèrè ìgbejáde, nítorí náà tẹ wọ́n sílẹ̀ lẹ́ẹ̀kan sí i."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® kò dá àmì ìdánimọ̀ kan padà. Kò sí ohun tí a yí padà lórí ojula yí."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "A kò le ka fáìlì yẹn láti orí sístà yìí, nítorí náà kò sí ohun tí a gbé sórí ẹ̀."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Ibi ipamọ kọ igbega naa (HTTP %d). Faili naa tun wa lori olupin yii."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "A ko ti sopọ aaye yii mọ si gbigbe media Zinn® jade. Awọn ikojọpọ tuntun yoo wa sori server yii. Tun so pọ lẹẹkan si lati daṣibọọdu Zinn Digital® rẹ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® fesi pẹlu HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ti ge asopọ."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Ti sopọ"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "À ń pọ̀ mọ́ ọn…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Ti sopọ, ṣugbọn nkan kan nilo akiyesi"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Kò sopọ̀"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Ṣíṣe lórí àkáǹtì ara rẹ"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "A kò le ṣe ayẹ̀wò èyí"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Kò sọ ìdí tí kò fi ṣẹlẹ̀ bẹ́ẹ̀. Firanṣẹ́ ìjábọ̀ àyẹ̀wò kan, a ó sì wo o."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Ipò àsopọ̀"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "A yẹàyẹ̀ kẹ́yìn ní %s sẹ́yìn."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ó sí ní taba tuntun)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Fi è ránṣẹ́ sí àtìlẹ́yìn Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Èyí gan-an ni ohun tí a ó fi ránṣẹ́ — kò sí ohun mìíràn, kò sí ohun tí ó fi pamọ́. Àwọn ọrọ̀ aṣínà rẹ, àwọn àmì àṣẹ (tokens), àti àwọn bọ́tìnnì API rẹ kò sí nínú rẹ̀."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Ìròyìn àyẹ̀wò tí a ó ránṣẹ́"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Daako si pátákó ìkọ́pamọ́"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Fi ìròyìn yìí ranṣẹ sí àtìlẹyìn Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "A ṣí tìkẹ́tì àtìlẹ́yìn fún ọ, a sì ń dáhùn nípasẹ̀ ímeèlì. Bí o bá fẹ́ràn kí o má ṣe fi í ránṣẹ́, da ẹ̀kọ́ rẹ̀ sí òkè, kí o sì lẹ́ mọ́ inú tìkẹ́tì fúnra rẹ̀."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Àwọn ẹ̀dà rẹ̀ ti dá"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "A ko le de ọdọ Zinn Digital® lati sevha yii (%s). Da iroyin oke kọ silẹ ki o si ṣi silẹ tiketi kan dipo — ko si ohun ti ko tọ si awọn eto rẹ."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Atileyin Zinn® ti gba iroyin rẹ yoo si fesi nipasẹ imeeli."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Ìtìlẹ́yìn Zinn® ti gba ìròyìn rẹ — ìtọ́kasí %s — yóò sì fèsì nípasẹ̀ ímeèlì."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "O ti fi ọ̀pọ̀lọpọ̀ ìjábọ̀ ránṣẹ́ láàárín àkókò kúkúrú. Dúró fún ìṣẹ́jú mélòó kan kí o sì tún gbiyanju rẹ̀ lẹ́ẹ̀kan si — àwọn tí tẹ́lẹ̀ wọlé dé gan-an ni."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ko le gba ijabọ naa ni bayi — o jẹ opin wa, kii ṣe tirẹ. Tun gbiyanju lẹẹkan si laipẹ, tabi daakọ ijabọ ti o wa loke sinu tikẹti kan."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "A kọ̀ láti gba ìròyìn náà (HTTP %d). Da a sọ́kè kí o sì ṣí tikẹ́tì kan, kí o sì tọka si nọ́mbà yẹn."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +341,255 @@ msgstr "Zinn Hub® — bẹ gba awọn eniyan ti o ṣe eyi fun igbesi aye kan"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọjà àwọn olómìnira kárí ayé wa: wínilójú lórí ẹgbẹ̀rún mẹ́wàá iṣẹ́ tí a ti pèsè sílẹ̀ látọwọ́ àwọn akọ̀wé, apẹ̀rẹ̀, olùgbékalẹ̀ àti àwọn olùgbéga SEO, tàbí kí o gbé iṣẹ́ kalẹ̀ kí o jẹ́ kí wọ́n fún wa ní iye owó."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "O ko ni igbanilaaye lati ṣakoso aaye yii."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Ìgbékáralé Mídíà"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Ṣí dáhùn rẹ ti Zinn Digital®, tan iṣẹ́ yíyọ media kúrò fún ojula yii, ki o si lẹ koodu isopọ ti o fihan ọ. Ko si bọtini iwọle ti o nilo — ojula yii ko ni iru rẹ lailai."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Asiko isopo"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Koodu ajọṣepọ"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Ohun tí a máa kó lọ"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "So pọ̀ mọ́ ojula yii"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Bẹ́ẹ̀ ni a ṣe ń pèsè àwọn ohun أṣọ́ mọ̀jìni"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Ipò"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Gbe ipele kan bẹ́ẹ̀ lọ nísinsìnyí"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Ti a sopọ mọ akọọlẹ Zinn Digital® rẹ"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Awọn media ti a ti gbe lọ tẹlẹ ko ni ipa kankan nipasẹ iyipada kan nibi — adirẹsi rẹ ko yipada."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Ohun elo ti a gba lati"
+msgid "New uploads"
+msgstr "Àwọn ìgbélékè tuntun"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Serva yii (a n tọju awọn ẹ̀dà ti a ti kó kuro, ṣugbọn a ko ti n fi wọn ranṣẹ sibẹsibẹ)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Gbe awọn igbejade tuntun lọ si ibi ipamọ Zinn® bi wọn ṣe de"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Awọn ẹ̀dà abínibí"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Awọn media ti o wa tẹlẹ"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "A yọ kúrò nígbà tí gbogbo ìwọ̀n ti gbe sori ẹ̀rọ náà"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Tẹ̀ síwájú láti máa gbé ibi ìpamọ́ àwọn media tí ó ti wà níhìn-ín lọ"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Ọ̀pọ̀ díẹ̀ àwọn fáìlì ní wákàtí kan, ní ẹ̀yìn-ọ̀gẹ̀dẹ, tí ó ń tẹ̀síwájú láti ibi tí ó ti dúró sí. Dípa pa èyí rẹ́ yóò mú kí ó sinmi; kò sí ohun tí a ti gbé lọ tẹ́lẹ̀ tí yóò padà bọ̀."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Tọju sori sẹ́bà kọ̀ọ̀kan yìí"
+msgid "Files per hourly pass"
+msgstr "Awọn faili fun aago kọọkan"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "Ti a gbe jade di oni"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Gbogbo asomọ jẹ awọn faili pupọ ati pe ọkọọkan jẹ ikojọpọ kikun. Gbe eyi sori olugbalejo iyara kan pẹlu opin ipaniyan oninurere; dinku rẹ ti awọn igbohunsafẹfẹ ba n ge kukuru."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Fi awọn faili silẹ ti o kere ju"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Awọn Kilobytes. Aami kekere kan n sanwo diẹ sii ni asopọ afikun ju bi o ṣe n fipamọ sinu disk, nitorinaa o ṣọwọn lati ni idi lati gbe ọkan lọ. Ṣeto si 0 lati gbe ohun gbogbo lọ."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Má ṣe gbe irú àwọn wọ̀nyí lọ"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Wúlì wúlì nígbà tí plọ́gìn kan bá ka fáìlì kan tààrà láti orí disk — fọ́ọ̀tì kan, PDF kan tí olùṣẹ̀dá fọ́ọ̀mù fi sílẹ̀, fáìlì ohùn tí agbọ̀rọ̀sọ ń wá nínú rẹ̀."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Àwọn méjèèjì yìí ni àwọn tó yẹ kí o ṣọra fún — ka àpèjúwe kọ̀ọ̀kan kí o tó yí i padà."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Fi lati inu ibi ipamọ Zinn® ranṣẹ"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Fi àwọn àdírẹ́sì àwòrán àti fáìlì sí ibi ìpamọ́ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Pa, a ti gbe awọn faili soke ṣugbọn a n pese wọn lati saimi yii — eyiti o jẹ ipo aabo nigba ti o n ṣayẹwo pe ohun gbogbo ti de. Tan, a n pese awọn alejo lati ibi ipamọ ati pe saimi yii yoo da gbigbe ijabọ duro."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Tu aaye diskì náà"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Pa ẹ̀kọ́ agbègbè rẹ rẹ lẹ́ẹ̀kan ti gbogbo iwọn bá ti goke soke"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Èyí ni ojú àìnírọ̀rùn, ó sì tún jẹ́ ìdajì tí kò ṣeé yí padà. Fi í sílẹ̀ títí tí “Serve from Zinn® storage” yóò fi tanlẹ̀ tí o sì ti yẹ̀ ojú-wọ̀ ওয়েব rẹ wò — ẹ̀dà agbègbè rẹ nìkan ni ohun tí ó lè gbà ọ́là bí ohun kan bá kọjá."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Paipa àwọn ẹ̀dà agbègbè rẹ kò ṣeé dá padà láti ojú-ìwé yìí. Kọ́kọ́ ṣe àkójọpọ̀ afẹ́fẹ́ kan — ẹ̀yọ ìsopọ̀ Zinn® Connector lè ṣe èyí fún ọ."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Aaye yii ko ti sopọ mọ ibi ipamọ Zinn® sibẹsibẹ, nitorinaa ko si ibi kankan lati gbe media lọ si."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "Awon afikun %d ti yipada."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Aaye yii ko ni asopọ si ibi ipamọ Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Ko si ohun ti ko tọ — a ko tii so pọ ni. Awọn media duro lori seva yii titi ti a fi ṣe bẹẹ."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Tẹ́ pọ̀, ṣùgbọ́n ìgbélékè tó kẹ́yìn kò yọrí sí rere."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Gbiyanju ìpele kan nísinsìnyí"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Ti sopọ. Gbogbo àfikún ni a ti gbe lọ."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "A ti sopọ. Awọn afikun %1$s ninu %2$s wa sori sevpa yii tunṣe."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "Ti gbe lọ báyìí"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "Awọn faili %1$s, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Ṣì wà lórí sẹ́fà yìí"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s ninu %2$s awọn asomọ"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Àwọn ohun ìgbóhùnsáfẹ́fẹ́ àti ìwé tí ó ti pééjọ́ máa ń lọ ní ìpìlẹ̀, àwọn fáìlì díẹ̀ fún wákàtí kọ̀ọ̀kan, wọ́n sì máa ń bẹ̀rẹ̀ láti ibi tí wọ́n ti dáwọ́ dúró tẹ́lẹ̀. Kò sí ohun tí a ǹ pa rẹ kúrò lórí sẹ́fà (server) yìí àfi tí bóòdù ìṣàkóso rẹ bá sọ bẹ́ẹ̀."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Ti a fi ranṣẹ lati"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Ìṣòro tó kẹ́yìn"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "sẹ́fà ti a yìí"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "So pọ̀ mọ́ ojula yii"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Ṣí daṣibọọdù Zinn Digital® rẹ, lọ si Ibi ipamọ → Ikojọpọ media, ki o si tẹ “Pair a site”. Lẹẹ koodu ti o wa ni isalẹ."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Koodu ajọṣepọ"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Ge aju kuro lori aaye yii"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Àwọn ìgbélékè tuntun yóò wà lórí sínpà (server) yìí. Àwọn ohun amóhùn-máwòrán tí a ti ṣípò tẹ́lẹ̀ yóò máa ṣiṣẹ́ lọ — àdírẹ́sì wọn kì í yí padà."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "O ko ni igbanilaaye lati ṣakoso aaye yii."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Ẹ lẹ́ koodu ìsopọ̀ láti ojú-iṣẹ́ Zinn Digital® rẹ."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Asopọ ti ni ilọsiwaju. Awọn igo tuntun yoo wa ni ipamọ pẹlu Zinn Digital® lati isinsinyi lọ, ati awọn media ti o wa tẹlẹ yoo gbe lọ ni abẹlẹ."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Kò sopọ̀. Àwọn agbègbè rédíò tí a ti kó lọ tẹ́lẹ̀ máa ń ṣiṣẹ́ lọ́wọ́; àwọn ìgbélékè tuntun wà lórí sẹ́fà yìí."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "A kò le ka fáìlì yẹn láti orí sístà yìí, nítorí náà kò sí ohun tí a gbé sórí ẹ̀."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Ojula yìí kò lè ṣe ìgbohunsáfẹ́fẹ́ àgbélékè náà, nítorí náà kò sí ohun tí a ránṣẹ́."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Fáìlì yìí jẹ́ %1$s, bẹ́ẹ̀ sì ni PHP ojula yìí kò ní cURL, nítorí náà èyí tí ó tóbi jù lọ tí ó le fi sọ́kọ̀ ni %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "A ko le pari igbasoke naa."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Ibi ipamọ kọ igbaradi naa (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Àwọn àṣàyàn ẹ̀dá mímú"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ìpìlẹ̀ ìbẹ̀rẹ̀ kan. Ohunkohun tó wà ní ìsàlẹ̀ yoo sọ ọ́ di asan."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Lo awon awco ati iwọn mi"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Fi eyi sile ti a o si lo apẹẹrẹ ti a ti ṣètò tẹlẹ gẹgẹ bi o ṣe wa."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

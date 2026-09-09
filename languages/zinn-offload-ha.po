@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,268 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "An adana shi. Rubuta sabon ƙima don maye gurbin sa."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Tace wannan lissafin..."
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Tace wannan jerin"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Babu abin da ya dace da wannan matatar."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Ƙara safa"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Cire wannan jere"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Cire"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — bayyani"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Bayani Gaba Daya"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Kowane Zinn® plugin a wannan rukunin yanar gizon, da kuma ko yana aiki."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Babu buƙatar haɗin intanet don wannan plugin ɗin."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Bude saituna"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Ba ka da izinin canza waɗannan saitunan."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sassan saituna"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Taimako"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Ajiye canje-canje"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Kayan aiki"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Fitowar da saituna"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Sake wa ga tsari na asali"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Wannan zai dawo da duk wani tsari na wannan plugin zuwa asalin sa. A ci gaba?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Binciken matsala don tallafi"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Shigo da fayil ɗin saiti"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Shigo da shi"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Fayilolin da aka fitar ba sa ƙunshe da kalmomin sirri, alamomi (tokens) ko maɓallan API - za ku buƙaci shigar da su sake a sabon shafin."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "An adana saitunan."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Kowane saiti a kan wannan plugin ya dawo zuwa tsohuwar sigarsa."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "An gama."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Wannan aikin ba ya samuwa."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Ba za a iya karanta wannan fayil ɗin ba. Zaɓi fayil ɗin saituna da aka fitar daga wani kari na Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Wannan fayil din yayi girma sosai don ya zama fitar da saituna."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Wannan fayil ɗin ba fitarwa ba ce ta saitunan Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "An fitar da wannan fayil ɗin ne daga wani mabambancin plugin (%s), don haka shigo da shi nan zai adana saitunan da wannan plugin ɗin bai fahimta ba."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "An shigo da saiti %d. Ba a taba shigar da kalmomin sirri da madogaran API a cikin fitarwa ba, don haka a sake shigar da su."
+msgstr[1] "An shigo da saituna %d. Kalmomin sirri da maɓallan API ba sa cikin fitarwa, don haka a sake shigar da su."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® bai dawo da wani alama ba. Ba a canza komai ba a kan wannan shafin."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Ba a iya karanta wannan fayil din daga wannan uwar garken ba, don haka ba a loda komai ba."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Maajiyar ta ki karɓar loda (HTTP %d). Fayil ɗin yana nan a kan wannan sabar."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Wannan shafin ba a haɗa shi da sauke kafofin watsa labarai na Zinn® ba kuma. Sabbin loda za su kasance a kan wannan uwar garken. Haɗa shi kuma daga allon kula na Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ya bayar da martani tare da HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ta cire haɗin."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "An haɗa"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Ana haɗawa..."
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "An haɗa, amma wani abu na buƙatar kulawa"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Ba a haɗa ba"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Ana gudana a kan asusunka"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Ba mu iya bincika wannan ba"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Wannan plugin din bai fadi dalili ba. A tura rahoton bincike kuma za mu duba."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Matsayin haɗi"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "An bincika karshe tun %s."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(yana budewa a sabon shafin)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Aika da wannan zuwa ga goyon bayan Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Wannan shi neini ainihin abin da za a aika — ba komai ba, kuma babu wani abu da aka ɓoye. Kalmomin sirrinka, alamomin shiga da maɓallan API ɗinka ba sucikin sa."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Rahoton binciken da za a aika"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Kwafi zuwa allo"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Aika da wannan rahoton ga goyon bayan Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Muna buɗe tikitin goyon baya a gare ku kuma mu ba da amsa ta imel. Idan kun fi son kada ku aika da shi, kwafi shi a sama sannan ku liƙa shi a cikin tikiti da kanku."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "An kwafi"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Ba mu iya isa ga Zinn Digital® ba daga wannan uwar garken (%s). Kwafi rahoton da ke sama sannan ka buɗe tikiti maimakon haka — babu abin da ya lalace game da saitunanka."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "An tura rahotonku zuwa ga goyon bayan Zinn® kuma za su ba da amsa ta imel."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Taimakon Zinn® ya karɓi rahotonku — lamba ta tunawa %s — kuma zai ba da amsa ta imel."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Ka aika da rahotanni da yawa a cikin dan kankanin lokaci. Jira 'yan mintoci kaɗan sannan ka sake gwadawa — waɗanda suka gabata sun isa."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ta kasa karɓar rahoton a yanzu — wannan matsala ce ta mu, ba ta ku ba. Sake gwadawa nan ba da jimawa ba, ko kuma ku kwafe rahoton da ke sama zuwa cikin wani tikiti."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "An ƙi amincewa da rahoton (HTTP %d). Kwafi shi a sama sannan ka buɗe tikiti, tare da ambaton wannan lamba."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +342,256 @@ msgstr "Zinn Hub® — ka ɗauki ma'aikatan da ke yin wannan a matsayin sana'a"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Kasuwancinmu na masu zaman kansu na duniya: bincika ayyuka sama da 10,000 da aka riga aka shirya daga marubuta, masu zanen kaya, masu haɓakawa da ƙwararrun SEO, ko buga wani aikin kuma bari su yi gwanjo."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Ba ka da izinin sarrafa wannan shafin."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Rabewar Kafofin Watsa Labarai"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Buɗe allon kula na Zinn Digital®, kunna fitar da kafofin watsa labarai na wannan shafin, kumaliƙa lambar haɗin da ta nuna muku. Ba a buƙatar madanni damawa — wannan shafin baya riƙe da shi ko da ya sau ɗaya."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Haɗi"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Lambar haɗawa"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Abin da aka matsar"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Haɗa wannan shafin"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Yadda ake yada kafofin watsa labarai"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Matsayi"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Matsar da wani rukuni yanzu"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Haɗa zuwa ga asusunka na Zinn Digital®"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Wurin da aka riga aka motsa baya shafa shi da wani canji a nan ba — adireshi ba zai canza ba."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Ana fitar da kafofin watsa labarai daga"
+msgid "New uploads"
+msgstr "Sabbin lodawa"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Wannan sabar (ana adana kwafi amma ba a ba da su ba tukuna)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Matsar sabbin abubuwan da aka ɗora zuwa wurin ajiya na Zinn® yayin da suka isa"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Kofe na gida"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Wanzayen kafofin watsa labarai"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "An cire da zarar kowane girman ya loda"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Ci gaba da motsa ɗakin karatu na kafofin watsa labarai da ke nan riga"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Fayiloli kaɗan a cikin awa ɗaya, a bango, suna ci gaba daga inda suka tsaya. Kashe wannan zai dakatar da shi; babu abin da aka riga aka matsar da zai dawo."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "An adana a wannan uwar garken"
+msgid "Files per hourly pass"
+msgstr "Fayiloli a kowane awa"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "An cire kawo yanzu"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Kowanne abin da aka makala fayiloli ne da yawa kuma kowannensu cikakken loda ne. Sanya wannan a kan mai masaukin baki mai sauri tare da iyakar aiwatarwa mai yawa; rage shi idan ana katse hanyoyin."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Bar fayiloli masu ƙanƙanta da"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Iyakokin kilobait. Ƙaramin alama yana kashe kuɗi da yawa a cikin haɗin gwiwa na daban fiye da abin da yake adanawa a cikin diski, saboda haka da wuya a sami dalilin ƙaura ɗaya. Sanya zuwa 0 domin ƙaurar da komai."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Kar a taba matsar da irin waɗannan nau'ikan"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Da amfani lokacin da wani kari yake karanta fayil kai tsaye daga kan diski — wani font, wani PDF da mai ginin fom ke sanya wa hatimi, wani fayil na sauti da wani mai kunna kiɗa ke nema a ciki."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Waɗannan biyun su ne waɗanda ya kamata a yi hankali da su — karanta kowane bayani kafin ka canza shi."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Ača daga ma'ajiyar Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Nuna hotuna da adireshin fayil zuwa wurin ajiyar Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "A kashe, fayilolin sun loda amma har yanzu ana ba da su daga wannan sabar — wanda shine yanayin aminci yayin da kuke bincika komai ya iso. A kunne, ana ba da baƙi daga wurin ajiyewa kuma wannan sabar ta daina ɗaukar zirga-zirgar."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Saki sararin faifai"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Goge kwafin da ke kan kwamfuta da zarar an loda kowane girma"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Wannan ita ce ma'anar saukarwa, kuma ita ce kuma rabin da ba a iya jujjuya shi. Bar shi a kashe har sai \"Serve from Zinn® storage\" ya kunna kuma ka duba shafinka - kwafin na gida shine kawai abin da zai cece ka idan an rasa wani abu."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Ba za a iya dawo da kofe na gida da aka goge ba daga wannan allon. Yi madadin aiki tukuna — Zinn® Connector plugin zai iya yi muku hakan."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Wannan shafin ba a haɗa shi da ajiyar Zinn® ba tukuna, don haka babu inda za a iya matsar da kafofin watsa labarai zuwa gare shi."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "An matso da abin da aka makala %d."
+msgstr[1] "An matsa da abubuwan haɗawa %d."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Wannan shafin ba shi da alaka da ajiyar Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Babu abin da ya faru — kawai ba a haɗa shi ba tukuna. Media ɗin yana zaune a kan wannan sabar har sai an yi hakan."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "An haɗa, amma loda na ƙarshe ya gaza."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Gwada tsari a yanzu"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "An haɗa. An ƙaura da duk abubuwan da aka maƙala."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "An haɗa. %1$s daga cikin abubuwan haɗe-haɗe %2$s suna nan a kan wannan uwar garken."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "An Matsar da Yanzu"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s fayiloli, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Har yanzu a kan wannan uwar garken"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s na %2$s abubuwan da aka makala"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Tsoffin kafofin watsa labarai suna motsawa a baya, fayiloli kaɗan a ɗaya sa'a, kuma suna ci gaba daga inda suka tsaya. Ba a goge komai daga wannan sabar sai dai idan dashboard ɗinku ya faɗi haka."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "An turo daga"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Matsala ta ƙarshe"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "wannan sabar"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Haɗa wannan shafin"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Buɗe kwamitin kulawa na Zinn Digital®, je zuwa Adana → Watsa kafofin watsa labarai, sannan ka danna “Haɗa shafin yanar gizo”. Manna lambar da ke ƙasa."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Lambar haɗawa"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Cire haɗin wannan rukunin yanar gizon"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Sabbin abubuwan da aka loda za su zauna a kan wannan sabar. Watsa labarai da aka riga aka matsar za su ci gaba da aiki - adireshinsu ba ya canzawa."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Ba ka da izinin sarrafa wannan shafin."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Sanya lambar haɗawa daga allon sarrafa ku na Zinn Digital®."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "An haɗa. Sabbin abubuwan da aka loda za a adana su tare da Zinn Digital® tun daga yanzu, kuma kafofin watsa labarai na yanzu za su motsa a baya."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "An cire haɗi. Kafofin watsa labarai da aka riga aka matsar na ci gaba da aiki; sabbin abubuwan da aka loda suna zaune a kan wannan sabar."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Ba a iya karanta wannan fayil din daga wannan uwar garken ba, don haka ba a loda komai ba."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Wannan shafin bai iya watsa abin da aka loda ba, don haka ba a tura komai ba."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Wannan fayil din %1$s ne kuma PHP na wannan shafin ba shi da cURL, don haka mafi girman abin da zai iya lodawa shine %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Ba a iya kammala lodawa ba."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Ajiya ta ki amincewa da loda (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Tsarin salo"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Wuri mai farawa. Duk abin da ke ƙasa ya ɓata shi."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Yi amfani da launuka da girmofi na kaina"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Bar wannan a kashe kuma ana amfani da saitaccen tsari yadda yake ainihi."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

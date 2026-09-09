@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,267 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Đã lưu. Nhập giá trị mới để thay thế."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Lọc danh sách này…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Lọc danh sách này"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Không có kết quả nào khớp với bộ lọc đó."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Thêm hàng"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Xóa hàng này"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Xóa"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — tổng quan"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Mọi plugin Zinn® trên trang web này, và trạng thái hoạt động của chúng."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Không cần kết nối internet cho plugin này."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Mở cài đặt"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Bạn không có quyền thay đổi các cài đặt này."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Phần cài đặt"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Công cụ"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Xuất cài đặt"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Khôi phục về mặc định"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Thao tác này sẽ đưa mọi cài đặt của plugin này về mặc định. Bạn có muốn tiếp tục không?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Chuẩn đoán hỗ trợ"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Nhập tệp cài đặt"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Nhập"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Các tệp đã xuất không bao giờ chứa mật khẩu, mã thông báo hoặc khóa API — bạn sẽ cần nhập lại các thông tin này trên trang web mới."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Đã lưu cài đặt."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Mọi cài đặt trên plugin này đã được khôi phục về mặc định."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Hoàn thành."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Thao tác đó không khả dụng."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Không thể đọc được tệp đó. Hãy chọn một tệp cài đặt đã được xuất từ plugin Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Tệp đó quá lớn để có thể là tệp xuất cài đặt."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Tệp đó không phải là bản xuất cài đặt Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Tệp đó được xuất từ một plugin khác (%s), do đó việc nhập tệp vào đây sẽ lưu trữ các cài đặt mà plugin này không nhận dạng được."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Đã nhập %d cài đặt. Mật khẩu và khóa API không bao giờ có trong tệp xuất, vì vậy vui lòng nhập lại các thông tin đó."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® không trả về một mã thông báo. Không có gì thay đổi trên trang web này."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Không thể đọc tệp đó từ máy chủ này, vì vậy không có gì được tải lên."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Bộ nhớ lưu trữ đã từ chối tệp tải lên (HTTP %d). Tệp vẫn nằm trên máy chủ này."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Trang web này không còn được kết nối với quá trình chuyển tải phương tiện Zinn®. Các tệp tải lên mới sẽ được giữ lại trên máy chủ này. Hãy ghép nối lại trang từ bảng điều khiển Zinn Digital® của bạn."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® đã phản hồi bằng mã HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Đã ngắt kết nối bởi Zinn Digital®."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Đã kết nối"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Đang kết nối…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Đã kết nối, nhưng có vấn đề cần chú ý"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Chưa kết nối"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Đang chạy trên tài khoản của riêng bạn"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Không thể kiểm tra điều này"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Plugin này không nêu rõ lý do. Hãy gửi báo cáo chẩn đoán và chúng tôi sẽ kiểm tra."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Trạng thái kết nối"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Đã kiểm tra lần cuối từ %s trước."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(mở trong tab mới)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Gửi nội dung này tới bộ phận hỗ trợ của Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Chính xác đây là những gì sẽ được gửi đi — không có gì khác và không có gì ẩn giấu. Mật khẩu, mã thông báo (token) và khóa API của bạn không có trong đó."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Báo cáo chẩn đoán sẽ được gửi"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Sao chép vào bảng nhớ tạm"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Gửi báo cáo này đến bộ phận hỗ trợ của Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Chúng tôi mở một phiếu hỗ trợ cho bạn và trả lời qua email. Nếu bạn không muốn gửi phiếu đó, hãy sao chép nội dung ở trên và tự dán vào một phiếu hỗ trợ."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Chúng tôi không thể kết nối với Zinn Digital® từ máy chủ này (%s). Hãy sao chép báo cáo trên và mở một phiếu hỗ trợ — cài đặt của bạn hoàn toàn không có vấn đề gì."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Bộ phận hỗ trợ của Zinn® đã nhận được báo cáo của bạn và sẽ phản hồi qua email."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Hỗ trợ của Zinn® đã nhận được báo cáo của bạn — mã tham chiếu %s — và sẽ phản hồi qua email."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Bạn đã gửi một số báo cáo trong thời gian ngắn. Vui lòng đợi vài phút và thử lại — những báo cáo trước đó đã được gửi đi."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® chưa thể tiếp nhận báo cáo lúc này — sự cố xuất phát từ phía chúng tôi, không phải từ bạn. Vui lòng thử lại sau giây lát hoặc sao chép báo cáo trên vào một phiếu hỗ trợ."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Báo cáo đã bị từ chối (HTTP %d). Hãy sao chép nội dung trên và mở một phiếu hỗ trợ, kèm theo số đó."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +341,255 @@ msgstr "Zinn Hub® — thuê những người làm công việc này để kiế
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Chợ việc tự do toàn cầu của chúng tôi: duyệt qua hơn 10.000 dịch vụ có sẵn từ các nhà văn, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng một dự án và để họ đấu giá."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Bạn không có quyền quản lý trang web này."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Chuyển tải nội dung đa phương tiện"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Mở bảng điều khiển Zinn Digital® của bạn, bật tính năng giảm tải phương tiện cho trang web này và dán mã ghép nối hiển thị trên màn hình. Không cần khóa truy cập — trang web này không bao giờ lưu trữ khóa nào."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Kết nối"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Mã kết nối"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Những gì được chuyển đi"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Kết nối trang web này"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Cách phân phối tệp đa phương tiện"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Trạng thái"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Chuyển một loạt ngay bây giờ"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Đã kết nối với tài khoản Zinn Digital® của bạn"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Tệp phương tiện đã được chuyển đi sẽ không bao giờ bị ảnh hưởng bởi thay đổi ở đây — địa chỉ của tệp không thay đổi."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Phương tiện được phục vụ từ"
+msgid "New uploads"
+msgstr "Tải lên mới"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Máy chủ này (các bản sao đã được giảm tải đang được lưu giữ nhưng chưa được phục vụ)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Chuyển các tệp tải lên mới sang bộ nhớ Zinn® khi chúng đến"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Bản sao lưu cục bộ"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Tệp phương tiện hiện có"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "Đã xóa sau khi tất cả các kích thước đã được tải lên"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Tiếp tục di chuyển thư viện phương tiện đã có ở đây"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Mỗi giờ một vài tệp, chạy ngầm, tiếp tục từ điểm đã dừng. Tắt tính năng này sẽ tạm dừng; không có tệp nào đã chuyển bị hoàn tác."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Được lưu trữ trên máy chủ này"
+msgid "Files per hourly pass"
+msgstr "Tệp cho mỗi lượt theo giờ"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "Đã chuyển bớt cho đến nay"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Mỗi tệp đính kèm gồm nhiều tệp và mỗi tệp là một lần tải lên đầy đủ. Hãy tăng giá trị này trên một máy chủ nhanh có giới hạn thực thi rộng rãi; giảm giá trị này xuống nếu các đợt chạy bị ngắt quãng."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Bỏ qua các tệp nhỏ hơn"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Kilobyte. Một biểu tượng nhỏ tốn nhiều chi phí kết nối hơn là tiết kiệm dung lượng đĩa, vì vậy hiếm khi có lý do để chuyển một biểu tượng đi. Đặt thành 0 để chuyển tất cả."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Không bao giờ di chuyển các loại này"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Hữu ích khi một plugin đọc tệp trực tiếp từ đĩa — phông chữ, tệp PDF do trình tạo biểu mẫu đóng dấu, hoặc tệp âm thanh mà trình phát tìm kiếm bên trong."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Hãy cẩn thận với hai mục này — hãy đọc kỹ từng phần mô tả trước khi thay đổi."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Phục vụ từ bộ nhớ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Trỏ địa chỉ hình ảnh và tệp đến bộ nhớ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Tắt, các tệp được tải lên nhưng vẫn được phục vụ từ máy chủ này — đây là trạng thái an toàn trong khi bạn kiểm tra xem mọi thứ đã đến chưa. Bật, khách truy cập được phục vụ từ bộ lưu trữ và máy chủ này ngừng gánh lưu lượng truy cập."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Giải phóng dung lượng đĩa"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Xóa bản sao cục bộ sau khi tất cả các kích thước đã được tải lên"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Đây là thời điểm giảm tải, và đây cũng là nửa không thể đảo ngược. Hãy tắt tính năng này cho đến khi “Serve from Zinn® storage” được bật và bạn đã kiểm tra trang web của mình — một bản sao cục bộ là điều duy nhất cứu bạn nếu có gì đó bị bỏ sót."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Không thể hoàn tác việc xóa các bản sao cục bộ từ màn hình này. Hãy sao lưu trước — plugin Zinn® Connector có thể giúp bạn làm điều đó."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Trang web này chưa được kết nối với bộ nhớ Zinn® nên không có nơi nào để chuyển phương tiện đến."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "Đã chuyển %d tệp đính kèm."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Trang web này không liên kết với kho lưu trữ Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Không có lỗi gì xảy ra — nội dung này chỉ đơn giản là chưa được ghép nối. Tệp đa phương tiện sẽ được lưu giữ trên máy chủ này cho đến khi được ghép nối."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Đã kết nối, nhưng lần tải lên trước đó đã thất bại."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Thử chạy một loạt ngay"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Đã kết nối. Tất cả tệp đính kèm đã được chuyển."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "Đã kết nối. Còn %1$s trên tổng số %2$s tệp đính kèm vẫn ở trên máy chủ này."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "Đã chuyển đi đến nay"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s tệp, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Vẫn ở trên máy chủ này"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s trên tổng số %2$s tệp đính kèm"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Các tệp phương tiện cũ hơn sẽ được chuyển ở nền, một vài tệp mỗi giờ, và tiếp tục từ vị trí đã dừng. Không có gì bị xóa khỏi máy chủ này trừ khi bảng điều khiển của bạn yêu cầu."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Phục vụ từ"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Vấn đề cuối cùng"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "máy chủ này"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Kết nối trang web này"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Mở bảng điều khiển Zinn Digital® của bạn, đi tới Lưu trữ → Giảm tải phương tiện và nhấn “Ghép nối trang web”. Dán mã dưới đây."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Mã kết nối"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Ngắt kết nối trang web này"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Tệp tải lên mới sẽ ở lại trên máy chủ này. Tệp đa phương tiện đã được chuyển vẫn hoạt động bình thường — địa chỉ của tệp không thay đổi."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Bạn không có quyền quản lý trang web này."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Dán mã ghép nối từ bảng điều khiển Zinn Digital® của bạn."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Đã kết nối. Các tệp tải lên mới sẽ được lưu trữ với Zinn Digital® từ bây giờ và các tệp phương tiện hiện có của bạn sẽ được chuyển trong nền."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Đã ngắt kết nối. Phương tiện đã chuyển tiếp tục hoạt động; các tệp tải lên mới vẫn ở trên máy chủ này."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Không thể đọc tệp đó từ máy chủ này, vì vậy không có gì được tải lên."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Trang web này không thể truyền phát tệp tải lên, do đó không có gì được gửi đi."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Tập tin này là %1$s và PHP của trang web này không có cURL, vì vậy kích thước tải lên lớn nhất có thể là %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Không thể hoàn tất quá trình tải lên."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Lưu trữ đã từ chối tệp tải lên (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Cấu hình giao diện mẫu"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Một điểm khởi đầu. Bất kỳ nội dung nào bên dưới sẽ ghi đè lên nó."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Sử dụng màu sắc và kích thước của riêng tôi"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Tắt tính năng này và cài đặt sẵn sẽ được sử dụng chính xác như nguyên bản."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

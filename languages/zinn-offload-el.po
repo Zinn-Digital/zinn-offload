@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,268 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Αποθηκεύτηκε. Πληκτρολογήστε μια νέα τιμή για να την αντικαταστήσετε."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Φίλτραρε αυτή τη λίστα…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Φιλτράρισμα αυτής της λίστας"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Δεν ταιριάζει τίποτα με αυτό το φίλτρο."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Προσθήκη γραμμής"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Κατάργηση αυτής της γραμμής"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Κατάργηση"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — επισκόπηση"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Κάθε πρόσθετο Zinn® σε αυτόν τον ιστότοπο, και αν λειτουργεί."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Δεν απαιτείται σύνδεση για αυτό το πρόσθετο."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Άνοιγμα ρυθμίσεων"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Δεν έχετε δικαίωμα να αλλάξετε αυτές τις ρυθμίσεις."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Ενότητες ρυθμίσεων"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Εξαγωγή ρυθμίσεων"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις προεπιλογές"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Αυτό θα επαναφέρει όλες τις ρυθμίσεις σε αυτό το πρόσθετο στην προεπιλεγμένη τους κατάσταση. Συνέχεια;"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Διαγνωστικά υποστήριξης"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Εισαγωγή αρχείου ρυθμίσεων"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Τα εξαγόμενα αρχεία δεν περιέχουν ποτέ κωδικούς πρόσβασης, διακριτικά (tokens) ή κλειδιά API· θα χρειαστεί να τα εισαγάγετε ξανά στον νέο ιστότοπο."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Όλες οι ρυθμίσεις σε αυτό το πρόσθετο έχουν επανέλθει στις προεπιλογές τους."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Ολοκληρώθηκε."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Αυτή η ενέργεια δεν είναι διαθέσιμη."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Δεν ήταν δυνατή η ανάγνωση αυτού του αρχείου. Επιλέξτε ένα αρχείο ρυθμίσεων που έχει εξαχθεί από πρόσθετο του Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Αυτό το αρχείο είναι πολύ μεγάλο για να αποτελεί εξαγωγή ρυθμίσεων."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Αυτό το αρχείο δεν είναι μια εξαγωγή ρυθμίσεων του Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Αυτό το αρχείο εξήχθη από διαφορετικό πρόσθετο (%s), οπότε η εισαγωγή του εδώ θα αποθηκεύσει ρυθμίσεις που αυτό το πρόσθετο δεν κατανοεί."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Εισήχθη %d ρύθμιση. Οι κωδικοί πρόσβασης και τα κλειδιά API δεν περιλαμβάνονται ποτέ σε μια εξαγωγή, γι' αυτό καταχωρίστε τα ξανά."
+msgstr[1] "%d ρυθμίσεις εισήχθησαν. Οι κωδικοί πρόσβασης και τα κλειδιά API δεν συμπεριλαμβάνονται ποτέ σε μια εξαγωγή, οπότε εισάγετε τα ξανά."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Η Zinn Digital® δεν επέστρεψε διακριτικό. Τίποτα δεν έχει αλλάξει σε αυτόν τον ιστότοπο."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Αυτό το αρχείο δεν μπόρεσε να διαβάστε από αυτόν τον διακομιστή, επομένως δεν μεταφορτώθηκε τίποτα."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Ο χώρος αποθήκευσης απέρριψε τη μεταφόρτωση (HTTP %d). Το αρχείο βρίσκεται ακόμα σε αυτόν τον διακομιστή."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Αυτός ο ιστότοπος δεν είναι πλέον συνδεδεμένος με τη μεταφόρτωση πολυμέσων Zinn®. Οι νέες μεταφορτώσεις θα παραμείνουν σε αυτόν τον διακομιστή. Αντιστοιχίστε τον ξανά από τον πίνακα εργασιών σας Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® απάντησε με HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Αποσυνδέθηκε από τη Zinn Digital®."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Συνδεδεμένο"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Σύνδεση…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Συνδεδεμένο, αλλά κάτι χρειάζεται προσοχή"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Δεν είναι συνδεδεμένο"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Εκτέλεση στον λογαριασμό σας"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Δεν ήταν δυνατός ο έλεγχος αυτού"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Αυτό το πρόσθετο δεν ανέφερε τον λόγο. Στείλτε μια αναφορά διαγνωστικών και θα το εξετάσουμε."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Κατάσταση σύνδεσης"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Ο τελευταίος έλεγχος έγινε πριν από %s."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Αποστολή στην υποστήριξη της Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Αυτό ακριβώς θα αποσταλεί — τίποτα άλλο και τίποτα κρυφό. Οι κωδικοί πρόσβασης, τα διακριτικά (tokens) και τα κλειδιά API σας δεν περιλαμβάνονται σε αυτό."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Η αναφορά διαγνωστικών που θα αποσταλεί"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Στείλτε αυτήν την αναφορά στην υποστήριξη της Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Ανοίγουμε ένα δελτίο υποστήριξης για εσάς και απαντούμε μέσω email. Εάν προτιμάτε να μην το στείλετε, αντιγράφοντάς το παραπάνω, επικολλάτε το μόνοι σας σε ένα δελτίο."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Αντιγράφηκε"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Δεν ήταν δυνατή η σύνδεση με το Zinn Digital® από αυτόν τον διακομιστή (%s). Αντιγράφηκε η παραπάνω αναφορά και δημιουργήθηκε ένα δελτίο υποστήριξης (ticket) — καμία από τις ρυθμίσεις σας δεν είναι λανθασμένη."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Η υποστήριξη της Zinn® έλαβε την αναφορά σας και θα σας απαντήσει μέσω email."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Η υποστήριξη της Zinn® έλαβε την αναφορά σας — αριθμός αναφοράς %s — και θα απαντήσει μέσω email."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Έχετε στείλει αρκετές αναφορές σε σύντομο χρονικό διάστημα. Περιμένετε λίγα λεπτά και δοκιμάστε ξανά — οι προηγούμενες έχουν παραληφθεί."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Η Zinn Digital® δεν μπόρεσε να αποδεχτεί την αναφορά αυτή τη στιγμή — αυτό οφείλεται σε εμάς, όχι σε εσάς. Δοκιμάστε ξανά σύντομα ή αντιγράψτε την παραπάνω αναφορά σε ένα ticket."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Η αναφορά απορρίφθηκε (HTTP %d). Αντιγράψτε την παραπάνω και ανοίξτε ένα εισιτήριο, αναφέροντας αυτόν τον αριθμό."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +342,256 @@ msgstr "Zinn Hub® — προσλάβετε άτομα που το κάνουν 
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Η παγκόσμια αγορά ανεξάρτητων επαγγελματιών μας: περιηγηθείτε σε περισσότερες από 10.000 έτοιμες υπηρεσίες από συγγραφείς, σχεδιαστές, προγραμματιστές και ειδικούς SEO, ή δημοσιεύστε ένα έργο και αφήστε τους να υποβάλουν προσφορές."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Δεν έχετε δικαιώματα διαχείρισης για αυτόν τον ιστότοπο."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Μεταφόρτωση πολυμέσων"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Ανοίξτε τον πίνακα ελέγχου σας στο Zinn Digital®, ενεργοποιήστε τη μεταφόρτωση πολυμέσων για αυτόν τον ιστότοπο και επικολλήστε τον κωδικό σύζευξης που εμφανίζεται. Δεν απαιτείται κλειδί πρόσβασης — αυτός ο ιστότοπος δεν διαθέτει ποτέ κανένα."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Σύνδεση"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Κωδικός σύζευξης"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Τι μεταφέρεται"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Σύνδεση αυτού του ιστότοπου"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Πώς εξυπηρετούνται τα πολυμέσα"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Κατάσταση"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Μετακίνηση παρτίδας τώρα"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Συνδεδεμένος(-η) με τον λογαριασμό σας στη Zinn Digital®"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Τα αρχεία πολυμέσων που έχουν ήδη μετακινηθεί δεν επηρεάζονται ποτέ από μια αλλαγή εδώ — η διεύθυνσή τους δεν αλλάζει."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Περιεχόμενο που εξυπηρετείται από"
+msgid "New uploads"
+msgstr "Νέες μεταφορτώσεις"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Αυτός ο διακομιστής (διατηρούνται αντίγραφα εκτός φόρτωσης, αλλά δεν εξυπηρετούνται ακόμη)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Μετακίνηση των νέων μεταφορτώσεων στον αποθηκευτικό χώρο Zinn® μόλις φτάνουν"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Τοπικά αντίγραφα"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Υπάρχον πολυμεσικό υλικό"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "Αφαιρείται μόλις ανέβει κάθε μέγεθος"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Συνεχίστε να μετακινείτε τη βιβλιοθήκη πολυμέσων που βρίσκεται ήδη εδώ"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Λίγα αρχεία την ώρα, στο παρασκήνιο, συνεχίζοντας από εκεί που σταμάτησε. Η απενεργοποίηση αυτού το θέτει σε παύση· τίποτα από όσα έχουν ήδη μετακινηθεί δεν επιστρέφει."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Διατηρείται σε αυτόν τον διακομιστή"
+msgid "Files per hourly pass"
+msgstr "Αρχεία ανά ωριαίο πέρασμα"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "Έχουν μεταφορτωθεί μέχρι στιγμής"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Κάθε συνημμένο αποτελείται από πολλά αρχεία και το καθένα αποτελεί μια πλήρη μεταφόρτωση. Αυξήστε το σε έναν γρήγορο διακομιστή με γενναιόδωρο όριο εκτέλεσης· μειώστε το εάν οι διαδικασίες διακόπτονται πρόωρα."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Αφήστε τα αρχεία μικρότερα από"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Kilobytes. Ένα μικροσκοπικό εικονίδιο κοστίζει περισσότερο στην πρόσθετη σύνδεση από ό,τι εξοικονομεί στον δίσκο, επομένως σπάνια υπάρχει λόγος να μετακινηθεί κάποιο. Ορίστε σε 0 για να μετακινήσετε τα πάντα."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Να μη μετακινούνται ποτέ αυτοί οι τύποι"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Χρήσιμο όταν ένα πρόσθετο διαβάζει ένα αρχείο απευθείας από τον δίσκο — μια γραμματοσειρά, ένα PDF που σφραγίζει μια φόρμα, ένα αρχείο ήχου στο οποίο πραγματοποιεί αναζήτηση μια συσκευή αναπαραγωγής."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Αυτά τα δύο θέλουν προσοχή — διαβάστε κάθε περιγραφή πριν την αλλάξετε."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Παράδοση από τον αποθηκευτικό χώρο Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Ανακατεύθυνση διευθύνσεων εικόνων και αρχείων στον αποθηκευτικό χώρο Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Ανενεργό, τα αρχεία έχουν μεταφορτωθεί αλλά εξακολουθούν να εξυπηρετούνται από αυτόν τον διακομιστή — η οποία είναι η ασφαλής κατάσταση ενώ ελέγχετε ότι τα πάντα έχουν φτάσει. Ενεργό, οι επισκέπτες εξυπηρετούνται από τον χώρο αποθήκευσης και αυτός ο διακομιστής σταματά να διαχειρίζεται την κίνηση."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Ελευθερώστε τον χώρο στον δίσκο"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Διαγραφή του τοπικού αντιγράφου μόλις ανέβει κάθε μέγεθος"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Αυτό είναι το σημείο εκφόρτωσης και είναι επίσης το μη αναστρέψιμο ήμισυ. Αφήστε το απενεργοποιημένο μέχρι να ενεργοποιηθεί το «Serve from Zinn® storage» και να έχετε ελέγξει τον ιστότοπό σας — ένα τοπικό αντίγραφο είναι το μόνο πράγμα που σας σώζει εάν κάτι παραλείφθηκε."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Η διαγραφή τοπικών αντιγράφων δεν μπορεί να αναιρεθεί από αυτήν την οθόνη. Δημιουργήστε πρώτα αντίγραφο ασφαλείας — το πρόσθετο Zinn® Connector μπορεί να το κάνει για εσάς."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Αυτός ο ιστότοπος δεν είναι ακόμη συνδεδεμένος στον αποθηκευτικό χώρο Zinn®, επομένως δεν υπάρχει χώρος για τη μεταφορά πολυμέσων."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "Μετακινήθηκε %d συνημμένο."
+msgstr[1] "%d συνημμένα μετακινήθηκαν."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Ατός ο ιστότοπος δεν συνδέεται με την αποθήκευση Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Δεν υπάρχει κάποιο πρόβλημα — απλώς δεν έχει γίνει σύζευξη ακόμα. Τα πολυμέσα παραμένουν σε αυτόν τον διακομιστή μέχρι να γίνει."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Συνδέθηκε, αλλά η τελευταία μεταφόρτωση απέτυχε."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Δοκιμάστε μια παρτίδα τώρα"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Συνδέθηκε. Όλα τα συνημμένα έχουν μετακινηθεί."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "Συνδέθηκε. %1$s από %2$s συνημμένα παραμένουν σε αυτόν τον διακομιστή."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "Μετακινήθηκαν μέχρι στιγμής"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s αρχεία, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Παραμένει σε αυτόν τον διακομιστή"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s από %2$s συνημμένα"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Τα παλαιότερα πολυμέσα μετακινούνται στο παρασκήνιο, μερικά αρχεία την ώρα, και συνεχίζουν από εκεί σταμάτησαν. Τίποτα δεν διαγράφεται από αυτόν τον διακομιστή εκτός αν το αναφέρει ο πίνακας ελέγχου σας."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Εξυπηρετείται από"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Τελευταίο πρόβλημα"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "αυτός ο διακομιστής"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Σύνδεση αυτού του ιστότοπου"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Ανοίξτε τον πίνακα ελέγχου Zinn Digital®, μεταβείτε στην ενότητα Αποθήκευση → Εκφόρτωση πολυμέσων και πατήστε «Σύνδεση ιστότοπου». Επικολλήστε τον παρακάτω κώδικα."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Κωδικός σύζευξης"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Αποσύνδεση αυτού του ιστότοπου"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Οι νέες μεταφορτεύσεις θα παραμείνουν σε αυτόν τον διακομιστή. Τα πολυμέσα που έχουν ήδη μετακινηθεί συνεχίζουν να λειτουργούν — η διεύθυνσή τους δεν αλλάζει."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Δεν έχετε δικαιώματα διαχείρισης για αυτόν τον ιστότοπο."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Επικολλήστε τον κωδικό σύζευξης από τον πίνακα ελέγχου σας στο Zinn Digital®."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Συνδέθηκε. Οι νέες μεταφορτώσεις θα αποθηκεύονται στη Zinn Digital® από εδώ και στο εξής, και τα υπάρχοντα πολυμέσα σας θα μετακινηθούν στο παρασκήνιο."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Αποσυνδέθηκε. Τα αρχεία πολυμέσων που έχουν ήδη μετακινηθεί εξακολουθούν να λειτουργούν· οι νέες μεταφορτεύσεις παραμένουν σε αυτόν τον διακομιστή."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Αυτό το αρχείο δεν μπόρεσε να διαβάστε από αυτόν τον διακομιστή, επομένως δεν μεταφορτώθηκε τίποτα."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Αυτός ο ιστότοπος δεν μπόρεσε να μεταδώσει τη μεταφόρτωση σε ροή, οπότε δεν στάλθηκε τίποτα."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Αυτό το αρχείο είναι %1$s και η PHP αυτού του ιστότοπου δεν διαθέτει cURL, οπότε το μέγιστο μέγεθος μεταφόρτωσης είναι %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Η μεταφόρτωση δεν μπόρεσε να ολοκληρωθεί."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Ο χώρος αποθήκευσης απέρριψε τη μεταφόρτωση (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Πρότυπο στυλ"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Ένα σημείο εκκίνησης. Οτιδήποτε βρίσκεται παρακάτω το υπερισχύει."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Χρήση των δικών μου χρωμάτων και μεγεθών"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Απενεργοποιήστε το και η προεπιλογή θα χρησιμοποιηθεί ακριβώς όπως είναι."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

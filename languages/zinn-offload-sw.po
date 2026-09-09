@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,268 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Imetifadhiwa. Andika thamani mpya ili kuichukua nafasi."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Chuja orodha hii…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Chuja orodha hii"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Hakuna kinacholingana na kichungi hicho."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Ongeza safu"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Ondoa safu hii"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Ondoa"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — muhtasari"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Muhtasari"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Kila plagi ya Zinn® kwenye tovuti hii, na kama inafanya kazi."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Hakuna muunganisho unaohitajika kwa programu-jalizi hii."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Fungua mipangilio"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Huna ruhusa ya kubadilisha mipangilio hii."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Sehemu za mipangilio"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Usaidizi"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Hifadhi mabadiliko"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Zana"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Hamisha mipangilio"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Weka upya kwa chaguo-msingi"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Hii inarejesha kila mpangilio kwenye programu-jalizi hii katika hali yake ya awali. Unataka kuendelea?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Utambuzi wa usaidizi"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Leta faili ya mipangilio"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Ingiza"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Faili zilizohamishwa hazina nywila, tokeni au funguo za API — utahitaji kuingiza hizo tena kwenye tovuti mpya."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Mipangilio imehifadhiwa."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "Kila mpangilio kwenye programu-jalizi hii umerudi kwenye hali yake ya kawaida."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Imekamilika."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Kitendo hicho hakipatikani."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Faili hiyo haikuweza kusomwa. Chochagua faili ya mipangilio iliyosafirishwa kutoka kwa programu jalizi ya Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Faili hiyo ni kubwa mno kuwa usafirishaji wa mipangilio."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Faili hiyo si usafirishaji wa mipangilio ya Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Faili hiyo imesafirishwa nje kutoka kwa programu-jalizi nyingine (%s), kwa hivyo kuleta hapa kutahifadhi mipangilio ambayo programu-jalizi hii haielewi."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "Mpangilio %d umeingizwa. Nywila na funguo za API haziingizwi kamwe kwenye usafirishaji, kwa hivyo weka hizo tena."
+msgstr[1] "Mipangilio %d imeletwa. Nywila na funguo za API haziingizwi kamwe kwenye usafirishaji, kwa hivyo weka hizo tena."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® haikurudisha tokeni. Hakuna kilichobadilishwa kwenye tovuti hii."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Faili hiyo haikuweza kusomwa kutoka kwenye seva hii, kwa hiyo hakuna kilichopakiwa."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "Hifadhi imekataa upakiaji (HTTP %d). Faili bado iko kwenye seva hii."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Tovuti hii haijaunganishwa tena na upakiaji wa media wa Zinn®. Upakiaji mpya utabaki kwenye seva hii. Unganisha tena kutoka kwenye dashibodi yako ya Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® imejibu kwa HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "Imetenganishwa na Zinn Digital®."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Imeunganishwa"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Inaunganisha..."
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Imeunganishwa, lakini kuna jambo linahitaji uangalifu"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Haijaunganishwa"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Inatumia akaunti yako mwenyewe"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Hatukuweza kuangalia hili"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Program-jalizi hii haikusema kwa nini. Tuma ripoti ya uchunguzi nasi tutaiangalia."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Hali ya muunganisho"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Iliangaliwa mwisho %s iliyopita."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(inafungua katika kichupo kipya)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Tuma hii kwa usaidizi wa Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Hiki ndicho kitakachotumwa hasa — hakuna kingine, wala chochote kilichofichwa. Nywila, tokeni na funguo zako za API hazimo ndani yake."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "Ripoti ya uchunguzi itakayotumwa"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Nakili kwenye ubao klipu"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Tuma ripoti hii kwa msaada wa Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Tunakufungulia tiketi ya usaidizi na kukujibu kupitia barua pepe. Ikiwa unapendelea kutoituma, ikili nakala hapo juu na uiandike kwenye tiketi wewe mwenyewe."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Imesnakiliwa"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Hatukuweza kufika Zinn Digital® kutoka kwenye seva hii (%s). Nakili ripoti iliyo hapo juu na ufungue tiketi badala yake — hakuna kilicho sahihi kuhusu mipangilio yako."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "Usaidizi wa Zinn® umepokea ripoti yako na utajibu kupitia barua pepe."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "Usaidizi wa Zinn® una ripoti yako — rejeleo %s — na utajibu kwa barua pepe."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Umetuma ripoti kadhaa kwa muda mfupi. Subiri dakika chache kisha ujaribu tena — zile za awali ziliwasili."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® haikuweza kupokea ripoti hiyo kwa sasa — hilo ni tatizo letu, sio lako. Jaribu tena hivi karibuni, au nakili ripoti iliyo hapo juu kwenye tiketi."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "Ripoti imekataliwa (HTTP %d). Iiga hapo juu na ufungue tikiti, ukitaja nambari hiyo."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +342,256 @@ msgstr "Zinn Hub® — ajiri watu wanaofanya kazi hii kwa maisha yao"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Soko letu la kimataifa la wanafanyakazi huru: vinjari huduma zaidi ya 10,000 zilizotayarishwa tayari kutoka kwa waandishi, wabunifu, wasanidi programu na wataalamu wa SEO, au chapisha mradi na uwaruhusu watoe zabuni."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Huna ruhusa ya kusimamia tovuti hii."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Uhamishaji wa Vyombo vya Habari"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Fungua dashibodi yako ya Zinn Digital®, uwashe upakiaji wa vyombo vya habari kwa tovuti hii, na ubandike msimbo wa uoanishaji unaoonyeshwa. Hakuna ufunguo wa ufikiaji unaohitajika — tovuti hii haishikilii ufunguo wowote kamwe."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Muunganisho"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Msimbo wa kuoanisha"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Kinachohamishwa"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Unganisha tovuti hii"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Jinsi media inavyohudumiwa"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Hali"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Hamisha kundi sasa"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Imeunganishwa na akaunti yako ya Zinn Digital®"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "Vyombo vya habari ambavyo vimeshahamishwa haviathiriwi kamwe na mabadiliko hapa — anwani yake haibadiliki."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Maudhui yanayotolewa kutoka"
+msgid "New uploads"
+msgstr "Vipakia vyenye mpya"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Seva hii (nakala zilizohamishwa zinahifadhiwa, lakini bado hazitolewi)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Hamisha vipakiaji vipya kwenye hifadhi ya Zinn® vinapofika"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Nakala za ndani"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Vyombo vya habari vilivyopo"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "Imeondolewa pindi saizi zote zakapakiwa"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Endelea kuhamisha maktaba ya media ambayo tayari iko hapa"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Faili chache kwa saa, kwa nyuma, kikiendelea pale kilipoishia. Kuzima huku kunasitisha; hakuna kinachohamishwa kinachorudi."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Imetunzwa kwenye seva hii"
+msgid "Files per hourly pass"
+msgstr "Faili kwa kila awamu ya saa"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "Imetolewa kufikia sasa"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Kila kiambatisho kinaundwa na faili kadhaa na kila moja ni upakiaji kamili. Ongeza kiasi hiki kwenye mwenyeji wa kasi mwenye kikomo kikubwa cha utekelezaji; kipunguze ikiwa michakato inakatishwa kabla ya wakati."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Acha faili ambazo ni ndogo kuliko"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Kilobytes. Ikoni ndogo hugharimu zaidi katika muunganisho wa ziada kuliko inavyookoa kwenye diski, kwa hivyo mara chache kuna sababu ya kuhamisha moja. Weka 0 ili kuhamisha kila kitu."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Kamwe usisogeze aina hizi"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Inafaa wakati programu-jalizi inasoma faili moja kwa moja kutoka kwenye diski — fonti, PDF ambayo kijenzi cha fomu kinagonga, faili ya sauti ambayo kichezaji hutafuta ndani yake."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Hizi mbili ndizo za kuwa makini nazo — soma maelezo ya kila moja kabla ya kuibadilisha."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Tumia kutoka kwenye hifadhi ya Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Elekeza anwani za picha na faili kwenye hifadhi ya Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Imezimwa, faili zimepakiwa lakini bado zinatolewa kutoka kwa seva hii — ambayo ndiyo hali salama wakati unakagua kuwa kila kitu kimefika. Imewashwa, wageni wanatolewa kutoka kwa hifadhi na seva hii inaacha kubeba trafiki."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Ongeza nafasi ya diski"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Futa nakala ya eneo hilo pindi kila ukubwa utakapopakiwa"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Hiki ndicho kitovu cha uhamishaji, na pia ni nusu isiyoweza kugeuzwa. Iache ikiwa imezimwa hadi “Serve from Zinn® storage” iwe imewashwa na uwe umehakiki tovuti yako — nakala ya hapa nchini ndiyo kitu pekee kinachokuokoa ikiwa kuna kilichokosekana."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "Kufuta nakala za ndani hakuwezi kutenduliwa kutoka skrini hii. Fanya nakala rudufu kwanza — programu-jalizi ya Zinn® Connector inaweza kukufanyia hilo."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Tovuti hii bado haijaunganishwa na hifadhi ya Zinn®, kwa hiyo hakuna mahali pa kuhamishia maudhui ya media."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "%d kiambatisho kimehamishwa."
+msgstr[1] "Viambatisho %d vimehamishwa."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Tovuti hii haijaunganishwa na hifadhi ya Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Hakuna kinachoharibika — bado haijaunganishwa tu. Faili za media zinabaki kwenye seva hii hadi pale zitakapounganishwa."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Imeunganishwa, lakini upakiaji wa mwisho umeshindwa."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Jaribu kundi sasa"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Imeunganishwa. Kila kiambatisho kimehamishwa."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "Imeunganishwa. Viambatisho %1$s kati ya %2$s bado viko kwenye seva hii."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "Imehamishwa hadi sasa"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "Mafaili ya %1$s, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Bado kwenye seva hii"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "Viambatisho %1$s kati ya %2$s"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "Faili za zamani za media zinasonga nyuma, faili chache kwa saa, na zinaendelea pale zilipoachishwa. Hakuna kinachofutwa kutoka kwa seva hii isipokuwa dashibodi yako iseme hivyo."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Inayotolewa kutoka"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Tatizo la mwisho"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "seva hii"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Unganisha tovuti hii"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Fungua dashibodi yako ya Zinn Digital®, nenda kwenye Hifadhi → Kuhamisha midia, kisha ubonyeze “Oanisha tovuti”. Bandika msimbo ulio hapa chini."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Msimbo wa kuoanisha"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Tenganisha tovuti hii"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Upakiaji mpya utabaki kwenye seva hii. Faili za media ambazo tayari zimehamishwa zitaendelea kufanya kazi — anwani yake haibadiliki."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Huna ruhusa ya kusimamia tovuti hii."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Bandika nambari ya kuoanisha kutoka kwenye dashibodi yako ya Zinn Digital®."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Imeunganishwa. Upakiaji mpya utahifadhiwa na Zinn Digital® kuanzia sasa na kuendelea, na maudhui yako yaliyopo yatahamishwa chinichini."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Imetenganishwa. Faili zilizohamishwa tayari zinaendelea kufanya kazi; faili mpya zinazopakiwa zinabaki kwenye seva hii."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Faili hiyo haikuweza kusomwa kutoka kwenye seva hii, kwa hiyo hakuna kilichopakiwa."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Tovuti hii haikuweza kutiririsha upakiaji huo, kwa hivyo hakuna kilichotumwa."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Faili hili ni %1$s na PHP ya tovuti hii haina cURL, kwa hivyo faili kubwa zaidi inayoweza kupakiwa ni %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "Upakiaji haukuweza kukamilika."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "Hifadhi imekataa upakiaji (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Mtindo uliowekwa awali"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Mahali pa kuanzia. Chochote kilicho hapa chini kinabatilisha hili."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Tumia rangi na saizi zangu mwenyewe"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Acha hii ikiwa imezimwa na mpangilio maalum utatumika jinsi ulivyo."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Media Offload
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-offload
  * Description:       Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress.
- * Version:           1.1.2
+ * Version:           1.2.0
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_OFFLOAD_VERSION', '1.1.2' );
+define( 'ZINN_OFFLOAD_VERSION', '1.2.0' );
 define( 'ZINN_OFFLOAD_FILE', __FILE__ );
 
 /**
@@ -83,22 +83,46 @@ function zinn_offload_api_base(): string {
 }
 
 /**
+ * One offload setting, safe to call from any context.
+ *
+ * ⛔ Reads the plugin's own settings array rather than the framework, so it works on a cron
+ * fire that reaches a worker before the settings page has been declared on `init` — which is
+ * exactly the window in which a sweep decides whether to run at all.
+ *
+ * @param string $key      Setting key.
+ * @param mixed  $fallback Value when the key is absent.
+ * @return mixed
+ */
+function zinn_offload_setting( string $key, $fallback = null ) {
+	$settings = zinn_offload_settings();
+	return array_key_exists( $key, $settings ) ? $settings[ $key ] : $fallback;
+}
+
+/**
  * This site's stored offload settings.
  *
  * @return array<string, mixed> The stored settings, with every key present.
  */
 function zinn_offload_settings(): array {
 	$defaults = array(
-		'token'           => '',
-		'site_id'         => '',
-		'prefix'          => '',
-		'public_base_url' => '',
-		'rewrite_urls'    => false,
-		'delete_local'    => false,
-		'objects'         => 0,
-		'bytes'           => 0,
-		'last_error'      => '',
-		'last_checked'    => 0,
+		'token'               => '',
+		'site_id'             => '',
+		'prefix'              => '',
+		'public_base_url'     => '',
+		'rewrite_urls'        => false,
+		'delete_local'        => false,
+		'objects'             => 0,
+		'bytes'               => 0,
+		'last_error'          => '',
+		'last_checked'        => 0,
+		// ⭐ W41-Q: the customer-facing controls. Declared here as well as on the settings
+		// screen because this function is what every worker reads, and a default that lived
+		// only in the screen's field declarations would be absent everywhere it matters.
+		'offload_new_uploads' => true,
+		'sweep_enabled'       => true,
+		'sweep_batch'         => 10,
+		'min_size_kb'         => 0,
+		'exclude_mime'        => array(),
 	);
 	$stored   = get_option( ZINN_OFFLOAD_OPTION, array() );
 	if ( ! is_array( $stored ) ) {
@@ -117,6 +141,13 @@ function zinn_offload_is_connected(): bool {
 	return '' !== (string) $settings['token'];
 }
 
+// ⛔ The shared settings framework, loaded unconditionally — `::get()` is read on front-end
+// requests and in WP-Cron, not only in wp-admin (§2.38).
+require_once __DIR__ . '/includes/class-zinn-offload-admin-fields.php';
+require_once __DIR__ . '/includes/class-zinn-offload-admin-ui.php';
+require_once __DIR__ . '/includes/class-zinn-offload-connection.php';
+require_once __DIR__ . '/includes/class-zinn-offload-diagnostics.php';
+require_once __DIR__ . '/includes/class-zinn-offload-style-presets.php';
 require_once __DIR__ . '/includes/class-zinn-offload-client.php';
 require_once __DIR__ . '/includes/class-zinn-offload-uploader.php';
 require_once __DIR__ . '/includes/class-zinn-offload-rewriter.php';

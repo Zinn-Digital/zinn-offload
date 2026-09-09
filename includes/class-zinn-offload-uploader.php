@@ -70,7 +70,37 @@ class Zinn_Offload_Uploader {
 			return $metadata;
 		}
 
+		// ⛔⛔ THE CUSTOMER'S CHOICES ARE READ HERE, ON THE UPLOAD THEY GOVERN. A switch that
+		// is only stored is the placeholder §2.41 forbids, and it is worse than an absent
+		// one: the customer believes new uploads have stopped moving when they have not.
+		if ( ! zinn_offload_setting( 'offload_new_uploads', true ) ) {
+			return $metadata;
+		}
+
+		$excluded = (array) zinn_offload_setting( 'exclude_mime', array() );
+		if ( array() !== $excluded ) {
+			$mime = (string) get_post_mime_type( (int) $attachment_id );
+			if ( '' !== $mime && in_array( $mime, array_map( 'strval', $excluded ), true ) ) {
+				return $metadata;
+			}
+		}
+
 		$files = $this->files_for( $metadata, (int) $attachment_id );
+
+		// ⛔ Applied per FILE, not per attachment: a 3 MB original and its 2 KB thumbnail are
+		// different decisions, and moving the thumbnail costs more in the extra connection
+		// than it saves in disk. The original is what the floor is really about.
+		$floor_kb = (int) zinn_offload_setting( 'min_size_kb', 0 );
+		if ( $floor_kb > 0 ) {
+			$files = array_filter(
+				$files,
+				static function ( $path ) use ( $floor_kb ): bool {
+					$size = (int) @filesize( (string) $path ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- a missing generated size is not an error worth a warning in a log; it simply is not offloaded.
+					return $size >= $floor_kb * KB_IN_BYTES;
+				}
+			);
+		}
+
 		if ( array() === $files ) {
 			return $metadata;
 		}

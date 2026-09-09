@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,268 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "Tárolva. Írjon be egy új értéket a lecseréléséhez."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "Lista szűrése…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "Lista szűrése"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "Nincs a szűrőnek megfelelő találat."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "Sor hozzáadása"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "Sor eltávolítása"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "Törlés"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® – áttekintés"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "Áttekintés"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "Minden Zinn® bővítmény ezen a webhelyen, és hogy működik-e."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "Ehhez a bővítményhez nincs szükség kapcsolatra."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "Beállítások megnyitása"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "Nincs jogosultsága a beállítások módosításához."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "Beállítások részei"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "Támogatás"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "Változtatások mentése"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "Eszközök"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "Beállítások exportálása"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "Visszaállítás az alapértelmezettre"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "Ez visszaállítja a bővítmény összes beállítását az alapértelmezettre. Folytatja?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "Diagnosztika a támogatáshoz"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "Beállítási fájl importálása"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "Importálás"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "Az exportált fájlok soha nem tartalmaznak jelszavakat, tokeneket vagy API-kulcsokat – ezeket az új oldalon újra meg kell adnia."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "A bővítmény minden beállítása visszatért az alapértelmezettre."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "Kész."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "Az a művelet nem érhető el."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "Az a fájl nem olvasható. Válasszon ki egy Zinn® bővítményből exportált beállításfájlt."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "Ez a fájl túl nagy ahhoz, hogy beállítások exportálása legyen."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "Az a fájl nem egy Zinn® beállítás-export."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "Az a fájl egy másik bővítményből (%s) lett exportálva, így az ide történő importálás olyan beállításokat mentne el, amelyeket ez a bővítmény nem ismer."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportálásban, ezért ezeket adja meg újra."
+msgstr[1] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportálásban, ezért ezeket adja meg újra."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "A Zinn Digital® nem adott vissza tokent. Semmi sem változott ezen a webhelyen."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "Ezt a fájlt nem lehetett beolvasni erről a szerverről, így semmi sem lett feltöltve."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "A tároló elutasította a feltöltést (HTTP %d). A fájl továbbra is ezen a szerveren van."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ez a webhely már nincs kapcsolatban a Zinn® média-tehermentesítéssel. Az új feltöltések ezen a szerveren maradnak. Párosítsa újra a Zinn Digital® irányítópultjáról."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "A(z) Zinn Digital® HTTP %d státuszkóddal válaszolt."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "A Zinn Digital® által leválasztva."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "Kapcsolódva"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "Kapcsolódás…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "Kapcsolódva, de valami figyelmet igényel"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "Nincs csatlakoztatva"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "Saját fiókon futtatva"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "Ezt nem tudtuk ellenőrizni"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "Ez a bővítmény nem indokolta meg az okot. Küldjön be egy diagnosztikai jelentést, és mi megvizsgáljuk."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "Kapcsolati állapot"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Legutóbb ellenőrizve: %s ezelőtt."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "Küldje el ezt a Zinn® ügyfélszolgálatnak"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "Pontosan ez kerül elküldésre – semmi más, és semmi rejtett dolog. A jelszavai, tokenjei és API-kulcsai nincsenek benne."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "A diagnosztikai jelentés, amelyet elküldünk"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "Másolás a vágólapra"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "Küldje el ezt a jelentést a Zinn® ügyfélszolgálatnak"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "Nyitunk egy támogatási jegyet az Ön számára, és e-mailben válaszolunk. Ha inkább nem küldi el, másolja ki a fentieket, és illessze be saját maga egy jegybe."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "Másolva"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "Nem sikerült elérnünk a Zinn Digital® szolgáltatást erről a szerverről (%s). Másolja ki a fenti jelentést, és nyisson helyette egy hibajegyet — a beállításaival minden rendben van."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "A Zinn® támogatási csapata megkapta a jelentését, és elemben fog válaszolni."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "A Zinn® ügyfélszolgálat megkapta a bejelentését – a hivatkozási szám: %s –, és e-mailben fog válaszolni."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "Túl rövid idő alatt több jelentést küldött. Várjon néhány percet, és próbálja újra – az előzőek megérkeztek."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "A Zinn Digital® most nem tudta fogadni a jelentést – ez a mi oldalunkon történt hiba, nem az önén. Próbálja meg újra rövidesen, vagy másolja át a fenti jelentést egy hibajegybe."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "A jelentést elutasították (HTTP %d). Másolja ki fentebb, és nyisson meg egy jegyet a szám megadásával."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +342,256 @@ msgstr "Zinn Hub® — béreljen fel embereket, akik ezt hivatásszerűen csiná
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Globális szabadúszó piacunk: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy tegyen közzé egy projektet, és hagyja, hogy ajánlatot tegyenek."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "Nincs jogosultsága a webhely kezeléséhez."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "Média áthelyezés"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "Nyissa meg a Zinn Digital® vezérlőpultját, kapcsolja be a média-tehermentesítést ehhez a webhelyhez, és illessze be a megjelenő párosítási kódot. Nincs szükség hozzáférési kulcsra – ez a webhely soha nem tárol egyet sem."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "Kapcsolat"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "Párosítási kód"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "Mi kerül átköltöztetésre"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "Webhely összekapcsolása"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "Média kiszolgálása"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "Állapot"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "Kötegelt áthelyezés most"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "Csatlakozva a Zinn Digital® fiókjához"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "A már áthelyezett adathordozókat az itteni módosítás nem érinti – a címe nem változik meg."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "Innen kiszolgált Média"
+msgid "New uploads"
+msgstr "Új feltöltések"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "Ez a szerver (a kiszervezett másolatok megőrzésre kerülnek, de még nincsenek kiszolgálva)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "Az új feltöltéseket érkezésükkor helyezze át a Zinn® tárolóba"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "Helyi másolatok"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "Létező média"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "Eltávolítva, miután minden méret feltöltésre került"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "Tartsa meg a már itt lévő médiatár mozgatását"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "Óránként néhány fájl a háttérben, onnan folytatva, ahol abbahagyta. Ennek kikapcsolása szünetelteti a folyamatot; a már áthelyezett elemek egyike sem kerül vissza."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "Ezen a szerveren megőrizve"
+msgid "Files per hourly pass"
+msgstr "Fájlok óránkénti futusonként"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "Eddig áttöltve"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "Minden egyes melléklet több fájlból áll, és mindegyik egy teljes feltöltés. Növelje ezt egy gyors, nagy végrehajtási korláttal rendelkező kiszolgálón; csökkentse, ha a műveletek megszakadnak."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "Ennél kisebb fájlok hagyása, mint:"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "Kilobyte. Egy apró ikon többe kerül az extra kapcsolatban, mint amennyit megspórol a lemezen, ezért ritkán van ok arra, hogy áthelyezzünk egyet. Állítsa 0-ra az összes áthelyezéséhez."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "Ezen típusok áthelyezése soha"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "Hasznos, ha egy bővítmény közvetlenül a lemezről olvas be egy fájlt – egy betűtípust, egy PDF-et, amelyet egy űrlapkészítő pecsétel, vagy egy hangfájlt, amelyben egy lejátszó keres."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "Ezzel a kettővel óvatosan kell bánni – minden módosítás előtt olvassa el a leírásukat."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "Kiszolgálás Zinn® tárhelyről"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "Irányítsa a kép- és fájlcímeket a Zinn® tárhelyre"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "Ki, a fájlok fel vannak töltve, de továbbra is erről a szerverről lesznek kiszolgálva – ez a biztonságos állapot, amíg ellenőrzi, hogy minden megérkezett-e. Be, a látogatókat a tárolóból szolgáljuk ki, és ez a szerver leállítja a forgalom kezelését."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "Szabadítson fel lemezterületet"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "Törölje a helyi másolatot, amint az összes méret feltöltődött"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "Ez az áthelyezés lényege, és egyben a vissza nem fordítható fele. Hagyja kikapcsolva mindaddig, amíg a „Kiszolgálás a Zinn® tárolóból” be nincs kapcsolva, és ellenőrizte webhelyét – a helyi másolat az egyetlen dolog, ami megmenti Önt, ha valami elkerülte a figyelmét."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "A helyi másolatok törlése erről a képernyőről nem vonható vissza. Előbb készítsen biztonsági mentést – ebben a Zinn® Connector bővítmény is a segítségére lehet."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "Ez az oldal még nincs összekapcsolva a(z) Zinn® tárhellyel, így nincs hová áthelyezni a médiát."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "%d melléklet áthelyezve."
+msgstr[1] "%d melléklet áthelyezve."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "Ez a webhely nem kapcsolódik a Zinn® tárolóhoz."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "Nincs hiba – egyszerűen még nem lett párosítva. A média ezen a szerveren marad, amíg ez meg nem történik."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "Kapcsolódva, de az utolsó feltöltés nem sikerült."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "Próbáljon ki egy kötegelt folyamatot most"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "Csatlakoztatva. Minden melléklet át lett helyezve."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "Kapcsolódva. %1$s / %2$s csatolmány továbbra is ezen a szerveren."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "Eddig átmozgatva"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s fájl, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "Még ezen a szerveren"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s / %2$s melléklet"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "A régebbi médiafájlok a háttérben mozognak, óránként néhány darab, és ott folytatják, ahol abbahagyták. Erről a szerverről semmit sem törölünk, hacsak a vezérlőpultja másként nem rendelkezik."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "Kiszolgálva innen"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "Utolsó probléma"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "ez a szerver"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "Webhely összekapcsolása"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "Nyissa meg a Zinn Digital® irányítópultját, lépjen a Tárhely → Média áthelyezése menüpontra, és kattintson a „Webhely párosítása” gombra. Illessze be az alábbi kódot."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "Párosítási kód"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "Webhely leválasztása"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "Az új feltöltések ezen a szerveren maradnak. A már áthelyezett média továbbra is működik – a címe nem változik."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "Nincs jogosultsága a webhely kezeléséhez."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "Illessze be a párosítási kódot a Zinn Digital® vezérlőpultjáról."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "Csatlakoztatva. Az új feltöltések mostantól a Zinn Digital® rendszerében lesznek tárolva, a meglévő médiaállományai pedig a háttérben fognak átkerülni."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "Kapcsolat megszakítva. A már áthelyezett média továbbra is működik; az új feltöltések ezen a szerveren maradnak."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "Ezt a fájlt nem lehetett beolvasni erről a szerverről, így semmi sem lett feltöltve."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "Ez a webhely nem tudta streamelni a feltöltést, így semmi sem lett elküldve."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "Ez a fájl %1$s méretű, és ezen a webhelyen a PHP nem tartalmaz cURL-t, így a feltölthető legnagyobb méret %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "A feltöltést nem sikerült befejezni."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "A tárhely elutasította a feltöltést (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "Stíluselőbeállítás"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "Kezdőpont. Bármi, ami alatta van, felülbírálja."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "Használjam a saját színeimet és méreteimet"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "Hagyja ezt kikapcsolva, és az előbeállítás pontosan a jelenlegi formájában lesz felhasználva."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

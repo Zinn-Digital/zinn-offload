@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,267 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "จัดเก็บแล้ว พิมพ์ค่าใหม่เพื่อแทนที่"
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "กรองรายการนี้…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "กรองรายการนี้"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "ไม่มีรายการใดที่ตรงกับตัวกรองนั้น"
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "เพิ่มแถว"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "นำแถวนี้ออก"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "นำออก"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — ภาพรวม"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "ภาพรวม"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "ปลั๊กอิน Zinn® ทุกตัวบนเว็บไซต์นี้ และสถานะการทำงาน"
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ปลั๊กอินนี้ไม่ต้องเชื่อมต่ออินเทอร์เน็ต"
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "เปิดการตั้งค่า"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "คุณไม่มีสิทธิ์ในการเปลี่ยนการตั้งค่าเหล่านี้"
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "หมวดหมู่การตั้งค่า"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "ฝ่ายสนับสนุน"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "เครื่องมือ"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "ส่งออกการตั้งค่า"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "รีเซ็ตเป็นค่าเริ่มต้น"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "การดำเนินการนี้จะรีเซ็ตการตั้งค่าทั้งหมดของปลั๊กอินนี้กลับเป็นค่าเริ่มต้น ต้องการดำเนินการต่อหรือไม่"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "การวินิจฉัยปัญหาสำหรับฝ่ายสนับสนุน"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "นำเข้าไฟล์การตั้งค่า"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "นำเข้า"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ไฟล์ที่ส่งออกจะไม่เคยมีรหัสผ่าน โทเค็น หรือ API key คุณจะต้องป้อนข้อมูลเหล่านั้นอีกครั้งบนเว็บไซต์ใหม่"
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "บันทึกการตั้งค่าแล้ว"
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "ทุกการตั้งค่าในปลั๊กอินนี้กลับสู่ค่าเริ่มต้นแล้ว"
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "เสร็จสิ้น"
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "การกระทำดังกล่าวไม่สามารถใช้งานได้"
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "ไม่สามารถอ่านไฟล์ดังกล่าวได้ โปรดเลือกไฟล์การตั้งค่าที่ส่งออกจากปลั๊กอิน Zinn®"
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ไฟล์นั้นมีขนาดใหญ่เกินกว่าจะเป็นการส่งออกการตั้งค่า"
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ไฟล์ดังกล่าวไม่ใช่การส่งออกการตั้งค่า Zinn®"
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ไฟล์ดังกล่าวถูกส่งออกจากปลั๊กอินอื่น (%s) การนำเข้าที่นี่จึงเป็นการบันทึกการตั้งค่าที่ปลั๊กอินนี้ไม่รู้จัก"
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "นำเข้าการตั้งค่า %d รายการแล้ว รหัสผ่านและคีย์ API จะไม่ถูกรวมอยู่ในการส่งออก ดังนั้นโปรดป้อนใหม่อีกครั้ง"
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ไม่ส่งโทเค็นกลับมา ไม่มีอะไรเปลี่ยนแปลงบนเว็บไซต์นี้"
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "ไม่สามารถอ่านไฟล์ดังกล่าวจากเซิร์ฟเวอร์นี้ได้ จึงไม่มีการอัปโหลดสิ่งใด"
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "พื้นที่จัดเก็บข้อมูลปฏิเสธการอัปโหลด (HTTP %d) ไฟล์ยังคงอยู่บนเซิร์ฟเวอร์นี้"
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "เว็บไซต์นี้ไม่ได้เชื่อมต่อกับการถ่ายโอนสื่อของ Zinn® อีกต่อไป การอัปโหลดใหม่จะยังคงอยู่บนเซิร์ฟเวอร์นี้ เชื่อมต่อใหม่อีกครั้งจากแดชบอร์ด Zinn Digital® ของคุณ"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ตอบกลับด้วย HTTP %d"
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "ถูกตัดการเชื่อมต่อโดย Zinn Digital®"
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "กำลังเชื่อมต่อ…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "เชื่อมต่อแล้ว แต่มีบางสิ่งที่ต้องได้รับการตรวจสอบ"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "ยังไม่ได้เชื่อมต่อ"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "ทำงานบนบัญชีของคุณเอง"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "เราไม่สามารถตรวจสอบสิ่งนี้ได้"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ปลั๊กอินนี้ไม่ได้ระบุสาเหตุ ส่งรายงานการวินิจฉัยแล้วเราจะตรวจสอบให้"
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "สถานะการเชื่อมต่อ"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "ตรวจสอบครั้งล่าสุดเมื่อ %s ที่แล้ว"
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(เปิดในแท็บใหม่)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "ส่งข้อมูลนี้ไปยังฝ่ายสนับสนุนของ Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "นี่คือสิ่งที่จะถูกส่งไปจริง ๆ โดยไม่มีการเพิ่มเติมหรือซ่อนเร้นใด ๆ รหัสผ่าน โทเค็น และคีย์ API ของคุณจะไม่รวมอยู่ในนี้"
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "รายงานการวินิจฉัยที่จะส่ง"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ด"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ส่งรายงานนี้ไปยังฝ่ายสนับสนุนของ Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "เราจะเปิดตั๋วสนับสนุนให้คุณและตอบกลับทางอีเมล หากคุณไม่ต้องการส่ง ให้คัดลอกข้อความด้านบนไปวางในตั๋วด้วยตนเอง"
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "คัดลอกแล้ว"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "เราไม่สามารถติดต่อ Zinn Digital® จากเซิร์ฟเวอร์นี้ได้ (%s) โปรดคัดลอกรายงานด้านบนและเปิดตั๋วแทน — การตั้งค่าของคุณไม่มีข้อผิดพลาดใด ๆ"
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "ฝ่ายสนับสนุนของ Zinn® ได้รับรายงานของคุณแล้ว และจะตอบกลับทางอีเมล"
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "ฝ่ายสนับสนุนของ Zinn® ได้รับรายงานของคุณแล้ว — หมายเลข้างอิง %s — และจะติดต่อกลับทางอีเมล"
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "คุณได้ส่งรายงานหลายฉบับในเวลาอันสั้น โปรดรอสักครู่แล้วลองใหม่อีกครั้ง รายงานฉบับก่อนหน้าได้ส่งไปถึงแล้ว"
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ไม่สามารถรับรายงานได้ในขณะนี้ ซึ่งเป็นปัญหาจากฝั่งเราไม่ใช่ฝั่งคุณ โปรดลองใหม่อีกครั้งในไม่ช้า หรือคัดลอกรายงานด้านบนลงในตั๋วสนับสนุน"
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "รายงานถูกปฏิเสธ (HTTP %d) โปรดคัดลอกข้อความด้านบนและเปิดตั๋วสนับสนุนพร้อมระบุหมายเลขดังกล่าว"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +341,255 @@ msgstr "Zinn Hub® — จ้างมืออาชีพมาทำหน้
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ตลาดฟรีแลนซ์ระดับโลกของเรา: เรียกดูบริการสำเร็จรูปกว่า 10,000 รายการจากนักเขียน ดีไซน์เนอร์ นักพัฒนา และผู้เชี่ยวชาญด้าน SEO หรือโพสต์โปรเจกต์ของคุณแล้วปล่อยให้พวกเขาเสนอราคา"
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "คุณไม่ได้รับอนุญาตให้จัดการเว็บไซต์นี้"
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "การถ่ายโอนสื่อออกภายนอก"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "เปิดแดชบอร์ด Zinn Digital® ของคุณ เปิดใช้งานการถ่ายโอนสื่อสำหรับเว็บไซต์นี้ และวางรหัสจับคู่ที่แสดงขึ้น ไม่จำเป็นต้องใช้คีย์การเข้าถึง เว็บไซต์นี้ไม่มีคีย์ดังกล่าวอยู่เลย"
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "การเชื่อมต่อ"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "รหัสจับคู่"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "สิ่งที่จะถูกย้าย"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "เชื่อมต่อเว็บไซต์นี้"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "วิธีการให้บริการสื่อ"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "สถานะ"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "ย้ายชุดข้อมูลเดี๋ยวนี้"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "เชื่อมต่อกับบัญชี Zinn Digital® ของคุณแล้ว"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "สื่อที่ย้ายไปแล้วจะไม่ได้รับผลกระทบใดๆ จากการเปลี่ยนแปลงนี้ ซึ่งที่อยู่ของสื่อจะไม่เปลี่ยนแปลง"
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "สื่อที่ให้บริการจาก"
+msgid "New uploads"
+msgstr "อัปโหลดใหม่"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "เซิร์ฟเวอร์นี้ (กำลังเก็บสำเนาแบบออฟโหลดไว้ แต่ยังไม่ได้ให้บริการ)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "ย้ายไฟล์ที่อัปโหลดใหม่ไปยังที่จัดเก็บข้อมูลของ Zinn® ทันทีที่เข้ามา"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "สำเนาในเครื่อง"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "สื่อที่มีอยู่แล้ว"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "นำออกเมื่ออัปโหลดครบทุกขนาดแล้ว"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "ย้ายคลังสื่อที่มีอยู่แล้วต่อไปเรื่อยๆ"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "ประวัติการอัปโหลดไฟล์ครั้งละไม่กี่ไฟล์ ทำงานเบื้องหลัง และเริ่มต่อจากจุดที่ค้างไว้ได้ การปิดฟังก์ชันนี้จะเป็นการหยุดชั่วคราว ไฟล์ที่ย้ายไปแล้วจะไม่ถูกย้ายกลับ"
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "เก็บไว้บนเซิร์ฟเวอร์นี้"
+msgid "Files per hourly pass"
+msgstr "ไฟล์ต่อชั่วโมง"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "ถ่ายโอนออกไปแล้วเท่านี้"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "ไฟล์แนบแต่ละรายการประกอบด้วยหลายไฟล์ และแต่ละไฟล์คือการอัปโหลดเต็มรูปแบบ เพิ่มค่านี้นบนโฮสต์ที่รวดเร็วและมีขีดจำกัดการทำงานที่สูงพอ หรือลดลงหากกระบวนการทำงานถูกตัดตอนก่อนเสร็จสมบูรณ์"
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "ทิ้งไฟล์ที่มีขนาดเล็กกว่า"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "กิโลไบต์ ไอคอนขนาดเล็กมีค่าใช้จ่ายในการเชื่อมต่อส่วนเกินมากกว่าที่ประหยัดพื้นที่ดิสก์ได้ ดังนั้นจึงแทบไม่มีเหตุผลที่จะย้ายไอคอนดังกล่าว ตั้งค่าเป็น 0 เพื่อย้ายทุกอย่าง"
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "ห้ามย้ายประเภทเหล่านี้"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "มีประโยชน์เมื่อปลั๊กอินอ่านไฟล์จากดิสก์โดยตรง เช่น ฟอนต์, PDF ที่ตัวสร้างฟอร์มประทับตรา หรือไฟล์เสียงที่เครื่องเล่นค้นหาข้อมูลภายใน"
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "สองรายการนี้ต้องระมัดระวังเป็นพิเศษ โปรดอ่านคำอธิบายของแต่ละรายการก่อนทำการเปลี่ยนแปลง"
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "ให้บริการจากที่เก็บข้อมูล Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "ชี้ที่อยู่รูปภาพและไฟล์ไปยังที่เก็บข้อมูลของ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "ปิด ไฟล์ถูกอัปโหลดแล้วแต่ยังคงให้บริการจากเซิร์ฟเวอร์นี้ ซึ่งเป็นสถานะที่ปลอดภัยในขณะที่คุณตรวจสอบว่าทุกอย่างมาถึงครบถ้วน เปิด ผู้เยี่ยมชมจะได้รับบริการจากที่เก็บข้อมูล และเซิร์ฟเวอร์นี้จะหยุดรับส่งข้อมูลดังกล่าว"
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "เพิ่มพื้นที่ดิสก์ว่าง"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "ลบสำเนาในเครื่องเมื่ออัปโหลดทุกขนาดเสร็จแล้ว"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "นี่คือจุดของการโอนย้าย และยังเป็นครึ่งหนึ่งที่ไม่สามารถย้อนกลับได้ ปิดไว้จนกว่า “Serve from Zinn® storage” จะเปิดอยู่และคุณได้ตรวจสอบเว็บไซต์ของคุณแล้ว สำเนาในเครื่องเป็นสิ่งเดียวที่จะช่วยคุณได้หากมีสิ่งใดตกหล่น"
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "การลบสำเนาในเครื่องไม่สามารถเลิกทำได้จากหน้านี้ โปรดสำรองข้อมูลก่อน — ปลั๊กอิน Zinn® Connector สามารถช่วยคุณทำเช่นนั้นได้"
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "ไซต์นี้ยังไม่ได้เชื่อมต่อกับที่จัดเก็บข้อมูลของ Zinn® จึงยังไม่มีตำแหน่งสำหรับย้ายสื่อไป"
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "ย้ายไฟล์แนบแล้ว %d ไฟล์"
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "ไซต์นี้ไม่เกี่ยวข้องกับการจัดเก็บข้อมูลของ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "ไม่มีข้อผิดพลาด ระบบเพียงแค่ยังไม่ได้จับคู่เท่านั้น สื่อจะยังคงอยู่บนเซิร์ฟเวอร์นี้จนกว่าจะดำเนินการดังกล่าว"
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "เชื่อมต่อแล้ว แต่อัปโหลดครั้งล่าสุดล้มเหลว"
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "ลองทำแบบกลุ่มตอนนี้เลย"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "เชื่อมต่อแล้ว ย้ายไฟล์แนบทั้งหมดแล้ว"
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "เชื่อมต่อแล้ว ยังมีไฟล์แนบ %1$s จากทั้งหมด %2$s ไฟล์อยู่บนเซิร์ฟเวอร์นี้"
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "ย้ายไปแล้วเท่านี้"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "%1$s ไฟล์, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "ยังอยู่บนเซิร์ฟเวอร์นี้"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s จาก %2$s ไฟล์แนบ"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "สื่อที่เก่ากว่าจะย้ายไปทำงานเบื้องหลัง โดยย้ายไฟล์เพียงไม่กี่ไฟล์ต่อชั่วโมง และดำเนินการต่อจากจุดที่ค้างไว้ จะไม่มีการลบสิ่งใดออกจากเซิร์ฟเวอร์นี้เว้นแต่แดชบอร์ดของคุณจะระบุไว้"
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "ให้บริการจาก"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "ปัญหาล่าสุด"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "เซิร์ฟเวอร์นี้"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "เชื่อมต่อเว็บไซต์นี้"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "เปิดแดชบอร์ด Zinn Digital® ของคุณ ไปที่ ที่จัดเก็บข้อมูล → การถ่ายโอนสื่อ และกด “จับคู่เว็บไซต์” วางโค้ดด้านล่างนี้"
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "รหัสจับคู่"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "ยกเลิกการเชื่อมต่อเว็บไซต์นี้"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "ไฟล์ที่อัปโหลดใหม่จะยังคงอยู่บนเซิร์ฟเวอร์นี้ ส่วนสื่อที่ย้ายไปแล้วจะยังคงใช้งานได้ตามปกติ โดยที่อยู่จะไม่เปลี่ยนแปลง"
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "คุณไม่ได้รับอนุญาตให้จัดการเว็บไซต์นี้"
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "วางรหัสจับคู่จากแดชบอร์ด Zinn Digital® ของคุณ"
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "เชื่อมต่อแล้ว นับจากนี้การอัปโหลดใหม่ทั้งหมดจะถูกจัดเก็บไว้ที่ Zinn Digital® และสื่อที่มีอยู่ของคุณจะถูกย้ายในเบื้องหลัง"
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ตัดการเชื่อมต่อแล้ว ไฟล์ที่มีการย้ายไปแล้วจะยังคงใช้งานได้ต่อ การอัปโหลดใหม่จะยังคงอยู่บนเซิร์ฟเวอร์นี้"
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "ไม่สามารถอ่านไฟล์ดังกล่าวจากเซิร์ฟเวอร์นี้ได้ จึงไม่มีการอัปโหลดสิ่งใด"
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "เว็บไซต์นี้ไม่สามารถสตรีมข้อมูลที่อัปโหลดได้ จึงไม่มีการส่งข้อมูลใดๆ"
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "ไฟล์นี้มีขนาด %1$s และ PHP ของเว็บไซต์นี้ไม่มี cURL ดังนั้นขนาดใหญ่ที่สุดที่อัปโหลดได้คือ %2$s"
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "ไม่สามารถอัปโหลดให้เสร็จสมบูรณ์ได้"
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "พื้นที่จัดเก็บปฏิเสธการอัปโหลด (HTTP %d)"
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "รูปแบบสไตล์ที่ตั้งไว้ล่วงหน้า"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "จุดเริ่มต้น สิ่งที่อยู่ด้านล่างนี้จะแทนที่ค่าดังกล่าว"
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "ใช้สีและขนาดของฉันเอง"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "หากปิดการใช้งานนี้ ชุดค่าปรับแต่งจะถูกใช้ตามเดิมทุกประการ"
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

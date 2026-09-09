@@ -11,9 +11,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-offload.php
-#: includes/class-zinn-offload-settings.php:63
-#: includes/class-zinn-offload-settings.php:64
-#: includes/class-zinn-offload-settings.php:86
 msgid "Zinn® Media Offload"
 msgstr "Zinn® Media Offload"
 
@@ -37,34 +34,267 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
+#: includes/class-zinn-offload-admin-fields.php:575
+msgid "Stored. Type a new value to replace it."
+msgstr "ບັນທຶກແລ້ວ. ພິມຄ່າໃໝ່ເພື່ອປ່ຽນແທນມັນ."
+
+#: includes/class-zinn-offload-admin-fields.php:635
+msgid "Filter this list…"
+msgstr "ກອງລາຍການນີ້…"
+
+#: includes/class-zinn-offload-admin-fields.php:636
+msgid "Filter this list"
+msgstr "ກອງບັນຊີລາຍຊື່ນີ້"
+
+#: includes/class-zinn-offload-admin-fields.php:652
+msgid "Nothing matches that filter."
+msgstr "ບໍ່ມີຫຍັງກົງກັບຕົວກອງນັ້ນ."
+
+#: includes/class-zinn-offload-admin-fields.php:683
+msgid "Add a row"
+msgstr "ເພີ່ມແຖວ"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove this row"
+msgstr "ລຶບແຖວນີ້ອອກ"
+
+#: includes/class-zinn-offload-admin-fields.php:720
+msgid "Remove"
+msgstr "ລົບອອກ"
+
+#: includes/class-zinn-offload-admin-ui.php:264
+#: includes/class-zinn-offload-admin-ui.php:265
+#: includes/class-zinn-offload-admin-ui.php:335
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-offload-admin-ui.php:278
+msgid "Zinn Digital® — overview"
+msgstr "Zinn Digital® — ພາບລວມ"
+
+#: includes/class-zinn-offload-admin-ui.php:279
+msgid "Overview"
+msgstr "ພາບລວມ"
+
+#: includes/class-zinn-offload-admin-ui.php:336
+msgid "Every Zinn® plugin on this site, and whether it is working."
+msgstr "ທຸກໆ ປລັກອິນ Zinn® ຢູ່ເວັບໄຊນີ້, ແລະ ສະຖານະການທຳງານຂອງມັນ."
+
+#: includes/class-zinn-offload-admin-ui.php:352
+msgid "No connection is needed for this plugin."
+msgstr "ບໍ່ຈຳເປັນຕ້ອງມີການເຊື່ອມຕໍ່ສຳລັບປລັກອິນນີ້."
+
+#: includes/class-zinn-offload-admin-ui.php:357
+msgid "Open settings"
+msgstr "ເປີດການຕັ້ງຄ່າ"
+
+#: includes/class-zinn-offload-admin-ui.php:685
+#: includes/class-zinn-offload-admin-ui.php:1248
+msgid "You do not have permission to change these settings."
+msgstr "ທ່ານບໍ່ມີສິດອະນຸຍາດໃຫ້ປ່ຽນແປງການຕັ້ງຄ່າເຫຼົ່ານີ້."
+
+#: includes/class-zinn-offload-admin-ui.php:715
+msgid "Settings sections"
+msgstr "ພາກສ່ວນການຕັ້ງຄ່າ"
+
+#: includes/class-zinn-offload-admin-ui.php:788
+msgid "Support"
+msgstr "ຊັອບພອດ"
+
+#: includes/class-zinn-offload-admin-ui.php:846
+msgid "Save changes"
+msgstr "ບັນທຶກການປ່ຽນແປງ"
+
+#: includes/class-zinn-offload-admin-ui.php:875
+msgid "Tools"
+msgstr "ເຄື່ອງມື"
+
+#: includes/class-zinn-offload-admin-ui.php:890
+msgid "Export settings"
+msgstr "ສົ່ງອອກການຕັ້ງຄ່າ"
+
+#: includes/class-zinn-offload-admin-ui.php:893
+msgid "Reset to defaults"
+msgstr "ຕັ້ງຄ່າຄືນໃໝ່ເປັນຄ່າເລີ່ມຕົ້ນ"
+
+#: includes/class-zinn-offload-admin-ui.php:894
+msgid "This puts every setting on this plugin back to its default. Continue?"
+msgstr "ການ​ກະທຳ​ນີ້​ຈະ​ຣີ​ເຊັດ​ການ​ຕັ້ງ​ຄ່າ​ທັງ​ໝົດ​ຂອງ​ປລັກ​ອິນ​ນີ້​ໃຫ້​ກັບ​ຄືນ​ສູ່​ຄ່າ​ເລີ່ມ​ຕົ້ນ. ດຳ​ເນີນ​ການ​ຕໍ່​ບໍ?"
+
+#: includes/class-zinn-offload-admin-ui.php:901
+msgid "Diagnostics for support"
+msgstr "ການວິນິດໄສສຳລັບຝ່າຍຊ່ວຍເຫຼືອ"
+
+#: includes/class-zinn-offload-admin-ui.php:910
+msgid "Import a settings file"
+msgstr "ນຳເຂົ້າໄຟລ໌ການຕັ້ງຄ່າ"
+
+#: includes/class-zinn-offload-admin-ui.php:912
+msgid "Import"
+msgstr "ນຳເຂົ້າ"
+
+#: includes/class-zinn-offload-admin-ui.php:914
+msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
+msgstr "ໄຟລ໌ທີ່ສົ່ງອອກຈະບໍ່ມີລະຫັດຜ່ານ, ໂທເຄນ ຫຼື ລະຫັດ API — ທ່ານຈະຕ້ອງໃສ່ຂໍ້ມູນເຫຼົ່ານັ້ນອີກຄັ້ງຢູ່ໃນເວັບໄຊໃໝ່."
+
+#: includes/class-zinn-offload-admin-ui.php:1013
+msgid "Settings saved."
+msgstr "ບັນທຶກການຕັ້ງຄ່າແລ້ວ."
+
+#: includes/class-zinn-offload-admin-ui.php:1060
+msgid "Every setting on this plugin is back to its default."
+msgstr "ທຸກໆການຕັ້ງຄ່າໃນປລັກອິນນີ້ໄດ້ກັບຄືນໄປເປັນຄ່າເລີ່ມຕົ້ນແລ້ວ."
+
+#: includes/class-zinn-offload-admin-ui.php:1103
+msgid "Done."
+msgstr "ສຳເລັດແລ້ວ."
+
+#: includes/class-zinn-offload-admin-ui.php:1107
+msgid "That action is not available."
+msgstr "ການກະທຳນັ້ນບໍ່ສາມາດໃຊ້ງານໄດ້."
+
+#: includes/class-zinn-offload-admin-ui.php:1174
+msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
+msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ນັ້ນໄດ້. ກະລຸນາເລືອກໄຟລ໌ການຕັ້ງຄ່າທີ່ສົ່ງອອກມາຈາກປລັກອິນ Zinn®."
+
+#: includes/class-zinn-offload-admin-ui.php:1182
+msgid "That file is too large to be a settings export."
+msgstr "ໄຟລ໌ນັ້ນມີຂະໜາດໃຫຍ່ເກີນໄປທີ່ຈະເປັນການສົ່ງອອກການຕັ້ງຄ່າ."
+
+#: includes/class-zinn-offload-admin-ui.php:1195
+msgid "That file is not a Zinn® settings export."
+msgstr "ໄຟລ໌ນັ້ນບໍ່ແມ່ນໄຟລ໌ສົ່ງອອກການຕັ້ງຄ່າຂອງ Zinn®."
+
+#. translators: %s: the plugin slug the file was exported from.
+#: includes/class-zinn-offload-admin-ui.php:1203
+#, php-format
+msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
+msgstr "ໄຟລ໌ນັ້ນຖືກສົ່ງອອກມາຈາກປລັກອິນອື່ນ (%s), ດັ່ງນັ້ນການນຳເຂົ້າມັນຢູ່ທີ່ນີ້ຈະຈັດເກັບການຕັ້ງຄ່າທີ່ປລັກອິນນີ້ບໍ່ເຂົ້າໃຈ."
+
+#. translators: %d: how many settings were imported.
+#: includes/class-zinn-offload-admin-ui.php:1233
+#, php-format
+msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
+msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
+msgstr[0] "ນໍາເຂົ້າການຕັ້ງຄ່າ %d ລາຍການແລ້ວ. ລະຫັດຜ່ານ ແລະ API keys ຈະບໍ່ຖືກລວມຢູ່ໃນການສົ່ງອອກ, ດັ່ງນັ້ນກະລຸນາໃສ່ພວກມັນຄືນໃໝ່."
+
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ບໍ່ໄດ້ສົ່ງຄືນໂທເຄັນ. ບໍ່ມີຫຍັງຖືກປ່ຽນແປງໃນເວັບໄຊນີ້."
 
-#: includes/class-zinn-offload-client.php:157
-#: includes/class-zinn-offload-client.php:165
-msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ນັ້ນຈາກເຊີບເວີນີ້ໄດ້, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການອັບໂຫຼດຫຍັງເລີຍ."
-
-#. translators: %d: HTTP status code returned by the storage service.
-#: includes/class-zinn-offload-client.php:191
-#, php-format
-msgid "Storage refused the upload (HTTP %d). The file is still on this server."
-msgstr "ບ່ອນຈັດເກັບຂໍ້ມູນປະຕິເສດການອັບໂຫຼດ (HTTP %d). ໄຟລ໌ຍັງຢູ່ໃນເຊີບເວີນີ້."
-
-#: includes/class-zinn-offload-client.php:272
+#: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ເວັບໄຊນີ້ບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບການໂຫຼດສື່ Zinn® ອອກອີກຕໍ່ໄປ. ການອັບໂຫຼດໃໝ່ຈະຢູ່ໃນເຊີບເວີນີ້. ຈັບຄູ່ມັນອີກຄັ້ງຈາກແດດຊ໌ບອດ Zinn Digital® ຂອງທ່ານ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:280
+#: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ຕອບກັບດ້ວຍ HTTP %d."
 
-#: includes/class-zinn-offload-client.php:298
+#: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
 msgstr "ຕັດການເຊື່ອມຕໍ່ແລ້ວໂດຍ Zinn Digital®."
+
+#: includes/class-zinn-offload-connection.php:58
+msgid "Connected"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
+
+#: includes/class-zinn-offload-connection.php:60
+msgid "Connecting…"
+msgstr "ກຳລັງເຊື່ອມຕໍ່…"
+
+#: includes/class-zinn-offload-connection.php:62
+msgid "Connected, but something needs attention"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ, ແຕ່ມີບາງຢ່າງທີ່ຕ້ອງໄດ້ເອົາໃຈໃສ່"
+
+#: includes/class-zinn-offload-connection.php:64
+msgid "Not connected"
+msgstr "ບໍ່ໄດ້ເຊື່ອມຕໍ່"
+
+#: includes/class-zinn-offload-connection.php:66
+msgid "Running on your own account"
+msgstr "ກຳລັງເຮັດວຽກຢູ່ບັນຊີຂອງທ່ານເອງ"
+
+#: includes/class-zinn-offload-connection.php:68
+msgid "We could not check this"
+msgstr "ພວກເຮົາບໍ່ສາມາດກວດສອບສິ່ງນີ້ໄດ້"
+
+#: includes/class-zinn-offload-connection.php:93
+msgid "This plugin did not say why. Send a diagnostics report and we will look."
+msgstr "ປລັກອິນນີ້ບໍ່ໄດ້ລະບຸເຫດຜົນ. ສົ່ງບົດລາຍງານການວິນິດໄສ ແລະພວກເຮົາຈະກວດສອບໃຫ້."
+
+#: includes/class-zinn-offload-connection.php:161
+msgid "Connection status"
+msgstr "ສະຖານະການເຊື່ອມຕໍ່"
+
+#. translators: %s: a human-readable interval such as "5 minutes".
+#: includes/class-zinn-offload-connection.php:189
+#, php-format
+msgid "Last checked %s ago."
+msgstr "ກວດສອບຄັ້ງຫຼ້າສຸດເມື່ອ %s ຜ່ານມາ."
+
+#: includes/class-zinn-offload-connection.php:251
+msgid "(opens in a new tab)"
+msgstr "(ເປີດໃນແທັບໃໝ່)"
+
+#: includes/class-zinn-offload-diagnostics.php:199
+msgid "Send this to Zinn® support"
+msgstr "ສົ່ງສິ່ງນີ້ໄປຫາຝ່າຍສະໜັບສະໜູນຂອງ Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:201
+msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
+msgstr "ນີ້ແມ່ນສິ່ງທີ່ຈະຖືກສົ່ງຢ່າງແນ່ນອນ — ບໍ່ມີສິ່ງອື່ນ ແລະ ບໍ່ມີຫຍັງເຊື່ອງໄວ້. ລະຫັດຜ່ານ, ໂທເຄັນ ແລະ ຄີ API ຂອງທ່ານບໍ່ໄດ້ຢູ່ໃນນັ້ນ."
+
+#: includes/class-zinn-offload-diagnostics.php:204
+msgid "The diagnostics report that will be sent"
+msgstr "ບົດລາຍງານການວິນິດໄສທີ່ຈະຖືກສົ່ງ"
+
+#: includes/class-zinn-offload-diagnostics.php:207
+msgid "Copy to clipboard"
+msgstr "ຄັດລອກໃສ່ຄລິບບອດ"
+
+#: includes/class-zinn-offload-diagnostics.php:214
+msgid "Send this report to Zinn® support"
+msgstr "ສົ່ງບົດລາຍງານນີ້ຫາຝ່າຍສະໜັບສະໜູນຂອງ Zinn®"
+
+#: includes/class-zinn-offload-diagnostics.php:216
+msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
+msgstr "ພວກ​ເຮົາ​ຈະ​ເປີດ​ບັດ​ບັນທຶກ​ການ​ຊ່ວຍ​ເຫຼືອ​ໃຫ້​ທ່ານ ແລະ ຕອບ​ກັບ​ທາງ​ອີເມວ. ຖ້າ​ທ່ານ​ບໍ່​ຕ້ອງການ​ສົ່ງ​ມັນ, ໃຫ້​ສຳ​ເນົາ​ຂໍ້​ຄວາມ​ຂ້າງ​ເທິງ​ແລ້ວ​ໄປ​ວາງ​ລົງ​ໃນ​ບັດ​ບັນທຶກ​ດ້ວຍ​ຕົວ​ທ່ານ​ອງ."
+
+#: includes/class-zinn-offload-diagnostics.php:228
+msgid "Copied"
+msgstr "ຄັດລອກແລ້ວ"
+
+#. translators: %s: the transport error reported by WordPress.
+#: includes/class-zinn-offload-diagnostics.php:274
+#, php-format
+msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
+msgstr "ພວກເຮົາບໍ່ສາມາດເຊື່ອມຕໍ່ຫາ Zinn Digital® ຈາກເຊີເວີນີ້ (%s) ໄດ້. ກະລຸນາສໍາເນົາລາຍງານຢູ່ຂ້າງເທິງນີ້ ແລ້ວເປີດຕticketແທນ — ບໍ່ມີຫຍັງຜິດພາດກ່ຽວກັບການຕັ້ງຄ່າຂອງທ່ານ."
+
+#: includes/class-zinn-offload-diagnostics.php:288
+msgid "Sent. Zinn® support has your report and will reply by email."
+msgstr "ຝ່າຍສະໜັບສະໜູນ Zinn® ໄດ້ຮັບບົດລາຍງານຂອງທ່ານແລ້ວ ແລະ ຈະຕອບກັບທາງອີເມວ."
+
+#. translators: %s: the support reference for the report just sent.
+#: includes/class-zinn-offload-diagnostics.php:291
+#, php-format
+msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
+msgstr "ທີມງານຊ່ວຍເຫຼືອຂອງ Zinn® ໄດ້ຮັບລາຍງານຂອງທ່ານແລ້ວ — ເລກອ້າງອີງ %s — ແລະຈະຕອບກັບທາງອີເມວ."
+
+#: includes/class-zinn-offload-diagnostics.php:300
+msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
+msgstr "ທ່ານໄດ້ສົ່ງລາຍງານຫຼາຍສະບັບໃນເວລາອັນສັ້ນໆ. ກະລຸນາລໍຖ້າຈັກຄູ່ໜ້າ ແລ້ວລອງໃໝ່ອີກຄັ້ງ — ລາຍງານກ່ອນໜ້ານີ້ໄດ້ຖືກສົ່ງຮຽບຮ້ອຍແລ້ວ."
+
+#: includes/class-zinn-offload-diagnostics.php:307
+msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
+msgstr "Zinn Digital® ບໍ່ສາມາດຮັບລາຍງານໄດ້ໃນເວລານີ້ — ນີ້ແມ່ນບັນຫາຈາກທາງເຮົາ, ບໍ່ແມ່ນຈາກທ່ານ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນໄພລຸນ, ຫຼື ສຳເນົາລາຍງານດ້ານເທິງນີ້ໃສ່ໃນຕticket."
+
+#. translators: %d: the HTTP status code the server returned.
+#: includes/class-zinn-offload-diagnostics.php:315
+#, php-format
+msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
+msgstr "ລາຍງານຖືກປະຕິເສດ (HTTP %d). ກະລຸນາສຳເນົາຂໍ້ຄວາມຂ້າງເທິງນີ້ແລ້ວເປີດປີ້ງ (ticket) ໂດຍອ້າງອີງເລກລະຫັດດັ່ງກ່າວ."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -111,99 +341,255 @@ msgstr "Zinn Hub® — ຈ້າງຜູ້ຊ່ຽວຊານທີ່ເຮ
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ຕະຫຼາດອິດສະຫຼະທົ່ວໂລກຂອງພວກເຮົາ: ຄົ້ນຫາການບໍລິການຫຼາຍກວ່າ 10,000 ການບໍລິການທີ່ພ້ອມນຳໃຊ້ຈາກນັກຂຽນ, ນັກອອກແບບ, ນັກພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານດ້ານ SEO, ຫຼື ປະກາດໂຄງການແລ້ວໃຫ້ພວກເຂົາສະເໜີລາຄາ."
 
-#: includes/class-zinn-offload-settings.php:78
-#: includes/class-zinn-offload-settings.php:223
-#: includes/class-zinn-offload-settings.php:256
-msgid "You do not have permission to manage this site."
-msgstr "ທ່ານບໍ່ມີສິດອະນຸຍາດໃຫ້ຈັດການເວັບໄຊນີ້."
+#: includes/class-zinn-offload-settings.php:73
+msgid "Media Offload"
+msgstr "ການໂອນຍ້າຍມີເດຍອອກ"
 
-#: includes/class-zinn-offload-settings.php:93
-msgid "Open your Zinn Digital® dashboard, turn on media offload for this site, and paste the pairing code it shows you. No access key is needed — this site never holds one."
-msgstr "ເປີດແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ, ເປີດໃຊ້ງານການຖ່າຍໂອນສື່ສານສໍາລັບເວັບໄຊນີ້, ແລະວາງລະຫັດຈັບຄູ່ທີ່ມັນສະແດງໃຫ້ທ່ານເຫັນ. ບໍ່ຈໍາເປັນຕ້ອງມີຄີການເຂົ້າເຖິງ — ເວັບໄຊນີ້ບໍ່ເຄີຍມີຄີດັ່ງກ່າວ."
+#: includes/class-zinn-offload-settings.php:79
+#: includes/class-zinn-offload-settings.php:94
+msgid "Connection"
+msgstr "ການເຊື່ອມຕໍ່"
 
-#: includes/class-zinn-offload-settings.php:103
-msgid "Pairing code"
-msgstr "ລະຫັດຈັບຄູ່"
+#: includes/class-zinn-offload-settings.php:83
+#: includes/class-zinn-offload-settings.php:118
+msgid "What gets moved"
+msgstr "ສິ່ງທີ່ຈະຖືກຍ້າຍ"
 
-#: includes/class-zinn-offload-settings.php:114
-msgid "Connect this site"
-msgstr "ເຊື່ອມຕໍ່ເວັບໄຊນີ້"
+#: includes/class-zinn-offload-settings.php:87
+#: includes/class-zinn-offload-settings.php:175
+msgid "How media is served"
+msgstr "ວິທີການໃຫ້ບໍລິການສື່ມວນຊົນ"
 
-#: includes/class-zinn-offload-settings.php:120
-msgid "Status"
-msgstr "ສະຖານະ"
+#: includes/class-zinn-offload-settings.php:101
+msgid "Move a batch now"
+msgstr "ຍ້າຍຊຸດດຽວນີ້"
 
-#: includes/class-zinn-offload-settings.php:121
-msgid "Connected to your Zinn Digital® account"
-msgstr "ເຊື່ອມຕໍ່ກັບບັນຊີ Zinn Digital® ຂອງທ່ານແລ້ວ"
+#: includes/class-zinn-offload-settings.php:119
+msgid "Media already moved is never affected by a change here — its address does not change."
+msgstr "ສື່ທີ່ຖືກຍ້າຍໄປແລ້ວຈະບໍ່ໄດ້ຮັບຜົນກະທົບຈາກການປ່ຽນແປງຢູ່ທີ່ນີ້ — ທີ່ຢູ່ຂອງສື່ດັ່ງກ່າວຈະບໍ່ມີການປ່ຽນແປງ."
 
 #: includes/class-zinn-offload-settings.php:124
-msgid "Media served from"
-msgstr "ສື່ທີ່ໃຫ້ບໍລິການຈາກ"
+msgid "New uploads"
+msgstr "ການອັບໂຫຼດໃໝ່"
 
-#: includes/class-zinn-offload-settings.php:129
-msgid "This server (offloaded copies are being kept, but not served yet)"
-msgstr "ເຄື່ອງແມ່ຂ່າຍນີ້ (ກຳລັງເກັບຮັກສາສຳເນົາທີ່ໂຫຼດອອກແລ້ວ, ແຕ່ຍັງບໍ່ທັນໄດ້ເຜີຍແຜ່ເທື່ອ)"
+#: includes/class-zinn-offload-settings.php:125
+msgid "Move new uploads to Zinn® storage as they arrive"
+msgstr "ຍ້າຍໄຟລ໌ອັບໂຫຼດໃໝ່ໄປຍັງພື້ນທີ່ຈັດເກັບຂໍ້ມູນ Zinn® ເມື່ອມາຮອດ"
 
-#: includes/class-zinn-offload-settings.php:134
-msgid "Local copies"
-msgstr "ສຳເນົາໃນເຄື່ອງ"
+#: includes/class-zinn-offload-settings.php:131
+msgid "Existing media"
+msgstr "ສື່ທີ່ມີຢູ່ແລ້ວ"
 
-#: includes/class-zinn-offload-settings.php:138
-msgid "Removed once every size has uploaded"
-msgstr "ຖືກລົບອອກເມື່ອອັບໂຫຼດຄົບທຸກຂະໜາດແລ້ວ"
+#: includes/class-zinn-offload-settings.php:132
+msgid "Keep moving the media library that is already here"
+msgstr "ຮັກສາການຍ້າຍຄັງມີເດຍທີ່ມີຢູ່ແລ້ວນີ້ຕໍ່ໄປ"
+
+#: includes/class-zinn-offload-settings.php:133
+msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
+msgstr "ໄຟລ໌ຈຳນວນໜ້ອຍໜຶ່ງຕໍ່ຊົ່ວໂມງ, ຢູ່ໃນພື້ນຫຼັງ, ໂດຍສືບຕໍ່ຈາກຈຸດທີ່ຄ້າງໄວ້. ການປິດອັນນີ້ຈະເປັນການຢຸດຊົ່ວຄາວ; ບໍ່ມີໄຟລ໌ໃດທີ່ຍ້າຍໄປແລ້ວຖືກດຶງກັບຄືນ."
 
 #: includes/class-zinn-offload-settings.php:139
-msgid "Kept on this server"
-msgstr "ເກັບຮັກສາໄວ້ໃນເຊີບເວີນີ້"
+msgid "Files per hourly pass"
+msgstr "ໄຟລ໌ຕໍ່ຮອບຕໍ່ຊົ່ວໂມງ"
 
-#: includes/class-zinn-offload-settings.php:144
-msgid "Offloaded so far"
-msgstr "ໂຫຼດອອກແລ້ວຈົນເຖິງປະຈຸບັນ"
+#: includes/class-zinn-offload-settings.php:140
+msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
+msgstr "ໄຟສAttached ແຕ່ລະອັນປະກອບດ້ວຍຫຼາຍໄຟລ໌ ແລະແຕ່ລະໄຟລ໌ແມ່ນການອັບໂຫຼດແບບສົມບູນ. ໃຫ້ເພີ່ມຄ່ານີ້ຂຶ້ນເທິງໂຮສທີ່ໄວທີ່ມີຂີດຈຳກັດການປະຕິບັດງານທີ່ສູງ; ໃຫ້ຫຼຸດລົງຖ້າຫາກວ່າການປະຕິບັດງານຖືກຕັດຂາດກ່ອນກຳນົດ."
+
+#: includes/class-zinn-offload-settings.php:149
+msgid "Leave files smaller than"
+msgstr "ປະຖິ້ມໄຟລ໌ທີ່ມີຂະໜາດນ້ອຍກວ່າ"
+
+#: includes/class-zinn-offload-settings.php:150
+msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
+msgstr "ກິໂລໄບ. ໄອຄອນຂະໜາດນ້ອຍມີຄ່າໃຊ້ຈ່າຍໃນການເຊື່ອມຕໍ່ເພີ່ມເຕີມຫຼາຍກວ່າທີ່ມັນປະຢັດໃນດິສກ໌, ດັ່ງນັ້ນຈຶ່ງມີເຫດຜົນໜ້ອຍຫຼາຍທີ່ຈະຍ້າຍມັນ. ຕັ້ງເປັນ 0 ເພື່ອຍ້າຍທຸກຢ່າງ."
+
+#: includes/class-zinn-offload-settings.php:158
+msgid "Never move these types"
+msgstr "ບໍ່ຕ້ອງຍ້າຍປະເພດເຫຼົ່ານີ້ຈັກເທື່ອ"
+
+#: includes/class-zinn-offload-settings.php:159
+msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
+msgstr "ມີປະໂຫຍດເມື່ອປລັກອິນອ່ານໄຟລ໌ໂດຍກົງຈາກດິດ —ຟອນ, ໄຟລ໌ PDF ທີ່ເຄື່ອງສ້າງແບບຟອມປະທັບຕາ, ໄຟລ໌ສຽງທີ່ເຄື່ອງຫຼິ້ນຊອກຫາຢູ່ພາຍໃນ."
+
+#: includes/class-zinn-offload-settings.php:176
+msgid "These two are the ones to be careful with — read each description before changing it."
+msgstr "ສອງອັນນີ້ແມ່ນອັນທີ່ຕ້ອງລະມັດລະວັງ — ໃຫ້ອ່ານຄຳອະທິບາຍແຕ່ລະອັນກ່ອນທີ່ຈະປ່ຽນແປງມັນ."
+
+#: includes/class-zinn-offload-settings.php:181
+msgid "Serve from Zinn® storage"
+msgstr "ສະໜອງຈາກທີ່ເກັບຂໍ້ມູນ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:182
+msgid "Point image and file addresses at Zinn® storage"
+msgstr "ຊີ້ທີ່ຢູ່ຮູບພາບ ແລະ ໄຟລ໌ໄປຫາພື້ນທີ່ຈັດເກັບຂໍ້ມູນຂອງ Zinn®"
+
+#: includes/class-zinn-offload-settings.php:183
+msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
+msgstr "ປິດ: ໄຟລ໌ຖືກອັບໂຫຼດແລ້ວ ແຕ່ຍັງຄົງໃຫ້ບໍລິການຈາກເຊີເວີນີ້ — ຊຶ່ງເປັນສະຖານະທີ່ປອດໄພໃນຂະນະທີ່ທ່ານກວດສອບວ່າທຸກຢ່າງມາຮອດແລ້ວ. ເປີດ: ຜູ້ເຂົ້າຊົມຈະໄດ້ຮັບການບໍລິການຈາກພື້ນທີ່ຈັດເກັບຂໍ້ມູນ ແລະເຊີເວີນີ້ຈະຢຸດການແບກຮັບທຣາຟຟິກ."
+
+#: includes/class-zinn-offload-settings.php:189
+msgid "Free the disk space"
+msgstr "ປົດປ່ອຍພື້ນທີ່ດິດ"
+
+#: includes/class-zinn-offload-settings.php:190
+msgid "Delete the local copy once every size has uploaded"
+msgstr "ລຶບສຳເນົາຢູ່ໃນເຄື່ອງອອກ ເມື່ອອັບໂຫຼດຄົບທຸກຂະໜາດແລ້ວ"
+
+#: includes/class-zinn-offload-settings.php:191
+msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
+msgstr "ນີ້ແມ່ນຈຸດຂອງການໂຫຼດອອກ, ແລະ ມັນກໍ່ເປັນເຄິ່ງໜຶ່ງທີ່ບໍ່ສາມາດປີ້ນກັບຄືນໄດ້ເຊັ່ນກັນ. ປິດມັນໄວ້ຈົນກວ່າ “Serve from Zinn® storage” ຈະເປີດຢູ່ ແລະ ທ່ານໄດ້ກວດສອບເວັບໄຊຂອງທ່ານແລ້ວ — ສໍາເນົາໃນເຄື່ອງແມ່ນສິ່ງດຽວທີ່ຈະຊ່ວຍທ່ານໄດ້ຖ້າມີບາງສິ່ງບາງຢ່າງຕົກຫຼົ່ນ."
+
+#: includes/class-zinn-offload-settings.php:198
+msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
+msgstr "ການລຶບສຳເນົາໃນເຄື່ອງບໍ່ສາມາດຍົກເລີກໄດ້ຈາກໜ້າຈໍນີ້. ກະລຸນາສຳຮອງຂໍ້ມູນກ່ອນ — ປລັກອິນ Zinn® Connector ສາມາດຊ່ວຍທ່ານເຮັດິ່ງນັ້ນໄດ້."
+
+#: includes/class-zinn-offload-settings.php:233
+msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
+msgstr "ເວັບໄຊນີ້ຍັງບໍ່ທັນໄດ້ເຊື່ອມຕໍ່ກັບບ່ອນຈັດເກັບຂໍ້ມູນ Zinn® ເທື່ອ, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີບ່ອນໃຫ້ຍ້າຍສື່ໄປ."
+
+#. translators: %d: how many attachments were moved.
+#: includes/class-zinn-offload-settings.php:241
+#, php-format
+msgid "%d attachment moved."
+msgid_plural "%d attachments moved."
+msgstr[0] "ຍ້າຍໄຟລ໌ຄັດຕິດ %d ແລ້ວ."
+
+#: includes/class-zinn-offload-settings.php:258
+msgid "This site is not connected to Zinn® storage."
+msgstr "ເວັບໄຊນີ້ບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບການຈັດເກັບຂໍ້ມູນ Zinn®."
+
+#: includes/class-zinn-offload-settings.php:259
+msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
+msgstr "ບໍ່ມີຫຍັງຜິດພາດ — ພຽງແຕ່ມັນຍັງບໍ່ທັນໄດ້ຈັບຄູ່ເທື່ອ. ສື່ຈະຍັງຄົງຢູ່ໃນເຊີບເວີນີ້ຈົນກວ່າຈະມີການຈັບຄູ່."
+
+#: includes/class-zinn-offload-settings.php:269
+msgid "Connected, but the last upload failed."
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ, ແຕ່ການອັບໂຫຼດຄັ້ງຫຼ້າສຸດລົ້ມເຫຼວ."
+
+#: includes/class-zinn-offload-settings.php:272
+msgid "Try a batch now"
+msgstr "ລອງໃຊ້ຊຸດການປະມວນຜົນຕອນນີ້"
+
+#: includes/class-zinn-offload-settings.php:283
+msgid "Connected. Every attachment has been moved."
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ເອກະສານຄັດບວກທັງໝົດໄດ້ຖືກຍ້າຍແລ້ວ."
+
+#. translators: 1: attachments still local, 2: total attachments.
+#: includes/class-zinn-offload-settings.php:286
+#, php-format
+msgid "Connected. %1$s of %2$s attachments still on this server."
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ໄຟລ໌ຄັດຕິດ %1$s ຈາກ %2$s ໄຟລ໌ຍັງຢູ່ໃນເຊີບເວີນີ້."
+
+#: includes/class-zinn-offload-settings.php:310
+msgid "Moved so far"
+msgstr "ຍ້າຍໄປແລ້ວໃນຕອນນີ້"
 
 #. translators: 1: number of files, 2: human-readable size.
-#: includes/class-zinn-offload-settings.php:149
+#: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
 msgstr "ໄຟລ໌ %1$s, %2$s"
 
-#: includes/class-zinn-offload-settings.php:157
+#: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
 msgstr "ຍັງຢູ່ເທິງເຊີບເວີນີ້"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
-#: includes/class-zinn-offload-settings.php:167
+#: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
 msgstr "%1$s ຈາກທັງໝົດ %2$s ເອກະສານຄັດຕິດ"
 
-#: includes/class-zinn-offload-settings.php:174
-msgid "Older media moves in the background, a few files an hour, and picks up where it left off. Nothing is deleted from this server unless your dashboard says so."
-msgstr "ສື່ເກົ່າກວ່າຈະຖືກຍ້າຍຢູ່ເບື້ອງຫຼັງ, ເທື່ອລະບໍ່ກີ່ໄຟລ໌ຕໍ່ຊົ່ວໂມງ, ແລະ ຈະສືບຕໍ່ຈາກບ່ອນທີ່ໄດ້ຄ້າງໄວ້. ຈະບໍ່ມີຫຍັງຖືກລຶບອອກຈາກເຊີເວີນີ້ ເວັ້ນເສຍແຕ່ແຜງຄວບຄຸມຂອງທ່ານຈະລະບຸໄວ້ແນວນັ້ນ."
+#: includes/class-zinn-offload-settings.php:328
+msgid "Served from"
+msgstr "ໃຫ້ບໍລິການຈາກ"
 
-#: includes/class-zinn-offload-settings.php:184
-msgid "Last problem"
-msgstr "ບັນຫາຫຼ້າສຸດ"
+#: includes/class-zinn-offload-settings.php:331
+msgid "this server"
+msgstr "ເຊີບເວີ້ນີ້"
 
-#: includes/class-zinn-offload-settings.php:194
+#: includes/class-zinn-offload-settings.php:352
+#: includes/class-zinn-offload-settings.php:377
+msgid "Connect this site"
+msgstr "ເຊື່ອມຕໍ່ເວັບໄຊນີ້"
+
+#: includes/class-zinn-offload-settings.php:354
+msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
+msgstr "ເປີດແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ, ໄປທີ່ ບ່ອນຈັດເກັບຂໍ້ມູນ → ການໂຫຼດສື່ນອກ, ແລະ ກົດ “ຈັບຄູ່ເວັບໄຊ”. ວາງລະຫັດຂ້າງລຸ່ມນີ້ລົງ."
+
+#: includes/class-zinn-offload-settings.php:362
+msgid "Pairing code"
+msgstr "ລະຫັດຈັບຄູ່"
+
+#: includes/class-zinn-offload-settings.php:380
+#: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
 msgstr "ຕັດການເຊື່ອມຕໍ່ເວັບໄຊນີ້"
 
-#: includes/class-zinn-offload-settings.php:197
+#: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
 msgstr "ການອັບໂຫຼດໃໝ່ຈະຍັງຄົງຢູ່ໃນເຊີເວີນີ້. ມີເດຍທີ່ຖືກຍ້າຍໄປແລ້ວຈະຍັງຄົງໃຊ້ງານໄດ້ຕາມປົກຕິ — ທີ່ຢູ່ຂອງມັນຈະບໍ່ມີການປ່ຽນແປງ."
 
-#: includes/class-zinn-offload-settings.php:231
+#: includes/class-zinn-offload-settings.php:400
+#: includes/class-zinn-offload-settings.php:433
+msgid "You do not have permission to manage this site."
+msgstr "ທ່ານບໍ່ມີສິດອະນຸຍາດໃຫ້ຈັດການເວັບໄຊນີ້."
+
+#: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
 msgstr "ວາງລະຫັດການຈັບຄູ່ຈາກແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ."
 
-#: includes/class-zinn-offload-settings.php:240
+#: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
 msgstr "ເຊື່ອມຕໍ່ແລ້ວ. ການອັບໂຫລດໃໝ່ຈະຖືກຈັດເກັບໄວ້ກັບ Zinn Digital® ນັບແຕ່ຕອນນີ້ເປັນຕົ້ນໄປ, ແລະສື່ທີ່ມີຢູ່ແລ້ວຂອງທ່ານຈະຍ້າຍໄປຢູ່ໃນພື້ນຫຼັງ."
 
-#: includes/class-zinn-offload-settings.php:268
+#: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
 msgstr "ຕັດການເຊື່ອມຕໍ່ແລ້ວ. ສື່ທີ່ຍ້າຍໄປແລ້ວແມ່ນຍັງສືບຕໍ່ເຮັດວຽກຢູ່; ການອັບໂຫຼດໃໝ່ຍັງຄົງຢູ່ໃນເຊີບເວີນີ້."
+
+#: includes/class-zinn-offload-streaming-upload.php:87
+#: includes/class-zinn-offload-streaming-upload.php:145
+#: includes/class-zinn-offload-streaming-upload.php:264
+#: includes/class-zinn-offload-streaming-upload.php:272
+msgid "That file could not be read from this server, so nothing was uploaded."
+msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ນັ້ນຈາກເຊີບເວີນີ້ໄດ້, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີການອັບໂຫຼດຫຍັງເລີຍ."
+
+#: includes/class-zinn-offload-streaming-upload.php:226
+msgid "This site could not stream the upload, so nothing was sent."
+msgstr "ເວັບໄຊນີ້ບໍ່ສາມາດຖ່າຍທອດການອັບໂຫຼດໄດ້, ດັ່ງນັ້ນຈຶ່ງບໍ່ມີຫຍັງຖືກສົ່ງໄປ."
+
+#. translators: 1: file size, 2: the largest size this site can send.
+#: includes/class-zinn-offload-streaming-upload.php:249
+#, php-format
+msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
+msgstr "ໄຟລ໌ນີ້ມີຂະໜາດ %1$s ແລະ PHP ຂອງເວັບໄຊນີ້ບໍ່ມີ cURL, ດັ່ງນັ້ນຂະໜາດໃຫຍ່ສຸດທີ່ສາມາດອັບໂຫຼດໄດ້ແມ່ນ %2$s."
+
+#: includes/class-zinn-offload-streaming-upload.php:331
+msgid "The upload could not be completed."
+msgstr "ບໍ່ສາມາດອັບໂຫຼດໃຫ້ສຳເລັດໄດ້."
+
+#. translators: %d: HTTP status code returned by the storage service.
+#: includes/class-zinn-offload-streaming-upload.php:341
+#, php-format
+msgid "Storage refused the upload (HTTP %d)."
+msgstr "ບ່ອນເກັບຂໍ້ມູນປະຕິເສດການອັບໂຫລດ (HTTP %d)."
+
+#: includes/class-zinn-offload-style-presets.php:109
+msgid "Style preset"
+msgstr "ແບບທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ"
+
+#: includes/class-zinn-offload-style-presets.php:110
+msgid "A starting point. Anything below overrides it."
+msgstr "ຈຸດເລີ່ມຕົ້ນ. ສິ່ງໃດກໍຕາມທີ່ຢູ່ລຸ່ມນີ້ແມ່ນຈະທັບຊ້ອນມັນ."
+
+#: includes/class-zinn-offload-style-presets.php:117
+msgid "Use my own colours and sizes"
+msgstr "ໃຊ້ສີ ແລະ ຂະໜາດຂອງຂ້ອຍເອງ"
+
+#: includes/class-zinn-offload-style-presets.php:118
+msgid "Leave this off and the preset is used exactly as it is."
+msgstr "ປິດອັນນີ້ໄວ້ ແລະ ການຕັ້ງຄ່າລ່ວງໜ້າຈະຖືກໃຊ້ຢ່າງແນ່ນອນຕາມທີ່ມັນເປັນ."
 
 #: includes/class-zinn-offload-updater.php:233
 msgid "See the Zinn Digital® release notes."

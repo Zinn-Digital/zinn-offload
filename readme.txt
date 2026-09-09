@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,11 @@ Instead, you turn media offload on in your Zinn Digital® dashboard, paste a sho
 
 = What it does not do =
 
-* It adds no endpoint, no shortcode and nothing to your public pages.
+* It adds no REST endpoint, no shortcode, no script and no stylesheet.
+* The one thing it does change on a public page is the **address** of an image or file that has
+  been offloaded: `wp_get_attachment_url` and `wp_calculate_image_srcset` are filtered so the
+  markup points at your bucket instead of this server. Nothing is added to the page, and if you
+  turn rewriting off in your dashboard the addresses are left exactly as WordPress wrote them.
 * It never deletes anything from storage. Retention is decided in your dashboard.
 * It does not delete local files after a partial upload — if any size fails, every local copy stays.
 * It has no settings of its own. Which bucket, whether URLs are rewritten and whether local copies are removed are all decided in your Zinn Digital® dashboard, so there is only ever one place an answer lives.
@@ -71,6 +75,12 @@ plugin makes no outbound requests.
 
 Service terms: https://zinndigital.com/legal/terms
 Privacy policy: https://zinndigital.com/legal/privacy
+
+* **Support diagnostics (only when you press send).** If you ask us for help, the plugin can send
+  a support report to `https://api.zinndigital.com/v1/connector/diagnostics`. **You are shown the
+  exact payload first, already redacted, and nothing leaves your site until you press send.**
+  Credentials are excluded by declaration rather than by matching key names, and render as
+  `[not sent — credential]`. The plugin never sends this on its own initiative.
 
 == Translations ==
 
@@ -129,6 +139,12 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.0 =
+Everything about offloading is now yours to set: whether new uploads move, whether the existing library keeps moving and how fast, a minimum file size, file types to leave alone, and whether media is served from storage and the local copy deleted.
+= 1.1.3 =
+* Fixed: uploading a large media file could exhaust PHP's memory. Files are now streamed to storage rather than read into memory first.
+* Corrected the description: the plugin does rewrite media addresses on public pages when you switch rewriting on, which the readme previously denied.
 
 = 1.1.2 =
 * Added: automatic updates from the Zinn Digital® control plane — the same signed, checksum-verified update path the other Zinn® plugins use. Previously a new version could not reach an installed site.

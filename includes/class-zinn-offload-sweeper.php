@@ -45,6 +45,20 @@ class Zinn_Offload_Sweeper {
 	private const BATCH = 10;
 
 	/**
+	 * How many attachments this site moves per pass.
+	 *
+	 * ⛔ Bounded at both ends whatever the stored value says. A `0` would make the sweep a
+	 * no-op that looks configured, and an unbounded number would be a customer typing a
+	 * timeout into their own cron job.
+	 *
+	 * @return int
+	 */
+	private static function batch_size(): int {
+		$size = (int) zinn_offload_setting( 'sweep_batch', self::BATCH );
+		return max( 1, min( 100, $size ) );
+	}
+
+	/**
 	 * The API client.
 	 *
 	 * @var Zinn_Offload_Client
@@ -108,7 +122,15 @@ class Zinn_Offload_Sweeper {
 			return 0;
 		}
 
-		$query = new WP_Query( self::query_args( self::BATCH ) );
+		// ⛔ Read on the JOB, not only when the schedule is set. A customer who pauses the
+		// sweep between two hourly fires must not have one more batch moved — and a cron
+		// event that survives a settings change is the kind of thing that goes unnoticed
+		// for months.
+		if ( ! zinn_offload_setting( 'sweep_enabled', true ) ) {
+			return 0;
+		}
+
+		$query = new WP_Query( self::query_args( self::batch_size() ) );
 		if ( ! $query->have_posts() ) {
 			$this->report();
 			return 0;
