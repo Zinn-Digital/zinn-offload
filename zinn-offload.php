@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Media Offload
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-offload
  * Description:       Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress.
- * Version:           1.2.0
+ * Version:           1.2.1
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_OFFLOAD_VERSION', '1.2.0' );
+define( 'ZINN_OFFLOAD_VERSION', '1.2.1' );
 define( 'ZINN_OFFLOAD_FILE', __FILE__ );
 
 /**
@@ -148,6 +148,11 @@ require_once __DIR__ . '/includes/class-zinn-offload-admin-ui.php';
 require_once __DIR__ . '/includes/class-zinn-offload-connection.php';
 require_once __DIR__ . '/includes/class-zinn-offload-diagnostics.php';
 require_once __DIR__ . '/includes/class-zinn-offload-style-presets.php';
+// ⛔⛔ LOADS BEFORE `client`, AND WITHOUT IT EVERY MEDIA OFFLOAD IS A PHP FATAL.
+// `class-zinn-offload-client.php` calls `Zinn_Offload_Streaming_Upload::put_file()`
+// unguarded; the class shipped in 1.2.0 and was require_once'd by nothing, so the upload
+// path — the plugin's whole purpose — fatalled on every install that had auto-updated.
+require_once __DIR__ . '/includes/class-zinn-offload-streaming-upload.php';
 require_once __DIR__ . '/includes/class-zinn-offload-client.php';
 require_once __DIR__ . '/includes/class-zinn-offload-uploader.php';
 require_once __DIR__ . '/includes/class-zinn-offload-rewriter.php';
