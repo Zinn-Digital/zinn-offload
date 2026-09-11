@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,10 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.2 =
+* Fixed (first shipped in 1.2.1): offloading a file no longer fails with a fatal error. The class that streams uploads was shipped and never loaded.
+* Hardening: a settings rule can no longer be mistaken for a PHP function with the same name. The same shared settings code is what stopped Zinn® Translate saving its settings. Nothing about how this plugin behaves changes.
 
 = 1.2.0 =
 Everything about offloading is now yours to set: whether new uploads move, whether the existing library keeps moving and how fast, a minimum file size, file types to leave alone, and whether media is served from storage and the local copy deleted.
