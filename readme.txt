@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,10 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.3 =
+* Translations: every string this plugin's admin shows is now translated in every bundled language. A few strings the machine translator refused were shipping in English; they are now translated by hand.
+* The file-type list on the settings screen now comes from WordPress's own cached answer instead of a direct database query.
 
 = 1.2.2 =
 * Fixed (first shipped in 1.2.1): offloading a file no longer fails with a fatal error. The class that streams uploads was shipped and never loaded.

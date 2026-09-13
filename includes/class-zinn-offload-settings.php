@@ -210,12 +210,12 @@ class Zinn_Offload_Settings {
 	 * @return array<string, string>
 	 */
 	public static function mime_choices(): array {
-		global $wpdb;
-		$types = $wpdb->get_col(
-			"SELECT DISTINCT post_mime_type FROM {$wpdb->posts} WHERE post_type = 'attachment' AND post_mime_type <> '' ORDER BY post_mime_type"
-		);
-		$out   = array();
-		foreach ( (array) $types as $type ) {
+		// ⭐ Core's own answer to "which MIME types does the media library hold", cached by core —
+		// the same set the direct SELECT DISTINCT returned, without a query this plugin owns.
+		$types = get_available_post_mime_types( 'attachment' );
+		sort( $types );
+		$out = array();
+		foreach ( $types as $type ) {
 			$out[ (string) $type ] = (string) $type;
 		}
 		return $out;

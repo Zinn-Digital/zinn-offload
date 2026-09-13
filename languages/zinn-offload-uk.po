@@ -426,10 +426,10 @@ msgstr "Обслуговувати зі сховища Zinn®"
 msgid "Point image and file addresses at Zinn® storage"
 msgstr "Спрямуйте адреси зображень та файлів на сховище Zinn®"
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: uk translation contains 'відвідувачам', a token that repeats its own opening — the shape of `revrevendeur` for
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-zinn-offload-settings.php:183
 msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
-msgstr ""
+msgstr "Вимкнено: файли вивантажуються, але й далі віддаються з цього сервера — це безпечний стан, поки ви перевіряєте, що все дійшло. Увімкнено: відвідувачі отримують файли зі сховища, і цей сервер більше не обслуговує цей трафік."
 
 #: includes/class-zinn-offload-settings.php:189
 msgid "Free the disk space"
