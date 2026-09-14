@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,6 +139,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.4 =
+* The admin screens' styles and scripts are now enqueued through WordPress rather than printed into the page, so they can be dequeued, deferred or optimised by your site like any other asset — and they still work on a site whose security policy forbids inline code.
 
 = 1.2.3 =
 * Translations: every string this plugin's admin shows is now translated in every bundled language. A few strings the machine translator refused were shipping in English; they are now translated by hand.
