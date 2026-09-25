@@ -34,145 +34,149 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-offload-admin-fields.php:575
+#: includes/class-zinn-offload-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
 msgstr "បានរក្សាទុក។ សូមបញ្ចូលតម្លៃថ្មីដើម្បីជំនួសវា។"
 
-#: includes/class-zinn-offload-admin-fields.php:635
+#: includes/class-zinn-offload-admin-fields.php:640
 msgid "Filter this list…"
 msgstr "ច្រោះបញ្ជីនេះ…"
 
-#: includes/class-zinn-offload-admin-fields.php:636
+#: includes/class-zinn-offload-admin-fields.php:641
 msgid "Filter this list"
 msgstr "ត្រងបញ្ជីនេះ"
 
-#: includes/class-zinn-offload-admin-fields.php:652
+#: includes/class-zinn-offload-admin-fields.php:657
 msgid "Nothing matches that filter."
 msgstr "គ្មានអ្វីដែលត្រូវនឹងតម្រងនោះទេ។"
 
-#: includes/class-zinn-offload-admin-fields.php:683
+#: includes/class-zinn-offload-admin-fields.php:688
 msgid "Add a row"
 msgstr "បន្ថែមជួរដេក"
 
-#: includes/class-zinn-offload-admin-fields.php:720
+#: includes/class-zinn-offload-admin-fields.php:725
 msgid "Remove this row"
 msgstr "លុបជួរនេះចេញ"
 
-#: includes/class-zinn-offload-admin-fields.php:720
+#: includes/class-zinn-offload-admin-fields.php:725
 msgid "Remove"
 msgstr "លុបចេញ"
 
-#: includes/class-zinn-offload-admin-ui.php:264
-#: includes/class-zinn-offload-admin-ui.php:265
-#: includes/class-zinn-offload-admin-ui.php:335
+#: includes/class-zinn-offload-admin-ui.php:280
+#: includes/class-zinn-offload-admin-ui.php:281
+#: includes/class-zinn-offload-admin-ui.php:421
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-offload-admin-ui.php:278
+#: includes/class-zinn-offload-admin-ui.php:294
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-offload-admin-ui.php:279
+#: includes/class-zinn-offload-admin-ui.php:295
 msgid "Overview"
 msgstr "ទិដ្ឋភាពទូទៅ"
 
-#: includes/class-zinn-offload-admin-ui.php:336
+#: includes/class-zinn-offload-admin-ui.php:383
+msgid "Copied"
+msgstr "បានចម្លង"
+
+#: includes/class-zinn-offload-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "រាល់កម្មវិធីជំនួយ Zinn® ទាំងអស់នៅលើគេហទំព័រនេះ និងថាតើវាដំណើរការឬអត់។"
 
-#: includes/class-zinn-offload-admin-ui.php:352
+#: includes/class-zinn-offload-admin-ui.php:437
 msgid "No connection is needed for this plugin."
 msgstr "ប្លាស៊ិននេះមិនទាមទារការតភ្ជាប់អ៊ីនធឺណិតទេ។"
 
-#: includes/class-zinn-offload-admin-ui.php:357
+#: includes/class-zinn-offload-admin-ui.php:442
 msgid "Open settings"
 msgstr "បើកការកំណត់"
 
-#: includes/class-zinn-offload-admin-ui.php:685
-#: includes/class-zinn-offload-admin-ui.php:1248
+#: includes/class-zinn-offload-admin-ui.php:770
+#: includes/class-zinn-offload-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
 msgstr "អ្នកមិនមានសិទ្ធិផ្លាស់ប្តូរការកំណត់ទាំងនេះទេ។"
 
-#: includes/class-zinn-offload-admin-ui.php:715
+#: includes/class-zinn-offload-admin-ui.php:799
 msgid "Settings sections"
 msgstr "ផ្នែកការកំណត់"
 
-#: includes/class-zinn-offload-admin-ui.php:788
+#: includes/class-zinn-offload-admin-ui.php:871
 msgid "Support"
 msgstr "ជំនួយ"
 
-#: includes/class-zinn-offload-admin-ui.php:846
+#: includes/class-zinn-offload-admin-ui.php:929
 msgid "Save changes"
 msgstr "រក្សាទុកការផ្លាស់ប្តូរ"
 
-#: includes/class-zinn-offload-admin-ui.php:875
+#: includes/class-zinn-offload-admin-ui.php:958
 msgid "Tools"
 msgstr "ឧបករណ៍"
 
-#: includes/class-zinn-offload-admin-ui.php:890
+#: includes/class-zinn-offload-admin-ui.php:973
 msgid "Export settings"
 msgstr "នាំចេញការកំណត់"
 
-#: includes/class-zinn-offload-admin-ui.php:893
+#: includes/class-zinn-offload-admin-ui.php:976
 msgid "Reset to defaults"
 msgstr "កំណត់ឡើងវិញជាលំនាំដើម"
 
-#: includes/class-zinn-offload-admin-ui.php:894
+#: includes/class-zinn-offload-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "សកម្មភាពនេះនឹងដាក់រាល់ការកំណត់ទាំងអស់នៅលើកម្មវិធីជំនួយនេះត្រឡប់ទៅជាតម្លៃដើមវិញ។ តើអ្នកចង់បន្តទេ?"
 
-#: includes/class-zinn-offload-admin-ui.php:901
+#: includes/class-zinn-offload-admin-ui.php:984
 msgid "Diagnostics for support"
 msgstr "រោគវិនិច្ឆ័យសម្រាប់ជំនួយ"
 
-#: includes/class-zinn-offload-admin-ui.php:910
+#: includes/class-zinn-offload-admin-ui.php:993
 msgid "Import a settings file"
 msgstr "នាំចូលឯកសារកំណត់រចនាសម្ព័ន្ធ"
 
-#: includes/class-zinn-offload-admin-ui.php:912
+#: includes/class-zinn-offload-admin-ui.php:995
 msgid "Import"
 msgstr "នាំចូល"
 
-#: includes/class-zinn-offload-admin-ui.php:914
+#: includes/class-zinn-offload-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ឯកសារដែលបាននាំចេញមិនមានពាក្យសម្ងាត់ ថូខឹន ឬគ្រាប់ចុច API ទេ អ្នកនឹងត្រូវបញ្ចូលវាម្ដងទៀតនៅលើគេហទំព័រថ្មី។"
 
-#: includes/class-zinn-offload-admin-ui.php:1013
+#: includes/class-zinn-offload-admin-ui.php:1096
 msgid "Settings saved."
 msgstr "បានរក្សាទុកការកំណត់។"
 
-#: includes/class-zinn-offload-admin-ui.php:1060
+#: includes/class-zinn-offload-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
 msgstr "ការកំណត់ទាំងអស់នៅលើកម្មវិធីជំនួយនេះត្រូវបានកំណត់ឡើងវិញដូចដើម។"
 
-#: includes/class-zinn-offload-admin-ui.php:1103
+#: includes/class-zinn-offload-admin-ui.php:1186
 msgid "Done."
 msgstr "រួចរាល់។"
 
-#: includes/class-zinn-offload-admin-ui.php:1107
+#: includes/class-zinn-offload-admin-ui.php:1190
 msgid "That action is not available."
 msgstr "សកម្មភាពនោះមិនអាចប្រើប្រាស់បានទេ។"
 
-#: includes/class-zinn-offload-admin-ui.php:1174
+#: includes/class-zinn-offload-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "មិនអាចអានឯកសារនោះបានទេ។ សូមជ្រើសរើសឯកសារការកំណត់ដែលបាននាំចេញពីកម្មវិធីជំនួយ Zinn®។"
 
-#: includes/class-zinn-offload-admin-ui.php:1182
+#: includes/class-zinn-offload-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
 msgstr "ឯកសារនោះមានទំហំធំពេកមិនអាចជាការនាំចេញការកំណត់នោះទេ។"
 
-#: includes/class-zinn-offload-admin-ui.php:1195
+#: includes/class-zinn-offload-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
 msgstr "ឯកសារនោះមិនមែនជាការនាំចេញការកំណត់របស់ Zinn® ទេ។"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-offload-admin-ui.php:1203
+#: includes/class-zinn-offload-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ឯកសារនោះត្រូវបាននាំចេញពីកម្មវិធីជំនួយផ្សេងទៀត (%s) ដូច្នេះការនាំចូលវានៅទីនេះនឹងរក្សាទុកការកំណត់ដែលកម្មវិធីជំនួយនេះមិនស្គាល់។"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-offload-admin-ui.php:1233
+#: includes/class-zinn-offload-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -262,36 +266,32 @@ msgstr "ផ្ញើរបាយការណ៍នេះទៅកាន់ផ្
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
 msgstr "យើងបង្កើតសំបុត្រជំនួយសម្រាប់អ្នក ហើយឆ្លើយតបតាមអ៊ីមែល។ ប្រសិនបើអ្នកមិនចង់ផ្ញើវាទេ សូមចម្លងវាខាងលើ ហើយយកទៅបិទភ្ជាប់ក្នុងសំបុត្រជំនួយដោយខ្លួនឯង។"
 
-#: includes/class-zinn-offload-diagnostics.php:228
-msgid "Copied"
-msgstr "បានចម្លង"
-
 #. translators: %s: the transport error reported by WordPress.
-#: includes/class-zinn-offload-diagnostics.php:274
+#: includes/class-zinn-offload-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
 msgstr "យើងមិនអាចតភ្ជាប់ទៅ Zinn Digital® ពីម៉ាស៊ីនបម្រើនេះបានទេ (%s)។ សូមចម្លងរបាយការណ៍ខាងលើ ហើយបើកសំបុត្រសំណូមពរជំនួសវិញ — គ្មានអ្វីខុសអំពីការកំណត់របស់អ្នកឡើយ។"
 
-#: includes/class-zinn-offload-diagnostics.php:288
+#: includes/class-zinn-offload-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
 msgstr "ផ្នែកជំនួយរបស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ នឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
 
 #. translators: %s: the support reference for the report just sent.
-#: includes/class-zinn-offload-diagnostics.php:291
+#: includes/class-zinn-offload-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
 msgstr "ការគាំទ្ររបស់ Zinn® បានទទួលរបាយការណ៍របស់អ្នកហើយ — លេខយោង %s — ហើយនឹងឆ្លើយតបតាមរយៈអ៊ីមែល។"
 
-#: includes/class-zinn-offload-diagnostics.php:300
+#: includes/class-zinn-offload-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
 msgstr "អ្នកបានផ្ញើរបាយការណ៍ជាច្រើនក្នុងរយៈពេលខ្លី។ សូមរង់ចាំពីរបីនាទីហើយព្យាយាមម្តងទៀត ព្រោះរបាយការណ៍មុនៗបានមកដល់ហើយ។"
 
-#: includes/class-zinn-offload-diagnostics.php:307
+#: includes/class-zinn-offload-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
 msgstr "Zinn Digital® មិនអាចទទួលយករបាយការណ៍បានទេនៅពេលនេះ — នេះជាបញ្ហានៅខាងយើង មិនមែនខាងអ្នកឡើយ។ សូមព្យាយាមម្តងទៀតក្នុងពេលឆាប់ៗ ឬចម្លងរបាយការណ៍ខាងលើចូលទៅក្នុងសំបុត្រស្នើសុំ។"
 
 #. translators: %d: the HTTP status code the server returned.
-#: includes/class-zinn-offload-diagnostics.php:315
+#: includes/class-zinn-offload-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
 msgstr "របាយការណ៍ត្រូវបានបដិសេធ (HTTP %d)។ ចម្លងវាខាងលើហើយបើកសំបុត្រគាំទ្រមួយ ដោយយោងលេខនោះ។"
@@ -317,27 +317,27 @@ msgstr "អានមគ្គុទ្ទេសក៍អ្នកប្រើប
 msgid "Hide this"
 msgstr "លាក់វា"
 
-#: includes/class-zinn-offload-promo.php:374
+#: includes/class-zinn-offload-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "ការបង្ហោះបណ្តាញ Zinn® សម្រាប់ WordPress"
 
-#: includes/class-zinn-offload-promo.php:375
+#: includes/class-zinn-offload-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed ការបម្រុងទុកប្រចាំថ្ងៃ ការផ្ទេរដោយឥតគិតថ្លៃ និងផ្ទាំងគ្រប់គ្រងដែលត្រូវបានបង្កើតឡើងសម្រាប់អ្នកដែលដំណើរការគេហទំព័រច្រើនជាងមួយ។"
 
-#: includes/class-zinn-offload-promo.php:381
+#: includes/class-zinn-offload-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "ទីផ្សារ Zinn®"
 
-#: includes/class-zinn-offload-promo.php:382
+#: includes/class-zinn-offload-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ទិញនិងលក់គេហទំព័រ ដូម៉ែន និងកន្លែងដាក់តំណភ្ជាប់ដែលបង្កើតរួចជាស្រេច ដោយប្រាក់ត្រូវបានរក្សាទុកដោយសុវត្ថិភាពរហូតដល់ភាគីទាំងសប្បាយចិត្ត។"
 
-#: includes/class-zinn-offload-promo.php:429
+#: includes/class-zinn-offload-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® —  thuêអ្នកជំនាញដែលធ្វើការងារនេះជាប្រចាំ"
 
-#: includes/class-zinn-offload-promo.php:430
+#: includes/class-zinn-offload-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ទីផ្សារឯករាជ្យជាសាកលរបស់យើង៖ រកមើលសេវាកម្មដែលត្រៀមរួចជាស្រេចជាង ១០,០០០ ពីអ្នកនិgetWriter អ្នករចនា អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញ SEO ឬផុសគម្រោងមួយ ហើយអនុញ្ញាតឱ្យពួកគេដាក់តម្លៃ។"
 
@@ -575,19 +575,19 @@ msgstr "ការបញ្ជូនឡើងមិនអាចបញ្ចប់
 msgid "Storage refused the upload (HTTP %d)."
 msgstr "កន្លែងផ្ទុកទិន្នន័យបានបដិសេធការបង្ហោះ (HTTP %d)។"
 
-#: includes/class-zinn-offload-style-presets.php:109
+#: includes/class-zinn-offload-style-presets.php:118
 msgid "Style preset"
 msgstr "កម្រងរចនាប័ទ្មដែលបានកំណត់ជាមុន"
 
-#: includes/class-zinn-offload-style-presets.php:110
+#: includes/class-zinn-offload-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
 msgstr "ចំណុចចាប់ផ្តើម។ អ្វីៗដែលនៅខាងក្រោមនឹងជំនួសវា។"
 
-#: includes/class-zinn-offload-style-presets.php:117
+#: includes/class-zinn-offload-style-presets.php:126
 msgid "Use my own colours and sizes"
 msgstr "ប្រើពណ៌ និងទំហំផ្ទាល់ខ្លួនរបស់ខ្ញុំ"
 
-#: includes/class-zinn-offload-style-presets.php:118
+#: includes/class-zinn-offload-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "បិទផ្នែកនេះ ហើយការកំណត់ជាមុននឹងត្រូវយកមកប្រើប្រាស់ដូចដើមទាំងស្រុង។"
 
