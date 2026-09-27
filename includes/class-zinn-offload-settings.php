@@ -351,7 +351,7 @@ class Zinn_Offload_Settings {
 		<?php if ( ! $connected ) : ?>
 			<h2><?php echo esc_html__( 'Connect this site', 'zinn-offload' ); ?></h2>
 			<p>
-				<?php echo esc_html__( 'Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below.', 'zinn-offload' ); ?>
+				<?php echo esc_html__( 'Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below.', 'zinn-offload' ); ?>
 			</p>
 			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
 				<?php wp_nonce_field( 'zinn_offload_claim' ); ?>

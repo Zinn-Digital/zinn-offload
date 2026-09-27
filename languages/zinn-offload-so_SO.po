@@ -517,8 +517,8 @@ msgid "Connect this site"
 msgstr "Ku xidh boggan"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Furo guddkaaga maamulka ee Zinn Digital®, tag Storage → Media offload, kadibna riix “Pair a site”. Ku dheji koodhka hoose."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Fur dashboard-kaaga Zinn Digital®, dooro boggan, fur Files & databases, oo guji “Get a pairing code” oo hoos yimaada Images & video CDN. Geli code-ka hoose."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

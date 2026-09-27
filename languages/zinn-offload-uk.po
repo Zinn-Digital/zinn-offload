@@ -520,8 +520,8 @@ msgid "Connect this site"
 msgstr "Підключити цей сайт"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Відкрийте свою панель керування Zinn Digital®, перейдіть до Storage → Media offload і натисніть «Pair a site». Вставте код нижче."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Відкрийте свою панель керування Zinn Digital®, виберіть цей сайт, перейдіть до розділу «Файли й бази даних» та натисніть «Отримати код створення пари» в розділі «CDN для зображень та відео». Вставте код нижче."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

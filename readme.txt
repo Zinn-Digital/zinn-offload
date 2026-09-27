@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,11 +33,11 @@ You turn media offload on in your Zinn Digital® dashboard, paste a short pairin
 * It adds no REST endpoint, no shortcode, no script and no stylesheet.
 * The one thing it does change on a public page is the **address** of an image or file that has
   been offloaded: `wp_get_attachment_url` and `wp_calculate_image_srcset` are filtered so the
-  markup points at your bucket instead of this server. Nothing is added to the page, and if you
-  turn rewriting off in your dashboard the addresses are left exactly as WordPress wrote them.
+  markup points at your bucket instead of this server. Nothing is added to the page, and while
+  **Serve from Zinn® storage** is off the addresses are left exactly as WordPress wrote them.
 * It never deletes anything from storage. Retention is decided in your dashboard.
 * It does not delete local files after a partial upload — if any size fails, every local copy stays.
-* It has no settings of its own. Which bucket, whether URLs are rewritten and whether local copies are removed are all decided in your Zinn Digital® dashboard, so there is only ever one place an answer lives.
+* It never asks for a storage key or a bucket name. Which bucket this site uses is decided in your Zinn Digital® dashboard. Whether addresses are rewritten and whether local copies are removed start as your dashboard's choices when you pair, and you can change them afterwards on the plugin's **How media is served** tab.
 
 = What it needs =
 
@@ -47,8 +47,8 @@ You turn media offload on in your Zinn Digital® dashboard, paste a short pairin
 == Installation ==
 
 1. Install and activate the plugin.
-2. In your Zinn Digital® dashboard, open the site, turn on **Media offload**, and copy the pairing code.
-3. In WordPress go to **Settings → Zinn® Media Offload**, paste the code, and press **Connect this site**.
+2. In your Zinn Digital® dashboard, open the site, choose **Files & databases**, turn on **Images & video CDN**, and press **Get a pairing code**.
+3. In WordPress go to **Zinn Digital® → Media Offload**, paste the code on the **Connection** tab, and press **Connect this site**.
 
 New uploads move immediately. Your existing library moves in the background over the following hours.
 
@@ -114,6 +114,12 @@ rendered in a real WordPress install in each of those languages and checked, not
 `languages/` holds the `.pot` template plus a `.po`, `.mo` and `.l10n.php` for every language, so
 corrections and new languages can be contributed directly.
 
+== Screenshots ==
+
+1. The Connection tab before pairing: the status panel says plainly that nothing is wrong yet, and the only thing to enter is the pairing code from your Zinn Digital® dashboard — never a storage key.
+2. What gets moved: new uploads, the existing library in the background, how many files each hourly pass moves, a size floor, and file types that must stay on this server.
+3. Every screen is translated — here the Connection tab in Arabic, right to left.
+
 == Frequently Asked Questions ==
 
 = What happens to my images if I deactivate the plugin? =
@@ -137,6 +143,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.10 =
+* The Connection tab now names the dashboard screens as they really are: open your site, then Files & databases, then Get a pairing code under Images & video CDN. The installation steps say the same and name the plugin's own screen, Zinn Digital® → Media Offload, and the description no longer says the plugin has no settings of its own. The WordPress.org listing gains three screenshots.
 
 = 1.2.9 =
 * Readme: clearer description of how the plugin works.

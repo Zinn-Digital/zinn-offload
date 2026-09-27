@@ -517,8 +517,8 @@ msgid "Connect this site"
 msgstr "Unganisha tovuti hii"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Fungua dashibodi yako ya Zinn Digital®, nenda kwenye Hifadhi → Kuhamisha midia, kisha ubonyeze “Oanisha tovuti”. Bandika msimbo ulio hapa chini."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Fungua dashibodi yako ya Zinn Digital®, chagua tovuti hii, fungua Files & databases, kisha ubonyeze “Get a pairing code” chini ya Images & video CDN. Bandika nambari ya siri hapa chini."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

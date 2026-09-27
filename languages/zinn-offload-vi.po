@@ -515,8 +515,8 @@ msgid "Connect this site"
 msgstr "Kết nối trang web này"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Mở bảng điều khiển Zinn Digital® của bạn, đi tới Lưu trữ → Giảm tải phương tiện và nhấn “Ghép nối trang web”. Dán mã dưới đây."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Mở bảng điều khiển Zinn Digital® của bạn, chọn trang web này, mở Files & databases, và nhấn “Get a pairing code” bên dưới Images & video CDN. Dán mã bên dưới vào."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

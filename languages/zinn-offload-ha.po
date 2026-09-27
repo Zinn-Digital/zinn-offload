@@ -517,8 +517,8 @@ msgid "Connect this site"
 msgstr "Haɗa wannan shafin"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Buɗe kwamitin kulawa na Zinn Digital®, je zuwa Adana → Watsa kafofin watsa labarai, sannan ka danna “Haɗa shafin yanar gizo”. Manna lambar da ke ƙasa."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Buɗe kundin sarrafa na Zinn Digital® naka, zaɓi wannan rukunin yanar gizon, buɗe Fayiloli & bayanan bayanai, sannan danna “Samu lambar haɗawa” a ƙarƙashin Hotuna & bidiyo CDN. Liƙe lambar a ƙasa."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

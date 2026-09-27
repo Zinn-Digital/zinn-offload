@@ -515,8 +515,8 @@ msgid "Connect this site"
 msgstr "Ин сайт пайваст карда шавад"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Панели идоракунии Zinn Digital®-и худро кушоед, ба Storage → Media offload гузаред ва тугмаи “Pair a site”-ро пахш кунед. Рамзи зеринро часбонед."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Панели идораи Zinn Digital®-и худро кушоед, ин сомонаро интихоб кунед, «Файлҳо ва пойгоҳҳои додаҳо»-ро кушоед ва зери «CDN-и тасвирҳо ва видео» тугмаи «Гирифтани рамзи ҷуфтсозӣ»-ро пахш кунед. Рамзи зерро часпонед."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"

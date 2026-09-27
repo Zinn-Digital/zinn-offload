@@ -517,8 +517,8 @@ msgid "Connect this site"
 msgstr "Webhely összekapcsolása"
 
 #: includes/class-zinn-offload-settings.php:354
-msgid "Open your Zinn Digital® dashboard, go to Storage → Media offload, and press “Pair a site”. Paste the code below."
-msgstr "Nyissa meg a Zinn Digital® irányítópultját, lépjen a Tárhely → Média áthelyezése menüpontra, és kattintson a „Webhely párosítása” gombra. Illessze be az alábbi kódot."
+msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
+msgstr "Nyissa meg a Zinn Digital® vezérlőpultját, válassza ki ezt a webhelyet, nyissa meg a Fájlok és adatbázisok menüpontot, és kattintson a „Párosítási kód lekérése” lehetőségre a Képek és videók CDN alatt. Illessze be a kódot alább."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"
