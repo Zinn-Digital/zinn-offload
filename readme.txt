@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,11 +17,9 @@ Move your media library to Zinn® object storage and serve it from a CDN — wit
 
 Images and video are usually the largest thing a WordPress site serves, and the slowest. This plugin moves your media library to object storage and serves it from a CDN, so your web server stops sending the bytes and your pages get faster everywhere in the world.
 
-**You never enter an access key.** That is the difference between this plugin and the rest of the category.
+**You never enter an access key.** Your storage keys are never saved in WordPress, so they are not in your database, your migration exports or your backups.
 
-Every other media-offload plugin asks you to paste an S3 access key and secret into WordPress, where they sit in the `wp_options` table — readable by every other plugin on your site, copied into every migration export, and included in the backup you send to a developer. A leaked pair of those is your entire bucket.
-
-Instead, you turn media offload on in your Zinn Digital® dashboard, paste a short pairing code here once, and this plugin holds a token that works for **this site's folder and nothing else**. Before each upload it asks Zinn Digital® for a one-time signed link, and the file goes straight from your web server to storage. If the token is ever exposed, you revoke it from your dashboard in one click — which is not something you can do to a leaked access key.
+You turn media offload on in your Zinn Digital® dashboard, paste a short pairing code here once, and this plugin holds a token that works for **this site's folder and nothing else**. Before each upload it asks Zinn Digital® for a one-time signed link, and the file goes straight from your web server to storage. If the token is ever exposed, you revoke it from your dashboard in one click.
 
 = What it does =
 
@@ -139,6 +137,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.9 =
+* Readme: clearer description of how the plugin works.
 
 = 1.2.8 =
 * Translations: a word written in the wrong alphabet (for example a Korean word inside a Malayalam sentence, or an Urdu word ending a Punjabi one) is corrected in every language that had one. Each affected string was translated again and checked.
