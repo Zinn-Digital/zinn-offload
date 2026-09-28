@@ -595,10 +595,20 @@ msgstr "Користи сопствене боје и величине"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Isključite ovo i unapred podešena vrednost se koristi tačno kakva jeste."
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Pogledajte napomene o izdanju za Zinn Digital®."
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Услуга ажурирања Zinn® није издала везу за преузимање за ово ажурирање. Проверите да ли овај сајт може да приступи платформи Zinn®, па покушајте поново."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Ažuriranje nije moglo da se preuzme sa Zinn® servisa za ažuriranje (%s). Pokušajte ponovo za nekoliko minuta."
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Preuzeto ažuriranje nije prošlo proveru integriteta i nije instalirano."

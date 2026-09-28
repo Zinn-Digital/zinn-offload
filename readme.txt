@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.11
+Stable tag: 1.3.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -143,6 +143,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.3.0 =
+* Updates install whenever you click Update, even months later: the download link is fetched fresh at install time instead of expiring in WordPress's saved update data.
 
 = 1.2.11 =
 * Security hardening: the design-token stylesheet validates every component id and strips anything that could close the inline style.

@@ -593,10 +593,20 @@ msgstr "Gamitin ang sarili kong mga kulay at laki"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "Huwag itong paganahin at ang preset ay gagamitin nang eksakto kung ano ito."
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Tingnan ang mga tala sa paglabas ng Zinn Digital®."
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Hindi nagpalabas ang serbisyo ng pag-update ng Zinn® ng link sa pag-download para sa update na ito. Suriin kung maaabot ng site na ito ang Zinn® platform, pagkatapos ay subukang muli."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Hindi nai-download ang update mula sa serbisyo ng pag-update ng Zinn® (%s). Subukang muli makalipas ang ilang minuto."
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ang na-download na update ay nabigo sa pagsusuri ng integridad at hindi na-install."

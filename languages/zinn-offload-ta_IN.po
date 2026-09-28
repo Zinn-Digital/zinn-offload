@@ -593,10 +593,20 @@ msgstr "எனது சொந்த நிறங்களையும் அள
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "இதை அணைத்து வைக்கவும், மேலும் முன்னமைவு அப்படியே பயன்படுத்தப்படும்."
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® வெளியீட்டு குறிப்புகளைப் பார்க்கவும்."
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® புதுப்பிப்பு சேவை இந்தப் புதுப்பிப்பிற்கான பதிவிறக்க இணைப்பை வழங்கவில்லை. இந்தத் தளம் Zinn® தளத்தை அடைய முடியுமா என்பதைச் சரிபார்த்து, மீண்டும் முயற்சிக்கவும்."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® புதுப்பிப்பு சேவையிலிருந்து (%s) புதுப்பிப்பைப் பதிவிறக்க முடியவில்லை. சில நிமிடங்களுக்குப் பிறகு மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமைச் சோதனையில் தோல்வியுற்றது மற்றும் நிறுவப்படவில்லை."

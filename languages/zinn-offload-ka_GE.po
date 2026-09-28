@@ -593,10 +593,20 @@ msgstr "ჩmanე ფერებისა და ზომების გა�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "ეს გამორთეთ და წინასწარ დაყენებული პარამეტრი ზუსტად ისე გამოიყენება, როგორც არის."
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® განახლების სერვისმა არ გამოსცა ჩამოტვირთვის ბმული ამ განახლებისთვის. შეამოწმეთ, რომ ამ საიტს შეუძლია Zinn® პლატფორმასთან დაკავშირება და შემდეგ სცადეთ თავიდან."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "განახლების გადმოწერა ვერ მოხერხდა Zinn® განახლების სერვისიდან (%s). სცადეთ ისევ რამდენიმე წუთში."
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."

@@ -591,10 +591,20 @@ msgstr "ប្រើពណ៌ និងទំហំផ្ទាល់ខ្ល�
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "បិទផ្នែកនេះ ហើយការកំណត់ជាមុននឹងត្រូវយកមកប្រើប្រាស់ដូចដើមទាំងស្រុង។"
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "សូមមើលកំណត់ចំណាំនៃការចេញផ្សាយរបស់ Zinn Digital®។"
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "សេវាកម្មអាប់ដេត Zinn® មិនបានចេញតំណទាញយកសម្រាប់កំណែអាប់ដេតនេះទេ។ សូមពិនិត្យមើលថាតើគេហទំព័រនេះអាចទាក់ទងទៅកាន់ប្រព័ន្ធ Zinn® បានដែរឬទេ បន្ទាប់មកព្យាយាមម្តងទៀត។"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "មិនអាចទាញយកបច្ចុប្បន្នភាពពីសេវាកម្មបច្ចុប្បន្នភាព Zinn® (%s) បានទេ។ សូមព្យាយាមម្តងទៀតក្នុងរយៈពេលបន្តិចទៀត។"
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"

@@ -595,10 +595,20 @@ msgstr "השתמש בצבעים ובגדדים שלי"
 msgid "Leave this off and the preset is used exactly as it is."
 msgstr "אם תשאיר זאת כבוי, יעשה שימוש בהגדרה המובנית כפי שהיא."
 
-#: includes/class-zinn-offload-updater.php:233
+#: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "עיין בהערות השחרור של Zinn Digital®."
 
-#: includes/class-zinn-offload-updater.php:288
+#: includes/class-zinn-offload-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "שירות העדכונים של Zinn® לא הנפיק קישור הורדה עבור עדכון זה. בדקו שאתר זה יכול ליצור קשר עם פלטפורמת Zinn®, ולאחר מכן נסו שוב."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-offload-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "לא ניתן היה להוריד את העדכון משירות העדכונים של Zinn® (%s). נסה שוב בעוד מספר דקות."
+
+#: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "העדכון שהורד נכשל בבדיקת השלמות ולא הותקן."
