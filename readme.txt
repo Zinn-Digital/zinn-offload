@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.10
+Stable tag: 1.2.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -143,6 +143,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.2.11 =
+* Security hardening: the design-token stylesheet validates every component id and strips anything that could close the inline style.
 
 = 1.2.10 =
 * The Connection tab now names the dashboard screens as they really are: open your site, then Files & databases, then Get a pairing code under Images & video CDN. The installation steps say the same and name the plugin's own screen, Zinn Digital® → Media Offload, and the description no longer says the plugin has no settings of its own. The WordPress.org listing gains three screenshots.
