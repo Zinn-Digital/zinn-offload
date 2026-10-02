@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-offload"
 #. Description of the plugin
 #: zinn-offload.php
 msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
-msgstr "מעביר את ספריית המדיה של אתר זה לאחסון האובייקט Zinn® ומגיש אותה מ-CDN. מוגדר מלוח הבקרה של Zinn® שלך — לעולם אין הקלדת מפתח גישה לתוך WordPress."
+msgstr "מעביר את ספריית המדיה של אתר זה לאחסון האובייקטים של Zinn® ומגיש אותה מ-CDN. מוגדר מלוח הבקרה שלך ב-Zinn® — שום מפתח גישה אינו מוקלד אי פעם בתוך WordPress."
 
 #. Author of the plugin
 #: zinn-offload.php
@@ -36,27 +36,27 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-offload-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "מאוחסן. הקלד ערך חדש כדי להחליף אותו."
+msgstr "נשמר. יש להקליד ערך חדש כדי להחליף אותו."
 
 #: includes/class-zinn-offload-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "סנן רשימה זו…"
+msgstr "סינון רשימה זו…"
 
 #: includes/class-zinn-offload-admin-fields.php:641
 msgid "Filter this list"
-msgstr "סנן רשימה זו"
+msgstr "סינון רשימה זו"
 
 #: includes/class-zinn-offload-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "אין תוצאות התואמות למסנן זה."
+msgstr "אין פריטים התואמים למסנן זה."
 
 #: includes/class-zinn-offload-admin-fields.php:688
 msgid "Add a row"
-msgstr "הוסף שורה"
+msgstr "הוספת שורה"
 
 #: includes/class-zinn-offload-admin-fields.php:725
 msgid "Remove this row"
-msgstr "הסר שורה זו"
+msgstr "הסרת שורה זו"
 
 #: includes/class-zinn-offload-admin-fields.php:725
 msgid "Remove"
@@ -70,7 +70,7 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-offload-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® – סקירה כללית"
+msgstr "Zinn Digital® — סקירה כללית"
 
 #: includes/class-zinn-offload-admin-ui.php:295
 msgid "Overview"
@@ -82,7 +82,7 @@ msgstr "הועתק"
 
 #: includes/class-zinn-offload-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
-msgstr "כל תוסף של Zinn® באתר זה, והאם הוא פועל."
+msgstr "כל תוסף Zinn® באתר זה, והאם הוא פועל."
 
 #: includes/class-zinn-offload-admin-ui.php:437
 msgid "No connection is needed for this plugin."
@@ -90,7 +90,7 @@ msgstr "אין צורך בחיבור עבור תוסף זה."
 
 #: includes/class-zinn-offload-admin-ui.php:442
 msgid "Open settings"
-msgstr "פתח הגדרות"
+msgstr "פתיחת הגדרות"
 
 #: includes/class-zinn-offload-admin-ui.php:770
 #: includes/class-zinn-offload-admin-ui.php:1331
@@ -99,7 +99,7 @@ msgstr "אין לך הרשאה לשנות הגדרות אלו."
 
 #: includes/class-zinn-offload-admin-ui.php:799
 msgid "Settings sections"
-msgstr "מקטעי הגדרות"
+msgstr "מדורי הגדרות"
 
 #: includes/class-zinn-offload-admin-ui.php:871
 msgid "Support"
@@ -107,7 +107,7 @@ msgstr "תמיכה"
 
 #: includes/class-zinn-offload-admin-ui.php:929
 msgid "Save changes"
-msgstr "שמור שינויים"
+msgstr "שמירת שינויים"
 
 #: includes/class-zinn-offload-admin-ui.php:958
 msgid "Tools"
@@ -115,15 +115,15 @@ msgstr "כלים"
 
 #: includes/class-zinn-offload-admin-ui.php:973
 msgid "Export settings"
-msgstr "יצוא הגדרות"
+msgstr "ייצוא הגדרות"
 
 #: includes/class-zinn-offload-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "איפוס לברירות המחדל"
+msgstr "איפוס לברירת מחדל"
 
 #: includes/class-zinn-offload-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "פעולה זו תחזיר את כל ההגדרות של תוסף זה לברירת המחדל שלהן. להמשיך?"
+msgstr "פעולה זו תחזיר את כל ההגדרות בתוסף זה לברירת המחדל שלהן. להמשיך?"
 
 #: includes/class-zinn-offload-admin-ui.php:984
 msgid "Diagnostics for support"
@@ -139,7 +139,7 @@ msgstr "ייבוא"
 
 #: includes/class-zinn-offload-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "קבצים מיוצאים לעולם אינם מכילים סיסמאות, אסימונים או מפתחות API – תצטרך להזין אותם מחדש באתר החדש."
+msgstr "קבצים מיוצאים לעולם אינם מכילים סיסמאות, אסימונים או מפתחות API — יהיה עליך להזין אותם שוב באתר החדש."
 
 #: includes/class-zinn-offload-admin-ui.php:1096
 msgid "Settings saved."
@@ -159,48 +159,48 @@ msgstr "פעולה זו אינה זמינה."
 
 #: includes/class-zinn-offload-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "לא ניתן לקרוא קובץ זה. בחר קובץ הגדרות שיוצא מתוך תוסף של Zinn®."
+msgstr "לא ניתן היה לקרוא את הקובץ הזה. יש לבחור קובץ הגדרות שיוצא מתוסף Zinn®."
 
 #: includes/class-zinn-offload-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "הקובץ גדול מדי מכדי להיות ייצוא של הגדרות."
+msgstr "קובץ זה גדול מדי מכדי להיות יצוא הגדרות."
 
 #: includes/class-zinn-offload-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "קובץ זה אינו ייצוא הגדרות של Zinn®."
+msgstr "קובץ זה אינו קובץ ייצוא הגדרות של Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-offload-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "קובץ זה יוצא מתוסף אחר (%s), כך שייבוא שלו לכאן ישמור הגדרות שתוסף זה אינו מבין."
+msgstr "הקובץ הזה יוצא מתוסף אחר (%s), כך שיבוא שלו לכאן ישמור הגדרות שהתוסף הזה אינו מכיר."
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-offload-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "הגדרת %d יובאה. סיסמאות ומפתחות API אינם נכללים בייצוא לעולם, לכן יש להזין אותם מחדש."
-msgstr[1] "%d הגדרות יובאו. סיסמאות ומפתחות API אינם נכללים אף פעם בייצוא, לכן יש להזין אותם מחדש."
-msgstr[2] "%d הגדרות יובאו. סיסמאות ומפתחות API אינם נכללים אף פעם בייצוא, לכן יש להזין אותם מחדש."
+msgstr[0] "הגדרה %d יובאה. סיסמאות ומפתחות API לעולם אינם נכללים בייצוא, לכן יש להזין אותם שוב."
+msgstr[1] "%d הגדרות יובאו. סיסמאות ומפתחות API לעולם אינם נכללים בייצוא, לכן יש להזין אותם שוב."
+msgstr[2] "%d הגדרות יובאו. סיסמאות ומפתחות API לעולם אינם נכללים בייצוא, לכן יש להזין אותם שוב."
 
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
-msgstr "Zinn Digital® לא החזיר אסימון. דבר לא שונה באתר זה."
+msgstr "Zinn Digital® לא החזיר אסימון. שום דבר לא השתנה באתר זה."
 
 #: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
-msgstr "אתר זה אינו מחובר עוד לפריקת המדיה של Zinn®. העלאות חדשות יישארו בשרת זה. צוות אותו מחדש מלוח הבקרה של Zinn Digital®."
+msgstr "אתר זה אינו מחובר עוד לפריקת מדיה של Zinn®. העלאות חדשות יישארו בשרת זה. חבר אותו שוב מלוח הבקרה שלך ב-Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
 #: includes/class-zinn-offload-client.php:244
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
-msgstr "Zinn Digital® השיבה ב-HTTP %d."
+msgstr "Zinn Digital® השיב עם HTTP %d."
 
 #: includes/class-zinn-offload-client.php:262
 msgid "Disconnected by Zinn Digital®."
-msgstr "מנותק על ידי Zinn Digital®."
+msgstr "נותק על ידי Zinn Digital®."
 
 #: includes/class-zinn-offload-connection.php:58
 msgid "Connected"
@@ -208,11 +208,11 @@ msgstr "מחובר"
 
 #: includes/class-zinn-offload-connection.php:60
 msgid "Connecting…"
-msgstr "מתחבר..."
+msgstr "מתחבר…"
 
 #: includes/class-zinn-offload-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "מחובר, אך נדרשת תשומת לב"
+msgstr "מחובר, אך יש משהו שדורש תשומת לב"
 
 #: includes/class-zinn-offload-connection.php:64
 msgid "Not connected"
@@ -220,15 +220,15 @@ msgstr "לא מחובר"
 
 #: includes/class-zinn-offload-connection.php:66
 msgid "Running on your own account"
-msgstr "פועל על החשבון שלך"
+msgstr "פועל בחשבון שלך"
 
 #: includes/class-zinn-offload-connection.php:68
 msgid "We could not check this"
-msgstr "לא הצלחנו לבדוק את זה"
+msgstr "לא הצלחנו לבדוק זאת"
 
 #: includes/class-zinn-offload-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "תוספת זו לא ציינה סיבה. שלחו דוח אבחון ואנחנו נבדוק."
+msgstr "תוסף זה לא ציין את הסיבה. שלח דוח אבחון ואנו נבדוק זאת."
 
 #: includes/class-zinn-offload-connection.php:161
 msgid "Connection status"
@@ -238,7 +238,7 @@ msgstr "סטטוס חיבור"
 #: includes/class-zinn-offload-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "בדיקה אחרונה לפני %s."
+msgstr "נבדק לאחרונה לפני %s."
 
 #: includes/class-zinn-offload-connection.php:251
 msgid "(opens in a new tab)"
@@ -250,7 +250,7 @@ msgstr "שלח זאת לתמיכה של Zinn®"
 
 #: includes/class-zinn-offload-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "זה בדיוק מה שיישלח — שום דבר אחר, ושום דבר אינו מוסתר. הסיסמאות, האסימונים ומפתחות ה-API שלך אינם כלולים בכך."
+msgstr "זה בדיוק מה שיישלח — שום דבר אחר, ושום דבר לא מוסתר. הסיסמאות, האסימונים ומפתחות ה-API שלך אינם נכללים בו."
 
 #: includes/class-zinn-offload-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
@@ -262,41 +262,41 @@ msgstr "העתק ללוח הגזירים"
 
 #: includes/class-zinn-offload-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "שלח דוח זה לתמיכה של Zinn®"
+msgstr "שליחת דוח זה לתמיכה של Zinn®"
 
 #: includes/class-zinn-offload-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "אנו פותחים עבורך קניית תמיכה ועונים בדוא\"ל. אם מעדיף/ה שלא לשלוח זאת, יש להעתיק את הטקסט למעלה ולהדביק אותו בקניית תמיכה בעצמך."
+msgstr "אנו פותחים עבורך קריאת שירות ומשיבים בדוא\"ל. אם אתה מעדיף לא לשלוח אותה, העתק אותה למעלה והדבק אותה בעצמך בקריאת שירות."
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-offload-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "לא הצלחנו ליצור קשר עם Zinn Digital® משררת זה (%s). העתק את הדו\"ח שלעיל ופתח כרטיס תמיכה במקום זאת — שום דבר בהגדרות שלך אינו שגוי."
+msgstr "לא הצלחנו ליצור קשר עם Zinn Digital® משרת זה (%s). העתק את הדוח שלמעלה ופתח קריאת שירות במקום זאת — אין שום בעיה בהגדרות שלך."
 
 #: includes/class-zinn-offload-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "התמיכה של Zinn® קיבלה את הדיווח שלך ותשיב בדוא\"ל."
+msgstr "נשלח. לתמיכה של Zinn® יש את הדיווח שלך והם ישיבו באימייל."
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-offload-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "התמיכה של Zinn® קיבלה את הדיווח שלך — מספר אסמכתא %s — ותשיב בדוא\"ל."
+msgstr "נשלח. התמיכה של Zinn® קיבלה את הדיווח שלך — מספר הפניה %s — ותשיב בדוא״ל."
 
 #: includes/class-zinn-offload-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "שלחת מספר דוחות בזמן קצר. המתן מספר דקות ונסה שוב — הקודמים אכן הגיעו."
+msgstr "שלחת מספר דיווחים בפרק זמן קצר. יש להמתין מספר דקות ולנסות שוב — הדיווחים הקודמים התקבלו."
 
 #: includes/class-zinn-offload-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® לא יכול לקבל את הדו\"ח כרגע — זו הבעיה שלנו, לא שלך. נסה שוב בעוד רגע, או העתק את הדו\"ח שלמעלה לתוך פנייה."
+msgstr "Zinn Digital® לא הצליחה לקבל את הדוח כרגע — הבעיה היא אצלנו, לא אצלך. נסה שוב בעוד זמן קצר, או העתק את הדוח שלמעלה לקריאת שירות."
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-offload-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "הדוח סורב (HTTP %d). העתק אותו למעלה ופתח פנייה, תוך ציון מספר זה."
+msgstr "הדוח נדחה (HTTP %d). העתיקו אותו מלמעלה ופתחו פנייה תוך ציון המספר הזה."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
@@ -317,7 +317,7 @@ msgstr "קרא את מדריך המשתמש של %s"
 
 #: includes/class-zinn-offload-promo.php:314
 msgid "Hide this"
-msgstr "הסתר את זה"
+msgstr "הסתרת פריט זה"
 
 #: includes/class-zinn-offload-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -325,27 +325,27 @@ msgstr "אחסון Zinn® עבור WordPress"
 
 #: includes/class-zinn-offload-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, גיבויים יומיים, העברה חינם ולוח בקרה המותאם לאנשים המנהלים יותר מאתר אחד."
+msgstr "LiteSpeed, גיבויים יומיים, הגירה בחינם ולוח בקרה שנבנה עבור אנשים שמנהלים יותר מאתר אחד."
 
 #: includes/class-zinn-offload-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "השוק של Zinn®"
+msgstr "ה-Marketplace של Zinn®"
 
 #: includes/class-zinn-offload-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "קנו ומכרו אתרים קיימים, דומיינים ומיקומי קישורים, כאשר הכסף מוחזק בבטחה עד ששני הצדדים מרוצים."
+msgstr "קנו ומכרו אתרים מבוססים, דומיינים ומיקומי קישורים, כאשר הכסף מוחזק בבטחה עד ששני הצדדים מרוצים."
 
 #: includes/class-zinn-offload-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — שכרו אנשים שעוסקים בזה למחייתם"
+msgstr "Zinn Hub® — שכור אנשים שמתפרנסים מזה"
 
 #: includes/class-zinn-offload-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "שוק הפרילנסרים הגלובלי שלנו: עיין בלמעלה מ-10,000 שירותים מוכנים מראש מצד כותבים, מעצבים, מפתחים ואנשי SEO, או פרסם פרויקט ותן להם להגיש הצעות."
+msgstr "זירת הפרילנסרים הגלובלית שלנו: עיינו ביותר מ-10,000 שירותים מוכנים מאת כותבים, מעצבים, מפתחים ומומחי SEO, או פרסמו פרויקט ואפשרו להם להגיש הצעות מחיר."
 
 #: includes/class-zinn-offload-settings.php:73
 msgid "Media Offload"
-msgstr "העברת מדיה"
+msgstr "העברת קבצי מדיה לאחסון חיצוני"
 
 #: includes/class-zinn-offload-settings.php:79
 #: includes/class-zinn-offload-settings.php:94
@@ -360,7 +360,7 @@ msgstr "מה מועבר"
 #: includes/class-zinn-offload-settings.php:87
 #: includes/class-zinn-offload-settings.php:175
 msgid "How media is served"
-msgstr "אופן ההגשה של מדיה"
+msgstr "כיצד המדיה מוגשת"
 
 #: includes/class-zinn-offload-settings.php:101
 msgid "Move a batch now"
@@ -376,7 +376,7 @@ msgstr "העלאות חדשות"
 
 #: includes/class-zinn-offload-settings.php:125
 msgid "Move new uploads to Zinn® storage as they arrive"
-msgstr "העבר העלאות חדשות לאחסון של Zinn® עם הגעתן"
+msgstr "העבר העלאות חדשות לאחסון Zinn® ברגע הגעתן"
 
 #: includes/class-zinn-offload-settings.php:131
 msgid "Existing media"
@@ -388,84 +388,84 @@ msgstr "המשך להעביר את ספריית המדיה שכבר נמצאת �
 
 #: includes/class-zinn-offload-settings.php:133
 msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
-msgstr "כמה קבצים בשעה, ברקע, תוך המשך מהנקודה שבה הופסק. כיבוי אפשרות זו יוצר השהיה; דבר שכבר הועבר אינו חוזר."
+msgstr "מספר קבצים בשעה, ברקע, וממשיך מהמקום שבו עצר. כיבוי אפשרות זו משהה את הפעולה; שום דבר שכבר הועבר אינו מוחזר."
 
 #: includes/class-zinn-offload-settings.php:139
 msgid "Files per hourly pass"
-msgstr "קבצים במעבר שעתי"
+msgstr "קבצים לכל סבב שעתי"
 
 #: includes/class-zinn-offload-settings.php:140
 msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
-msgstr "כל קובץ מצורף מורכב ממספר קבצים וכל אחד מהם הוא העלאה מלאה. הגדר זאת במארח מהיר עם מגבלת ביצוע נדיבה; הקטן זאת אם הריצות נקטעות בטרם עת."
+msgstr "כל קובץ מצורף מורכב מכמה קבצים וכל אחד מהם הוא העלאה מלאה. הגדל ערך זה בשרת מהיר עם מגבלת זמן ביצוע נדיבה; הקטן אותו אם הסבבים נקטעים באמצע."
 
 #: includes/class-zinn-offload-settings.php:149
 msgid "Leave files smaller than"
-msgstr "השאר קבצים הקטנים מ-"
+msgstr "השארת קבצים הקטנים מ-"
 
 #: includes/class-zinn-offload-settings.php:150
 msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
-msgstr "קילוביטים. אייקון זעיר עולה יותר בחיבור הנוסף מאשר הוא חוסך בדיסק, כך שלעיתים רחוקות יש סיבה להעביר אחד. הגדר ל-0 כדי להעביר הכול."
+msgstr "קילובייטים. אייקון זעיר עולה יותר בחיבור הנוסף מאשר החיסכון שלו בדיסק, ולכן לעיתים נדירות יש סיבה להעביר אותו. הגדר כ-0 כדי להעביר הכל."
 
 #: includes/class-zinn-offload-settings.php:158
 msgid "Never move these types"
-msgstr "לעולם אל תעביר סוגים אלו"
+msgstr "לעולם אל תעביר סוגים אלה"
 
 #: includes/class-zinn-offload-settings.php:159
 msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
-msgstr "שימושי כאשר תוסף קורא קובץ ישירות מהדיסק — גופן, PDF שבונה טפסים מטביע, או קובץ שמע שנגן מחפש בתוכו."
+msgstr "שימושי כאשר תוסף קורא קובץ ישירות מהדיסק — גופן, קובץ PDF שבונה טפסים מחתים, קובץ שמע שנגן מנווט בתוכו."
 
 #: includes/class-zinn-offload-settings.php:176
 msgid "These two are the ones to be careful with — read each description before changing it."
-msgstr "יש להיזהר משניהם – יש לקרוא כל תיאור לפני ביצוע שינוי."
+msgstr "עם שני אלה יש להיזהר — יש לקרוא כל תיאור לפני שינויו."
 
 #: includes/class-zinn-offload-settings.php:181
 msgid "Serve from Zinn® storage"
-msgstr "הגש מתוך אחסון Zinn®"
+msgstr "הגשה מאחסון Zinn®"
 
 #: includes/class-zinn-offload-settings.php:182
 msgid "Point image and file addresses at Zinn® storage"
-msgstr "הפנו את כתובות התמונות והקבצים אל האחסון של Zinn®"
+msgstr "כוון את כתובות התמונות והקבצים לאחסון של Zinn®"
 
 #: includes/class-zinn-offload-settings.php:183
 msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
-msgstr "במצב כבוי, הקבצים מועלים אך עדיין מוגשים משרת זה — זהו המצב הבטוח בזמן שאינכם בודקים שהכל הגיע. במצב מופעל, המבקרים מוגשים מאחסון ושרת זה מפסיק להעביר את התעבורה."
+msgstr "במצב כבוי, הקבצים מועלים אך עדיין מוגשים משרת זה — זהו המצב הבטוח בזמן שאתה בודק שהכל הגיע. במצב מופעל, המבקרים מקבלים שירות מאמצעי האחסון ושרת זה מפסיק לנתב את התעבורה."
 
 #: includes/class-zinn-offload-settings.php:189
 msgid "Free the disk space"
-msgstr "פנה שטח דיסק"
+msgstr "פנה את שטח הדיסק"
 
 #: includes/class-zinn-offload-settings.php:190
 msgid "Delete the local copy once every size has uploaded"
-msgstr "מחק את העותק המקומי ברגע שכל גודל הועלה"
+msgstr "מחק את העותק המקומי לאחר שכל הגדלים הועלו"
 
 #: includes/class-zinn-offload-settings.php:191
 msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
-msgstr "זוהי נקודת ההעברה החוצה, והיא גם המחצית הבלתי הופכת. השאר אותה כבויה עד ש\"Serve from Zinn® storage\" יהיה מופעל ובדקת את האתר שלך – עותק מקומי הוא הדבר היחיד שיציל אותך אם משהו פוספס."
+msgstr "זוהי המטרה של הפריקה, וזהו גם החלק הבלתי הפיך. השאר זאת כבוי עד אשר \"הגש מאחסון Zinn®\" יופעל ותבדוק את האתר שלך — עותק מקומי הוא הדבר היחיד שיציל אותך אם משהו פוספס."
 
 #: includes/class-zinn-offload-settings.php:198
 msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
-msgstr "לא ניתן לבטל מחיקת עותקים מקומיים ממסך זה. יש ליצור גיבוי תחילה – תוסף Zinn® Connector יכול לעשות זאת עבורך."
+msgstr "לא ניתן לבטל את מחיקת העותקים המקומיים ממסך זה. מומלץ ליצור גיבוי תחילה — התוסף Zinn® Connector יכול לעשות זאת עבורך."
 
 #: includes/class-zinn-offload-settings.php:233
 msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
-msgstr "אתר זה אינו מחובר לאחסון של Zinn® עדיין, כך שאין לאן להעביר מדיה."
+msgstr "אתר זה עדיין אינו מחובר לאחסון של Zinn®, לכן אין לאן להעביר את המדיה."
 
 #. translators: %d: how many attachments were moved.
 #: includes/class-zinn-offload-settings.php:241
 #, php-format
 msgid "%d attachment moved."
 msgid_plural "%d attachments moved."
-msgstr[0] "%d קובץ מצורף הועבר."
-msgstr[1] "%d קבצים מצורפים הועברו."
-msgstr[2] "%d קבצים מצורפים הועברו."
+msgstr[0] "קובץ מצורף %d הועבר."
+msgstr[1] "הועברו %d קבצים מצורפים."
+msgstr[2] "הועברו %d קבצים מצורפים."
 
 #: includes/class-zinn-offload-settings.php:258
 msgid "This site is not connected to Zinn® storage."
-msgstr "אתר זה אינו מחובר לאחסון Zinn®."
+msgstr "אתר זה אינו מחובר לאחסון של Zinn®."
 
 #: includes/class-zinn-offload-settings.php:259
 msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
-msgstr "שום דבר אינו שגוי — הוא פשוט טרם עבר התאמה. מדיה נשארת בשרת זה עד שזה קורה."
+msgstr "הכול תקין — פשוט טרם בוצע צימוד. המדיה תישאר בשרת זה עד לביצועו."
 
 #: includes/class-zinn-offload-settings.php:269
 msgid "Connected, but the last upload failed."
@@ -473,11 +473,11 @@ msgstr "מחובר, אך ההעלאה האחרונה נכשלה."
 
 #: includes/class-zinn-offload-settings.php:272
 msgid "Try a batch now"
-msgstr "נסה אצווה עכשיו"
+msgstr "נסה אצווה כעת"
 
 #: includes/class-zinn-offload-settings.php:283
 msgid "Connected. Every attachment has been moved."
-msgstr "מחובר. כל הקבצים המצורפים הועברו."
+msgstr "מחובר. כל קובץ מצורף הועבר."
 
 #. translators: 1: attachments still local, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:286
@@ -497,7 +497,7 @@ msgstr "%1$s קבצים, %2$s"
 
 #: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
-msgstr "עדיין בשרת הזה"
+msgstr "עדיין בשרת זה"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:322
@@ -511,29 +511,29 @@ msgstr "מוגש מ-"
 
 #: includes/class-zinn-offload-settings.php:331
 msgid "this server"
-msgstr "שררת זה"
+msgstr "שרת זה"
 
 #: includes/class-zinn-offload-settings.php:352
 #: includes/class-zinn-offload-settings.php:377
 msgid "Connect this site"
-msgstr "חבר את האתר הזה"
+msgstr "חיבור אתר זה"
 
 #: includes/class-zinn-offload-settings.php:354
 msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
-msgstr "פתח את לוח הבקרה של Zinn Digital®, בחר את האתר הזה, פתח את \"קבצים ומסדי נתונים\" (Files & databases), ולחץ על \"קבל קוד התאמה\" (Get a pairing code) תחת \"רשת אספקת תוכן של תמונות ווידאו\" (Images & video CDN). הדבק את הקוד להלן."
+msgstr "פתח את לוח הבקרה שלך ב-Zinn Digital®, בחר באתר זה, פתח את קבצים ומסדי נתונים ולחץ על \"קבל קוד התאמה\" תחת CDN לתמונות ווידאו. הדבק את הקוד למטה."
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"
-msgstr "קוד זיווג"
+msgstr "קוד קישור"
 
 #: includes/class-zinn-offload-settings.php:380
 #: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
-msgstr "נתק את האתר הזה"
+msgstr "ניתוק אתר זה"
 
 #: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
-msgstr "העלאות חדשות יישארו בשרת זה. מדיה שכבר הועברה תמשיך לפעול – הכתובת שלה אינה משתנה."
+msgstr "העלאות חדשות יישארו בשרת זה. קובצי מדיה שכבר הועברו ימשיכו לפעול — הכתובת שלהם אינה משתנה."
 
 #: includes/class-zinn-offload-settings.php:400
 #: includes/class-zinn-offload-settings.php:433
@@ -542,73 +542,73 @@ msgstr "אין לך הרשאה לנהל את האתר הזה."
 
 #: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
-msgstr "הדבק את קוד הצימוד מלוח הבקרה שלך ב-Zinn Digital®."
+msgstr "הדבק את קוד ההתאמה מלוח הבקרה שלך ב-Zinn Digital®."
 
 #: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
-msgstr "מחובר. מעתה והלאה, העלאות חדשות יישמרו ב-Zinn Digital®, והמדיה הקיימת שלך תועבר ברקע."
+msgstr "מחובר. העלאות חדשות יישמרו ב-Zinn Digital® מעתה והלאה, וקובצי המדיה הקיימים שלך יועברו ברקע."
 
 #: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
-msgstr "מנותק. מדיה שכבר הועברה ממשיכה לפעול; העלאות חדשות יישארו בשרת זה."
+msgstr "החיבור נותק. קובצי מדיה שכבר הועברו ממשיכים לעבוד; העלאות חדשות יישארו בשרת זה."
 
 #: includes/class-zinn-offload-streaming-upload.php:87
 #: includes/class-zinn-offload-streaming-upload.php:145
 #: includes/class-zinn-offload-streaming-upload.php:264
 #: includes/class-zinn-offload-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "לא ניתן היה לקרוא קובץ זה מהשרת הזה, ולכן שום דבר לא הועלה."
+msgstr "לא ניתן היה לקרוא את הקובץ הזה משרת זה, ולכן דבר לא הועלה."
 
 #: includes/class-zinn-offload-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "אתר זה לא הצליח להזרים את ההעלאה, ולכן שום דבר לא נשלח."
+msgstr "אתר זה לא הצליח להזרים את ההעלאה, ולכן דבר לא נשלח."
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-offload-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "קובץ זה הוא %1$s ול-PHP של אתר זה אין cURL, ולכן הגודל המרבי שניתן להעלות הוא %2$s."
+msgstr "קובץ זה הוא בגודל %1$s וב-PHP של אתר זה אין cURL, לכן הגודל המרבי שניתן להעלות הוא %2$s."
 
 #: includes/class-zinn-offload-streaming-upload.php:331
 msgid "The upload could not be completed."
-msgstr "ההעלאה לא יכולה להסתיים."
+msgstr "לא ניתן היה להשלים את ההעלאה."
 
 #. translators: %d: HTTP status code returned by the storage service.
 #: includes/class-zinn-offload-streaming-upload.php:341
 #, php-format
 msgid "Storage refused the upload (HTTP %d)."
-msgstr "האחסון סירב להעלאה (HTTP %d)."
+msgstr "האחסון דחה את ההעלאה (HTTP %d)."
 
 #: includes/class-zinn-offload-style-presets.php:118
 msgid "Style preset"
-msgstr "ערכת נוסח מוגדרת מראש"
+msgstr "סגנון מוגדר מראש"
 
 #: includes/class-zinn-offload-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "נקודת מוצא. כל מה שמופיע להלן גובר עליה."
+msgstr "נקודת התחלה. כל מה שמתחת עוקף אותה."
 
 #: includes/class-zinn-offload-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "השתמש בצבעים ובגדדים שלי"
+msgstr "השתמש בצבעים ובגדלים שלי"
 
 #: includes/class-zinn-offload-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "אם תשאיר זאת כבוי, יעשה שימוש בהגדרה המובנית כפי שהיא."
+msgstr "השאר זאת כבוי וההגדרה המוגדרת מראש תשמש בדיוק כפי שהיא."
 
 #: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "עיין בהערות השחרור של Zinn Digital®."
+msgstr "צפה בהערות המהדורה של Zinn Digital®."
 
 #: includes/class-zinn-offload-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "שירות העדכונים של Zinn® לא הנפיק קישור הורדה עבור עדכון זה. בדקו שאתר זה יכול ליצור קשר עם פלטפורמת Zinn®, ולאחר מכן נסו שוב."
+msgstr "שירות העדכונים של Zinn® לא סיפק קישור הורדה עבור עדכון זה. יש לבדוק אם אתר זה יכול לגשת לפלטפורמת Zinn®, ולאחר מכן לנסות שוב."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-offload-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "לא ניתן היה להוריד את העדכון משירות העדכונים של Zinn® (%s). נסה שוב בעוד מספר דקות."
+msgstr "לא ניתן היה להוריד את העדכון משירות העדכונים של Zinn® (%s). נסו שוב בעוד מספר דקות."
 
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "העדכון שהורד נכשל בבדיקת השלמות ולא הותקן."
+msgstr "העדכון שהורד נכשל בבדיקת התקינות ולא הותקן."

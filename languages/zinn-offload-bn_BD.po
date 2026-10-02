@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-offload"
 #. Description of the plugin
 #: zinn-offload.php
 msgid "Moves this site's media library to Zinn® object storage and serves it from a CDN. Configured from your Zinn® dashboard — no access key is ever typed into WordPress."
-msgstr "এই সাইটের মিডিয়া লাইব্রেরিটি Zinn® অবজেক্ট স্টোরেজে সরিয়ে নেয় এবং একটি CDN থেকে পরিবেশন করে। আপনার Zinn® ড্যাশবোর্ড থেকে কনফিগার করা হয়—WordPress-এ কখনো কোনো অ্যাক্সেস কি টাইপ করতে হয় না।"
+msgstr "এই সাইটের মিডিয়া লাইব্রেরিটিকে Zinn® অবজেক্ট স্টোরেজে স্থানান্তরিত করে এবং একটি CDN থেকে এটি পরিবেশন করে। আপনার Zinn® ড্যাশবোর্ড থেকে কনফিগার করা হয়েছে — WordPress-এ কখনও কোনও অ্যাক্সেস কী টাইপ করতে হয় না।"
 
 #. Author of the plugin
 #: zinn-offload.php
@@ -36,11 +36,11 @@ msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-offload-admin-fields.php:580
 msgid "Stored. Type a new value to replace it."
-msgstr "সংরক্ষিত। এটি প্রতিস্থাপন করতে একটি নতুন মান টাইপ করুন।"
+msgstr "সংরক্ষিত হয়েছে। এটি প্রতিস্থাপন করতে একটি নতুন মান লিখুন।"
 
 #: includes/class-zinn-offload-admin-fields.php:640
 msgid "Filter this list…"
-msgstr "এই তালিকা ফিল্টার করুন..."
+msgstr "এই তালিকা ফিল্টার করুন…"
 
 #: includes/class-zinn-offload-admin-fields.php:641
 msgid "Filter this list"
@@ -48,7 +48,7 @@ msgstr "এই তালিকা ফিল্টার করুন"
 
 #: includes/class-zinn-offload-admin-fields.php:657
 msgid "Nothing matches that filter."
-msgstr "এই ফিল্টারের সাথে কোনো কিছু মিলছে না।"
+msgstr "সেই ফিল্টারের সাথে কিছুই মেলেনি।"
 
 #: includes/class-zinn-offload-admin-fields.php:688
 msgid "Add a row"
@@ -60,7 +60,7 @@ msgstr "এই সারিটি সরান"
 
 #: includes/class-zinn-offload-admin-fields.php:725
 msgid "Remove"
-msgstr "সরিয়ে ফেলুন"
+msgstr "সরান"
 
 #: includes/class-zinn-offload-admin-ui.php:280
 #: includes/class-zinn-offload-admin-ui.php:281
@@ -70,15 +70,15 @@ msgstr "Zinn Digital®"
 
 #: includes/class-zinn-offload-admin-ui.php:294
 msgid "Zinn Digital® — overview"
-msgstr "Zinn Digital® — সংক্ষিপ্ত বিবরণী"
+msgstr "Zinn Digital® — সারসংক্ষেপ"
 
 #: includes/class-zinn-offload-admin-ui.php:295
 msgid "Overview"
-msgstr "সারসংক্ষেপ"
+msgstr "একনজরে"
 
 #: includes/class-zinn-offload-admin-ui.php:383
 msgid "Copied"
-msgstr "কপি করা হয়েছে"
+msgstr "কপি করা হয়েছে"
 
 #: includes/class-zinn-offload-admin-ui.php:422
 msgid "Every Zinn® plugin on this site, and whether it is working."
@@ -86,7 +86,7 @@ msgstr "এই সাইটের প্রতিটি Zinn® প্লাগ�
 
 #: includes/class-zinn-offload-admin-ui.php:437
 msgid "No connection is needed for this plugin."
-msgstr "এই প্লাগিনের জন্য কোনো সংযোগের প্রয়োজন নেই।"
+msgstr "এই প্লাগইনের জন্য কোনো সংযোগের প্রয়োজন নেই।"
 
 #: includes/class-zinn-offload-admin-ui.php:442
 msgid "Open settings"
@@ -95,7 +95,7 @@ msgstr "সেটিংস খুলুন"
 #: includes/class-zinn-offload-admin-ui.php:770
 #: includes/class-zinn-offload-admin-ui.php:1331
 msgid "You do not have permission to change these settings."
-msgstr "আপনার এই সেটিংসগুলো পরিবর্তন করার অনুমতি নেই।"
+msgstr "এই সেটিংসগুলি পরিবর্তন করার অনুমতি আপনার নেই।"
 
 #: includes/class-zinn-offload-admin-ui.php:799
 msgid "Settings sections"
@@ -103,7 +103,7 @@ msgstr "সেটিংস বিভাগসমূহ"
 
 #: includes/class-zinn-offload-admin-ui.php:871
 msgid "Support"
-msgstr "সাপোর্ট"
+msgstr "সহায়তা"
 
 #: includes/class-zinn-offload-admin-ui.php:929
 msgid "Save changes"
@@ -111,23 +111,23 @@ msgstr "পরিবর্তনগুলো সংরক্ষণ করুন"
 
 #: includes/class-zinn-offload-admin-ui.php:958
 msgid "Tools"
-msgstr "টুলস"
+msgstr "সরঞ্জাম"
 
 #: includes/class-zinn-offload-admin-ui.php:973
 msgid "Export settings"
-msgstr "সেটিংস রপ্তানি করুন"
+msgstr "সেটিংস এক্সপোর্ট করুন"
 
 #: includes/class-zinn-offload-admin-ui.php:976
 msgid "Reset to defaults"
-msgstr "ডিফল্টে রিসেট করুন"
+msgstr "পূর্বনির্ধারিত মানে রিসেট করুন"
 
 #: includes/class-zinn-offload-admin-ui.php:977
 msgid "This puts every setting on this plugin back to its default. Continue?"
-msgstr "এটি এই প্লাগইনটির প্রতিটি সেটিংকে তার ডিফল্টে ফিরিয়ে দেয়। চালিয়ে যাবেন?"
+msgstr "এটি এই প্লাগইনের প্রতিটি সেটিংকে তার ডিফল্ট অবস্থায় ফিরিয়ে নেবে। আপনি কি এগিয়ে যেতে চান?"
 
 #: includes/class-zinn-offload-admin-ui.php:984
 msgid "Diagnostics for support"
-msgstr "সাপোর্টের জন্য ডায়াগনস্টিকস"
+msgstr "সহায়তার জন্য ডায়াগনস্টিক"
 
 #: includes/class-zinn-offload-admin-ui.php:993
 msgid "Import a settings file"
@@ -135,61 +135,61 @@ msgstr "একটি সেটিংস ফাইল আমদানি কর�
 
 #: includes/class-zinn-offload-admin-ui.php:995
 msgid "Import"
-msgstr "ইম্পোর্ট"
+msgstr "আমদানি করুন"
 
 #: includes/class-zinn-offload-admin-ui.php:997
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
-msgstr "এক্সপোর্ট করা ফাইলগুলোতে কখনই পাসওয়ার্ড, টোকেন বা API কী থাকে না—আপনাকে নতুন সাইটে সেগুলো আবার লিখতে হবে।"
+msgstr "রপ্তানি করা ফাইলগুলিতে কখনই পাসওয়ার্ড, টোকেন বা API কী থাকে না — আপনাকে নতুন সাইটে সেগুলি আবার প্রবেশ করাতে হবে।"
 
 #: includes/class-zinn-offload-admin-ui.php:1096
 msgid "Settings saved."
-msgstr "সেটিংস সংরক্ষণ করা হয়েছে।"
+msgstr "সেটিংস সংরক্ষিত হয়েছে।"
 
 #: includes/class-zinn-offload-admin-ui.php:1143
 msgid "Every setting on this plugin is back to its default."
-msgstr "এই প্লাগইনের প্রতিটি সেটিংস এর ডিফল্ট অবস্থায় ফিরে গেছে।"
+msgstr "এই প্লাগইনের প্রতিটি সেটিং তার ডিফল্টে ফিরে এসেছে।"
 
 #: includes/class-zinn-offload-admin-ui.php:1186
 msgid "Done."
-msgstr "সম্পন্ন।"
+msgstr "সম্পন্ন হয়েছে।"
 
 #: includes/class-zinn-offload-admin-ui.php:1190
 msgid "That action is not available."
-msgstr "এই কাজটি উপলব্ধ নয়।"
+msgstr "সেই কাজটি উপলব্ধ নয়।"
 
 #: includes/class-zinn-offload-admin-ui.php:1257
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
-msgstr "ফাইলটি পড়া যায়নি। একটি Zinn® প্লাগইন থেকে এক্সপোর্ট করা সেটিংস ফাইল বেছে নিন।"
+msgstr "সেই ফাইলটি পড়া যায়নি। একটি Zinn® প্লাগইন থেকে রপ্তানি করা সেটিংস ফাইল নির্বাচন করুন।"
 
 #: includes/class-zinn-offload-admin-ui.php:1265
 msgid "That file is too large to be a settings export."
-msgstr "সেটি সেটিংস এক্সপোর্ট হওয়ার জন্য খুব বড়।"
+msgstr "এই ফাইলটি সেটিংস এক্সপোর্ট হওয়ার জন্য অত্যন্ত বড়।"
 
 #: includes/class-zinn-offload-admin-ui.php:1278
 msgid "That file is not a Zinn® settings export."
-msgstr "ফাইলটি একটি Zinn® সেটিংস এক্সপোর্ট নয়।"
+msgstr "ঐ ফাইলটি কোনো Zinn® সেটিংস এক্সপোর্ট নয়।"
 
 #. translators: %s: the plugin slug the file was exported from.
 #: includes/class-zinn-offload-admin-ui.php:1286
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
-msgstr "ফাইলটি একটি ভিন্ন প্লাগইন (%s) থেকে এক্সপোর্ট করা হয়েছিল, তাই এটি এখানে ইমপোর্ট করলে এমন সেটিংস সংরক্ষিত হবে যা এই প্লাগইনটি বোঝে না।"
+msgstr "সেই ফাইলটি একটি ভিন্ন প্লাগইন (%s) থেকে রপ্তানি করা হয়েছিল, তাই এটি এখানে আমদানি করলে এমন সেটিংস সংরক্ষিত হবে যা এই প্লাগইন বুঝতে পারে না।"
 
 #. translators: %d: how many settings were imported.
 #: includes/class-zinn-offload-admin-ui.php:1316
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
-msgstr[0] "%dটি সেটিংস আমদানি করা হয়েছে। পাসওয়ার্ড এবং এপিআই কি কখনো এক্সপোর্টে থাকে না, তাই সেগুলো আবার লিখুন।"
-msgstr[1] "%dটি সেটিংস আমদানি করা হয়েছে। পাসওয়ার্ড এবং API কীগুলি কখনোই এক্সপোর্টে থাকে না, তাই সেগুলি আবার প্রবেশ করুন।"
+msgstr[0] "%dটি সেটিংস ইম্পোর্ট করা হয়েছে। পাসওয়ার্ড এবং API কী কখনো এক্সপোর্টে অন্তর্ভুক্ত থাকে না, তাই অনুগ্রহ করে সেগুলি আবার লিখুন।"
+msgstr[1] "%dটি সেটিংস আমদানি করা হয়েছে। পাসওয়ার্ড এবং API কীগুলি কখনও রপ্তানিতে অন্তর্ভুক্ত থাকে না, তাই অনুগ্রহ করে সেগুলি আবার লিখুন।"
 
 #: includes/class-zinn-offload-client.php:97
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
-msgstr "Zinn Digital® কোনো টোকেন ফিরিয়ে দেয়নি। এই সাইটে কোনো পরিবর্তন করা হয়নি।"
+msgstr "Zinn Digital® কোনো টোকেন ফেরত দেয়নি। এই সাইটে কিছুই পরিবর্তন করা হয়নি।"
 
 #: includes/class-zinn-offload-client.php:236
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
-msgstr "এই সাইটটি আর Zinn® মিডিয়া অফলোডের সাথে সংযুক্ত নেই। নতুন আপলোডগুলি এই সার্ভারেই থাকবে। আপনার Zinn Digital® ড্যাশবোর্ড থেকে এটি আবার পেয়ার করুন।"
+msgstr "এই সাইটটি আর Zinn® মিডিয়া অফলোডের সাথে সংযুক্ত নয়। নতুন আপলোডগুলি এই সার্ভারেই থাকবে। আপনার Zinn Digital® ড্যাশবোর্ড থেকে এটি আবার যুক্ত করুন।"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
 #: includes/class-zinn-offload-client.php:244
@@ -207,11 +207,11 @@ msgstr "সংযুক্ত"
 
 #: includes/class-zinn-offload-connection.php:60
 msgid "Connecting…"
-msgstr "সংযোগ স্থাপন হচ্ছে…"
+msgstr "সংযুক্ত হচ্ছে…"
 
 #: includes/class-zinn-offload-connection.php:62
 msgid "Connected, but something needs attention"
-msgstr "সংযুক্ত আছে, কিন্তু কিছু একটিতে মনোযোগ দেওয়া প্রয়োজন"
+msgstr "সংযুক্ত, তবে কিছু বিষয়ে মনোযোগ দেওয়া প্রয়োজন"
 
 #: includes/class-zinn-offload-connection.php:64
 msgid "Not connected"
@@ -223,11 +223,11 @@ msgstr "আপনার নিজস্ব অ্যাকাউন্টে চ
 
 #: includes/class-zinn-offload-connection.php:68
 msgid "We could not check this"
-msgstr "আমরা এটি যাচাই করতে পারিনি"
+msgstr "আমরা এটি পরীক্ষা করতে পারিনি"
 
 #: includes/class-zinn-offload-connection.php:93
 msgid "This plugin did not say why. Send a diagnostics report and we will look."
-msgstr "এই প্লাগইনটি কারণ জানায়নি। একটি ডায়াগনস্টিক রিপোর্ট পাঠান এবং আমরা বিষয়টি খতিয়ে দেখব।"
+msgstr "এই প্লাগইনটি কারণ উল্লেখ করেনি। একটি ডায়াগনস্টিক রিপোর্ট পাঠান এবং আমরা তা খতিয়ে দেখব।"
 
 #: includes/class-zinn-offload-connection.php:161
 msgid "Connection status"
@@ -237,72 +237,72 @@ msgstr "সংযোগের স্থিতি"
 #: includes/class-zinn-offload-connection.php:189
 #, php-format
 msgid "Last checked %s ago."
-msgstr "সর্বশেষ পরীক্ষা করা হয়েছে %s পূর্বে।"
+msgstr "সর্বশেষ পরীক্ষা করা হয়েছে %s আগে।"
 
 #: includes/class-zinn-offload-connection.php:251
 msgid "(opens in a new tab)"
-msgstr "(একটি নতুন ট্যাবে খোলে)"
+msgstr "(নতুন ট্যাবে খোলে)"
 
 #: includes/class-zinn-offload-diagnostics.php:199
 msgid "Send this to Zinn® support"
-msgstr "Zinn® সাপোর্ট-এ পাঠান"
+msgstr "এটি Zinn® সহায়তায় পাঠান"
 
 #: includes/class-zinn-offload-diagnostics.php:201
 msgid "This is exactly what will be sent — nothing else, and nothing hidden. Your passwords, tokens and API keys are not in it."
-msgstr "exacty এটিই পাঠানো হবে — অন্য কিছু নয়, এবং কোনো কিছু লুকানো নেই। এর মধ্যে আপনার পাসওয়ার্ড, টোকেন এবং API কী নেই।"
+msgstr "ঠিক এটিই পাঠানো হবে — অন্য কিছু নয়, এবং গোপন কিছুও নয়। আপনার পাসওয়ার্ড, টোকেন এবং API কী এতে নেই।"
 
 #: includes/class-zinn-offload-diagnostics.php:204
 msgid "The diagnostics report that will be sent"
-msgstr "যে ডায়াগনস্টিক রিপোর্ট পাঠানো হবে"
+msgstr "প্রেরণ করা হবে এমন ডায়াগনস্টিক রিপোর্ট"
 
 #: includes/class-zinn-offload-diagnostics.php:207
 msgid "Copy to clipboard"
-msgstr "কlipboard-এ কপি করুন"
+msgstr "ক্লিপবোর্ডে অনুলিপি করুন"
 
 #: includes/class-zinn-offload-diagnostics.php:214
 msgid "Send this report to Zinn® support"
-msgstr "এই রিপোর্টটি Zinn® সমর্থন-এ পাঠান"
+msgstr "এই প্রতিবেদনটি Zinn® সহায়তায় পাঠান"
 
 #: includes/class-zinn-offload-diagnostics.php:216
 msgid "We open a support ticket for you and reply by email. If you would rather not send it, copy it above and paste it into a ticket yourself."
-msgstr "আমরা আপনার জন্য একটি সাপোর্ট টিকিট খুলে দেব এবং ইমেলের মাধ্যমে উত্তর দেব। আপনি যদি এটি পাঠাতে না চান, তবে উপরের লেখাটি কপি করে নিজেই একটি টিকিটে পেস্ট করুন।"
+msgstr "আমরা আপনার জন্য একটি সাপোর্ট টিকিট খুলি এবং ইমেলের মাধ্যমে উত্তর দিই। আপনি যদি এটি পাঠাতে না চান, তবে উপরের অংশটি অনুলিপি করুন এবং নিজেই টিকিটে পেস্ট করুন।"
 
 #. translators: %s: the transport error reported by WordPress.
 #: includes/class-zinn-offload-diagnostics.php:270
 #, php-format
 msgid "We could not reach Zinn Digital® from this server (%s). Copy the report above and open a ticket instead — nothing about your settings is wrong."
-msgstr "এই সার্ভার থেকে Zinn Digital®-এ পৌঁছানো যায়নি (%s)। উপরের রিপোর্টটি কপি করুন এবং এর বদলে একটি টিকিট খুলুন—আপনার সেটিংসে কোনো সমস্যা নেই।"
+msgstr "এই সার্ভার (%s) থেকে Zinn Digital®-এ পৌঁছানো যায়নি। উপরের প্রতিবেদনটি অনুলিপি করুন এবং এর পরিবর্তে একটি টিকিট খুলুন — আপনার সেটিংসে কোনো ভুল নেই।"
 
 #: includes/class-zinn-offload-diagnostics.php:284
 msgid "Sent. Zinn® support has your report and will reply by email."
-msgstr "Zinn® সাপোর্ট আপনার রিপোর্ট পেয়েছে এবং ইমেলের মাধ্যমে উত্তর দেবে।"
+msgstr "পাঠানো হয়েছে। Zinn® সহায়তা দল আপনার প্রতিবেদনটি পেয়েছে এবং ইমেলের মাধ্যমে উত্তর দেবে।"
 
 #. translators: %s: the support reference for the report just sent.
 #: includes/class-zinn-offload-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "Sent. Zinn® support আপনার রিপোর্ট পেয়েছে — রেফারেন্স %s — এবং ইমেলের মাধ্যমে উত্তর দেবে।"
+msgstr "পাঠানো হয়েছে। Zinn® সহায়তা দল আপনার রিপোর্টটি পেয়েছে — রেফারেন্স %s — এবং ইমেলের মাধ্যমে উত্তর দেবে।"
 
 #: includes/class-zinn-offload-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
-msgstr "আপনি অল্প সময়ের মধ্যে বেশ কয়েকটি রিপোর্ট পাঠিয়েছেন। কিছুক্ষণ অপেক্ষা করে আবার চেষ্টা করুন—পূর্ববর্তী রিপোর্টগুলো পৌঁছে গেছে।"
+msgstr "আপনি অল্প সময়ের মধ্যে বেশ কয়েকটি প্রতিবেদন পাঠিয়েছেন। কয়েক মিনিট অপেক্ষা করুন এবং আবার চেষ্টা করুন — আগেরগুলি পৌঁছেছে।"
 
 #: includes/class-zinn-offload-diagnostics.php:303
 msgid "Zinn Digital® could not accept the report just now — that is our end, not yours. Try again shortly, or copy the report above into a ticket."
-msgstr "Zinn Digital® এই মুহূর্তে প্রতিবেদনটি গ্রহণ করতে পারেনি—এটি আমাদের ত্রুটি, আপনার নয়। কিছুক্ষণ পরে আবার চেষ্টা করুন অথবা উপরের প্রতিবেদনটি একটি টিকিটে কপি করুন।"
+msgstr "Zinn Digital® এইমাত্র রিপোর্টটি গ্রহণ করতে পারেনি — এটি আমাদের দিকের সমস্যা, আপনার নয়। কিছুক্ষণ পর আবার চেষ্টা করুন, অথবা উপরের রিপোর্টটি একটি টিকিটে অনুলিপি করুন।"
 
 #. translators: %d: the HTTP status code the server returned.
 #: includes/class-zinn-offload-diagnostics.php:311
 #, php-format
 msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quoting that number."
-msgstr "রিপোর্টটি প্রত্যাখ্যাত হয়েছে (HTTP %d)। এটিকে ওপরে কপি করুন এবং সেই নম্বরটি উল্লেখ করে একটি টিকিট খুলুন।"
+msgstr "প্রতিবেদনটি প্রত্যাখ্যাত হয়েছে (HTTP %d)। এটি উপরে অনুলিপি করুন এবং সেই নম্বরটি উল্লেখ করে একটি টিকিট খুলুন।"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-offload-promo.php:241
 #: includes/class-zinn-offload-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — গাইড এবং সেবাসমূহ"
+msgstr "%s — নির্দেশিকা এবং সেবাসমূহ"
 
 #: includes/class-zinn-offload-promo.php:256
 msgid "User guides"
@@ -312,7 +312,7 @@ msgstr "ব্যবহারকারী নির্দেশিকা"
 #: includes/class-zinn-offload-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "%s ব্যবহারকারী নির্দেশিকা পড়ুন"
+msgstr "%s ব্যবহারকারী নির্দেশিকা পড়ুন"
 
 #: includes/class-zinn-offload-promo.php:314
 msgid "Hide this"
@@ -324,58 +324,58 @@ msgstr "WordPress-এর জন্য Zinn® হোস্টিং"
 
 #: includes/class-zinn-offload-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, দৈনিক ব্যাকআপ, বিনামূল্যে মাইগ্রেশন এবং একাধিক সাইট পরিচালনা করেন এমন ব্যক্তিদের জন্য তৈরি একটি কন্ট্রোল প্যানেল।"
+msgstr "LiteSpeed, দৈনিক ব্যাকআপ, বিনামূল্যে মাইগ্রেশন এবং একের অধিক সাইট পরিচালনাকারীদের জন্য তৈরি একটি নিয়ন্ত্রণ প্যানেল।"
 
 #: includes/class-zinn-offload-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "The Zinn® মার্কেটপ্লেস"
+msgstr "Zinn® মার্কেটপ্লেস"
 
 #: includes/class-zinn-offload-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "প্রতিষ্ঠিত সাইট, ডোমেইন এবং লিংক প্লেসমেন্ট কেনা-বেচা করুন, উভয় পক্ষ সন্তুষ্ট না হওয়া পর্যন্ত টাকা নিরাপদে জমা রাখা হয়।"
+msgstr "উভয় পক্ষ সন্তুষ্ট না হওয়া পর্যন্ত অর্থ নিরাপদে জমা রেখে প্রতিষ্ঠিত সাইট, ডোমেন এবং লিঙ্ক প্লেসমেন্ট কেনাবেচা করুন।"
 
 #: includes/class-zinn-offload-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — যারা এটি পেশা হিসেবে করেন তাদের নিয়োগ করুন"
+msgstr "Zinn Hub® — এমন ব্যক্তিদের নিয়োগ করুন যাদের পেশাই এটি"
 
 #: includes/class-zinn-offload-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "আমাদের বৈশ্বিক ফ্রিল্যান্স মার্কেটপ্লেস: লেখক, ডিজাইনার, ডেভেলপার এবং এসইও বিশেষজ্ঞদের ১০,০০০-এর বেশি তৈরি পরিষেবা ব্রাউজ করুন অথবা একটি প্রজেক্ট পোস্ট করে তাদের বিড করার সুযোগ দিন।"
+msgstr "আমাদের গ্লোবাল ফ্রিল্যান্স মার্কেটপ্লেস: লেখক, ডিজাইনার, ডেভেলপার এবং এসইও বিশেষজ্ঞদের কাছ থেকে ১০,০০০টিরও বেশি প্রস্তুত পরিষেবা ব্রাউজ করুন, অথবা একটি প্রজেক্ট পোস্ট করে তাদের দরপ্রস্তাব দিতে দিন।"
 
 #: includes/class-zinn-offload-settings.php:73
 msgid "Media Offload"
-msgstr "মিডিয়া অফলোড"
+msgstr "মিডিয়া অফলোড"
 
 #: includes/class-zinn-offload-settings.php:79
 #: includes/class-zinn-offload-settings.php:94
 msgid "Connection"
-msgstr "কানেকশন"
+msgstr "সংযোগ"
 
 #: includes/class-zinn-offload-settings.php:83
 #: includes/class-zinn-offload-settings.php:118
 msgid "What gets moved"
-msgstr "যা স্থানান্তরিত হয়"
+msgstr "যা স্থানান্তরিত হয়"
 
 #: includes/class-zinn-offload-settings.php:87
 #: includes/class-zinn-offload-settings.php:175
 msgid "How media is served"
-msgstr "যেভাবে মিডিয়া পরিবেশন করা হয়"
+msgstr "মিডিয়া যেভাবে সরবরাহ করা হয়"
 
 #: includes/class-zinn-offload-settings.php:101
 msgid "Move a batch now"
-msgstr "এখনই একটি ব্যাচ সরান"
+msgstr "এখনই একটি ব্যাচ স্থানান্তর করুন"
 
 #: includes/class-zinn-offload-settings.php:119
 msgid "Media already moved is never affected by a change here — its address does not change."
-msgstr "ইতিমধ্যে সরানো হয়েছে এমন মিডিয়া এখানকার কোনো পরিবর্তনে প্রভাবিত হয় না—এর ঠিকানা পরিবর্তন হয় না।"
+msgstr "ইতিমধ্যে সরানো মিডিয়া কখনোই এখানকার পরিবর্তনের দ্বারা প্রভাবিত হয় না — এর ঠিকানা পরিবর্তিত হয় না।"
 
 #: includes/class-zinn-offload-settings.php:124
 msgid "New uploads"
-msgstr "নতুন আপলোডগুলি"
+msgstr "নতুন আপলোড"
 
 #: includes/class-zinn-offload-settings.php:125
 msgid "Move new uploads to Zinn® storage as they arrive"
-msgstr "নতুন আপলোড আসার সাথে সাথে সেগুলোকে Zinn® স্টোরেজে সরান"
+msgstr "নতুন আপলোডগুলি আসার সাথে সাথে Zinn® স্টোরেজে স্থানান্তর করুন"
 
 #: includes/class-zinn-offload-settings.php:131
 msgid "Existing media"
@@ -383,39 +383,39 @@ msgstr "বিদ্যমান মিডিয়া"
 
 #: includes/class-zinn-offload-settings.php:132
 msgid "Keep moving the media library that is already here"
-msgstr "এখানে থাকা মিডিয়া লাইব্রেরিটি সরাতে থাকুন"
+msgstr "ইতিমধ্যে এখানে থাকা মিডিয়া লাইব্রেরি সরানো চালিয়ে যান"
 
 #: includes/class-zinn-offload-settings.php:133
 msgid "A few files an hour, in the background, picking up where it left off. Turning this off pauses it; nothing already moved comes back."
-msgstr "ব্যাকগ্রাউন্ডে প্রতি ঘণ্টায় মাত্র কয়েকটি ফাইল, যেখানে কাজ থামানো হয়েছিল সেখান থেকেই আবার শুরু হয়। এটি বন্ধ করলে প্রক্রিয়াটি সাময়িকভাবে স্থগিত থাকে; পূর্বে স্থানান্তরিত কোনো ফাইল ফিরে আসে না।"
+msgstr "ঘণ্টায় কয়েকটি ফাইল, পটভূমিতে, যেখান থেকে শেষ হয়েছিল সেখান থেকে শুরু হয়। এটি বন্ধ করলে প্রক্রিয়াটি সাময়িক স্থগিত হয়; ইতিমধ্যে স্থানান্তরিত কোনো কিছুই ফেরত আসে না।"
 
 #: includes/class-zinn-offload-settings.php:139
 msgid "Files per hourly pass"
-msgstr "প্রতি ঘণ্টায় ফাইলের সংখ্যা"
+msgstr "ঘণ্টাপ্রতি পাসে ফাইল সংখ্যা"
 
 #: includes/class-zinn-offload-settings.php:140
 msgid "Each attachment is several files and every one is a full upload. Raise this on a fast host with a generous execution limit; lower it if passes are being cut short."
-msgstr "প্রতিটি সংযুক্তি বেশ কয়েকটি ফাইল এবং প্রতিটি একটি সম্পূর্ণ আপলোড। উদার এক্সিকিউশন সীমা সহ একটি দ্রুত হোস্টে এটি বাড়ান; পাসগুলি সংক্ষিপ্ত করা হচ্ছে কিনা তা পরীক্ষা করে প্রয়োজনে এটি কমিয়ে দিন।"
+msgstr "প্রতিটি সংযুক্তিতে একাধিক ফাইল রয়েছে এবং প্রতিটির ক্ষেত্রে সম্পূর্ণ আপলোড সম্পন্ন হয়। পর্যাপ্ত এক্সিকিউশন সীমা বিশিষ্ট দ্রুতগতির হোস্টে এটি বৃদ্ধি করুন; যদি ধাপগুলো সময়ের আগেই বন্ধ হয়ে যায় তবে এটি কমান।"
 
 #: includes/class-zinn-offload-settings.php:149
 msgid "Leave files smaller than"
-msgstr "এর চেয়ে ছোট ফাইলগুলো বাদ দিন"
+msgstr "এর চেয়ে ছোট ফাইলগুলো রেখে দিন"
 
 #: includes/class-zinn-offload-settings.php:150
 msgid "Kilobytes. A tiny icon costs more in the extra connection than it saves in disk, so there is rarely a reason to move one. Set to 0 to move everything."
-msgstr "কিলোবাইট। ডিস্কে যা সাশ্রয় করে তার চেয়ে অতিরিক্ত সংযোগে একটি ক্ষুদ্র আইকনের খরচ বেশি হয়, তাই এটি সরানোর কোনো কারণ খুব একটা নেই। সবকিছু সরাতে ০ এ সেট করুন।"
+msgstr "কিলোবাইট। একটি ক্ষুদ্র আইকন ডিস্কের জায়গা বাঁচানোর চেয়ে অতিরিক্ত সংযোগে বেশি খরচ তৈরি করে, তাই এটি সরানোর কারণ খুব কমই থাকে। সবকিছু সরাতে 0 নির্ধারণ করুন।"
 
 #: includes/class-zinn-offload-settings.php:158
 msgid "Never move these types"
-msgstr "এই ধরনের ফাইল কখনো সরাবেন না"
+msgstr "এই ধরনগুলি কখনই স্থানান্তরিত করবেন না"
 
 #: includes/class-zinn-offload-settings.php:159
 msgid "Useful when a plugin reads a file straight off the disk — a font, a PDF a form builder stamps, an audio file a player seeks inside."
-msgstr "যখন কোনো প্লাগইন সরাসরি ডিস্ক থেকে কোনো ফাইল পড়ে—যেমন কোনো ফন্ট, কোনো ফর্ম বিল্ডার দিয়ে তৈরি করা পিডিএফ, কিংবা কোনো অডিও ফাইল যার ভেতর প্লেয়ার সার্চ করে—তখন এটি দরকারী।"
+msgstr "উপযোগী যখন কোনো প্লাগইন ডিস্ক থেকে সরাসরি কোনো ফাইল পড়ে — একটি ফন্ট, কোনো ফর্ম বিল্ডারের স্ট্যাম্প করা PDF, একটি অডিও ফাইল যার ভেতরে প্লেয়ার অনুসন্ধান করে।"
 
 #: includes/class-zinn-offload-settings.php:176
 msgid "These two are the ones to be careful with — read each description before changing it."
-msgstr "এগুলোর ব্যাপারে বিশেষভাবে সতর্ক থাকা দরকার—পরিবর্তন করার আগে প্রতিটি বিবরণ পড়ে নিন।"
+msgstr "এই দুটির ক্ষেত্রে সতর্ক থাকতে হবে — পরিবর্তন করার আগে প্রতিটি বিবরণ পড়ুন।"
 
 #: includes/class-zinn-offload-settings.php:181
 msgid "Serve from Zinn® storage"
@@ -423,51 +423,51 @@ msgstr "Zinn® স্টোরেজ থেকে পরিবেশন কর�
 
 #: includes/class-zinn-offload-settings.php:182
 msgid "Point image and file addresses at Zinn® storage"
-msgstr "Zinn® স্টোরেজে ছবি এবং ফাইলের ঠিকানা নির্দেশ করুন"
+msgstr "ছবি এবং ফাইলের ঠিকানাগুলি Zinn® স্টোরেজের দিকে নির্দেশ করুন"
 
 #: includes/class-zinn-offload-settings.php:183
 msgid "Off, files are uploaded but still served from this server — which is the safe state while you check everything arrived. On, visitors are served from storage and this server stops carrying the traffic."
-msgstr "বন্ধ আছে, ফাইল আপলোড করা হয়েছে কিন্তু এখনও এই সার্ভার থেকেই পরিবেশন করা হচ্ছে—সবকিছু সঠিকভাবে পৌঁছেছে কিনা তা পরীক্ষা করার সময় এটিই নিরাপদ অবস্থা। চালু আছে, দর্শকদের স্টোরেজ থেকে পরিবেশন করা হয় এবং এই সার্ভার ট্রাফিক বহন করা বন্ধ করে দেয়।"
+msgstr "নিষ্ক্রিয় থাকলে ফাইলগুলি আপলোড হয় কিন্তু এখনও এই সার্ভার থেকেই পরিবেশিত হয় — সবকিছু পৌঁছেছে কিনা তা পরীক্ষা করার সময় এটি নিরাপদ অবস্থা। সক্রিয় থাকলে দর্শনার্থীদের স্টোরেজ থেকে পরিবেশন করা হয় এবং এই সার্ভার ট্রাফিক বহন করা বন্ধ করে দেয়।"
 
 #: includes/class-zinn-offload-settings.php:189
 msgid "Free the disk space"
-msgstr "ডিস্ক স্পেস খালি করুন"
+msgstr "ডিস্কের স্থান খালি করুন"
 
 #: includes/class-zinn-offload-settings.php:190
 msgid "Delete the local copy once every size has uploaded"
-msgstr "প্রতিটি সাইজ আপলোড হয়ে যাওয়ার পর স্থানীয় কপি মুছে ফেলুন"
+msgstr "প্রতিটি সাইজ আপলোড হয়ে গেলে স্থানীয় অনুলিপিটি মুছে ফেলুন"
 
 #: includes/class-zinn-offload-settings.php:191
 msgid "This is the point of offloading, and it is also the irreversible half. Leave it off until “Serve from Zinn® storage” is on and you have checked your site — a local copy is the only thing that saves you if something was missed."
-msgstr "এটি অফলোডিংয়ের পয়েন্ট, এবং এটি অপরিবর্তনশীল অর্ধাংশও বটে। “Serve from Zinn® storage” চালু না হওয়া পর্যন্ত এবং আপনি আপনার সাইট পরীক্ষা না করা পর্যন্ত এটি বন্ধ রাখুন—কোনো কিছু বাদ পড়ে গেলে একমাত্র স্থানীয় কপিই আপনাকে রক্ষা করতে পারে।"
+msgstr "এটিই অফলোড করার মূল উদ্দেশ্য, এবং এটি সেই অংশ যা আর আগের অবস্থায় ফিরিয়ে আনা যায় না। “Zinn® স্টোরেজ থেকে পরিবেশন করুন” চালু না হওয়া পর্যন্ত এবং আপনি আপনার সাইট পরীক্ষা না করা পর্যন্ত এটি বন্ধ রাখুন — কোনো কিছু বাদ পড়ে গেলে কেবল একটি স্থানীয় অনুলিপিই আপনাকে রক্ষা করতে পারে।"
 
 #: includes/class-zinn-offload-settings.php:198
 msgid "Deleting local copies cannot be undone from this screen. Take a backup first — the Zinn® Connector plugin can do that for you."
-msgstr "স্থানীয় অনুলিপি মুছে ফেলা এই স্ক্রিন থেকে পূর্বাবস্থায় ফেরানো যাবে না। প্রথমে একটি ব্যাকআপ নিন—Zinn® Connector প্লাগইনটি আপনার জন্য তা করতে পারে।"
+msgstr "স্থানীয় অনুলিপি মুছে ফেলা এই স্ক্রিন থেকে পূর্বাবস্থায় ফেরানো যাবে না। প্রথমে একটি ব্যাকআপ নিন — Zinn® Connector প্লাগইন আপনার জন্য এটি করতে পারে।"
 
 #: includes/class-zinn-offload-settings.php:233
 msgid "This site is not connected to Zinn® storage yet, so there is nowhere to move media to."
-msgstr "এই সাইটটি এখনও Zinn® স্টোরেজের সাথে সংযুক্ত নয়, তাই মিডিয়া সরানোর কোনো জায়গা নেই।"
+msgstr "এই সাইটটি এখনও Zinn® স্টোরেজের সাথে সংযুক্ত নয়, তাই মিডিয়া সরানোর মতো কোনো জায়গা নেই।"
 
 #. translators: %d: how many attachments were moved.
 #: includes/class-zinn-offload-settings.php:241
 #, php-format
 msgid "%d attachment moved."
 msgid_plural "%d attachments moved."
-msgstr[0] "%dটি অ্যাটাচমেন্ট সরানো হয়েছে।"
+msgstr[0] "%dটি সংযুক্তি সরানো হয়েছে।"
 msgstr[1] "%dটি সংযুক্তি সরানো হয়েছে।"
 
 #: includes/class-zinn-offload-settings.php:258
 msgid "This site is not connected to Zinn® storage."
-msgstr "এই সাইটটি Zinn® স্টোরেজের সাথে যুক্ত নয়।"
+msgstr "এই সাইটটি Zinn® স্টোরেজের সাথে সংযুক্ত নয়।"
 
 #: includes/class-zinn-offload-settings.php:259
 msgid "Nothing is wrong — it has simply not been paired yet. Media stays on this server until it is."
-msgstr "কোনো সমস্যা নেই — এটি কেবল এখনও পেয়ার করা হয়নি। এটি পেয়ার না হওয়া পর্যন্ত মিডিয়া এই সার্ভারেই থাকবে।"
+msgstr "কোনো সমস্যা নেই — এটি কেবল এখনও যুক্ত করা হয়নি। যুক্ত না হওয়া পর্যন্ত মিডিয়া এই সার্ভারেই থাকবে।"
 
 #: includes/class-zinn-offload-settings.php:269
 msgid "Connected, but the last upload failed."
-msgstr "সংযুক্ত, তবে শেষ আপলোড ব্যর্থ হয়েছে।"
+msgstr "সংযুক্ত, তবে সর্বশেষ আপলোডটি ব্যর্থ হয়েছে।"
 
 #: includes/class-zinn-offload-settings.php:272
 msgid "Try a batch now"
@@ -475,13 +475,13 @@ msgstr "এখনই একটি ব্যাচ চেষ্টা করু�
 
 #: includes/class-zinn-offload-settings.php:283
 msgid "Connected. Every attachment has been moved."
-msgstr "যুক্ত করা হয়েছে। প্রতিটি অ্যাটাচমেন্ট সরিয়ে নেওয়া হয়েছে।"
+msgstr "সংযুক্ত হয়েছে। প্রতিটি সংযুক্তি স্থানান্তর করা হয়েছে।"
 
 #. translators: 1: attachments still local, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:286
 #, php-format
 msgid "Connected. %1$s of %2$s attachments still on this server."
-msgstr "সংযুক্ত। %1$s টি সংযুক্তি এখনও এই সার্ভারে আছে (%2$s টির মধ্যে)।"
+msgstr "সংযুক্ত। %2$sটি সংযুক্তির মধ্যে %1$sটি এখনও এই সার্ভারে রয়েছে।"
 
 #: includes/class-zinn-offload-settings.php:310
 msgid "Moved so far"
@@ -491,25 +491,25 @@ msgstr "এ পর্যন্ত স্থানান্তরিত"
 #: includes/class-zinn-offload-settings.php:313
 #, php-format
 msgid "%1$s files, %2$s"
-msgstr "%1$s টি ফাইল, %2$s"
+msgstr "%1$sটি ফাইল, %2$s"
 
 #: includes/class-zinn-offload-settings.php:319
 msgid "Still on this server"
-msgstr "এই সার্ভারেই আছে"
+msgstr "এখনও এই সার্ভারে রয়েছে"
 
 #. translators: 1: attachments not yet offloaded, 2: total attachments.
 #: includes/class-zinn-offload-settings.php:322
 #, php-format
 msgid "%1$s of %2$s attachments"
-msgstr "%2$s এর মধ্যে %1$s টি সংযুক্তি"
+msgstr "%2$s-এর মধ্যে %1$sটি সংযুক্তি"
 
 #: includes/class-zinn-offload-settings.php:328
 msgid "Served from"
-msgstr "যেখান থেকে পরিবেশিত হয়"
+msgstr "যেখান থেকে পরিবেশিত"
 
 #: includes/class-zinn-offload-settings.php:331
 msgid "this server"
-msgstr "এই সার্ভার"
+msgstr "এই সার্ভারটি"
 
 #: includes/class-zinn-offload-settings.php:352
 #: includes/class-zinn-offload-settings.php:377
@@ -518,58 +518,58 @@ msgstr "এই সাইটটি সংযুক্ত করুন"
 
 #: includes/class-zinn-offload-settings.php:354
 msgid "Open your Zinn Digital® dashboard, choose this site, open Files & databases, and press “Get a pairing code” under Images & video CDN. Paste the code below."
-msgstr "আপনার Zinn Digital® ড্যাশবোর্ড খুলুন, এই সাইটটি বেছে নিন, Files & databases খুলুন এবং Images & video CDN-এর নিচে “Get a pairing code”-এ চাপুন। নিচের কোডটি পেস্ট করুন।"
+msgstr "আপনার Zinn Digital® ড্যাশবোর্ড খুলুন, এই সাইটটি নির্বাচন করুন, ফাইল ও ডেটাবেস খুলুন এবং ছবি ও ভিডিও CDN-এর অধীনে \"পেয়ারিং কোড পান\" চাপুন। কোডটি নিচে পেস্ট করুন।"
 
 #: includes/class-zinn-offload-settings.php:362
 msgid "Pairing code"
-msgstr "জোড় করার কোড"
+msgstr "পেয়ারিং কোড"
 
 #: includes/class-zinn-offload-settings.php:380
 #: includes/class-zinn-offload-settings.php:387
 msgid "Disconnect this site"
-msgstr "এই সাইটটি সংযোগ বিচ্ছিন্ন করুন"
+msgstr "এই সাইটের সংযোগ বিচ্ছিন্ন করুন"
 
 #: includes/class-zinn-offload-settings.php:382
 msgid "New uploads will stay on this server. Media already moved keeps working — its address does not change."
-msgstr "নতুন আপলোডগুলো এই সার্ভারে থাকবে। ইতোমধ্যে স্থানান্তরিত মিডিয়া কাজ করতে থাকবে — এর ঠিকানা পরিবর্তিত হয় না।"
+msgstr "নতুন আপলোডগুলি এই সার্ভারেই থাকবে। ইতিমধ্যে স্থানান্তরিত মিডিয়া কাজ চালিয়ে যাবে — এর ঠিকানা পরিবর্তিত হবে না।"
 
 #: includes/class-zinn-offload-settings.php:400
 #: includes/class-zinn-offload-settings.php:433
 msgid "You do not have permission to manage this site."
-msgstr "আপনার এই সাইটটি পরিচালনা করার অনুমতি নেই।"
+msgstr "এই সাইটটি পরিচালনা করার অনুমতি আপনার নেই।"
 
 #: includes/class-zinn-offload-settings.php:408
 msgid "Paste the pairing code from your Zinn Digital® dashboard."
-msgstr "আপনার Zinn Digital® ড্যাশবোর্ড থেকে পেয়ারিং কোডটি পেস্ট করুন।"
+msgstr "আপনার Zinn Digital® ড্যাশবোর্ড থেকে পেয়ারিং কোডটি পেস্ট করুন।"
 
 #: includes/class-zinn-offload-settings.php:417
 msgid "Connected. New uploads will be stored with Zinn Digital® from now on, and your existing media will move in the background."
-msgstr "সংযুক্ত করা হয়েছে। এখন থেকে নতুন আপলোডগুলো Zinn Digital®-এ সংরক্ষণ করা হবে এবং আপনার বর্তমান মিডিয়া ব্যাকগ্রাউন্ডে স্থানান্তরিত হবে।"
+msgstr "সংযুক্ত হয়েছে। এখন থেকে নতুন আপলোডগুলি Zinn Digital®-এ সংরক্ষিত হবে, এবং আপনার বিদ্যমান মিডিয়া পটভূমিতে স্থানান্তরিত হবে।"
 
 #: includes/class-zinn-offload-settings.php:445
 msgid "Disconnected. Media already moved keeps working; new uploads stay on this server."
-msgstr "সংযোগ বিচ্ছিন্ন হয়েছে। ইতোমধ্যে স্থানান্তরিত মিডিয়া কাজ করতে থাকবে; নতুন আপলোডগুলি এই সার্ভারেই থাকবে।"
+msgstr "সংযোগ বিচ্ছিন্ন করা হয়েছে। ইতিমধ্যে স্থানান্তরিত মিডিয়া কাজ করতে থাকবে; নতুন আপলোডগুলি এই সার্ভারেই থাকবে।"
 
 #: includes/class-zinn-offload-streaming-upload.php:87
 #: includes/class-zinn-offload-streaming-upload.php:145
 #: includes/class-zinn-offload-streaming-upload.php:264
 #: includes/class-zinn-offload-streaming-upload.php:272
 msgid "That file could not be read from this server, so nothing was uploaded."
-msgstr "এই সার্ভার থেকে সেই ফাইলটি পড়া যায়নি, তাই কিছুই আপলোড করা হয়নি।"
+msgstr "সেই ফাইলটি এই সার্ভার থেকে পড়া যায়নি, তাই কিছুই আপলোড করা হয়নি।"
 
 #: includes/class-zinn-offload-streaming-upload.php:226
 msgid "This site could not stream the upload, so nothing was sent."
-msgstr "এই সাইটটি আপলোড স্ট্রিম করতে পারেনি, তাই কিছুই পাঠানো হয়নি।"
+msgstr "এই সাইটটি আপলোড স্ট্রিম করতে পারেনি, তাই কিছুই পাঠানো হয়নি।"
 
 #. translators: 1: file size, 2: the largest size this site can send.
 #: includes/class-zinn-offload-streaming-upload.php:249
 #, php-format
 msgid "This file is %1$s and this site's PHP has no cURL, so the largest it can upload is %2$s."
-msgstr "এই ফাইলটি %1$s এবং এই সাইটের পিএইচপি-তে কোনো cURL নেই, তাই এটি সর্বোচ্চ %2$s আপলোড করতে পারবে।"
+msgstr "এই ফাইলটি %1$s এবং এই সাইটের PHP-তে cURL নেই, তাই সর্বোচ্চ %2$s আপলোড করা যাবে।"
 
 #: includes/class-zinn-offload-streaming-upload.php:331
 msgid "The upload could not be completed."
-msgstr "আপলোড সম্পন্ন করা যায়নি।"
+msgstr "আপলোডটি সম্পন্ন করা যায়নি।"
 
 #. translators: %d: HTTP status code returned by the storage service.
 #: includes/class-zinn-offload-streaming-upload.php:341
@@ -579,19 +579,19 @@ msgstr "স্টোরেজ আপলোড প্রত্যাখ্যা�
 
 #: includes/class-zinn-offload-style-presets.php:118
 msgid "Style preset"
-msgstr "স্টাইল প্রিসেট"
+msgstr "শৈলী প্রিসেট"
 
 #: includes/class-zinn-offload-style-presets.php:119
 msgid "A starting point. Anything below overrides it."
-msgstr "একটি সূচনা বিন্দু। এর নিচের যেকোনো কিছু এটিকে ওভাররাইড করবে।"
+msgstr "একটি শুরুর বিন্দু। এর নিচের যেকোনো কিছু এটিকে অগ্রাহ্য করবে।"
 
 #: includes/class-zinn-offload-style-presets.php:126
 msgid "Use my own colours and sizes"
-msgstr "আমার নিজস্ব রং এবং আকার ব্যবহার করুন"
+msgstr "আমার নিজস্ব রঙ এবং আকার ব্যবহার করুন"
 
 #: includes/class-zinn-offload-style-presets.php:127
 msgid "Leave this off and the preset is used exactly as it is."
-msgstr "এটি বন্ধ রাখুন এবং প্রিসেটটি যেমন আছে তেমনই ব্যবহার করা হবে।"
+msgstr "এটি বন্ধ রাখলে প্রিসেটটি হুবহু যেভাবে আছে সেভাবেই ব্যবহৃত হবে।"
 
 #: includes/class-zinn-offload-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -599,13 +599,13 @@ msgstr "Zinn Digital® রিলিজ নোট দেখুন।"
 
 #: includes/class-zinn-offload-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® আপডেট পরিষেবাটি এই আপডেটের জন্য কোনো ডাউনলোড লিঙ্ক জারি করেনি। এই সাইটটি Zinn® প্ল্যাটফর্মে পৌঁছাতে পারে কি না তা পরীক্ষা করুন, তারপর আবার চেষ্টা করুন।"
+msgstr "Zinn® আপডেট পরিষেবা এই আপডেটের জন্য কোনও ডাউনলোড লিঙ্ক প্রদান করেনি। এই সাইটটি Zinn® প্ল্যাটফর্মে পৌঁছাতে পারে কিনা তা পরীক্ষা করুন, তারপর আবার চেষ্টা করুন।"
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-offload-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "আপডেটটি Zinn® আপডেট পরিষেবা (%s) থেকে ডাউনলোড করা যায়নি। কয়েক মিনিট পরে আবার চেষ্টা করুন।"
+msgstr "Zinn® আপডেট পরিষেবা (%s) থেকে আপডেটটি ডাউনলোড করা যায়নি। কয়েক মিনিট পরে আবার চেষ্টা করুন।"
 
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
