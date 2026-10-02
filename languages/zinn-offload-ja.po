@@ -280,7 +280,7 @@ msgstr "送信完了。Zinn® サポートが報告を受け取りました。�
 #: includes/class-zinn-offload-diagnostics.php:287
 #, php-format
 msgid "Sent. Zinn® support has your report — reference %s — and will reply by email."
-msgstr "送信完了。Zinn® サポートがレポート（参照番号: %s）を受け取りました。メールにて返信いたします。"
+msgstr "送信完了。Zinn® サポートがレポート (参照番号: %s) を受け取りました。メールにて返信いたします。"
 
 #: includes/class-zinn-offload-diagnostics.php:296
 msgid "You have sent several reports in a short time. Wait a few minutes and try again — the earlier ones did arrive."
