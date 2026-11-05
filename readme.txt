@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.6
+Stable tag: 1.5.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -143,6 +143,9 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
 == Changelog ==
+
+= 1.5.7 =
+* Improved: the shared settings framework is updated (no change to this plugin's settings screen).
 
 = 1.5.6 =
 * Plural forms in every language now follow that language's own plural rules (Russian, Polish, Czech, Croatian, Serbian, Arabic, Hebrew, French and others), re-filled by the translator with a human check on the forms it could not tell apart.
