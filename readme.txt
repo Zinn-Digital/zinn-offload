@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.7
+Stable tag: 1.5.8
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -142,7 +142,14 @@ Yes. It rewrites `srcset` and sized-image requests as well as the plain attachme
 
 Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the plugin works the same way and still never holds the key.
 
+= Are there hooks for developers? =
+
+Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
+
 == Changelog ==
+
+= 1.5.8 =
+* New: developer actions and filters around every upload (zinn_offload_should_offload, zinn_offload_files, zinn_offload_before_upload, zinn_offload_file_uploaded, zinn_offload_failed, zinn_offload_attachment_offloaded).
 
 = 1.5.7 =
 * Improved: the shared settings framework is updated (no change to this plugin's settings screen).

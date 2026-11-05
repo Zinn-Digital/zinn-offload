@@ -77,12 +77,29 @@ class Zinn_Offload_Uploader {
 			return $metadata;
 		}
 
+		$should   = true;
 		$excluded = (array) zinn_offload_setting( 'exclude_mime', array() );
 		if ( array() !== $excluded ) {
 			$mime = (string) get_post_mime_type( (int) $attachment_id );
 			if ( '' !== $mime && in_array( $mime, array_map( 'strval', $excluded ), true ) ) {
-				return $metadata;
+				$should = false;
 			}
+		}
+
+		/**
+		 * Filters whether this attachment is offloaded.
+		 *
+		 * Runs after the "Offload new uploads" switch (which always wins) and the excluded file
+		 * types, so `$should` is what this plugin would do. Return false to keep it local.
+		 *
+		 * @since 1.5.8
+		 *
+		 * @param bool                 $should        Whether to offload it.
+		 * @param int                  $attachment_id The attachment post ID.
+		 * @param array<string, mixed> $metadata      The attachment metadata.
+		 */
+		if ( ! apply_filters( 'zinn_offload_should_offload', $should, (int) $attachment_id, $metadata ) ) {
+			return $metadata;
 		}
 
 		$files = $this->files_for( $metadata, (int) $attachment_id );
@@ -101,13 +118,42 @@ class Zinn_Offload_Uploader {
 			);
 		}
 
+		/**
+		 * Filters the files of this attachment that are offloaded (relative key => local path).
+		 *
+		 * ⛔ It can only REMOVE files: anything it adds or re-points is dropped, so no filter can
+		 * send a file from outside this attachment's own family in the uploads folder.
+		 *
+		 * @since 1.5.8
+		 *
+		 * @param array<string, string> $files         Relative key => absolute local path.
+		 * @param int                   $attachment_id The attachment post ID.
+		 * @param array<string, mixed>  $metadata      The attachment metadata.
+		 */
+		$filtered = apply_filters( 'zinn_offload_files', $files, (int) $attachment_id, $metadata );
+		if ( is_array( $filtered ) ) {
+			$files = array_intersect_assoc( $files, $filtered );
+		}
+
 		if ( array() === $files ) {
 			return $metadata;
 		}
 
+		/**
+		 * Fires before the files of one attachment are sent to storage.
+		 *
+		 * @since 1.5.8
+		 *
+		 * @param int                   $attachment_id The attachment post ID.
+		 * @param array<string, string> $files         Relative key => absolute local path.
+		 */
+		do_action( 'zinn_offload_before_upload', (int) $attachment_id, $files );
+
 		$tickets = $this->client->presign( array_keys( $files ) );
 		if ( is_wp_error( $tickets ) ) {
 			$this->note( $tickets->get_error_message() );
+			/** This action is documented below. */
+			do_action( 'zinn_offload_failed', (int) $attachment_id, $tickets );
 			return $metadata;
 		}
 
@@ -125,11 +171,30 @@ class Zinn_Offload_Uploader {
 				// storage is refusing us, the next fifty will refuse too, and each one costs
 				// the person watching the spinner another upload timeout.
 				$this->note( $result->get_error_message() );
+				/**
+				 * Fires when storage refuses an attachment (nothing more of it is sent this time).
+				 *
+				 * @since 1.5.8
+				 *
+				 * @param int       $attachment_id The attachment post ID.
+				 * @param \WP_Error $error         What went wrong.
+				 */
+				do_action( 'zinn_offload_failed', (int) $attachment_id, $result );
 				break;
 			}
 			++$uploaded;
 			$size   = (int) filesize( $path );
 			$bytes += max( 0, $size );
+			/**
+			 * Fires after one file is in storage.
+			 *
+			 * @since 1.5.8
+			 *
+			 * @param int    $attachment_id The attachment post ID.
+			 * @param string $relative      Its key relative to the uploads folder.
+			 * @param string $path          Its local path.
+			 */
+			do_action( 'zinn_offload_file_uploaded', (int) $attachment_id, $relative, $path );
 		}
 
 		if ( $uploaded > 0 ) {
@@ -139,6 +204,17 @@ class Zinn_Offload_Uploader {
 			update_post_meta( (int) $attachment_id, ZINN_OFFLOAD_KEY_META, $this->original_of( $metadata ) );
 			$this->count( $uploaded, $bytes );
 			$this->maybe_delete_local( $files, (int) $attachment_id, count( $files ) === $uploaded );
+			/**
+			 * Fires after an attachment is offloaded.
+			 *
+			 * @since 1.5.8
+			 *
+			 * @param int  $attachment_id The attachment post ID.
+			 * @param int  $uploaded      Files now in storage.
+			 * @param int  $bytes         Their size in bytes.
+			 * @param bool $complete      Whether every file of the attachment made it.
+			 */
+			do_action( 'zinn_offload_attachment_offloaded', (int) $attachment_id, $uploaded, $bytes, count( $files ) === $uploaded );
 		}
 
 		return $metadata;
