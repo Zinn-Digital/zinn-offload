@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.8
+Stable tag: 1.5.9
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,6 +122,10 @@ corrections and new languages can be contributed directly.
 
 == Frequently Asked Questions ==
 
+= Are my WooCommerce or Easy Digital Downloads product files safe? =
+
+Yes. Files a shop keeps in its protected downloads folder (woocommerce_uploads for WooCommerce, edd for Easy Digital Downloads, dlm_uploads for Download Monitor) are never offloaded. They stay on your site, and the shop checks the order before it hands one out, exactly as without this plugin.
+
 = What happens to my images if I deactivate the plugin? =
 
 Media that has already moved keeps working — its address does not change, because it is served from the CDN and the CDN is still there. New uploads stay on your web server.
@@ -147,6 +151,9 @@ Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the 
 Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
 
 == Changelog ==
+
+= 1.5.9 =
+* Security: a shop's protected downloads (WooCommerce, Easy Digital Downloads and Download Monitor product files) are never offloaded. They stay on your site behind the shop's own download checks, so a paid file can never end up at a public storage address.
 
 = 1.5.8 =
 * New: developer actions and filters around every upload (zinn_offload_should_offload, zinn_offload_files, zinn_offload_before_upload, zinn_offload_file_uploaded, zinn_offload_failed, zinn_offload_attachment_offloaded).

@@ -37,6 +37,20 @@ class Zinn_Offload_Uploader {
 	private Zinn_Offload_Client $client;
 
 	/**
+	 * Uploads sub-folders a shop keeps its PAID downloads in, behind its own access checks.
+	 *
+	 * ⛔⛔ **A PROTECTED DOWNLOAD NEVER LEAVES THE SITE.** WooCommerce (`woocommerce_uploads`),
+	 * Easy Digital Downloads (`edd`) and Download Monitor (`dlm_uploads`) put a product's file
+	 * in a folder the web server refuses to serve, and hand it out only after checking the
+	 * order. Offloading one would put the file at a public storage address and remove the local
+	 * copy, so anyone with the link could download what customers pay for. Such a file is kept
+	 * local and the store's own download protection keeps working; no filter can change that.
+	 *
+	 * @since 1.5.9
+	 */
+	public const PROTECTED_DIRS = array( 'woocommerce_uploads', 'edd', 'dlm_uploads' );
+
+	/**
 	 * Constructor.
 	 *
 	 * @param Zinn_Offload_Client $client The API client.
@@ -74,6 +88,10 @@ class Zinn_Offload_Uploader {
 		// is only stored is the placeholder §2.41 forbids, and it is worse than an absent
 		// one: the customer believes new uploads have stopped moving when they have not.
 		if ( ! zinn_offload_setting( 'offload_new_uploads', true ) ) {
+			return $metadata;
+		}
+
+		if ( self::is_protected_download( $this->original_of( $metadata ) ) ) {
 			return $metadata;
 		}
 
@@ -273,6 +291,18 @@ class Zinn_Offload_Uploader {
 
 		unset( $attachment_id );
 		return $files;
+	}
+
+	/**
+	 * Whether a path relative to the uploads folder is in a shop's protected downloads folder.
+	 *
+	 * @param string $relative Path relative to the uploads folder.
+	 * @return bool
+	 */
+	public static function is_protected_download( string $relative ): bool {
+		$parts = explode( '/', ltrim( str_replace( '\\', '/', $relative ), '/' ) );
+		$first = strtolower( $parts[0] );
+		return in_array( $first, self::PROTECTED_DIRS, true );
 	}
 
 	/**
