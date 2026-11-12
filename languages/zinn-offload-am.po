@@ -62,121 +62,121 @@ msgstr "ይህን ረድፍ አስወግድ"
 msgid "Remove"
 msgstr "አስወግድ"
 
-#: includes/class-zinn-offload-admin-ui.php:280
-#: includes/class-zinn-offload-admin-ui.php:281
-#: includes/class-zinn-offload-admin-ui.php:421
+#: includes/class-zinn-offload-admin-ui.php:297
+#: includes/class-zinn-offload-admin-ui.php:298
+#: includes/class-zinn-offload-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-offload-admin-ui.php:294
+#: includes/class-zinn-offload-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — አጠቃላይ እይታ"
 
-#: includes/class-zinn-offload-admin-ui.php:295
+#: includes/class-zinn-offload-admin-ui.php:312
 msgid "Overview"
 msgstr "አጠቃላይ እይታ"
 
-#: includes/class-zinn-offload-admin-ui.php:383
+#: includes/class-zinn-offload-admin-ui.php:400
 msgid "Copied"
 msgstr "ተቀድቷል"
 
-#: includes/class-zinn-offload-admin-ui.php:422
+#: includes/class-zinn-offload-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "በዚህ ጣቢያ ላይ ያለ እያንዳንዱ የZinn® ተሰኪ እና እየሰራ እንደሆነ።"
 
-#: includes/class-zinn-offload-admin-ui.php:437
+#: includes/class-zinn-offload-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "ለዚህ ተሰኪ ምንም ግንኙነት አያስፈልግም።"
 
-#: includes/class-zinn-offload-admin-ui.php:442
+#: includes/class-zinn-offload-admin-ui.php:460
 msgid "Open settings"
 msgstr "ቅንብሮችን ክፈት"
 
-#: includes/class-zinn-offload-admin-ui.php:770
-#: includes/class-zinn-offload-admin-ui.php:1331
+#: includes/class-zinn-offload-admin-ui.php:788
+#: includes/class-zinn-offload-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "እነዚህን ቅንብሮች ለመለወጥ ፈቃድ የለዎትም።"
 
-#: includes/class-zinn-offload-admin-ui.php:799
+#: includes/class-zinn-offload-admin-ui.php:817
 msgid "Settings sections"
 msgstr "የቅንብሮች ክፍሎች"
 
-#: includes/class-zinn-offload-admin-ui.php:871
+#: includes/class-zinn-offload-admin-ui.php:889
 msgid "Support"
 msgstr "ድጋፍ"
 
-#: includes/class-zinn-offload-admin-ui.php:929
+#: includes/class-zinn-offload-admin-ui.php:955
 msgid "Save changes"
 msgstr "ለውጦችን አስቀምጥ"
 
-#: includes/class-zinn-offload-admin-ui.php:958
+#: includes/class-zinn-offload-admin-ui.php:984
 msgid "Tools"
 msgstr "መሳሪያዎች"
 
-#: includes/class-zinn-offload-admin-ui.php:973
+#: includes/class-zinn-offload-admin-ui.php:999
 msgid "Export settings"
 msgstr "ቅንብሮችን ላክ"
 
-#: includes/class-zinn-offload-admin-ui.php:976
+#: includes/class-zinn-offload-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "ወደ ነባሪዎች ዳግም አስጀምር"
 
-#: includes/class-zinn-offload-admin-ui.php:977
+#: includes/class-zinn-offload-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ይህ በዚህ ተሰኪ ላይ ያለውን እያንዳንዱን ቅንብር ወደ ነባሪው ይመልሰዋል። ይቀጥሉ?"
 
-#: includes/class-zinn-offload-admin-ui.php:984
+#: includes/class-zinn-offload-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "የድጋፍ ምርመራ መረጃ"
 
-#: includes/class-zinn-offload-admin-ui.php:993
+#: includes/class-zinn-offload-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "የቅንብሮች ፋይል አስመጣ"
 
-#: includes/class-zinn-offload-admin-ui.php:995
+#: includes/class-zinn-offload-admin-ui.php:1021
 msgid "Import"
 msgstr "አስመጣ"
 
-#: includes/class-zinn-offload-admin-ui.php:997
+#: includes/class-zinn-offload-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ወደ ውጭ የተላኩ ፋይሎች የይለፍ ቃሎችን፣ ቶከኖችን ወይም የኤፒአይ ቁልፎችን ፈጽሞ አልያዙም — አዲሱ ጣቢያ ላይ እንደገና ማስገባት ይኖርብዎታል።"
 
-#: includes/class-zinn-offload-admin-ui.php:1096
+#: includes/class-zinn-offload-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "ቅንብሮች ተቀምጠዋል።"
 
-#: includes/class-zinn-offload-admin-ui.php:1143
+#: includes/class-zinn-offload-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "የዚህ ተሰኪ ሁሉም ቅንብሮች ወደ ነባሪ ሁኔታቸው ተመልሰዋል።"
 
-#: includes/class-zinn-offload-admin-ui.php:1186
+#: includes/class-zinn-offload-admin-ui.php:1281
 msgid "Done."
 msgstr "ተጠናቋል።"
 
-#: includes/class-zinn-offload-admin-ui.php:1190
+#: includes/class-zinn-offload-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "ያ እርምጃ አይገኝም።"
 
-#: includes/class-zinn-offload-admin-ui.php:1257
+#: includes/class-zinn-offload-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ያ ፋይል ሊነበብ አልቻለም። ከZinn® ተሰኪ የተላከ የቅንብሮች ፋይል ይምረጡ።"
 
-#: includes/class-zinn-offload-admin-ui.php:1265
+#: includes/class-zinn-offload-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "ያ ፋይል የቅንብሮች መላኪያ ለመሆን በጣም ትልቅ ነው።"
 
-#: includes/class-zinn-offload-admin-ui.php:1278
+#: includes/class-zinn-offload-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "ያ ፋይል የZinn® ቅንብሮች ኤክስፖርት አይደለም።"
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-offload-admin-ui.php:1286
+#: includes/class-zinn-offload-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ያ ፋይል የተላከው ከተለየ ተሰኪ (%s) ስለሆነ፣ እዚህ ማስመጣት ይህ ተሰኪ የማይረዳቸውን ቅንብሮች ያከማቻል።"
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-offload-admin-ui.php:1316
+#: includes/class-zinn-offload-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -298,47 +298,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "ሪፖርቱ ተቀባይነት አላገኘም (HTTP %d)። ከላይ ይቅዱት እና ያንን ቁጥር በመጥቀስ የድጋፍ ጥያቄ (ticket) ይክፈቱ።"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-offload-promo.php:349
-#: includes/class-zinn-offload-promo.php:407
+#: includes/class-zinn-offload-promo.php:363
+#: includes/class-zinn-offload-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — መመሪያዎች እና አገልግሎቶች"
 
-#: includes/class-zinn-offload-promo.php:364
+#: includes/class-zinn-offload-promo.php:378
 msgid "User guides"
 msgstr "የተጠቃሚ መመሪያዎች"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-offload-promo.php:414
+#: includes/class-zinn-offload-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "የ%s የተጠቃሚ መመሪያን ያንብቡ"
 
-#: includes/class-zinn-offload-promo.php:422
+#: includes/class-zinn-offload-promo.php:436
 msgid "Hide this"
 msgstr "ይህን ደብቅ"
 
-#: includes/class-zinn-offload-promo.php:535
+#: includes/class-zinn-offload-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro አባልነት፡ እያንዳንዱ የPro ተሰኪ፣ አንድ ፈቃድ"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-offload-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "የ Page Builder Sandwich፣ Tranzly፣ Zinn® SEO፣ Zinn® Cache እና Zinn® Backups የ Pro ስሪቶች፣ እንዲሁም ቀጥሎ የምንለቃቸው እያንዳንዱ Pro ፕለጊን፣ በዓመት ከ %s ጀምሮ። ሁለተኛ አባልነት Zinn® Chat Pro ን ያክላል።"
+
+#: includes/class-zinn-offload-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® ሆስቲንግ ለWordPress"
 
-#: includes/class-zinn-offload-promo.php:536
+#: includes/class-zinn-offload-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed፣ ዕለታዊ ምትኬዎች፣ ነጻ ፍልሰት እና ከአንድ በላይ ድረ-ገጾችን ለሚያስተዳድሩ ሰዎች የተሰራ የቁጥጥር ፓነል።"
 
-#: includes/class-zinn-offload-promo.php:542
+#: includes/class-zinn-offload-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "የ Zinn® የገበያ ቦታ"
 
-#: includes/class-zinn-offload-promo.php:543
+#: includes/class-zinn-offload-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ሁለቱም ወገኖች እስኪረኩ ድረስ ገንዘቡ በደህንነት ተይዞ የተቋቋሙ ድረ-ገጾችን፣ ዶሜይኖችን እና የአገናኝ ምደባዎችን ይግዙ እና ይሽጡ።"
 
-#: includes/class-zinn-offload-promo.php:590
+#: includes/class-zinn-offload-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ይህን በሙያቸው የሚያደርጉ ሰዎችን ይቅጠሩ"
 
-#: includes/class-zinn-offload-promo.php:591
+#: includes/class-zinn-offload-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ዓለም አቀፍ የፍሪላንስ የገበያ ቦታችን፡ ከጸሐፊዎች፣ ዲዛይነሮች፣ ገንቢዎች እና የSEO ባለሙያዎች የቀረቡ ከ10,000 በላይ ዝግጁ አገልግሎቶችን ያስሱ፣ ወይም ፕሮጀክት ለጥፈው ጨረታ እንዲያቀርቡ ያድርጉ።"
 

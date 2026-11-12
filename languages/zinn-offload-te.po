@@ -62,121 +62,121 @@ msgstr "ఈ అడ్డువరుసను తీసివేయండి"
 msgid "Remove"
 msgstr "తీసివేయి"
 
-#: includes/class-zinn-offload-admin-ui.php:280
-#: includes/class-zinn-offload-admin-ui.php:281
-#: includes/class-zinn-offload-admin-ui.php:421
+#: includes/class-zinn-offload-admin-ui.php:297
+#: includes/class-zinn-offload-admin-ui.php:298
+#: includes/class-zinn-offload-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-offload-admin-ui.php:294
+#: includes/class-zinn-offload-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — స్థూలదృష్టి"
 
-#: includes/class-zinn-offload-admin-ui.php:295
+#: includes/class-zinn-offload-admin-ui.php:312
 msgid "Overview"
 msgstr "అవలోకనం"
 
-#: includes/class-zinn-offload-admin-ui.php:383
+#: includes/class-zinn-offload-admin-ui.php:400
 msgid "Copied"
 msgstr "కాపీ చేయబడింది"
 
-#: includes/class-zinn-offload-admin-ui.php:422
+#: includes/class-zinn-offload-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "ఈ సైట్‌లోని ప్రతి Zinn® ప్లగిన్, మరియు అది పనిచేస్తుందో లేదో."
 
-#: includes/class-zinn-offload-admin-ui.php:437
+#: includes/class-zinn-offload-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "ఈ ప్లగిన్ కోసం ఎలాంటి కనెక్షన్ అవసరం లేదు."
 
-#: includes/class-zinn-offload-admin-ui.php:442
+#: includes/class-zinn-offload-admin-ui.php:460
 msgid "Open settings"
 msgstr "సెట్టింగ్‌లను తెరవండి"
 
-#: includes/class-zinn-offload-admin-ui.php:770
-#: includes/class-zinn-offload-admin-ui.php:1331
+#: includes/class-zinn-offload-admin-ui.php:788
+#: includes/class-zinn-offload-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "ఈ సెట్టింగ్‌లను మార్చడానికి మీకు అనుమతి లేదు."
 
-#: includes/class-zinn-offload-admin-ui.php:799
+#: includes/class-zinn-offload-admin-ui.php:817
 msgid "Settings sections"
 msgstr "సెట్టింగ్‌ల విభాగాలు"
 
-#: includes/class-zinn-offload-admin-ui.php:871
+#: includes/class-zinn-offload-admin-ui.php:889
 msgid "Support"
 msgstr "మద్దతు"
 
-#: includes/class-zinn-offload-admin-ui.php:929
+#: includes/class-zinn-offload-admin-ui.php:955
 msgid "Save changes"
 msgstr "మార్పులను భద్రపరచండి"
 
-#: includes/class-zinn-offload-admin-ui.php:958
+#: includes/class-zinn-offload-admin-ui.php:984
 msgid "Tools"
 msgstr "సాధనాలు"
 
-#: includes/class-zinn-offload-admin-ui.php:973
+#: includes/class-zinn-offload-admin-ui.php:999
 msgid "Export settings"
 msgstr "సెట్టింగులను ఎగుమతి చేయండి"
 
-#: includes/class-zinn-offload-admin-ui.php:976
+#: includes/class-zinn-offload-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "డిఫాల్ట్‌లకు రీసెట్ చేయండి"
 
-#: includes/class-zinn-offload-admin-ui.php:977
+#: includes/class-zinn-offload-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "ఇది ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్‌ను దాని డిఫాల్ట్‌కు రీసెట్ చేస్తుంది. కొనసాగించాలా?"
 
-#: includes/class-zinn-offload-admin-ui.php:984
+#: includes/class-zinn-offload-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "మద్దతు కోసం విశ్లేషణలు"
 
-#: includes/class-zinn-offload-admin-ui.php:993
+#: includes/class-zinn-offload-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "అమరికల ఫైలును దిగుమతి చేయండి"
 
-#: includes/class-zinn-offload-admin-ui.php:995
+#: includes/class-zinn-offload-admin-ui.php:1021
 msgid "Import"
 msgstr "దిగుమతి చేయండి"
 
-#: includes/class-zinn-offload-admin-ui.php:997
+#: includes/class-zinn-offload-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "ఎగుమతి చేసిన ఫైళ్ళలో పాస్‌వర్డ్‌లు, టోకెన్‌లు లేదా API కీలు ఎప్పటికీ ఉండవు — మీరు వాటిని కొత్త సైట్‌లో మళ్లీ నమోదు చేయాల్సి ఉంటుంది."
 
-#: includes/class-zinn-offload-admin-ui.php:1096
+#: includes/class-zinn-offload-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "అమరికలు భద్రపరచబడ్డాయి."
 
-#: includes/class-zinn-offload-admin-ui.php:1143
+#: includes/class-zinn-offload-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "ఈ ప్లగిన్‌లోని ప్రతి సెట్టింగ్ దాని డిఫాల్ట్‌కి తిరిగి వచ్చింది."
 
-#: includes/class-zinn-offload-admin-ui.php:1186
+#: includes/class-zinn-offload-admin-ui.php:1281
 msgid "Done."
 msgstr "పూర్తయింది."
 
-#: includes/class-zinn-offload-admin-ui.php:1190
+#: includes/class-zinn-offload-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "ఆ చర్య అందుబాటులో లేదు."
 
-#: includes/class-zinn-offload-admin-ui.php:1257
+#: includes/class-zinn-offload-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "ఆ ఫైల్ చదవడం సాధ్యం కాలేదు. Zinn® ప్లగిన్ నుండి ఎగుమతి చేయబడిన సెట్టింగ్‌ల ఫైల్‌ను ఎంచుకోండి."
 
-#: includes/class-zinn-offload-admin-ui.php:1265
+#: includes/class-zinn-offload-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "ఆ ఫైల్ సెట్టింగ్‌ల ఎగుమతి కావడానికి చాలా పెద్దదిగా ఉంది."
 
-#: includes/class-zinn-offload-admin-ui.php:1278
+#: includes/class-zinn-offload-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "ఆ ఫైల్ Zinn® సెట్టింగ్‌ల ఎగుమతి కాదు."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-offload-admin-ui.php:1286
+#: includes/class-zinn-offload-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "ఆ ఫైల్ వేరొక ప్లగిన్ (%s) నుండి ఎగుమతి చేయబడింది, కాబట్టి దానిని ఇక్కడ దిగుమతి చేయడం వల్ల ఈ ప్లగిన్ అర్థం చేసుకోలేని సెట్టింగ్‌లు నిల్వ చేయబడతాయి."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-offload-admin-ui.php:1316
+#: includes/class-zinn-offload-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -298,47 +298,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "నివేదిక తిరస్కరించబడింది (HTTP %d). పైన ఉన్నదానిని కాపీ చేసి, ఆ సంఖ్యను పేర్కొంటూ టికెట్‌ను తెరవండి."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-offload-promo.php:349
-#: includes/class-zinn-offload-promo.php:407
+#: includes/class-zinn-offload-promo.php:363
+#: includes/class-zinn-offload-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — మార్గదర్శకాలు మరియు సేవలు"
 
-#: includes/class-zinn-offload-promo.php:364
+#: includes/class-zinn-offload-promo.php:378
 msgid "User guides"
 msgstr "వినియోగదారు మార్గదర్శకాలు"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-offload-promo.php:414
+#: includes/class-zinn-offload-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s వినియోగదారు మార్గదర్శిని చదవండి"
 
-#: includes/class-zinn-offload-promo.php:422
+#: includes/class-zinn-offload-promo.php:436
 msgid "Hide this"
 msgstr "దీన్ని దాచండి"
 
-#: includes/class-zinn-offload-promo.php:535
+#: includes/class-zinn-offload-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro సభ్యత్వం: ప్రతి Pro ప్లగిన్, ఒకే లైసెన్స్"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-offload-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache మరియు Zinn® Backups యొక్క Pro వెర్షన్‌లు, మరియు మేము తర్వాత విడుదల చేసే ప్రతి Pro ప్లగిన్, సంవత్సరానికి %s నుండి. రెండవ సభ్యత్వం Zinn® Chat Proని జోడిస్తుంది."
+
+#: includes/class-zinn-offload-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress కొరకు Zinn® హోస్టింగ్"
 
-#: includes/class-zinn-offload-promo.php:536
+#: includes/class-zinn-offload-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకదానికంటే ఎక్కువ సైట్‌లను నడిపే వ్యక్తుల కోసం రూపొందించబడిన నియంత్రణ ప్యానెల్."
 
-#: includes/class-zinn-offload-promo.php:542
+#: includes/class-zinn-offload-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® మార్కెట్ ప్లేస్"
 
-#: includes/class-zinn-offload-promo.php:543
+#: includes/class-zinn-offload-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "రెండు వైపులా సంతృప్తి చెందే వరకు నగదు సురక్షితంగా ఉంచబడుతూ, స్థాపించబడిన సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనుగోలు చేయండి మరియు విక్రయించండి."
 
-#: includes/class-zinn-offload-promo.php:590
+#: includes/class-zinn-offload-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — దీనినే జీవనోపాధిగా చేసుకున్న వ్యక్తులను నియమించుకోండి"
 
-#: includes/class-zinn-offload-promo.php:591
+#: includes/class-zinn-offload-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రచయితలు, డిజైనర్లు, డెవలపర్లు మరియు ఎస్‌ఈఓ నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."
 

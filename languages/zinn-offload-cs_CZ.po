@@ -62,121 +62,121 @@ msgstr "Odebrat tento řádek"
 msgid "Remove"
 msgstr "Odebrat"
 
-#: includes/class-zinn-offload-admin-ui.php:280
-#: includes/class-zinn-offload-admin-ui.php:281
-#: includes/class-zinn-offload-admin-ui.php:421
+#: includes/class-zinn-offload-admin-ui.php:297
+#: includes/class-zinn-offload-admin-ui.php:298
+#: includes/class-zinn-offload-admin-ui.php:439
 msgid "Zinn Digital®"
 msgstr "Zinn Digital®"
 
-#: includes/class-zinn-offload-admin-ui.php:294
+#: includes/class-zinn-offload-admin-ui.php:311
 msgid "Zinn Digital® — overview"
 msgstr "Zinn Digital® — přehled"
 
-#: includes/class-zinn-offload-admin-ui.php:295
+#: includes/class-zinn-offload-admin-ui.php:312
 msgid "Overview"
 msgstr "Přehled"
 
-#: includes/class-zinn-offload-admin-ui.php:383
+#: includes/class-zinn-offload-admin-ui.php:400
 msgid "Copied"
 msgstr "Zkopírováno"
 
-#: includes/class-zinn-offload-admin-ui.php:422
+#: includes/class-zinn-offload-admin-ui.php:440
 msgid "Every Zinn® plugin on this site, and whether it is working."
 msgstr "Každý plugin Zinn® na tomto webu a zda funguje."
 
-#: includes/class-zinn-offload-admin-ui.php:437
+#: includes/class-zinn-offload-admin-ui.php:455
 msgid "No connection is needed for this plugin."
 msgstr "Pro tento plugin není vyžadováno žádné připojení."
 
-#: includes/class-zinn-offload-admin-ui.php:442
+#: includes/class-zinn-offload-admin-ui.php:460
 msgid "Open settings"
 msgstr "Otevřít nastavení"
 
-#: includes/class-zinn-offload-admin-ui.php:770
-#: includes/class-zinn-offload-admin-ui.php:1331
+#: includes/class-zinn-offload-admin-ui.php:788
+#: includes/class-zinn-offload-admin-ui.php:1426
 msgid "You do not have permission to change these settings."
 msgstr "Nemáte oprávnění ke změně těchto nastavení."
 
-#: includes/class-zinn-offload-admin-ui.php:799
+#: includes/class-zinn-offload-admin-ui.php:817
 msgid "Settings sections"
 msgstr "Sekce nastavení"
 
-#: includes/class-zinn-offload-admin-ui.php:871
+#: includes/class-zinn-offload-admin-ui.php:889
 msgid "Support"
 msgstr "Podpora"
 
-#: includes/class-zinn-offload-admin-ui.php:929
+#: includes/class-zinn-offload-admin-ui.php:955
 msgid "Save changes"
 msgstr "Uložit změny"
 
-#: includes/class-zinn-offload-admin-ui.php:958
+#: includes/class-zinn-offload-admin-ui.php:984
 msgid "Tools"
 msgstr "Nástroje"
 
-#: includes/class-zinn-offload-admin-ui.php:973
+#: includes/class-zinn-offload-admin-ui.php:999
 msgid "Export settings"
 msgstr "Exportovat nastavení"
 
-#: includes/class-zinn-offload-admin-ui.php:976
+#: includes/class-zinn-offload-admin-ui.php:1002
 msgid "Reset to defaults"
 msgstr "Obnovit výchozí"
 
-#: includes/class-zinn-offload-admin-ui.php:977
+#: includes/class-zinn-offload-admin-ui.php:1003
 msgid "This puts every setting on this plugin back to its default. Continue?"
 msgstr "Tímto se všechna nastavení tohoto pluginu vrátí na výchozí hodnoty. Chcete pokračovat?"
 
-#: includes/class-zinn-offload-admin-ui.php:984
+#: includes/class-zinn-offload-admin-ui.php:1010
 msgid "Diagnostics for support"
 msgstr "Diagnostika pro podporu"
 
-#: includes/class-zinn-offload-admin-ui.php:993
+#: includes/class-zinn-offload-admin-ui.php:1019
 msgid "Import a settings file"
 msgstr "Importovat soubor s nastavením"
 
-#: includes/class-zinn-offload-admin-ui.php:995
+#: includes/class-zinn-offload-admin-ui.php:1021
 msgid "Import"
 msgstr "Importovat"
 
-#: includes/class-zinn-offload-admin-ui.php:997
+#: includes/class-zinn-offload-admin-ui.php:1023
 msgid "Exported files never contain passwords, tokens or API keys — you will need to enter those again on the new site."
 msgstr "Exportované soubory nikdy neobsahují hesla, tokeny ani klíče API — na novém webu je budete muset zadat znovu."
 
-#: includes/class-zinn-offload-admin-ui.php:1096
+#: includes/class-zinn-offload-admin-ui.php:1076
 msgid "Settings saved."
 msgstr "Nastavení bylo uloženo."
 
-#: includes/class-zinn-offload-admin-ui.php:1143
+#: includes/class-zinn-offload-admin-ui.php:1238
 msgid "Every setting on this plugin is back to its default."
 msgstr "Všechna nastavení tohoto pluginu byla obnovena do výchozího stavu."
 
-#: includes/class-zinn-offload-admin-ui.php:1186
+#: includes/class-zinn-offload-admin-ui.php:1281
 msgid "Done."
 msgstr "Hotovo."
 
-#: includes/class-zinn-offload-admin-ui.php:1190
+#: includes/class-zinn-offload-admin-ui.php:1285
 msgid "That action is not available."
 msgstr "Tato akce není k dispozici."
 
-#: includes/class-zinn-offload-admin-ui.php:1257
+#: includes/class-zinn-offload-admin-ui.php:1352
 msgid "That file could not be read. Choose a settings file exported from a Zinn® plugin."
 msgstr "Tento soubor se nepodařilo přečíst. Zvolte soubor s nastavením exportovaný z pluginu Zinn®."
 
-#: includes/class-zinn-offload-admin-ui.php:1265
+#: includes/class-zinn-offload-admin-ui.php:1360
 msgid "That file is too large to be a settings export."
 msgstr "Tento soubor je příliš velký na to, aby byl exportem nastavení."
 
-#: includes/class-zinn-offload-admin-ui.php:1278
+#: includes/class-zinn-offload-admin-ui.php:1373
 msgid "That file is not a Zinn® settings export."
 msgstr "Tento soubor není exportem nastavení Zinn®."
 
 #. translators: %s: the plugin slug the file was exported from.
-#: includes/class-zinn-offload-admin-ui.php:1286
+#: includes/class-zinn-offload-admin-ui.php:1381
 #, php-format
 msgid "That file was exported from a different plugin (%s), so importing it here would store settings this plugin does not understand."
 msgstr "Tento soubor byl exportován z jiného pluginu (%s), takže jeho importem zde by se uložila nastavení, kterým tento plugin nerozumí."
 
 #. translators: %d: how many settings were imported.
-#: includes/class-zinn-offload-admin-ui.php:1316
+#: includes/class-zinn-offload-admin-ui.php:1411
 #, php-format
 msgid "%d setting imported. Passwords and API keys are never in an export, so enter those again."
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
@@ -300,47 +300,57 @@ msgid "The report was refused (HTTP %d). Copy it above and open a ticket, quotin
 msgstr "Hlášení bylo odmítnuto (HTTP %d). Zkopírujte jej výše a otevřete požadavek na podporu s uvedením tohoto čísla."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-offload-promo.php:349
-#: includes/class-zinn-offload-promo.php:407
+#: includes/class-zinn-offload-promo.php:363
+#: includes/class-zinn-offload-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — návody a služby"
 
-#: includes/class-zinn-offload-promo.php:364
+#: includes/class-zinn-offload-promo.php:378
 msgid "User guides"
 msgstr "Uživatelské příručky"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-offload-promo.php:414
+#: includes/class-zinn-offload-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Přečtěte si uživatelskou příručku k %s"
 
-#: includes/class-zinn-offload-promo.php:422
+#: includes/class-zinn-offload-promo.php:436
 msgid "Hide this"
 msgstr "Skrýt toto"
 
-#: includes/class-zinn-offload-promo.php:535
+#: includes/class-zinn-offload-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Členství v Zinn® Pro: každý plugin Pro, jedna licence"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-offload-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Verze Pro zásuvných modulů Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache a Zinn® Backups a každý další Pro plugin, který vydáme, od %s ročně. Druhé členství přidává Zinn® Chat Pro."
+
+#: includes/class-zinn-offload-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Hosting Zinn® pro WordPress"
 
-#: includes/class-zinn-offload-promo.php:536
+#: includes/class-zinn-offload-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, denní zálohy, bezplatná migrace a ovládací panel vytvořený pro lidi, kteří spravují více než jeden web."
 
-#: includes/class-zinn-offload-promo.php:542
+#: includes/class-zinn-offload-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Tržiště Zinn®"
 
-#: includes/class-zinn-offload-promo.php:543
+#: includes/class-zinn-offload-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Kupujte a prodávejte zavedené weby, domény a umístění odkazů, přičemž peníze jsou bezpečně uschovány, dokud nejsou obě strany spokojené."
 
-#: includes/class-zinn-offload-promo.php:590
+#: includes/class-zinn-offload-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — najměte si lidi, kteří se tímto živí"
 
-#: includes/class-zinn-offload-promo.php:591
+#: includes/class-zinn-offload-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Naše globální tržiště na volné noze: prohlédněte si více než 10 000 hotových služeb od textařů, designérů, vývojářů a SEO specialistů, nebo zadejte projekt a nechte je podat nabídku."
 
