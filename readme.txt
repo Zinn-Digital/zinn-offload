@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.10
+Stable tag: 1.5.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ You turn media offload on in your Zinn Digital® dashboard, paste a short pairin
 
 * A Zinn Digital® account with object storage enabled for this site.
 * Outbound HTTPS from your web server.
+
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-offload
 
 == Installation ==
 
@@ -151,6 +155,9 @@ Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the 
 Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
 
 == Changelog ==
+
+= 1.5.11 =
+* The readme links the plugin's public source repository.
 
 = 1.5.10 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
