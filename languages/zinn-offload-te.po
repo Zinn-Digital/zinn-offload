@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d అమరిక దిగుమతి చేయబడింది. పాస్‌వర్డ్‌లు మరియు API కీలు ఎగుమతిలో ఎప్పటికీ ఉండవు, కాబట్టి దయచేసి వాటిని మళ్లీ నమోదు చేయండి."
 msgstr[1] "%d సెట్టింగ్‌లు దిగుమతి చేయబడ్డాయి. పాస్‌వర్డ్‌లు మరియు API కీలు ఎగుమతిలో ఎప్పటికీ ఉండవు, కాబట్టి వాటిని మళ్లీ నమోదు చేయండి."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® టోకెన్‌ను తిరిగి ఇవ్వలేదు. ఈ సైట్‌లో ఏదీ మార్చబడలేదు."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ఈ సైట్ ఇకపై Zinn® మీడియా ఆఫ్‌లోడ్‌కి కనెక్ట్ చేయబడలేదు. కొత్త అప్‌లోడ్‌లు ఈ సర్వర్‌లోనే ఉంటాయి. మీ Zinn Digital® డాష్‌బోర్డ్ నుండి దీన్ని మళ్లీ జత చేయండి."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d తో ప్రతిస్పందించింది."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ద్వారా డిస్‌కనెక్ట్ చేయబడింది."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® నవీకరణ సేవ (%s) నుండి నవీకర
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "డౌన్‌లోడ్ చేసిన నవీకరణ సమగ్రత తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "తొలగించబడిన మీడియా ఫైల్‌ను Zinn® నిల్వ నుండి తీసివేయడం సాధ్యపడలేదు: %s"

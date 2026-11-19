@@ -184,21 +184,21 @@ msgstr[0] "%d réglage importé. Les mots de passe et les clés API ne sont jama
 msgstr[1] "%d réglages importés. Les mots de passe et les clés d’API ne sont jamais inclus dans une exportation, veuillez donc les saisir à nouveau."
 msgstr[2] "%d réglages importés. Les mots de passe et les clés d’API ne sont jamais inclus dans une exportation, veuillez donc les saisir à nouveau."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® n’a pas renvoyé de jeton. Rien n’a été modifié sur ce site."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ce site n’est plus connecté au déchargement de médias Zinn®. Les nouveaux téléversements resteront sur ce serveur. Associez-le à nouveau depuis votre tableau de bord Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® a répondu avec HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Déconnecté par Zinn Digital®."
 
@@ -622,3 +622,9 @@ msgstr "La mise à jour n’a pas pu être téléchargée depuis le service de m
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "La mise à jour téléchargée n’a pas passé la vérification d’intégrité et n’a pas été installée."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Un fichier multimédia supprimé n’a pas pu être retiré de l’espace de stockage Zinn® : %s"

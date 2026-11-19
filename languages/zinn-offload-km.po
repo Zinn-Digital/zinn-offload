@@ -182,21 +182,21 @@ msgid "%d setting imported. Passwords and API keys are never in an export, so en
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
 msgstr[0] "បាននាំចូលការកំណត់ចំនួន %d។ ពាក្យសម្ងាត់ និងកូនសោ API មិនដែលត្រូវបានបញ្ចូលក្នុងការនាំចេញទេ ដូច្នេះសូមបញ្ចូលពួកវាឡើងវិញ។"
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® មិនបានបញ្ជូនថូខឹនត្រឡប់មកវិញទេ។ គ្មានអ្វីត្រូវបានផ្លាស់ប្តូរនៅលើគេហទំព័រនេះឡើយ។"
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "គេហទំព័រនេះលែងត្រូវបានភ្ជាប់ទៅការផ្ទុកមេឌៀចេញ Zinn® ទៀតហើយ។ ការបង្ហោះថ្មីៗនឹងបន្តនៅលើម៉ាស៊ីនបម្រើនេះ។ ផ្គូផ្គងវាឡើងវិញពីផ្ទាំងគ្រប់គ្រង Zinn Digital® របស់អ្នក។"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® បានឆ្លើយតបដោយ HTTP %d។"
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "បានផ្ដាច់ដោយ Zinn Digital®។"
 
@@ -618,3 +618,9 @@ msgstr "មិនអាចទាញយកបច្ចុប្បន្នភា
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "បច្ចុប្បន្នភាពដែលបានទាញយករួចបានបរាជ័យក្នុងការត្រួតពិនិត្យភាពត្រឹមត្រូវ ហើយមិនត្រូវបានដំឡើងទេ។"
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "ឯកសារមេឌៀដែលបានលុបមិនអាចដកចេញពីកន្លែងផ្ទុក Zinn® បានទេ៖ %s"

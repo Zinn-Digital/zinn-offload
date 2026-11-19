@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d beállítás importálva. A jelszavak és az API-kulcsok soha nem szerepelnek az exportált adatok között, ezért adja meg őket újra."
 msgstr[1] "%d beállítás importálva. A jelszavak és az API-kulcsok sosem szerepelnek az exportálásban, ezért ezeket újra meg kell adni."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "A Zinn Digital® nem adott vissza tokent. Semmi sem változott ezen az oldalon."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ez a webhely már nem kapcsolódik a Zinn® média-tehermentesítéshez. Az új feltöltések ezen a kiszolgálón maradnak. Párosítsuk újra a Zinn Digital® vezérlőpultról."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "A Zinn Digital® válasza HTTP %d volt."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "A Zinn Digital® által lekapcsolva."
 
@@ -620,3 +620,9 @@ msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgálta
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "A letöltött frissítés nem ment át az integritás-ellenőrzésen, és nem került telepítésre."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Egy törölt médiafájlt nem sikerült eltávolítani a Zinn® tárhelyről: %s"

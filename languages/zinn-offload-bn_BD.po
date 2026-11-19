@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%dটি সেটিংস ইম্পোর্ট করা হয়েছে। পাসওয়ার্ড এবং API কী কখনো এক্সপোর্টে অন্তর্ভুক্ত থাকে না, তাই অনুগ্রহ করে সেগুলি আবার লিখুন।"
 msgstr[1] "%dটি সেটিংস আমদানি করা হয়েছে। পাসওয়ার্ড এবং API কীগুলি কখনও রপ্তানিতে অন্তর্ভুক্ত থাকে না, তাই অনুগ্রহ করে সেগুলি আবার লিখুন।"
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® কোনো টোকেন ফেরত দেয়নি। এই সাইটে কিছুই পরিবর্তন করা হয়নি।"
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "এই সাইটটি আর Zinn® মিডিয়া অফলোডের সাথে সংযুক্ত নয়। নতুন আপলোডগুলি এই সার্ভারেই থাকবে। আপনার Zinn Digital® ড্যাশবোর্ড থেকে এটি আবার যুক্ত করুন।"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d দিয়ে উত্তর দিয়েছে।"
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® দ্বারা সংযোগ বিচ্ছিন্ন করা হয়েছে।"
 
@@ -620,3 +620,9 @@ msgstr "Zinn® আপডেট পরিষেবা (%s) থেকে আপড
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ডাউনলোড করা আপডেটটির অখণ্ডতা পরীক্ষা ব্যর্থ হয়েছে এবং এটি ইনস্টল করা হয়নি।"
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "একটি মোছা মিডিয়া ফাইল Zinn® স্টোরেজ থেকে সরানো যায়নি: %s"

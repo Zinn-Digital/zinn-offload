@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d ترتیبات وارد شول. پټنومونه او د API کیليګانې هیڅکله په صادراتو کې نه راځي، نو مهرباني وکړئ هغه بیا دننه کړئ."
 msgstr[1] "%d ترتیبات وارد شول. پټنومونه او د API کیلي ګانې هیڅکله په صادراتو کې نه وي، نو مهرباني وکړئ هغه بیا دننه کړئ."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® نښه بېرته ونه لېږله. په دې سایټ کې هیڅ بدلون نه دی راغلی."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "دا سایټ نور د Zinn® میډیا افلوډ سره وصل نه دی. نوي اپلوډونه به په دې سرور کې پاتې شي. دا بیا د خپل Zinn Digital® ډشبورډ څخه جوړه کړئ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® د HTTP %d سره ځواب ورکړ."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "د Zinn Digital® لخوا پرې شو."
 
@@ -620,3 +620,9 @@ msgstr "تازه کونه د Zinn® د تازه کولو له خدمت (%s) څخ
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ډاونلوډ شوی تازه کول د بشپړتیا په کتنه کې پاتې راغی او نصب نشو."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "یوه ړنګه شوې میډیا فایل د Zinn® ذخیرې څخه ونه ایستل شوه: %s"

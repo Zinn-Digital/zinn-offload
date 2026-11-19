@@ -182,21 +182,21 @@ msgid "%d setting imported. Passwords and API keys are never in an export, so en
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
 msgstr[0] "ນຳເຂົ້າ %d ການຕັ້ງຄ່າແລ້ວ. ລະຫັດຜ່ານ ແລະ ຄີ API ບໍ່ເຄີຍລວມຢູ່ໃນການສົ່ງອອກ, ດັ່ງນັ້ນກະລຸນາປ້ອນຂໍ້ມູນເຫຼົ່ານັ້ນອີກຄັ້ງ."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ບໍ່ໄດ້ສົ່ງຄືນໂທເຄັນ. ບໍ່ມີຫຍັງຖືກປ່ຽນແປງຢູ່ໃນເວັບໄຊນີ້."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ເວັບໄຊນີ້ບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບການຍ້າຍສື່ Zinn® ອີກຕໍ່ໄປ. ການອັບໂຫຼດໃໝ່ຈະຍັງຄົງຢູ່ໃນເຊີບເວີນີ້. ຈັບຄູ່ມັນອີກຄັ້ງຈາກໜ້າຕ່າງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ຕອບກັບດ້ວຍ HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "ຕັດການເຊື່ອມຕໍ່ໂດຍ Zinn Digital®."
 
@@ -618,3 +618,9 @@ msgstr "ບໍ່ສາມາດດາວໂຫຼດການອັບເດດ
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງສົມບູນ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "ບໍ່ສາມາດລຶບໄຟລ໌ສື່ທີ່ຖືກລຶບແລ້ວອອກຈາກບ່ອນຈັດເກັບຂໍ້ມູນ Zinn® ໄດ້: %s"

@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d ಸೆಟ್ಟಿಂಗ್ ಆಮದು ಮಾಡಲಾಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು API ಕೀಗಳು ಎಂದಿಗೂ ರಫ್ತಿನಲ್ಲಿ ಇರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ದಯವಿಟ್ಟು ಅವುಗಳನ್ನು ಮತ್ತೆ ನಮೂದಿಸಿ."
 msgstr[1] "%d ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು API ಕೀಗಳು ಎಂದಿಗೂ ರಫ್ತಿನಲ್ಲಿ ಇರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ದಯವಿಟ್ಟು ಅವುಗಳನ್ನು ಮತ್ತೆ ನಮೂದಿಸಿ."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ಯಾವುದೇ ಟೋಕನ್ ಹಿಂತಿರುಗಿಸಿಲ್ಲ. ಈ ಸೈಟ್‌ನಲ್ಲಿ ಏನನ್ನೂ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ಈ ಸೈಟ್ ಇನ್ನು ಮುಂದೆ Zinn® ಮೀಡಿಯಾ ಆಫ್‌ಲೋಡ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ. ಹೊಸ ಅಪ್‌ಲೋಡ್‌ಗಳು ಈ ಸರ್ವರ್‌ನಲ್ಲೇ ಉಳಿಯುತ್ತವೆ. ನಿಮ್ಮ Zinn Digital® ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಿಂದ ಇದನ್ನು ಮತ್ತೆ ಜೋಡಿಸಿ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d ನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿದೆ."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ನಿಂದ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® ಅಪ್‌ಡೇಟ್ ಸೇವೆಯಿಂದ (%s) ಅಪ್�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಅಪ್‌ಡೇಟ್ ಸಮಗ್ರತೆಯ ಪರಿಶೀಲನೆಯಲ್ಲಿ ವಿಫಲವಾಗಿದೆ ಮತ್ತು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿಲ್ಲ."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "ಅಳಿಸಲಾದ ಮಾಧ್ಯಮ ಫೈಲ್ ಅನ್ನು Zinn® ಸಂಗ್ರಹಣೆಯಿಂದ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %s"

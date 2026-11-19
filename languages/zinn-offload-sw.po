@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "Mpangilio %d umeingizwa. Manenosiri na vitufe vya API havijumuishwi kwenye uhamishaji, kwa hivyo viweke tena."
 msgstr[1] "Mipangilio %d imeingizwa. Manenosiri na vitufe vya API havijumuishwi kamwe kwenye uhamishaji, kwa hivyo viingize tena."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® haijarudisha tokeni. Hakuna chochote kilichobadilishwa kwenye tovuti hii."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Tovuti hii haijaunganishwa tena na upakuaji wa media wa Zinn®. Upakiaji mpya utabaki kwenye seva hii. Ioanishe tena kutoka kwenye dashibodi yako ya Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® imejibu kwa HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Imetenganishwa na Zinn Digital®."
 
@@ -620,3 +620,9 @@ msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya sasisho ya Zinn® (%s
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sasisho lililopakuliwa limeshindwa uthibitishaji wa uadilifu na halijasakinishwa."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Faili la midia lililofutwa halikuweza kuondolewa kwenye hifadhi ya Zinn®: %s"

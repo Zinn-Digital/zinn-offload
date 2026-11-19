@@ -182,21 +182,21 @@ msgid "%d setting imported. Passwords and API keys are never in an export, so en
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
 msgstr[0] "已导入 %d 项设置。密码和 API 密钥绝不会包含在导出文件中，因此请重新输入。"
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® 未返回令牌。此站点未进行任何更改。"
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "本站点已不再连接至Zinn®媒体卸载。新上传的文件将保留在此服务器上。请从您的Zinn Digital®仪表盘重新配对。"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® 返回了 HTTP %d。"
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "已由 Zinn Digital® 断开连接。"
 
@@ -618,3 +618,9 @@ msgstr "无法从 Zinn® 更新服务 (%s) 下载更新。请在几分钟后重�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "下载的更新未通过完整性检查，未被安装。"
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "无法从 Zinn® 存储中移除已删除的媒体文件：%s"

@@ -184,21 +184,21 @@ msgstr[0] "%d postavka je uvezena. Lozinke i API ključevi nikada se ne nalaze u
 msgstr[1] "Uvezene su %d postavke. Lozinke i API ključevi nikada se ne izvoze, pa ih unesite ponovno."
 msgstr[2] "Uvezeno je %d postavki. Lozinke i API ključevi nikada se ne nalaze u izvozu, stoga ih unesite ponovno."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® nije vratio token. Na ovom web-mjestu ništa nije promijenjeno."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ovo web-mjesto više nije povezano s rasterećenjem medija Zinn®. Novi prijenosi ostat će na ovom poslužitelju. Ponovno ga uparite s Vaše nadzorne ploče Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® je odgovorio s HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Prekinula usluga Zinn Digital®."
 
@@ -622,3 +622,9 @@ msgstr "Ažuriranje se nije moglo preuzeti s usluge ažuriranja Zinn® (%s). Pok
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Preuzeto ažuriranje nije prošlo provjeru integriteta i nije instalirano."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Izbrisana medijska datoteka nije se mogla ukloniti iz Zinn® pohrane: %s"

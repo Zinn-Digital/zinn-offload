@@ -182,21 +182,21 @@ msgid "%d setting imported. Passwords and API keys are never in an export, so en
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
 msgstr[0] "%d танзимот ворид карда шуд. Ниҳонвожаҳо ва калидҳои API ҳеҷ гоҳ ба содирот дохил карда намешаванд, бинобар ин лутфан онҳоро дубора ворид кунед."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® токенро барнагардонд. Дар ин сомона чизе тағйир наёфтааст."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ин сомона дигар ба интиқоли расонаҳои Zinn® пайваст нест. Боргузориҳои нав дар ин сервер боқӣ мемонанд. Онро аз лавҳаи идораи Zinn Digital®-и худ дубора пайваст кунед."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® бо HTTP %d ҷавоб дод."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Аз ҷониби Zinn Digital® қатъ карда шуд."
 
@@ -618,3 +618,9 @@ msgstr "Навсозиро аз хадамоти навсозии Zinn® (%s) б
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии боргиришуда аз санҷиши бутунии худ нагузашт ва насб нашуд."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Файли медиаи нестшударо аз анбори Zinn® нест кардан имконнопазир буд: %s"

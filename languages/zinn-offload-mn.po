@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d тохиргоо импортлогдлоо. Нууц үг болон API түлхүүрүүд экспортод хэзээ ч ордоггүй тул тэдгээрийг дахин оруулна уу."
 msgstr[1] "%d тохиргоо импортлогдлоо. Нууц үг болон API түлхүүрүүд экспортод хэзээ ч ордоггүй тул тэдгээрийг дахин оруулна уу."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® токен буцаасангүй. Энэ сайт дээр юу ч өөрчлөгдөөгүй байна."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Энэ сайт Zinn® медиа шилжүүлэлтэд холбогдоогүй байна. Шинээр байршуулсан файлууд энэ сервер дээр үлдэнэ. Үүнийг өөрийн Zinn Digital® хянах самбараас дахин холбоно уу."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® нь HTTP %d-ээр хариу өглөө."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® салгасан."
 
@@ -620,3 +620,9 @@ msgstr "Шинэчлэлтийг Zinn® шинэчлэлтийн үйлчилг�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Татаж авсан шинэчлэлт бүрэн бүтэн байдлын шалгалтыг давж чадаагүй тул суулгагдсангүй."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Устгасан медиа файлыг Zinn® сангаас хасах боломжгүй байв: %s"

@@ -184,21 +184,21 @@ msgstr[0] "הגדרה %d יובאה. סיסמאות ומפתחות API אף פע
 msgstr[1] "יובאו %d הגדרות. סיסמאות ומפתחות API אינם נכללים לעולם בייצוא, לכן יש להזין אותם שוב."
 msgstr[2] "%d הגדרות יובאו. סיסמאות ומפתחות API לעולם אינם נכללים בייצוא, לכן יש להזין אותם שוב."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® לא החזיר אסימון. שום דבר לא השתנה באתר זה."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "אתר זה אינו מחובר עוד לפריקת מדיה של Zinn®. העלאות חדשות יישארו בשרת זה. חבר אותו שוב מלוח הבקרה שלך ב-Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® השיב עם HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "נותק על ידי Zinn Digital®."
 
@@ -622,3 +622,9 @@ msgstr "לא ניתן היה להוריד את העדכון משירות העד�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "העדכון שהורד נכשל בבדיקת התקינות ולא הותקן."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "לא ניתן היה להסיר קובץ מדיה שנמחק מאחסון Zinn®: %s"

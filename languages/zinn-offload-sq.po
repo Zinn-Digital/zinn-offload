@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "U importua %d parametër. Fjalëkalimet dhe çelësat API nuk përfshihen kurrë në eksportim, prandaj ju lutemi t'i vendosni përsëri."
 msgstr[1] "U importuan %d rregullime. Fjalëkalimet dhe çelësat API nuk përfshihen kurrë në një eksportim, ndaj ju lutemi t'i vendosni përsëri."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® nuk ktheu ndonjë token. Asgjë nuk është ndryshuar në këtë faqe."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ky sajti nuk është më i lidhur me shkarkimin e mediave Zinn®. Ngarkimet e reja do të mbeten në këtë server. Çiftëzojeni përsëri nga paneli juaj i Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® u përgjigj me HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Shkëputur nga Zinn Digital®."
 
@@ -620,3 +620,9 @@ msgstr "Përditësimi nuk mund të shkarkohej nga shërbimi i përditësimeve t�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Një skedar mediani i fshirë nuk mund të hiqej nga hapësira ruajtëse e Zinn®: %s"

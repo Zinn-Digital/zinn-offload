@@ -184,21 +184,21 @@ msgstr[0] "Zaimportowano %d ustawienie. Hasła i klucze API nigdy nie znajdują 
 msgstr[1] "Zaimportowano %d ustawienia. Hasła i klucze API nigdy nie są eksportowane, więc wprowadź je ponownie."
 msgstr[2] "Zaimportowano %d ustawień. Hasła i klucze API nigdy nie są eksportowane, więc wpisz je ponownie."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Usługa Zinn Digital® nie zwróciła tokenu. Nic nie zostało zmienione na tej witrynie."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Ta witryna nie jest już połączona z odciążaniem mediów Zinn®. Nowe przesłane pliki pozostaną na tym serwerze. Sparuj ją ponownie ze swojego kokpitu Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® odpowiedział kodem HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Rozłączono przez Zinn Digital®."
 
@@ -622,3 +622,9 @@ msgstr "Nie udało się pobrać aktualizacji z usługi aktualizacji Zinn® (%s).
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Pobrana aktualizacja nie przeszła pomyślnie sprawdzania integralności i nie została zainstalowana."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Usunięty plik multimedialny nie mógł zostać usunięty z magazynu Zinn®: %s"

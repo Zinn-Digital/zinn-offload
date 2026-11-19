@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d parametr idxal edildi. Şifrələr və API açarları heç vaxt ixrac faylında olmur, ona görə də onları yenidən daxil edin."
 msgstr[1] "%d parametr idxal edildi. Parollar və API açarları heç vaxt ixrac faylında olmur, ona görə də onları yenidən daxil edin."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® token qaytarmadı. Bu saytda heç nə dəyişdirilmədi."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Bu sayt artıq Zinn® media boşaldılmasına qoşulmayıb. Yeni yükləmələr bu serverdə qalacaq. Onu Zinn Digital® idarəetmə panelinizdən yenidən qoşun."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d ilə cavab verdi."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® tərəfindən bağlantı kəsildi."
 
@@ -620,3 +620,9 @@ msgstr "Yeniləmə Zinn® yeniləmə xidmətindən (%s) endirilə bilmədi. Bir 
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Yüklənmiş yenilənmə bütövlük yoxlamasından keçmədi və quraşdırılmadı."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Silinmiş media faylı Zinn® yaddaşından silinə bilmədi: %s"

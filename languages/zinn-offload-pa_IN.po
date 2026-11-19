@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d ਸੈਟਿੰਗ ਇੰਪੋਰਟ ਕੀਤੀ ਗਈ। ਪਾਸਵਰਡ ਅਤੇ API ਕੁੰਜੀਆਂ ਕਦੇ ਵੀ ਐਕਸਪੋਰਟ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੀਆਂ, ਇਸ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਉਹਨਾਂ ਨੂੰ ਦੁਬਾਰਾ ਦਾਖਲ ਕਰੋ।"
 msgstr[1] "%d ਸੈਟਿੰਗਾਂ ਆਯਾਤ ਕੀਤੀਆਂ ਗਈਆਂ। ਪਾਸਵਰਡ ਅਤੇ API ਕੁੰਜੀਆਂ ਕਦੇ ਵੀ ਨਿਰਯਾਤ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੀਆਂ, ਇਸ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਉਹਨਾਂ ਨੂੰ ਦੁਬਾਰਾ ਦਾਖਲ ਕਰੋ।"
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ਨੇ ਕੋਈ ਟੋਕਨ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ। ਇਸ ਸਾਈਟ 'ਤੇ ਕੁਝ ਵੀ ਨਹੀਂ ਬਦਲਿਆ ਗਿਆ ਹੈ।"
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ਇਹ ਸਾਈਟ ਹੁਣ Zinn® ਮੀਡੀਆ ਆਫਲੋਡ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਹੈ। ਨਵੇਂ ਅੱਪਲੋਡ ਇਸ ਸਰਵਰ 'ਤੇ ਹੀ ਰਹਿਣਗੇ। ਇਸਨੂੰ ਆਪਣੇ Zinn Digital® ਡੈਸ਼ਬੋਰਡ ਤੋਂ ਦੁਬਾਰਾ ਜੋੜੋ।"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ਨੇ HTTP %d ਨਾਲ ਜਵਾਬ ਦਿੱਤਾ।"
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ਦੁਆਰਾ ਡਿਸਕਨੈਕਟ ਕੀਤਾ ਗਿਆ।"
 
@@ -620,3 +620,9 @@ msgstr "Zinn® ਅੱਪਡੇਟ ਸੇਵਾ (%s) ਤੋਂ ਅੱਪਡੇਟ
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ਡਾਊਨਲੋਡ ਕੀਤਾ ਅੱਪਡੇਟ ਆਪਣੀ ਇਕਸਾਰਤਾ ਜਾਂਚ ਵਿੱਚ ਅਸਫ਼ਲ ਰਿਹਾ ਅਤੇ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।"
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "ਮਿਟਾਈ ਗਈ ਮੀਡੀਆ ਫ਼ਾਈਲ ਨੂੰ Zinn® ਸਟੋਰੇਜ ਤੋਂ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: %s"

@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "සැකසුම් %dක් ආයාත කරන ලදී. මුරපද සහ API යතුරු කිසි විටෙකත් නිර්යාතයක අඩංගු නොවන බැවින්, කරුණාකර ඒවා නැවත ඇතුළත් කරන්න."
 msgstr[1] "සැකසුම් %d ක් ආයාත කරන ලදී. මුරපද සහ API යතුරු කිසි විටෙක නිර්යාතයක අඩංගු නොවේ, එබැවින් කරුණාකර ඒවා නැවත ඇතුළත් කරන්න."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ටෝකනයක් ආපසු ලබා දුන්නේ නැත. මෙම වෙබ් අඩවියේ කිසිවක් වෙනස් කර නොමැත."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "මෙම වෙබ් අඩවිය තවදුරටත් Zinn® මාධ්‍ය ඕෆ්ලෝඩ් වෙත සම්බන්ධ කර නොමැත. නව උඩුගත කිරීම් මෙම සේවාදායකයේ පවතිනු ඇත. ඔබගේ Zinn Digital® උපකරණ පුවරුවෙන් එය නැවත යුගල කරන්න."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® වෙතින් HTTP %d සමඟ පිළිතුරු ලැබිණි."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® මඟින් විසන්ධි කරන ලදී."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® යාවත්කාලීන සේවාවෙන් (%s) ය�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "බාගත කළ යාවත්කාලීනය එහි අඛණ්ඩතා පරීක්ෂාව අසමත් වූ අතර ස්ථාපනය නොකෙරිණි."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "මකා දැමූ මාධ්‍ය ගොනුවක් Zinn® ආචයනයෙන් ඉවත් කිරීමට නොහැකි විය: %s"

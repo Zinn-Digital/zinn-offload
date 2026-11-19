@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "An shigo da saiti %d. Ba a taɓa haɗa kalmomin sirri da maƙallan API a cikin fitarwa ba, don haka sake shigar da su."
 msgstr[1] "An shigo da saituna %d. Ba a taɓa shigar da kalmomin sirri da maɓallan API a cikin fitarwa ba, don haka sake shigar da su."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® bai dawo da wata alama ba. Ba a canza komai a wannan rukunin yanar gizon ba."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Wannan rukunin yanar gizon ba ya haɗe da sauke kafofin watsa labarai na Zinn®. Sabbin lodawa za su ci gaba da kasancewa a kan wannan uwar garken. Sake haɗa shi daga allon sarrafawa na Zinn Digital® naka."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® ya amsa da HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ya katse haɗin."
 
@@ -620,3 +620,9 @@ msgstr "Ba a iya sauke sabuntawar daga sabis ɗin sabuntawa na Zinn® (%s) ba. S
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sabuntawar da aka saukar ta gaza wajen tantance nagartarta kuma ba a shigar da ita ba."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Ba a iya cire fayil ɗin midiya da aka goge daga ma'ajiyar Zinn® ba: %s"

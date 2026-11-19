@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d ayar içe aktarıldı. Parolalar ve API anahtarları dışa aktarma dosyasına asla dahil edilmez, bu nedenle lütfen bunları tekrar girin."
 msgstr[1] "%d ayar içe aktarıldı. Parolalar ve API anahtarları hiçbir zaman dışa aktarılan dosyada yer almaz, bu nedenle bunları lütfen tekrar girin."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® bir belirteç döndürmedi. Bu sitede hiçbir şey değiştirilmedi."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Bu site artık Zinn® ortam aktarımına bağlı değil. Yeni yüklemeler bu sunucuda kalacaktır. Zinn Digital® kontrol panelinizden tekrar eşleştirin."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d ile yanıt verdi."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® tarafından bağlantı kesildi."
 
@@ -620,3 +620,9 @@ msgstr "Güncelleme, Zinn® güncelleme servisinden (%s) indirilemedi. Birkaç d
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "İndirilen güncelleme bütünlük denetiminden geçemedi ve yüklenmedi."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Silinen bir ortam dosyası Zinn® depolama alanından kaldırılamadı: %s"

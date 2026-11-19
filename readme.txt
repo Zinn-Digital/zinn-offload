@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.5.11
+Stable tag: 1.6.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ You turn media offload on in your Zinn Digital® dashboard, paste a short pairin
   been offloaded: `wp_get_attachment_url` and `wp_calculate_image_srcset` are filtered so the
   markup points at your bucket instead of this server. Nothing is added to the page, and while
   **Serve from Zinn® storage** is off the addresses are left exactly as WordPress wrote them.
-* It never deletes anything from storage. Retention is decided in your dashboard.
+* It deletes from storage only what you delete here: when you delete a media file in WordPress, its offloaded copies (the original and every size) are deleted from Zinn® storage too, which is how you free space. It never deletes anything else from storage. A developer can keep the stored copies with the `zinn_offload_delete_remote_on_delete` filter.
 * It does not delete local files after a partial upload — if any size fails, every local copy stays.
 * It never asks for a storage key or a bucket name. Which bucket this site uses is decided in your Zinn Digital® dashboard. Whether addresses are rewritten and whether local copies are removed start as your dashboard's choices when you pair, and you can change them afterwards on the plugin's **How media is served** tab.
 
@@ -71,6 +71,9 @@ requires a Zinn Digital® account and does nothing without one.
   CDN. This is the plugin's purpose; the files are your own media.
 * **Reporting.** `/v1/media-offload/report` returns offload status and storage usage for the
   dashboard.
+* **Deletions (when you delete media).** When you delete a media file in WordPress, the plugin
+  sends that file's storage keys (its name and folder, never its contents) to
+  `/v1/media-offload/deletions` so the stored copies are deleted too.
 
 **No post content, user accounts or visitor data are transmitted.** Until the site is paired the
 plugin makes no outbound requests.
@@ -155,6 +158,9 @@ Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the 
 Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
 
 == Changelog ==
+
+= 1.6.0 =
+* Deleting a media file in WordPress now deletes its offloaded copies (the original and every size) from Zinn® storage, so deleting media frees space on your plan. Before, the stored copies stayed. Filter `zinn_offload_delete_remote_on_delete` keeps them.
 
 = 1.5.11 =
 * The readme links the plugin's public source repository.

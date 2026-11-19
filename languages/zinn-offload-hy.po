@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "Ներմուծվել է %d կարգավորում: Գաղտնաբառերը և API-ի բանալիները երբեք չեն ներառվում արտահանման մեջ, ուստի խնդրում ենք դրանք նորից մուտքագրել:"
 msgstr[1] "Ներմուծվել է %d կարգավորում: Գաղտնաբառերը և API բանալիները երբեք չեն ներառվում արտահանման մեջ, ուստի դրանք նորից մուտքագրեք:"
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital®-ը չի վերադարձրել թոքեն։ Այս կայքում ոչինչ չի փոփոխվել։"
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Այս կայքն այլևս միացված չէ Zinn® մեդիայի բեռնաթափմանը: Նոր վերբեռնումները կմնան այս սերվերում: Կրկին զուգակցեք այն Ձեր Zinn Digital® կառավարման վահանակից:"
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital®-ը պատասխանել է HTTP %d-ով:"
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Անջատվել է Zinn Digital®-ի կողմից:"
 
@@ -620,3 +620,9 @@ msgstr "Թարմացումը հնարավոր չեղավ ներբեռնել Zinn
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ներբեռնված թարմացումը չի անցել ամբողջականության ստուգումը և չի տեղադրվել:"
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Ջնջված մեդիա ֆայլը չհաջողվեց հեռացնել Zinn® պահոցից. %s"

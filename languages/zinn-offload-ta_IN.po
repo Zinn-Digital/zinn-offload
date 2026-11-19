@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d அமைப்பு இறக்குமதி செய்யப்பட்டது. கடவுச்சொற்களும் API விசைகளும் ஏற்றுமதியில் ஒருபோதும் சேர்க்கப்படுவதில்லை, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
 msgstr[1] "%d அமைப்புகள் இறக்குமதி செய்யப்பட்டன. கடவுச்சொற்களும் API விசைகளும் ஒருபோதும் ஏற்றுமதியில் இருக்காது, எனவே அவற்றை மீண்டும் உள்ளிடவும்."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® டோக்கனைத் திருப்பி அனுப்பவில்லை. இந்தத் தளத்தில் எதுவும் மாற்றப்படவில்லை."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "இந்த தளம் இனி Zinn® ஊடக ஆஃப்லோடுடன் இணைக்கப்படவில்லை. புதிய பதிவேற்றங்கள் இந்த சேவையகத்திலேயே இருக்கும். உங்கள் Zinn Digital® கட்டுப்பாட்டகத்திலிருந்து இதை மீண்டும் இணையுங்கள்."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d உடன் பதிலளித்தது."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® ஆல் துண்டிக்கப்பட்டது."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® புதுப்பிப்பு சேவையிலிர�
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கப்பட்ட புதுப்பிப்பு அதன் ஒருமைப்பாடு சோதனையில் தோல்வியடைந்தது மற்றும் நிறுவப்படவில்லை."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "நீக்கப்பட்ட ஊடகக் கோப்பை Zinn® சேமிப்பகத்திலிருந்து அகற்ற முடியவில்லை: %s"

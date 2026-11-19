@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d habayn ayaa la soo dejiyay. Erayada sirta ah iyo furayaasha API waligood kuma jiraan xogta la dhoofiyo, markaa fadlan mar kale geli."
 msgstr[1] "%d habayn ayaa la soo dejiyay. Erayada sirta ah iyo furayaasha API waligood kuma jiraan dhoofinta, markaa dib u geli kuwaas."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ma soo celin calaamad. Waxba lagama beddelin boggan."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Boggan kuma xiriirsana Zinn® wareejinta warbaahinta. Soo-gelinta cusub waxay ku sii jiri doonaan serfer-kan. Mar labaad kaga lammaanee koontaroolkaaga Zinn Digital®."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® wuxuu kaga jawaabay HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Waxaa gooyay Zinn Digital®."
 
@@ -620,3 +620,9 @@ msgstr "Cusboonaysiinta lagama soo dejisan karin adeegga cusboonaysiinta Zinn® 
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiinta la soo dejiyay kuma guulaysan hubinta saxnimada lamana rakibin."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Fayl warbaahineed oo la tirtiray lagama saari karin kaydka Zinn®: %s"

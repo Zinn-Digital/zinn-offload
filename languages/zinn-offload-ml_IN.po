@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d ക്രമീകരണം ഇമ്പോർട്ട് ചെയ്തു. പാസ്‌വേഡുകളും API കീകളും ഒരിക്കലും എക്‌സ്‌പോർട്ടിൽ ഉൾപ്പെടാറില്ല, അതിനാൽ അവ വീണ്ടും നൽകുക."
 msgstr[1] "%d ക്രമീകരണങ്ങൾ ഇറക്കുമതി ചെയ്തു. പാസ്‌വേഡുകളും API കീകളും ഒരിക്കലും എക്സ്പോർട്ടിൽ ഉൾപ്പെടില്ല, അതിനാൽ അവ വീണ്ടും നൽകുക."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® ഒരു ടോക്കണും തിരികെ നൽകിയില്ല. ഈ സൈറ്റിൽ ഒന്നും മാറ്റിയിട്ടില്ല."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "ഈ സൈറ്റ് ഇപ്പോൾ Zinn® മീഡിയ ഓഫ്‌ലോഡുമായി ബന്ധിപ്പിച്ചിട്ടില്ല. പുതിയ അപ്‌ലോഡുകൾ ഈ സെർവറിൽ തന്നെ തുടരും. നിങ്ങളുടെ Zinn Digital® ഡാഷ്‌ബോർഡിൽ നിന്ന് ഇത് വീണ്ടും ജോടിയാക്കുക."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® HTTP %d ഉപയോഗിച്ച് മറുപടി നൽകി."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® വിച്ഛേദിച്ചു."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® അപ്‌ഡേറ്റ് സേവനത്തിൽ (%s) �
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ഡൗൺലോഡ് ചെയ്‌ത അപ്‌ഡേറ്റ് സമഗ്രതാ പരിശോധനയിൽ പരാജയപ്പെട്ടു, അത് ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "ഇല്ലാതാക്കിയ മീഡിയ ഫയൽ Zinn® സംഭരണത്തിൽ നിന്ന് നീക്കം ചെയ്യാൻ കഴിഞ്ഞില്ല: %s"

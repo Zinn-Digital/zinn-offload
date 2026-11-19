@@ -187,21 +187,21 @@ msgstr[3] "تم استيراد %d إعدادات. لا يتم تضمين كلم�
 msgstr[4] "تم استيراد %d إعدادًا. لا يتم تضمين كلمات المرور ومفاتيح واجهة برمجة التطبيقات (API) في ملف التصدير أبدًا، لذا يُرجى إدخالها مجددًا."
 msgstr[5] "تم استيراد %d إعداد. لا يتم تضمين كلمات المرور ومفاتيح واجهة برمجة التطبيقات (API) في ملف التصدير نهائياً، لذا يُرجى إدخالها مجدداً."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "لم يُرجع Zinn Digital® أي رمز مميز. لم يتم تغيير أي شيء في هذا الموقع."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "لم يعد هذا الموقع متصلًا بتفريغ الوسائط Zinn®. ستبقى التحميلات الجديدة على هذا الخادم. اربطه مرة أخرى من لوحة تحكم Zinn Digital® الخاصة بك."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "أجاب Zinn Digital® برمز HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "تم قطع الاتصال بواسطة Zinn Digital®."
 
@@ -628,3 +628,9 @@ msgstr "تعذر تنزيل التحديث من خدمة تحديثات Zinn® (
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "فشل التحديث الذي تم تنزيله في فحص السلامة ولم يتم تثبيته."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "تعذر حذف ملف وسائط محذوف من مساحة تخزين Zinn®: %s"

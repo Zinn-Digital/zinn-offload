@@ -183,21 +183,21 @@ msgid_plural "%d settings imported. Passwords and API keys are never in an expor
 msgstr[0] "%d સેટિંગ આયાત કરવામાં આવ્યું. પાસવર્ડ અને API કી ક્યારેય નિકાસમાં હોતા નથી, તેથી કૃપા કરીને તેને ફરીથી દાખલ કરો."
 msgstr[1] "%d સેટિંગ્સ આયાત કરવામાં આવી છે. પાસવર્ડ અને API કી ક્યારેય નિકાસમાં હોતા નથી, તેથી કૃપા કરીને તેને ફરીથી દાખલ કરો."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® એ ટોકન પરત કર્યો નથી. આ સાઇટ પર કંઈપણ બદલાયું નથી."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "આ સાઇટ હવે Zinn® મીડિયા ઑફલોડ સાથે જોડાયેલ નથી. નવા અપલોડ આ સર્વર પર રહેશે. તેને તમારા Zinn Digital® ડેશબોર્ડ પરથી ફરીથી જોડી બનાવો."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® એ HTTP %d સાથે જવાબ આપ્યો."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Zinn Digital® દ્વારા ડિસ્કનેક્ટ થયેલ છે."
 
@@ -620,3 +620,9 @@ msgstr "Zinn® અપડેટ સેવા (%s) માંથી અપડેટ
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ડાઉનલોડ કરેલ અપડેટ તેની અખંડિતતા ચકાસણીમાં નિષ્ફળ રહ્યું અને ઇન્સ્ટોલ કરવામાં આવ્યું નથી."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "કાઢી નાખેલી મીડિયા ફાઇલને Zinn® સ્ટોરેજમાંથી દૂર કરી શકાઈ નથી: %s"

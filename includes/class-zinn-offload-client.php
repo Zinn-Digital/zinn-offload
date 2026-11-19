@@ -51,6 +51,13 @@ class Zinn_Offload_Client {
 	public const PRESIGN_BATCH = 100;
 
 	/**
+	 * The most keys to name in one deletion request. Must not exceed the engine's bound.
+	 *
+	 * @since 1.6.0
+	 */
+	public const DELETE_BATCH = 100;
+
+	/**
 	 * Redeem a pairing code and store the token it returns.
 	 *
 	 * @param string $code The code an administrator copied from the Zinn dashboard.
@@ -158,6 +165,44 @@ class Zinn_Offload_Client {
 			$file_path,
 			$type['type'] ? $type['type'] : 'application/octet-stream'
 		);
+	}
+
+	/**
+	 * Delete this site's own offloaded files, because an administrator deleted them here.
+	 *
+	 * Sent in batches of DELETE_BATCH. Keys are relative to this site's prefix; Zinn joins
+	 * them onto that prefix, so this can never name another site's file. A key already gone
+	 * counts as done, so a retry is safe.
+	 *
+	 * @since 1.6.0
+	 *
+	 * @param string[] $keys Full keys under this site's own folder (see Zinn_Offload_Uploader::full_keys()).
+	 * @return int|WP_Error How many were deleted, or the first failure.
+	 */
+	public function delete_objects( array $keys ) {
+		$keys    = array_values( array_unique( array_filter( array_map( 'strval', $keys ) ) ) );
+		$deleted = 0;
+		foreach ( array_chunk( $keys, self::DELETE_BATCH ) as $chunk ) {
+			$response = wp_remote_post(
+				zinn_offload_api_base() . '/v1/media-offload/deletions',
+				array(
+					'timeout' => self::API_TIMEOUT,
+					'headers' => $this->auth_headers(),
+					'body'    => (string) wp_json_encode(
+						array(
+							'keys'           => $chunk,
+							'plugin_version' => ZINN_OFFLOAD_VERSION,
+						)
+					),
+				)
+			);
+			$body     = $this->decode( $response, array( 200 ) );
+			if ( is_wp_error( $body ) ) {
+				return $body;
+			}
+			$deleted += (int) ( $body['deleted'] ?? 0 );
+		}
+		return $deleted;
 	}
 
 	/**

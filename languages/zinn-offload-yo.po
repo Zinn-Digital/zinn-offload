@@ -182,21 +182,21 @@ msgid "%d setting imported. Passwords and API keys are never in an export, so en
 msgid_plural "%d settings imported. Passwords and API keys are never in an export, so enter those again."
 msgstr[0] "A ti gbe ètò %d wọlé. Àwọn ọ̀rọ̀-ìgbaniwọlé àti kókó API kì í wà nínú ìgbéjáde rárá, nítorí náà ẹ tún wọn tẹ̀ sii."
 
-#: includes/class-zinn-offload-client.php:97
+#: includes/class-zinn-offload-client.php:104
 msgid "Zinn Digital® did not return a token. Nothing has been changed on this site."
 msgstr "Zinn Digital® kò dá àmì padà. Kò sí ohun tí a yípadà lórí ojú-òpó wẹ́ẹ̀bù yìí."
 
-#: includes/class-zinn-offload-client.php:236
+#: includes/class-zinn-offload-client.php:281
 msgid "This site is no longer connected to Zinn® media offload. New uploads will stay on this server. Pair it again from your Zinn Digital® dashboard."
 msgstr "Aaye yii ko ni asopọ mọ pẹlu gbigbe faili media sita Zinn®. Awọn ikojade titun yoo wa lori olupin yii. So pọ mọ lẹẹkansi lati inu dasibodu Zinn Digital® rẹ."
 
 #. translators: %d: HTTP status code returned by the Zinn Digital API.
-#: includes/class-zinn-offload-client.php:244
+#: includes/class-zinn-offload-client.php:289
 #, php-format
 msgid "Zinn Digital® answered with HTTP %d."
 msgstr "Zinn Digital® dahun pẹlu HTTP %d."
 
-#: includes/class-zinn-offload-client.php:262
+#: includes/class-zinn-offload-client.php:307
 msgid "Disconnected by Zinn Digital®."
 msgstr "Ti ge asopọ nipasẹ Zinn Digital®."
 
@@ -618,3 +618,9 @@ msgstr "Kò le ṣe igbasilẹ imudojuiwọn naa lati iṣẹ imudojuiwọn Zinn
 #: includes/class-zinn-offload-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ìmúdójúìwọ̀n tí a gbàsílẹ̀ kùn nínú àyẹ̀wò ìdúróṣinṣin rẹ̀, a kò sì fi sípò."
+
+#. translators: %s: the error message.
+#: includes/class-zinn-offload-uploader.php:282
+#, php-format
+msgid "A deleted media file could not be removed from Zinn® storage: %s"
+msgstr "Kò le yọ fáìlì amóhùnmáwòrán tí a ti paarẹ kúrò nínú ibi-ìpamọ́ Zinn®: %s"

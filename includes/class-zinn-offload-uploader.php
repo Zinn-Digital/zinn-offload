@@ -239,19 +239,112 @@ class Zinn_Offload_Uploader {
 	}
 
 	/**
-	 * Forget an attachment we no longer host.
+	 * An attachment is being deleted here: delete its offloaded files too, then forget it.
 	 *
-	 * ⛔ The object in the bucket is NOT deleted from here. A media file may be referenced by
-	 * a post on another site, by a cached page, or by an email already sent, and this plugin
-	 * runs on a server we do not control — a delete triggered from here would be an
-	 * unauthenticated instruction to destroy customer data. Retention is Zinn's decision,
-	 * expressed as a lifecycle rule on the bucket.
+	 * ⭐ Since 1.6.0. Deleting media in WordPress is how the customer frees space at Zinn
+	 * (and how uploads resume once a plan's storage is full), so the files Zinn holds for
+	 * this attachment are deleted with it. Nothing is deleted on anyone else's initiative:
+	 * this runs only inside WordPress's own `wp_delete_attachment`, after WordPress has
+	 * checked the user's `delete_post` capability and the request's nonce on every screen
+	 * and REST route that reaches it. It adds no endpoint of its own.
+	 *
+	 * The request names only this attachment's keys, relative to this site's prefix; Zinn
+	 * joins them onto that prefix and refuses anything else, so this site can never delete
+	 * another site's file. A failure never blocks the WordPress delete: it is recorded on
+	 * the settings screen (last error) and the files stay where they are.
 	 *
 	 * @param int $attachment_id The attachment post ID.
 	 * @return void
 	 */
 	public function forget( $attachment_id ): void {
-		delete_post_meta( (int) $attachment_id, ZINN_OFFLOAD_KEY_META );
+		$attachment_id = (int) $attachment_id;
+		$offloaded     = (string) get_post_meta( $attachment_id, ZINN_OFFLOAD_KEY_META, true );
+
+		/**
+		 * Filters whether deleting an attachment deletes its offloaded files at Zinn.
+		 *
+		 * @since 1.6.0
+		 *
+		 * @param bool $delete        Default true.
+		 * @param int  $attachment_id The attachment post ID.
+		 */
+		$delete = (bool) apply_filters( 'zinn_offload_delete_remote_on_delete', true, $attachment_id );
+
+		if ( '' !== $offloaded && $delete ) {
+			$metadata = wp_get_attachment_metadata( $attachment_id );
+			$keys     = self::keys_for( is_array( $metadata ) ? $metadata : array(), $offloaded );
+			$settings = zinn_offload_settings();
+			$result   = $this->client->delete_objects( self::full_keys( $keys, (string) $settings['prefix'] ) );
+			if ( is_wp_error( $result ) ) {
+				$this->note(
+					sprintf(
+						/* translators: %s: the error message. */
+						__( 'A deleted media file could not be removed from Zinn® storage: %s', 'zinn-offload' ),
+						$result->get_error_message()
+					)
+				);
+			}
+		}
+
+		delete_post_meta( $attachment_id, ZINN_OFFLOAD_KEY_META );
+	}
+
+	/**
+	 * Every key an offloaded attachment may have at Zinn: its original and every size (the
+	 * same set the upload sends, see files_for()).
+	 *
+	 * Derived from the metadata, NOT from the disk: with "delete local copies" on, the local
+	 * files are already gone. Sizes are taken by basename beside the original, as on upload,
+	 * so a crafted `file` value cannot name anything outside the attachment's own folder.
+	 *
+	 * @since 1.6.0
+	 *
+	 * @param array<string, mixed> $metadata The attachment metadata.
+	 * @param string               $original The original's key as stamped at upload.
+	 * @return string[] Keys relative to this site's prefix.
+	 */
+	public static function keys_for( array $metadata, string $original ): array {
+		$original = ltrim( $original, '/' );
+		if ( '' === $original ) {
+			return array();
+		}
+		$keys = array( $original );
+		$dir  = ltrim( trailingslashit( dirname( $original ) ), './' );
+		$more = array();
+		foreach ( (array) ( $metadata['sizes'] ?? array() ) as $size ) {
+			$more[] = isset( $size['file'] ) ? (string) $size['file'] : '';
+		}
+		foreach ( $more as $file ) {
+			$name = basename( $file );
+			if ( '' !== $name ) {
+				$keys[] = $dir . $name;
+			}
+		}
+		return array_values( array_unique( $keys ) );
+	}
+
+	/**
+	 * The full storage keys for keys relative to this site's folder.
+	 *
+	 * ⛔ Zinn refuses (and records) a deletion naming any key outside this site's own folder,
+	 * so the plugin sends the full key, exactly as the upload ticket named it.
+	 *
+	 * @since 1.6.0
+	 *
+	 * @param string[] $keys   Keys relative to this site's prefix.
+	 * @param string   $prefix This site's storage folder ('' when keys are already full).
+	 * @return string[] Full keys.
+	 */
+	public static function full_keys( array $keys, string $prefix ): array {
+		$prefix = trim( $prefix, '/' );
+		if ( '' === $prefix ) {
+			return array_values( $keys );
+		}
+		$full = array();
+		foreach ( $keys as $key ) {
+			$full[] = $prefix . '/' . ltrim( (string) $key, '/' );
+		}
+		return $full;
 	}
 
 	/**
