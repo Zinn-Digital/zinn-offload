@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.6.0
+Stable tag: 1.7.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -158,6 +158,9 @@ Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the 
 Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
 
 == Changelog ==
+
+= 1.7.0 =
+* Each upload now sends the size of the file to Zinn® storage, which signs that size into the upload link, so on a plan with a storage limit your uploads are counted exactly; older versions are counted at the largest size WordPress allows and can be refused sooner near the limit.
 
 = 1.6.0 =
 * Deleting a media file in WordPress now deletes its offloaded copies (the original and every size) from Zinn® storage, so deleting media frees space on your plan. Before, the stored copies stayed. Filter `zinn_offload_delete_remote_on_delete` keeps them.

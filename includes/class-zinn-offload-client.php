@@ -112,13 +112,27 @@ class Zinn_Offload_Client {
 	/**
 	 * Ask for presigned PUT URLs for a batch of object keys.
 	 *
-	 * @param string[] $keys Keys relative to this site's prefix.
+	 * Since 1.7.0 the byte size of each file goes with its key. Zinn signs that size into the
+	 * URL and counts it against a storage limit, so a plan with a hard limit is never pushed
+	 * past it by files Zinn has not measured yet (and an older plugin, which sends no sizes,
+	 * is counted at the largest size WordPress allows).
+	 *
+	 * @param string[] $keys  Keys relative to this site's prefix.
+	 * @param int[]    $sizes Optional: the byte size of each key, in the same order.
 	 * @return array<int, array<string, string>>|WP_Error One entry per key, or the failure.
 	 */
-	public function presign( array $keys ) {
+	public function presign( array $keys, array $sizes = array() ) {
 		$keys = array_values( array_slice( $keys, 0, self::PRESIGN_BATCH ) );
 		if ( array() === $keys ) {
 			return array();
+		}
+		$payload = array(
+			'keys'           => $keys,
+			'plugin_version' => ZINN_OFFLOAD_VERSION,
+		);
+		$sizes   = array_values( array_slice( array_map( 'intval', $sizes ), 0, self::PRESIGN_BATCH ) );
+		if ( count( $sizes ) === count( $keys ) ) {
+			$payload['sizes'] = $sizes;
 		}
 
 		$response = wp_remote_post(
@@ -126,12 +140,7 @@ class Zinn_Offload_Client {
 			array(
 				'timeout' => self::API_TIMEOUT,
 				'headers' => $this->auth_headers(),
-				'body'    => (string) wp_json_encode(
-					array(
-						'keys'           => $keys,
-						'plugin_version' => ZINN_OFFLOAD_VERSION,
-					)
-				),
+				'body'    => (string) wp_json_encode( $payload ),
 			)
 		);
 

@@ -167,7 +167,13 @@ class Zinn_Offload_Uploader {
 		 */
 		do_action( 'zinn_offload_before_upload', (int) $attachment_id, $files );
 
-		$tickets = $this->client->presign( array_keys( $files ) );
+		$sizes = array();
+		foreach ( $files as $local ) {
+			$size    = is_readable( $local ) ? filesize( $local ) : false;
+			$sizes[] = false === $size ? -1 : (int) $size;
+		}
+		// A file whose size cannot be read is sent with no sizes at all (counted at the worst case).
+		$tickets = $this->client->presign( array_keys( $files ), in_array( -1, $sizes, true ) ? array() : $sizes );
 		if ( is_wp_error( $tickets ) ) {
 			$this->note( $tickets->get_error_message() );
 			/** This action is documented below. */
