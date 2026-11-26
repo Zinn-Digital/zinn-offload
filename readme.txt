@@ -7,7 +7,7 @@ Tags: media, cdn, offload, storage, images
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,34 +15,48 @@ Move your media library to Zinn® object storage and serve it from a CDN — wit
 
 == Description ==
 
-Images and video are usually the largest thing a WordPress site serves, and the slowest. This plugin moves your media library to object storage and serves it from a CDN, so your web server stops sending the bytes and your pages get faster everywhere in the world.
+Images and video are usually the heaviest thing a WordPress site sends, and the slowest. Zinn® Media Offload moves your media library to Zinn® object storage and serves it from a CDN, so your web server stops sending those bytes and your pages load faster for visitors everywhere.
 
-**You never enter an access key.** Your storage keys are never saved in WordPress, so they are not in your database, your migration exports or your backups.
+**You never type an access key into WordPress.** You paste a short pairing code once. The plugin then holds a token that works for **this site's folder and nothing else**, and asks for a one-time signed link before each upload. No storage key sits in your database, your migration exports or your backups.
 
-You turn media offload on in your Zinn Digital® dashboard, paste a short pairing code here once, and this plugin holds a token that works for **this site's folder and nothing else**. Before each upload it asks Zinn Digital® for a one-time signed link, and the file goes straight from your web server to storage. If the token is ever exposed, you revoke it from your dashboard in one click.
+= What you get =
 
-= What it does =
-
-* Uploads new media — the original **and every thumbnail size WordPress generates** — to your Zinn® storage.
-* Rewrites image URLs, including `srcset` responsive images, to your CDN address.
-* Moves your existing media library in the background, a few files at a time, picking up where it left off.
-* Optionally removes the local copies once every size has uploaded successfully.
+* **Every size offloaded.** The original upload **and every thumbnail size WordPress generates** go to your Zinn® storage.
+* **Responsive images just work.** Attachment URLs and `srcset` candidates are rewritten to your CDN address, so themes and page builders pick them up with no changes.
+* **Your existing library moves too.** A background pass moves media you uploaded before the plugin, a few files at a time, and resumes where it stopped. A large library gets there; it never starts again from the beginning.
+* **Large files without memory spikes.** Uploads are streamed from disk, so a big video does not have to fit in PHP's memory.
+* **Optional space saving.** Remove the local copies once every size has uploaded. If any size fails, every local copy stays.
+* **Deletes stay in step.** Delete a file in the Media Library and its offloaded copies (original and every size) are removed from storage too. Nothing else in storage is ever touched.
+* **Shop downloads stay protected.** WooCommerce, Easy Digital Downloads and Download Monitor protected-download folders are never offloaded.
+* **One switch to go back.** While **Serve from Zinn® storage** is off, every address stays exactly as WordPress wrote it.
+* **Bring your own bucket.** Attach your own S3-compatible bucket in the Zinn Digital® dashboard; the plugin still never holds a key.
+* **Help without leaking secrets.** A support report shows you the exact, already-redacted contents before anything is sent.
+* **In your language.** Every screen is translated into 57 languages, right-to-left included.
 
 = What it does not do =
 
-* It adds no REST endpoint, no shortcode, no script and no stylesheet.
-* The one thing it does change on a public page is the **address** of an image or file that has
-  been offloaded: `wp_get_attachment_url` and `wp_calculate_image_srcset` are filtered so the
-  markup points at your bucket instead of this server. Nothing is added to the page, and while
-  **Serve from Zinn® storage** is off the addresses are left exactly as WordPress wrote them.
-* It deletes from storage only what you delete here: when you delete a media file in WordPress, its offloaded copies (the original and every size) are deleted from Zinn® storage too, which is how you free space. It never deletes anything else from storage. A developer can keep the stored copies with the `zinn_offload_delete_remote_on_delete` filter.
-* It does not delete local files after a partial upload — if any size fails, every local copy stays.
-* It never asks for a storage key or a bucket name. Which bucket this site uses is decided in your Zinn Digital® dashboard. Whether addresses are rewritten and whether local copies are removed start as your dashboard's choices when you pair, and you can change them afterwards on the plugin's **How media is served** tab.
+* It adds no REST endpoint, no shortcode, no script and no stylesheet to your public pages. The only public change is the **address** of an offloaded file.
+* It never asks for a storage key or a bucket name. Which bucket a site uses, and whether addresses are rewritten or local copies removed, start as your dashboard's choices when you pair, and you can change them here.
+
+= Compatibility =
+
+* WordPress 6.6 or later, PHP 8.2 or later.
+* Works with any theme or builder that uses WordPress's own attachment functions (`wp_get_attachment_url`, `srcset`).
+* WooCommerce, Easy Digital Downloads and Download Monitor protected files are left on your server.
+* Works with most well-built WordPress themes and plugins.
 
 = What it needs =
 
 * A Zinn Digital® account with object storage enabled for this site.
 * Outbound HTTPS from your web server.
+
+= Zinn® Pro Membership =
+
+Everything described above is free and stays free. If you want more, one Zinn® Pro Membership gives you the Pro versions of Page Builder Sandwich, Tranzly™, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from $149 a year: https://zinndigital.com/pro-membership
+
+= Free support, 24/7 =
+
+Help is free for everyone, free and Pro alike, around the clock. Ask on this plugin's wordpress.org support forum or at https://zinndigital.com/contact and Zinn Digital® answers.
 
 = Source code =
 
@@ -129,6 +143,14 @@ corrections and new languages can be contributed directly.
 
 == Frequently Asked Questions ==
 
+= Does it make my site faster? =
+
+Usually, yes, on any page with images or video: those bytes come from the CDN instead of your web server, closer to each visitor, and your server has less to do.
+
+= How long does moving an existing library take? =
+
+New uploads move at once. Your existing library moves in the background over the following hours, a few files at a time, and resumes where it left off if it is interrupted.
+
 = Are my WooCommerce or Easy Digital Downloads product files safe? =
 
 Yes. Files a shop keeps in its protected downloads folder (woocommerce_uploads for WooCommerce, edd for Easy Digital Downloads, dlm_uploads for Download Monitor) are never offloaded. They stay on your site, and the shop checks the order before it hands one out, exactly as without this plugin.
@@ -158,6 +180,9 @@ Yes. Attach your own S3-compatible bucket in your Zinn Digital® dashboard; the 
 Yes. Filters: `zinn_offload_should_offload` (receives the plugin's own decision, the attachment ID and its metadata; the "Offload new uploads" switch still wins when it is off) and `zinn_offload_files` (can only remove files from the list, never add one). Actions: `zinn_offload_before_upload`, `zinn_offload_file_uploaded` (attachment ID, relative path, local path), `zinn_offload_failed` (attachment ID, the error) and `zinn_offload_attachment_offloaded` (attachment ID, files uploaded, bytes, whether every file made it).
 
 == Changelog ==
+
+= 1.7.2 =
+* Improved the plugin description: free 24/7 support for everyone, the Zinn® Pro Membership, and clearer English (UK) text.
 
 = 1.7.1 =
 * The WordPress.org package no longer carries translation strings from files it does not ship.
